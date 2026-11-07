@@ -1,0 +1,12 @@
+// Da aggiungere a bikemap_moto.json: cerca le curve.
+// curvature = distanza in linea d'aria / lunghezza reale del tratto
+//   1.0 = rettilineo, valori bassi = strada molto tortuosa
+{
+  // piu' basso = accetta percorsi piu' lunghi pur di fare curve
+  "distance_influence": 15,
+  "priority": [
+    { "if": "curvature >= 0.98", "multiply_by": "0.25" },
+    { "else_if": "curvature >= 0.9", "multiply_by": "0.5" },
+    { "else_if": "curvature >= 0.8", "multiply_by": "0.8" }
+  ]
+}

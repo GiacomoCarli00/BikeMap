@@ -1,0 +1,30 @@
+// Profilo moto di base (equilibrato).
+// priority: 1 = strada neutra, < 1 = strada da evitare (0 = vietata)
+{
+  "distance_influence": 60,
+  "priority": [
+    { "if": "!car_access", "multiply_by": "0" },
+    { "if": "track_type.ordinal() > 1", "multiply_by": "0" },
+    { "if": "road_access == PRIVATE", "multiply_by": "0" },
+    { "else_if": "road_access == DESTINATION", "multiply_by": "0.1" },
+
+    // Autostrade e superstrade: noiose
+    { "if": "road_class == MOTORWAY || road_class == TRUNK", "multiply_by": "0.1" },
+    // Stradine di quartiere e di servizio
+    { "else_if": "road_class == RESIDENTIAL || road_class == LIVING_STREET || road_class == SERVICE", "multiply_by": "0.5" },
+
+    // Evitare i centri abitati
+    { "if": "urban_density == CITY", "multiply_by": "0.4" },
+    { "else_if": "urban_density == RESIDENTIAL", "multiply_by": "0.75" },
+
+    // Sterrato
+    { "if": "surface == COBBLESTONE || surface == GRASS || surface == GRAVEL || surface == SAND || surface == DIRT || surface == GROUND || surface == UNPAVED || surface == COMPACTED", "multiply_by": "0.2" },
+
+    { "if": "road_environment == FERRY", "multiply_by": "0.5" }
+  ],
+  "speed": [
+    { "if": "true", "limit_to": "0.9 * car_average_speed" },
+    { "if": "true", "limit_to": "120" },
+    { "if": "surface == COBBLESTONE || surface == GRASS || surface == GRAVEL || surface == SAND || surface == DIRT || surface == GROUND || surface == UNPAVED || surface == COMPACTED", "limit_to": "30" }
+  ]
+}

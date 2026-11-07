@@ -1,0 +1,6 @@
+// Simula Google Maps con l'opzione "Evita autostrade" attiva
+{
+  "priority": [
+    { "if": "road_class == MOTORWAY", "multiply_by": "0.05" }
+  ]
+}

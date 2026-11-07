@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Setup (scarica GraphHopper e mappa)",
+      "type": "shell",
+      "command": "powershell -ExecutionPolicy Bypass -File scripts/setup.ps1",
+      "problemMatcher": []
+    },
+    {
+      "label": "Avvia GraphHopper",
+      "type": "shell",
+      "command": "powershell -ExecutionPolicy Bypass -File scripts/start-graphhopper.ps1",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated" }
+    },
+    {
+      "label": "Avvia backend",
+      "type": "shell",
+      "command": "powershell -ExecutionPolicy Bypass -File scripts/start-backend.ps1",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated" }
+    },
+    {
+      "label": "Avvia tutto",
+      "dependsOn": ["Avvia GraphHopper", "Avvia backend"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Test",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m pytest -q",
+      "options": { "cwd": "${workspaceFolder}/backend" },
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

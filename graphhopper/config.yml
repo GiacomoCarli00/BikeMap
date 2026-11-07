@@ -1,0 +1,70 @@
+# Configurazione GraphHopper per BikeMap.
+# File di mappa e cartella del grafo vengono passati dallo script scripts/start-graphhopper.ps1
+graphhopper:
+  datareader.file: ""
+  graph.location: graph-cache
+
+  custom_models.directory: custom_models
+
+  profiles:
+    # --- Profili AUTO: servono a "simulare" come Google ricalcola il percorso tra le tappe ---
+    - name: car
+      custom_model_files: [car.json]
+    - name: car_no_motorway
+      custom_model_files: [car.json, bikemap_no_motorway.json]
+
+    # --- Profili MOTO ---
+    # Equilibrato: evita autostrade e citta', preferisce strade secondarie
+    - name: moto
+      custom_model_files: [bikemap_moto.json]
+    # Curve: come sopra ma cerca attivamente le strade tortuose, anche se piu' lunghe
+    - name: moto_curve
+      custom_model_files: [bikemap_moto.json, bikemap_moto_curve.json]
+
+  # Speed mode (CH) per i profili auto: richieste velocissime, servono tante chiamate per scegliere le tappe
+  profiles_ch:
+    - profile: car
+    - profile: car_no_motorway
+
+  # Hybrid mode (LM) per i profili moto
+  profiles_lm:
+    - profile: moto
+    - profile: moto_curve
+
+  graph.encoded_values: car_access, car_average_speed, road_access, road_class, road_environment, curvature, surface, track_type, urban_density
+
+  # Classificazione citta'/periferia/campagna (lenta in import ma utile per evitare i centri abitati)
+  graph.urban_density.threads: 4
+
+  prepare.min_network_size: 200
+  prepare.subnetworks.threads: 1
+  prepare.lm.threads: 2
+  prepare.ch.threads: 2
+
+  routing.snap_preventions_default: tunnel, bridge, ferry
+  routing.non_ch.max_waypoint_distance: 1000000
+
+  import.osm.ignored_highways: footway,construction,cycleway,path,steps,pedestrian,bridleway
+  graph.dataaccess.default_type: RAM_STORE
+
+server:
+  application_connectors:
+    - type: http
+      port: 8989
+      bind_host: localhost
+      max_request_header_size: 50k
+  request_log:
+    appenders: []
+  admin_connectors:
+    - type: http
+      port: 8990
+      bind_host: localhost
+
+logging:
+  appenders:
+    - type: console
+      time_zone: UTC
+      log_format: "%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n"
+  loggers:
+    "com.graphhopper.osm_warnings":
+      level: OFF
