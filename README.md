@@ -57,6 +57,10 @@ graphhopper/       config.yml e profili moto
 scripts/           setup e avvio
 ```
 
-## Licenza dati
+## Licenza
+
+[BikeMap Human-Made License](LICENSE): chiunque può usare e modificare BikeMap, ma **le modifiche
+vanno scritte a mano, senza intelligenza artificiale**. La prima versione è stata fatta con Claude;
+da qui in avanti l'unico modo di renderlo migliore, moralmente e umanamente, è farlo "a mano".
 
 Mappa © contributori OpenStreetMap (ODbL). Ricerca luoghi via Nominatim (max 1 richiesta/secondo).
