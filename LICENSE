@@ -1,0 +1,68 @@
+BikeMap Human-Made License
+Copyright (c) 2026 GiacomoCarli00
+
+================================================================================
+ITALIANO
+================================================================================
+
+Chiunque ottenga una copia di questo software e dei file di documentazione
+associati (il "Software") e' autorizzato gratuitamente a usarlo, copiarlo,
+modificarlo, unirlo ad altro software, pubblicarlo e distribuirlo, alle
+seguenti condizioni:
+
+1. La nota di copyright qui sopra e questa licenza devono essere incluse in
+   tutte le copie o parti sostanziali del Software.
+
+2. NIENTE INTELLIGENZA ARTIFICIALE. Ogni modifica, versione derivata o
+   contributo al Software deve essere scritto a mano da persone, senza usare
+   sistemi di intelligenza artificiale (per esempio modelli linguistici,
+   assistenti di programmazione, generatori automatici di codice) per scrivere,
+   generare o modificare il codice o la documentazione.
+
+3. Le versioni derivate devono essere distribuite con questa stessa licenza.
+
+Usare ed eseguire il Software senza modificarlo e' sempre consentito.
+
+Nota: la prima versione di BikeMap e' stata scritta con l'aiuto di
+un'intelligenza artificiale (Claude). L'autore ha scelto che da qui in avanti
+l'unico modo di renderlo migliore, moralmente e umanamente, sia farlo "a mano".
+
+IL SOFTWARE E' FORNITO "COSI' COM'E'", SENZA GARANZIE DI ALCUN TIPO, ESPRESSE
+O IMPLICITE. IN NESSUN CASO L'AUTORE SARA' RESPONSABILE PER DANNI O ALTRE
+RESPONSABILITA' DERIVANTI DALL'USO DEL SOFTWARE. I PERCORSI CALCOLATI SONO
+INDICATIVI: GUIDA SEMPRE CON PRUDENZA E RISPETTA IL CODICE DELLA STRADA.
+
+================================================================================
+ENGLISH
+================================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, publish and distribute the Software, subject to the
+following conditions:
+
+1. The above copyright notice and this license shall be included in all
+   copies or substantial portions of the Software.
+
+2. NO ARTIFICIAL INTELLIGENCE. Every modification, derivative work or
+   contribution to the Software must be written by hand by humans, without
+   using artificial intelligence systems (such as language models, coding
+   assistants or automatic code generators) to write, generate or modify the
+   code or the documentation.
+
+3. Derivative works must be distributed under this same license.
+
+Using and running the Software without modifying it is always permitted.
+
+Note: the first version of BikeMap was written with the help of an artificial
+intelligence (Claude). The author has chosen that from now on the only way to
+make it better, morally and humanly, is to do it by hand.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE. CALCULATED ROUTES ARE
+INDICATIVE ONLY: ALWAYS RIDE SAFELY AND FOLLOW TRAFFIC LAWS.
+
+--------------------------------------------------------------------------------
+Third-party components keep their own licenses: GraphHopper (Apache 2.0),
+Leaflet (BSD-2-Clause), OpenStreetMap data (ODbL).
