@@ -219,7 +219,7 @@
     const now = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
     const lines = [
       '<?xml version="1.0" encoding="UTF-8"?>',
-      '<gpx version="1.1" creator="BikeMap" xmlns="http://www.topografix.com/GPX/1/1">',
+      '<gpx version="1.1" creator="Biker-Map" xmlns="http://www.topografix.com/GPX/1/1">',
       `  <metadata><name>${esc(name)}</name><time>${now}</time></metadata>`,
     ];
     waypoints.forEach((w, i) => lines.push(`  <wpt lat="${w[0].toFixed(6)}" lon="${w[1].toFixed(6)}"><name>Tappa ${i + 1}</name></wpt>`));
@@ -331,7 +331,7 @@
         fidelity: Math.round(wp.fidelity * 1000) / 1000,
         iterations: wp.iterations,
       },
-      gpx: gpx(moto.points, "BikeMap", wp.waypoints),
+      gpx: gpx(moto.points, "Biker-Map", wp.waypoints),
       snapped: { start, end },
     };
   }

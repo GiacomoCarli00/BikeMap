@@ -1,6 +1,6 @@
 {
-  "name": "BikeMap",
-  "short_name": "BikeMap",
+  "name": "Biker-Map",
+  "short_name": "Biker-Map",
   "description": "Pianificatore di percorsi per motociclisti: strade curve e secondarie.",
   "lang": "it",
   "start_url": "./",
