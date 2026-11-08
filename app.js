@@ -279,7 +279,8 @@ function detourColor(km) {
   if (km < 25) return "#d4a72c";   // giallo
   if (km < 35) return "#e16f24";   // arancio
   if (km < 50) return "#d0443a";   // rosso chiaro
-  return "#7a0c0c";                // rosso scuro
+  if (km < 100) return "#7a0c0c";  // rosso scuro
+  return "#000000";                // nero: oltre 100 km
 }
 
 const sameSpot = (a, b) => Math.abs(a.lat - b.lat) < 1e-5 && Math.abs(a.lon - b.lon) < 1e-5;
