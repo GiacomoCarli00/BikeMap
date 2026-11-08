@@ -1,5 +1,5 @@
 {
- "descrizione": "Punti panoramici italiani (tourism=viewpoint con nome) noti o oltre 600 m, per la selezione Tour di Biker-Map",
+ "descrizione": "Punti panoramici italiani (tourism=viewpoint con nome, con voce Wikipedia/Wikidata o quota), per la selezione Tour di Biker-Map",
  "fonte": "OpenStreetMap (tag tourism=viewpoint), © contributori OpenStreetMap, licenza ODbL",
  "generato": "2026-11-08",
  "punti": [
@@ -3502,10 +3502,190 @@
    "wikipedia": "hu:Kab-hegy"
   },
   {
+   "name": "Turnče",
+   "lat": 46.14821,
+   "lon": 15.41849,
+   "ele_m": 595
+  },
+  {
+   "name": "Poggio Citerna",
+   "lat": 43.6538,
+   "lon": 11.3958,
+   "ele_m": 590
+  },
+  {
+   "name": "Üedeli, Panorama",
+   "lat": 47.01616,
+   "lon": 7.45103,
+   "ele_m": 586
+  },
+  {
+   "name": "Stari grad",
+   "lat": 46.22388,
+   "lon": 14.61686,
+   "ele_m": 585
+  },
+  {
+   "name": "Tušćak Gradina",
+   "lat": 45.82356,
+   "lon": 15.56258,
+   "ele_m": 585
+  },
+  {
+   "name": "Sa Guardiedda  de Giomauru",
+   "lat": 39.30949,
+   "lon": 9.40769,
+   "ele_m": 583
+  },
+  {
+   "name": "Groppo delle Vigne",
+   "lat": 44.5243,
+   "lon": 9.88314,
+   "ele_m": 580
+  },
+  {
+   "name": "Veduta Berlan",
+   "lat": 45.97042,
+   "lon": 11.74981,
+   "ele_m": 580
+  },
+  {
+   "name": "Tičnica",
+   "lat": 45.99337,
+   "lon": 14.02443,
+   "ele_m": 580
+  },
+  {
+   "name": "La Vaccuta",
+   "lat": 40.023,
+   "lon": 15.42388,
+   "ele_m": 576
+  },
+  {
+   "name": "Žeblarjeva peč",
+   "lat": 46.35461,
+   "lon": 15.21963,
+   "ele_m": 574
+  },
+  {
+   "name": "Peter-Eder-Warte \"Schauwest\"",
+   "lat": 47.03621,
+   "lon": 15.37049,
+   "ele_m": 570
+  },
+  {
+   "name": "Belvedere Dosso Pallanza",
+   "lat": 45.82269,
+   "lon": 9.02835,
+   "ele_m": 570
+  },
+  {
    "name": "Mont Bastide",
    "lat": 43.73005,
    "lon": 7.35015,
    "ele_m": 568
+  },
+  {
+   "name": "Sasso della Croce",
+   "lat": 44.3875,
+   "lon": 10.94837,
+   "ele_m": 567
+  },
+  {
+   "name": "Belvedere - Baüs",
+   "lat": 45.93428,
+   "lon": 8.92282,
+   "ele_m": 560
+  },
+  {
+   "name": "Dosso Gruma",
+   "lat": 45.66645,
+   "lon": 10.50609,
+   "ele_m": 560
+  },
+  {
+   "name": "Veielihubel",
+   "lat": 46.94384,
+   "lon": 7.42259,
+   "ele_m": 559
+  },
+  {
+   "name": "Col",
+   "lat": 46.16995,
+   "lon": 15.42718,
+   "ele_m": 557
+  },
+  {
+   "name": "Brunk",
+   "lat": 46.03768,
+   "lon": 15.17953,
+   "ele_m": 557
+  },
+  {
+   "name": "Monte Penegra",
+   "lat": 45.94579,
+   "lon": 8.79677,
+   "ele_m": 550
+  },
+  {
+   "name": "Medveja stena",
+   "lat": 45.49804,
+   "lon": 14.92162,
+   "ele_m": 550
+  },
+  {
+   "name": "Glažareva pećina",
+   "lat": 46.2624,
+   "lon": 16.01586,
+   "ele_m": 548
+  },
+  {
+   "name": "Podrevec",
+   "lat": 46.13353,
+   "lon": 16.49517,
+   "ele_m": 544
+  },
+  {
+   "name": "Pietra Corva",
+   "lat": 44.71318,
+   "lon": 10.01875,
+   "ele_m": 543
+  },
+  {
+   "name": "Panoramaterrasse",
+   "lat": 46.69778,
+   "lon": 15.47326,
+   "ele_m": 543
+  },
+  {
+   "name": "Punta Stepida;Le 360",
+   "lat": 42.04955,
+   "lon": 9.30824,
+   "ele_m": 542
+  },
+  {
+   "name": "Croce del Gallo",
+   "lat": 46.03506,
+   "lon": 9.30536,
+   "ele_m": 541
+  },
+  {
+   "name": "Zsongor-kő",
+   "lat": 46.09276,
+   "lon": 18.13865,
+   "ele_m": 540
+  },
+  {
+   "name": "Mittelpunkt der Zentralschweiz",
+   "lat": 46.96773,
+   "lon": 8.42003,
+   "ele_m": 538
+  },
+  {
+   "name": "Mittelpunkt Kanton Bern",
+   "lat": 46.82375,
+   "lon": 7.63677,
+   "ele_m": 538
   },
   {
    "name": "Hohe Gloriette",
@@ -3514,16 +3694,196 @@
    "ele_m": 537
   },
   {
+   "name": "Zillhöhe",
+   "lat": 46.62834,
+   "lon": 14.24665,
+   "ele_m": 536
+  },
+  {
+   "name": "Cinaraggia",
+   "lat": 41.92128,
+   "lon": 8.67848,
+   "ele_m": 528
+  },
+  {
+   "name": "Ojstra peč",
+   "lat": 46.32789,
+   "lon": 14.97336,
+   "ele_m": 527
+  },
+  {
+   "name": "1. zub",
+   "lat": 46.1329,
+   "lon": 16.46186,
+   "ele_m": 522
+  },
+  {
+   "name": "Hudičev zob",
+   "lat": 45.88602,
+   "lon": 14.36698,
+   "ele_m": 515
+  },
+  {
+   "name": "Cino",
+   "lat": 46.15797,
+   "lon": 9.49114,
+   "ele_m": 510
+  },
+  {
+   "name": "Kucelj",
+   "lat": 46.12034,
+   "lon": 14.19451,
+   "ele_m": 505
+  },
+  {
+   "name": "La Ripa",
+   "lat": 43.65424,
+   "lon": 12.3313,
+   "ele_m": 503
+  },
+  {
+   "name": "Kleebergwarte",
+   "lat": 47.06704,
+   "lon": 15.70167,
+   "ele_m": 499
+  },
+  {
+   "name": "Karawankenblick",
+   "lat": 46.62787,
+   "lon": 14.28825,
+   "ele_m": 494
+  },
+  {
+   "name": "Niedere Gloriette",
+   "lat": 46.63815,
+   "lon": 14.13727,
+   "ele_m": 492
+  },
+  {
+   "name": "Revotano",
+   "lat": 42.31229,
+   "lon": 12.69521,
+   "ele_m": 490
+  },
+  {
+   "name": "Đevojačke grede",
+   "lat": 42.47118,
+   "lon": 18.54094,
+   "ele_m": 490
+  },
+  {
+   "name": "Gradina",
+   "lat": 43.16561,
+   "lon": 17.71274,
+   "ele_m": 490
+  },
+  {
+   "name": "Lončeva Griža",
+   "lat": 45.38132,
+   "lon": 14.42023,
+   "ele_m": 488
+  },
+  {
    "name": "Belvedere Ten. Alp. Castelli Francesco",
    "lat": 46.01425,
    "lon": 9.23108,
    "ele_m": 480
   },
   {
+   "name": "Belvedere di Pratamat",
+   "lat": 46.37905,
+   "lon": 13.09505,
+   "ele_m": 477
+  },
+  {
    "name": "Monte Pilato",
    "lat": 38.50457,
    "lon": 14.9493,
    "ele_m": 476
+  },
+  {
+   "name": "Vidikovac Sv. Križ",
+   "lat": 45.66792,
+   "lon": 15.44113,
+   "ele_m": 468
+  },
+  {
+   "name": "Kövestető-kilátó",
+   "lat": 46.16633,
+   "lon": 18.32361,
+   "ele_m": 458
+  },
+  {
+   "name": "Monte Fubia",
+   "lat": 45.78724,
+   "lon": 10.83209,
+   "ele_m": 458
+  },
+  {
+   "name": "2laca",
+   "lat": 43.36253,
+   "lon": 12.3272,
+   "ele_m": 455
+  },
+  {
+   "name": "Crêt de Montriond",
+   "lat": 46.51405,
+   "lon": 6.62397,
+   "ele_m": 452
+  },
+  {
+   "name": "Reusswehr",
+   "lat": 47.05166,
+   "lon": 8.30273,
+   "ele_m": 447
+  },
+  {
+   "name": "Sas de la Rondula",
+   "lat": 45.97186,
+   "lon": 8.7602,
+   "ele_m": 445
+  },
+  {
+   "name": "Costa Cargadore",
+   "lat": 46.14521,
+   "lon": 11.12449,
+   "ele_m": 430
+  },
+  {
+   "name": "Gradišče",
+   "lat": 46.19257,
+   "lon": 15.43312,
+   "ele_m": 428
+  },
+  {
+   "name": "Monte Moscal",
+   "lat": 45.55826,
+   "lon": 10.7636,
+   "ele_m": 427
+  },
+  {
+   "name": "Oltar",
+   "lat": 45.83094,
+   "lon": 13.97512,
+   "ele_m": 426
+  },
+  {
+   "name": "Coloti",
+   "lat": 43.40177,
+   "lon": 12.37575,
+   "ele_m": 422
+  },
+  {
+   "name": "Poggio Monteferrato",
+   "lat": 43.92056,
+   "lon": 11.0763,
+   "ele_m": 419
+  },
+  {
+   "name": "Gaj",
+   "lat": 46.19149,
+   "lon": 15.42349,
+   "ele_m": 416
   },
   {
    "name": "Monte Serra",
@@ -3533,11 +3893,35 @@
    "wikipedia": "it:Monte Serra (Elba)"
   },
   {
+   "name": "Monte San Salvatore",
+   "lat": 42.55272,
+   "lon": 12.42438,
+   "ele_m": 410
+  },
+  {
+   "name": "Molinel",
+   "lat": 46.158,
+   "lon": 11.06608,
+   "ele_m": 410
+  },
+  {
    "name": "Monte Capannello",
    "lat": 42.81047,
    "lon": 10.39236,
    "ele_m": 408,
    "wikipedia": "it:Monte Capannello"
+  },
+  {
+   "name": "Razglednik",
+   "lat": 46.12583,
+   "lon": 14.21391,
+   "ele_m": 407
+  },
+  {
+   "name": "Bricco dell'uomo",
+   "lat": 44.41782,
+   "lon": 8.69417,
+   "ele_m": 396
   },
   {
    "name": "Piramida",
@@ -3547,6 +3931,12 @@
    "wikipedia": "sl:Piramida, Maribor"
   },
   {
+   "name": "Monte Marino",
+   "lat": 43.79615,
+   "lon": 12.83371,
+   "ele_m": 382
+  },
+  {
    "name": "Kalvarienberg",
    "lat": 47.09313,
    "lon": 15.41765,
@@ -3554,11 +3944,467 @@
    "wikipedia": "de:Grazer Kalvarienberg"
   },
   {
+   "name": "Sella dei Bagari",
+   "lat": 44.15469,
+   "lon": 9.62912,
+   "ele_m": 380
+  },
+  {
+   "name": "Sv. Rok",
+   "lat": 46.02168,
+   "lon": 15.30807,
+   "ele_m": 375
+  },
+  {
+   "name": "Colle Tomenone",
+   "lat": 45.67289,
+   "lon": 9.78192,
+   "ele_m": 370
+  },
+  {
+   "name": "Sv. Rok",
+   "lat": 46.22488,
+   "lon": 15.5225,
+   "ele_m": 369
+  },
+  {
+   "name": "Sodevska stena",
+   "lat": 45.48422,
+   "lon": 15.08894,
+   "ele_m": 368
+  },
+  {
+   "name": "Óbányai „belátó” kilátó",
+   "lat": 46.21762,
+   "lon": 18.41746,
+   "ele_m": 352
+  },
+  {
+   "name": "Rudorfkogel",
+   "lat": 46.86695,
+   "lon": 15.89557,
+   "ele_m": 350
+  },
+  {
+   "name": "Belvedere 2000",
+   "lat": 44.41713,
+   "lon": 8.69355,
+   "ele_m": 350
+  },
+  {
+   "name": "Panorama Torneg",
+   "lat": 45.00779,
+   "lon": 14.14806,
+   "ele_m": 345
+  },
+  {
+   "name": "Mađerkin Breg",
+   "lat": 46.49119,
+   "lon": 16.26094,
+   "ele_m": 341
+  },
+  {
+   "name": "Belvedere",
+   "lat": 46.21737,
+   "lon": 11.15621,
+   "ele_m": 340
+  },
+  {
+   "name": "Ribelj",
+   "lat": 46.10698,
+   "lon": 16.35411,
+   "ele_m": 337
+  },
+  {
+   "name": "Poggio Teo",
+   "lat": 43.37587,
+   "lon": 11.32279,
+   "ele_m": 336
+  },
+  {
+   "name": "Razgledna ploščad Šumberk",
+   "lat": 46.14057,
+   "lon": 14.60502,
+   "ele_m": 333
+  },
+  {
+   "name": "Razgledna točka na Stari postaji",
+   "lat": 45.9193,
+   "lon": 14.36325,
+   "ele_m": 332
+  },
+  {
+   "name": "Vukanovec",
+   "lat": 46.45906,
+   "lon": 16.34013,
+   "ele_m": 331
+  },
+  {
+   "name": "Zeleno okno",
+   "lat": 46.52001,
+   "lon": 16.02415,
+   "ele_m": 325
+  },
+  {
+   "name": "Salto delle Capre",
+   "lat": 46.21385,
+   "lon": 9.43796,
+   "ele_m": 320
+  },
+  {
+   "name": "Colla di Prà",
+   "lat": 44.45632,
+   "lon": 8.77848,
+   "ele_m": 316
+  },
+  {
+   "name": "Éger-tetői kilátó",
+   "lat": 46.08877,
+   "lon": 18.17343,
+   "ele_m": 314
+  },
+  {
+   "name": "Belvedere Filosofico",
+   "lat": 40.53937,
+   "lon": 14.20979,
+   "ele_m": 304
+  },
+  {
+   "name": "col de Cannicciu / a bocca di u Cannicciu",
+   "lat": 41.74564,
+   "lon": 8.73047,
+   "ele_m": 298
+  },
+  {
+   "name": "kráter Meggyespuszta",
+   "lat": 47.06008,
+   "lon": 17.93156,
+   "ele_m": 296
+  },
+  {
+   "name": "Belvedere di Migliara",
+   "lat": 40.53991,
+   "lon": 14.20916,
+   "ele_m": 292
+  },
+  {
+   "name": "Colle San Giovanni",
+   "lat": 45.67239,
+   "lon": 9.7952,
+   "ele_m": 290
+  },
+  {
+   "name": "Coa 'e Lattone",
+   "lat": 40.10786,
+   "lon": 9.68602,
+   "ele_m": 290
+  },
+  {
+   "name": "Megyehegyi kilátás",
+   "lat": 47.05937,
+   "lon": 17.99769,
+   "ele_m": 285
+  },
+  {
+   "name": "meteroritkráter Meggyespuszta (GCMKRA)",
+   "lat": 47.06023,
+   "lon": 17.94182,
+   "ele_m": 284
+  },
+  {
    "name": "Sasso di Dascio",
    "lat": 46.19048,
    "lon": 9.42153,
    "ele_m": 280,
    "wikipedia": "it:Sasso di Dascio"
+  },
+  {
+   "name": "Monte Quarin / Krminska gora",
+   "lat": 45.96737,
+   "lon": 13.47631,
+   "ele_m": 274
+  },
+  {
+   "name": "Batsányi-kilátó",
+   "lat": 46.77722,
+   "lon": 17.35705,
+   "ele_m": 270
+  },
+  {
+   "name": "Zselici Csillagpark - Kilátó",
+   "lat": 46.23675,
+   "lon": 17.76627,
+   "ele_m": 270
+  },
+  {
+   "name": "Terrazza degli Artiglieri",
+   "lat": 45.99903,
+   "lon": 12.28725,
+   "ele_m": 266
+  },
+  {
+   "name": "Szép kilátás!",
+   "lat": 47.12331,
+   "lon": 18.0614,
+   "ele_m": 253
+  },
+  {
+   "name": "Montokuc",
+   "lat": 42.77278,
+   "lon": 17.38316,
+   "ele_m": 251
+  },
+  {
+   "name": "Col du Trayas",
+   "lat": 43.49646,
+   "lon": 6.91756,
+   "ele_m": 245
+  },
+  {
+   "name": "Monte Rinaldo",
+   "lat": 44.24649,
+   "lon": 11.75517,
+   "ele_m": 245
+  },
+  {
+   "name": "Szép kilátás!",
+   "lat": 47.12756,
+   "lon": 18.06394,
+   "ele_m": 230
+  },
+  {
+   "name": "Várhegyi kilátó",
+   "lat": 46.22676,
+   "lon": 18.47721,
+   "ele_m": 225
+  },
+  {
+   "name": "Panorama su Pescia",
+   "lat": 43.90516,
+   "lon": 10.68045,
+   "ele_m": 220
+  },
+  {
+   "name": "Punta del Corvo",
+   "lat": 42.56818,
+   "lon": 11.12186,
+   "ele_m": 214
+  },
+  {
+   "name": "Kis kilátó",
+   "lat": 46.29571,
+   "lon": 18.05305,
+   "ele_m": 214
+  },
+  {
+   "name": "Belvedere",
+   "lat": 44.0829,
+   "lon": 10.1078,
+   "ele_m": 200
+  },
+  {
+   "name": "Kilátópont a Zala völgyére",
+   "lat": 46.85134,
+   "lon": 17.07996,
+   "ele_m": 193
+  },
+  {
+   "name": "Monte San Giuseppe",
+   "lat": 43.85072,
+   "lon": 7.88404,
+   "ele_m": 192
+  },
+  {
+   "name": "Erdészkilátó",
+   "lat": 46.55845,
+   "lon": 17.10937,
+   "ele_m": 192
+  },
+  {
+   "name": "Bag",
+   "lat": 44.94836,
+   "lon": 14.75507,
+   "ele_m": 185
+  },
+  {
+   "name": "Collinetta di Vedano",
+   "lat": 45.60828,
+   "lon": 9.27572,
+   "ele_m": 184
+  },
+  {
+   "name": "Malom-hegyi kilátó",
+   "lat": 46.48751,
+   "lon": 18.44438,
+   "ele_m": 183
+  },
+  {
+   "name": "István-hegyi kilátó",
+   "lat": 47.08776,
+   "lon": 17.04866,
+   "ele_m": 180
+  },
+  {
+   "name": "Jakovljev vrh",
+   "lat": 43.89997,
+   "lon": 15.4277,
+   "ele_m": 179
+  },
+  {
+   "name": "Vadnéző",
+   "lat": 46.24427,
+   "lon": 17.77587,
+   "ele_m": 177
+  },
+  {
+   "name": "Levendulás",
+   "lat": 46.90525,
+   "lon": 17.85233,
+   "ele_m": 175
+  },
+  {
+   "name": "Szarkádi-kilátás",
+   "lat": 46.89553,
+   "lon": 17.87016,
+   "ele_m": 160
+  },
+  {
+   "name": "Col di Grado",
+   "lat": 45.76723,
+   "lon": 11.71914,
+   "ele_m": 160
+  },
+  {
+   "name": "Göntér-dombi kilátó",
+   "lat": 45.86144,
+   "lon": 18.32594,
+   "ele_m": 145
+  },
+  {
+   "name": "Monte La Torraccia",
+   "lat": 41.23677,
+   "lon": 9.1446,
+   "ele_m": 127
+  },
+  {
+   "name": "Magyar narancs",
+   "lat": 46.90253,
+   "lon": 17.85504,
+   "ele_m": 125
+  },
+  {
+   "name": "Lépcső",
+   "lat": 46.77301,
+   "lon": 18.43418,
+   "ele_m": 125
+  },
+  {
+   "name": "Kilátó-GSM-torony",
+   "lat": 46.6417,
+   "lon": 18.30009,
+   "ele_m": 123
+  },
+  {
+   "name": "Sop o Mond",
+   "lat": 41.14982,
+   "lon": 16.60897,
+   "ele_m": 122
+  },
+  {
+   "name": "Tóközi madármegfigyelő torony",
+   "lat": 46.87235,
+   "lon": 18.00644,
+   "ele_m": 111
+  },
+  {
+   "name": "7. Denevérlakások kilátó - Bat residences lookout tower",
+   "lat": 46.57873,
+   "lon": 17.20885,
+   "ele_m": 110
+  },
+  {
+   "name": "položaj Lastva",
+   "lat": 42.84144,
+   "lon": 17.69726,
+   "ele_m": 110
+  },
+  {
+   "name": "Pustograd",
+   "lat": 43.89973,
+   "lon": 15.44649,
+   "ele_m": 108
+  },
+  {
+   "name": "Madárfigyelő torony",
+   "lat": 46.64104,
+   "lon": 17.20926,
+   "ele_m": 104
+  },
+  {
+   "name": "Madárfigyelő torony",
+   "lat": 46.6657,
+   "lon": 17.22071,
+   "ele_m": 103
+  },
+  {
+   "name": "Colle di San Lorenzo",
+   "lat": 45.94453,
+   "lon": 13.5294,
+   "ele_m": 103
+  },
+  {
+   "name": "Punta Bonaparte",
+   "lat": 44.39235,
+   "lon": 8.66203,
+   "ele_m": 100
+  },
+  {
+   "name": "Punta della Radura",
+   "lat": 44.39255,
+   "lon": 8.65773,
+   "ele_m": 90
+  },
+  {
+   "name": "Valalta Belvedere",
+   "lat": 45.13027,
+   "lon": 13.62901,
+   "ele_m": 65
+  },
+  {
+   "name": "Počitelj panorama",
+   "lat": 43.13519,
+   "lon": 17.73241,
+   "ele_m": 65
+  },
+  {
+   "name": "Vela Straža",
+   "lat": 44.5409,
+   "lon": 14.45017,
+   "ele_m": 62
+  },
+  {
+   "name": "Monti Rigali",
+   "lat": 41.24614,
+   "lon": 9.17412,
+   "ele_m": 45
+  },
+  {
+   "name": "Svetog Nikole",
+   "lat": 43.75528,
+   "lon": 15.74205,
+   "ele_m": 40
+  },
+  {
+   "name": "La Santissima - sorgente del Livenza",
+   "lat": 46.02161,
+   "lon": 12.47491,
+   "ele_m": 35
+  },
+  {
+   "name": "Kis kilátó",
+   "lat": 46.31976,
+   "lon": 17.22052,
+   "ele_m": 2
   },
   {
    "name": "Aussichtsturm Ulmizberg",

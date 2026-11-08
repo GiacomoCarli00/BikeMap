@@ -1,5 +1,5 @@
 {
- "descrizione": "Passi di montagna italiani (quota >= 600 m) per le deviazioni di BikeMap",
+ "descrizione": "Passi di montagna italiani (tag mountain_pass=yes con nome), per la selezione Sport di Biker-Map",
  "fonte": "OpenStreetMap (tag mountain_pass=yes), © contributori OpenStreetMap, licenza ODbL",
  "generato": "2026-11-08",
  "passi": [
@@ -110,6 +110,12 @@
    "lat": 45.95935,
    "lon": 7.49589,
    "ele_m": 3382
+  },
+  {
+   "name": "Passo di Campo",
+   "lat": 46.49561,
+   "lon": 10.48619,
+   "ele_m": 3376
   },
   {
    "name": "Sella Freshfield",
@@ -295,6 +301,12 @@
    "name": "Oberettesjoch - Forcella di Oberettes",
    "lat": 46.77675,
    "lon": 10.73115,
+   "ele_m": 3251
+  },
+  {
+   "name": "Passo della Croce",
+   "lat": 46.15906,
+   "lon": 10.5572,
    "ele_m": 3251
   },
   {
@@ -796,6 +808,12 @@
    "ele_m": 3019
   },
   {
+   "name": "Passo del Cristallo",
+   "lat": 46.4918,
+   "lon": 10.43812,
+   "ele_m": 3016
+  },
+  {
    "name": "Matscher Scharte",
    "lat": 46.71678,
    "lon": 10.7226,
@@ -1046,6 +1064,12 @@
    "lat": 46.23126,
    "lon": 10.5682,
    "ele_m": 2962
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.60776,
+   "lon": 7.28377,
+   "ele_m": 2961
   },
   {
    "name": "Bocchetta del Soldato",
@@ -1324,6 +1348,12 @@
    "ele_m": 2902
   },
   {
+   "name": "Colletto",
+   "lat": 45.80236,
+   "lon": 7.86373,
+   "ele_m": 2902
+  },
+  {
    "name": "Grasleitenscharte",
    "lat": 47.07845,
    "lon": 12.22889,
@@ -1430,6 +1460,12 @@
    "lat": 46.22834,
    "lon": 10.56919,
    "ele_m": 2888
+  },
+  {
+   "name": "Bocchetta dei Camosci",
+   "lat": 46.12726,
+   "lon": 10.54996,
+   "ele_m": 2887
   },
   {
    "name": "Sforcela de la Marmolèda",
@@ -2176,6 +2212,18 @@
    "ele_m": 2777
   },
   {
+   "name": "Colletto",
+   "lat": 45.64965,
+   "lon": 7.33704,
+   "ele_m": 2777
+  },
+  {
+   "name": "Passo del Forcellino",
+   "lat": 46.46474,
+   "lon": 10.47617,
+   "ele_m": 2777
+  },
+  {
    "name": "Bocchetta Bassa dei Camosci",
    "lat": 46.19687,
    "lon": 10.90569,
@@ -2221,6 +2269,18 @@
    "name": "Bocchetta di Forcola",
    "lat": 46.54006,
    "lon": 10.39103,
+   "ele_m": 2768
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.79867,
+   "lon": 7.77602,
+   "ele_m": 2768
+  },
+  {
+   "name": "Passo di San Valentino",
+   "lat": 46.07143,
+   "lon": 10.58414,
    "ele_m": 2768
   },
   {
@@ -2440,6 +2500,12 @@
    "ele_m": 2730
   },
   {
+   "name": "Passo del Gatto",
+   "lat": 45.86877,
+   "lon": 7.97298,
+   "ele_m": 2730
+  },
+  {
    "name": "Passo di Cadinel",
    "lat": 46.36523,
    "lon": 10.73674,
@@ -2450,6 +2516,12 @@
    "lat": 46.17777,
    "lon": 11.60676,
    "ele_m": 2729
+  },
+  {
+   "name": "Col Fenêtre",
+   "lat": 45.77668,
+   "lon": 7.17767,
+   "ele_m": 2728
   },
   {
    "name": "Marbelfleck-Scharte",
@@ -2638,6 +2710,12 @@
    "ele_m": 2701
   },
   {
+   "name": "Passo dell'Averta",
+   "lat": 46.25028,
+   "lon": 9.70859,
+   "ele_m": 2701
+  },
+  {
    "name": "Gaisscharte",
    "lat": 46.94546,
    "lon": 11.71135,
@@ -2764,6 +2842,12 @@
    "ele_m": 2690
   },
   {
+   "name": "Colle della Valletta",
+   "lat": 44.91213,
+   "lon": 6.98918,
+   "ele_m": 2690
+  },
+  {
    "name": "Colle de Rothorn",
    "lat": 45.84996,
    "lon": 7.78269,
@@ -2833,6 +2917,12 @@
    "name": "Passo della Fradusta",
    "lat": 46.25795,
    "lon": 11.87159,
+   "ele_m": 2680
+  },
+  {
+   "name": "Il Colletto",
+   "lat": 44.44925,
+   "lon": 6.95109,
    "ele_m": 2680
   },
   {
@@ -3208,6 +3298,12 @@
    "ele_m": 2642
   },
   {
+   "name": "Colle della Crocetta",
+   "lat": 45.40725,
+   "lon": 7.2653,
+   "ele_m": 2641
+  },
+  {
    "name": "Colle Oserot",
    "lat": 44.40378,
    "lon": 6.99158,
@@ -3550,6 +3646,12 @@
    "ele_m": 2604
   },
   {
+   "name": "Passo del Bue",
+   "lat": 44.23023,
+   "lon": 7.05597,
+   "ele_m": 2603
+  },
+  {
    "name": "Passo della Vedretta di Saviore",
    "lat": 46.0291,
    "lon": 10.48648,
@@ -3626,6 +3728,12 @@
    "lat": 46.21808,
    "lon": 9.59089,
    "ele_m": 2598
+  },
+  {
+   "name": "Col Basset",
+   "lat": 45.08121,
+   "lon": 6.80256,
+   "ele_m": 2596
   },
   {
    "name": "Colle dell'Orsiera",
@@ -3922,6 +4030,12 @@
    "ele_m": 2569
   },
   {
+   "name": "Passo del Gatto",
+   "lat": 46.35614,
+   "lon": 10.29359,
+   "ele_m": 2568
+  },
+  {
    "name": "Col du Salvè",
    "lat": 45.82793,
    "lon": 7.48825,
@@ -3998,6 +4112,12 @@
    "lat": 46.2124,
    "lon": 11.5352,
    "ele_m": 2562
+  },
+  {
+   "name": "Passo di Cigola",
+   "lat": 46.24247,
+   "lon": 10.00359,
+   "ele_m": 2561
   },
   {
    "name": "Passo di Rostagno",
@@ -4246,6 +4366,12 @@
    "ele_m": 2535
   },
   {
+   "name": "Colle del Laghetto",
+   "lat": 45.74684,
+   "lon": 7.92933,
+   "ele_m": 2535
+  },
+  {
    "name": "Sella dei Frugnoni",
    "lat": 46.67747,
    "lon": 12.47998,
@@ -4336,6 +4462,12 @@
    "ele_m": 2530
   },
   {
+   "name": "Passo della Scaletta",
+   "lat": 46.06718,
+   "lon": 9.96111,
+   "ele_m": 2530
+  },
+  {
    "name": "Forcella Vani Alti",
    "lat": 46.24126,
    "lon": 11.92109,
@@ -4393,6 +4525,12 @@
    "name": "Forcella Croda dei Toni - Zwölferscharte",
    "lat": 46.62052,
    "lon": 12.35375,
+   "ele_m": 2524
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.77337,
+   "lon": 7.23421,
    "ele_m": 2524
   },
   {
@@ -4471,6 +4609,12 @@
    "name": "Col Collet",
    "lat": 45.79628,
    "lon": 7.4372,
+   "ele_m": 2516
+  },
+  {
+   "name": "Passo di Val Gelada",
+   "lat": 46.25168,
+   "lon": 10.77301,
    "ele_m": 2516
   },
   {
@@ -4750,6 +4894,12 @@
    "ele_m": 2485
   },
   {
+   "name": "Colle del Vallonetto",
+   "lat": 45.27765,
+   "lon": 7.24485,
+   "ele_m": 2485
+  },
+  {
    "name": "Colle Piglimò",
    "lat": 45.88697,
    "lon": 7.96199,
@@ -4852,6 +5002,12 @@
    "ele_m": 2472
   },
   {
+   "name": "Passo del Camino",
+   "lat": 45.7505,
+   "lon": 7.89845,
+   "ele_m": 2472
+  },
+  {
    "name": "Colle di Fontana Fredda",
    "lat": 45.85382,
    "lon": 7.64229,
@@ -4897,12 +5053,6 @@
    "name": "Obermahdsattel",
    "lat": 46.70243,
    "lon": 12.41168,
-   "ele_m": 2466
-  },
-  {
-   "name": "Colle di Luca",
-   "lat": 44.62768,
-   "lon": 7.1475,
    "ele_m": 2466
   },
   {
@@ -5302,6 +5452,12 @@
    "ele_m": 2427
   },
   {
+   "name": "Bocchetta del Lago",
+   "lat": 46.07873,
+   "lon": 9.44699,
+   "ele_m": 2427
+  },
+  {
    "name": "Bocchetto del Cavalcorto",
    "lat": 46.25876,
    "lon": 9.6162,
@@ -5392,6 +5548,12 @@
    "ele_m": 2419
   },
   {
+   "name": "Passo del Gatto",
+   "lat": 46.04952,
+   "lon": 10.17566,
+   "ele_m": 2416
+  },
+  {
    "name": "Colletto Taf",
    "lat": 45.73392,
    "lon": 7.82117,
@@ -5437,6 +5599,12 @@
    "name": "Passo del Sellerino",
    "lat": 46.05476,
    "lon": 10.17079,
+   "ele_m": 2412
+  },
+  {
+   "name": "Passo Palù",
+   "lat": 46.42907,
+   "lon": 10.86206,
    "ele_m": 2412
   },
   {
@@ -5728,6 +5896,12 @@
    "ele_m": 2380
   },
   {
+   "name": "Bocchetta d'Aiada",
+   "lat": 46.24744,
+   "lon": 10.00699,
+   "ele_m": 2380
+  },
+  {
    "name": "Bocchin del Bianco",
    "lat": 44.16477,
    "lon": 7.80843,
@@ -5986,6 +6160,12 @@
    "ele_m": 2353
   },
   {
+   "name": "Passo del Tonale",
+   "lat": 46.06412,
+   "lon": 9.81053,
+   "ele_m": 2352
+  },
+  {
    "name": "Col de la Lombarde / Colle della Lombarda",
    "lat": 44.20267,
    "lon": 7.1501,
@@ -6028,10 +6208,22 @@
    "ele_m": 2350
   },
   {
+   "name": "Colletto",
+   "lat": 45.80123,
+   "lon": 7.17551,
+   "ele_m": 2349
+  },
+  {
    "name": "Porta di Barbione",
    "lat": 46.13143,
    "lon": 10.25072,
    "ele_m": 2348
+  },
+  {
+   "name": "Passo del Muretto",
+   "lat": 46.31537,
+   "lon": 8.33478,
+   "ele_m": 2347
   },
   {
    "name": "Bocchetta di Striengo",
@@ -6082,6 +6274,12 @@
    "ele_m": 2342
   },
   {
+   "name": "Colle del Lupo",
+   "lat": 45.67526,
+   "lon": 7.91192,
+   "ele_m": 2340
+  },
+  {
    "name": "Forcella Alta di Legnone",
    "lat": 46.09101,
    "lon": 9.42128,
@@ -6127,6 +6325,12 @@
    "name": "Passo Antermarucol",
    "lat": 46.28705,
    "lon": 11.87038,
+   "ele_m": 2334
+  },
+  {
+   "name": "Passo del Termine",
+   "lat": 45.97218,
+   "lon": 10.46751,
    "ele_m": 2334
   },
   {
@@ -6262,6 +6466,12 @@
    "ele_m": 2325
   },
   {
+   "name": "Passo di Valbona",
+   "lat": 46.06597,
+   "lon": 9.78591,
+   "ele_m": 2324
+  },
+  {
    "name": "Colle di Mud",
    "lat": 45.87839,
    "lon": 7.96568,
@@ -6340,6 +6550,12 @@
    "ele_m": 2315
   },
   {
+   "name": "Passo del Venerocolo",
+   "lat": 46.05768,
+   "lon": 10.15612,
+   "ele_m": 2314
+  },
+  {
    "name": "Hochspitzsenke - Forcella Val Carnia",
    "lat": 46.65751,
    "lon": 12.66273,
@@ -6350,6 +6566,12 @@
    "lat": 46.45913,
    "lon": 8.45212,
    "ele_m": 2313
+  },
+  {
+   "name": "Colle delle Vallette",
+   "lat": 45.05884,
+   "lon": 7.17817,
+   "ele_m": 2312
   },
   {
    "name": "Forcella Inferiore",
@@ -6776,6 +6998,12 @@
    "lat": 45.94061,
    "lon": 10.51353,
    "ele_m": 2282
+  },
+  {
+   "name": "Passo del Tonale",
+   "lat": 45.98474,
+   "lon": 9.79391,
+   "ele_m": 2281
   },
   {
    "name": "Sella del Ciampaz",
@@ -7324,6 +7552,12 @@
    "ele_m": 2220
   },
   {
+   "name": "Colle Bercia",
+   "lat": 44.92275,
+   "lon": 6.78074,
+   "ele_m": 2220
+  },
+  {
    "name": "Forcella del Duranno",
    "lat": 46.32372,
    "lon": 12.4051,
@@ -7417,6 +7651,12 @@
    "name": "Penser Joch - Passo di Pennes",
    "lat": 46.81878,
    "lon": 11.44125,
+   "ele_m": 2211
+  },
+  {
+   "name": "Forcella del Frate",
+   "lat": 46.36529,
+   "lon": 12.41972,
    "ele_m": 2211
   },
   {
@@ -7654,6 +7894,12 @@
    "ele_m": 2180
   },
   {
+   "name": "Passo di Campo",
+   "lat": 46.12694,
+   "lon": 8.14158,
+   "ele_m": 2180
+  },
+  {
    "name": "Forcella Rinsen",
    "lat": 46.54443,
    "lon": 12.72237,
@@ -7750,6 +7996,12 @@
    "ele_m": 2171
   },
   {
+   "name": "Passo della Colla",
+   "lat": 45.45828,
+   "lon": 7.42835,
+   "ele_m": 2170
+  },
+  {
    "name": "Sella dei Due Denti",
    "lat": 45.79562,
    "lon": 11.17586,
@@ -7783,6 +8035,12 @@
    "name": "Passo del Clamer",
    "lat": 46.17942,
    "lon": 10.94532,
+   "ele_m": 2164
+  },
+  {
+   "name": "Col Bourget",
+   "lat": 44.8895,
+   "lon": 6.78724,
    "ele_m": 2164
   },
   {
@@ -7894,6 +8152,12 @@
    "ele_m": 2150
   },
   {
+   "name": "Passo della Forcola",
+   "lat": 46.30725,
+   "lon": 10.93226,
+   "ele_m": 2150
+  },
+  {
    "name": "Passaggio del Preit",
    "lat": 44.40281,
    "lon": 7.04887,
@@ -7910,6 +8174,12 @@
    "lat": 42.44385,
    "lon": 13.54389,
    "ele_m": 2147
+  },
+  {
+   "name": "Passo della Croce",
+   "lat": 44.16396,
+   "lon": 7.70334,
+   "ele_m": 2146
   },
   {
    "name": "Forcella Rua Alta",
@@ -8110,6 +8380,12 @@
    "ele_m": 2120
   },
   {
+   "name": "Passo di Valbona",
+   "lat": 46.22201,
+   "lon": 12.40224,
+   "ele_m": 2120
+  },
+  {
    "name": "Forcella Piccola",
    "lat": 46.46932,
    "lon": 12.25627,
@@ -8282,6 +8558,12 @@
    "lat": 46.44761,
    "lon": 12.29772,
    "ele_m": 2096
+  },
+  {
+   "name": "Forcella Valsorda",
+   "lat": 46.19706,
+   "lon": 11.74442,
+   "ele_m": 2095
   },
   {
    "name": "Golet del Palot",
@@ -9292,6 +9574,12 @@
    "ele_m": 1978
   },
   {
+   "name": "Forcella Forada",
+   "lat": 46.43396,
+   "lon": 12.13153,
+   "ele_m": 1977
+  },
+  {
    "name": "Forcella di Sabbia",
    "lat": 46.34783,
    "lon": 12.48725,
@@ -9361,6 +9649,12 @@
    "name": "Forcola di Valmora",
    "lat": 45.93278,
    "lon": 9.83389,
+   "ele_m": 1966
+  },
+  {
+   "name": "Col Portola",
+   "lat": 45.61896,
+   "lon": 7.88451,
    "ele_m": 1966
   },
   {
@@ -9700,6 +9994,18 @@
    "ele_m": 1920
   },
   {
+   "name": "Colle delle Miniere",
+   "lat": 46.03576,
+   "lon": 10.04123,
+   "ele_m": 1920
+  },
+  {
+   "name": "Colle della Forcola",
+   "lat": 46.07855,
+   "lon": 8.10205,
+   "ele_m": 1920
+  },
+  {
    "name": "Colle del Finestrolo",
    "lat": 45.82762,
    "lon": 8.0455,
@@ -9775,6 +10081,12 @@
    "name": "Sella delle Pozze",
    "lat": 45.81814,
    "lon": 11.16706,
+   "ele_m": 1903
+  },
+  {
+   "name": "Passo del Diavolo",
+   "lat": 41.81839,
+   "lon": 13.37794,
    "ele_m": 1903
   },
   {
@@ -9874,6 +10186,12 @@
    "ele_m": 1888
   },
   {
+   "name": "Colletto Balma",
+   "lat": 44.22749,
+   "lon": 7.77316,
+   "ele_m": 1887
+  },
+  {
    "name": "Passo del Tonale",
    "lat": 46.25801,
    "lon": 10.58185,
@@ -9925,6 +10243,12 @@
    "name": "Bocca dell'Ussol",
    "lat": 45.96777,
    "lon": 10.74433,
+   "ele_m": 1878
+  },
+  {
+   "name": "Passo del Diavolo",
+   "lat": 46.02991,
+   "lon": 8.53373,
    "ele_m": 1878
   },
   {
@@ -10084,6 +10408,12 @@
    "ele_m": 1860
   },
   {
+   "name": "Bocchetta di Regadur",
+   "lat": 45.93812,
+   "lon": 9.56556,
+   "ele_m": 1860
+  },
+  {
    "name": "Porta Incudine",
    "lat": 46.01121,
    "lon": 11.54439,
@@ -10144,6 +10474,12 @@
    "ele_m": 1852
   },
   {
+   "name": "Passo del Mortirolo",
+   "lat": 46.24786,
+   "lon": 10.29831,
+   "ele_m": 1852
+  },
+  {
    "name": "Colletto dell'Orso",
    "lat": 45.07817,
    "lon": 7.2114,
@@ -10178,6 +10514,12 @@
    "lat": 45.94532,
    "lon": 9.79725,
    "ele_m": 1849
+  },
+  {
+   "name": "Passo della Forca",
+   "lat": 45.87117,
+   "lon": 9.77886,
+   "ele_m": 1848
   },
   {
    "name": "Passo dello Strofinatoio",
@@ -10228,6 +10570,12 @@
    "ele_m": 1843
   },
   {
+   "name": "Bocchetta di Sant'Antonio",
+   "lat": 46.16587,
+   "lon": 8.53044,
+   "ele_m": 1841
+  },
+  {
    "name": "Forcella Pezzei",
    "lat": 46.30059,
    "lon": 12.2706,
@@ -10243,6 +10591,12 @@
    "name": "Colletto di Faggio",
    "lat": 45.94657,
    "lon": 9.51836,
+   "ele_m": 1838
+  },
+  {
+   "name": "Passo della Valletta",
+   "lat": 44.19737,
+   "lon": 7.88171,
    "ele_m": 1838
   },
   {
@@ -10318,9 +10672,21 @@
    "ele_m": 1828
   },
   {
+   "name": "Passo della Porta",
+   "lat": 44.08348,
+   "lon": 7.73293,
+   "ele_m": 1827
+  },
+  {
    "name": "Forcella del Cornetto",
    "lat": 45.74772,
    "lon": 11.17722,
+   "ele_m": 1825
+  },
+  {
+   "name": "Passo della Forcella",
+   "lat": 46.48744,
+   "lon": 12.8106,
    "ele_m": 1825
   },
   {
@@ -10483,6 +10849,12 @@
    "name": "Forcella Fonderis",
    "lat": 46.44482,
    "lon": 13.25242,
+   "ele_m": 1802
+  },
+  {
+   "name": "Passo del Forcellino",
+   "lat": 46.08473,
+   "lon": 9.40257,
    "ele_m": 1802
   },
   {
@@ -10804,6 +11176,12 @@
    "ele_m": 1766
   },
   {
+   "name": "Sella Carnizza",
+   "lat": 46.43716,
+   "lon": 13.51232,
+   "ele_m": 1765
+  },
+  {
    "name": "Passo Giovarello",
    "lat": 44.35498,
    "lon": 10.08603,
@@ -10921,6 +11299,12 @@
    "name": "Passo di Costalunga - Karerpass",
    "lat": 46.40428,
    "lon": 11.60899,
+   "ele_m": 1745
+  },
+  {
+   "name": "Passo del Cavallo",
+   "lat": 44.36126,
+   "lon": 10.08208,
    "ele_m": 1745
   },
   {
@@ -11320,6 +11704,12 @@
    "ele_m": 1690
   },
   {
+   "name": "Passo del Lupo",
+   "lat": 42.50896,
+   "lon": 12.95616,
+   "ele_m": 1690
+  },
+  {
    "name": "Passo di Badignana",
    "lat": 44.37796,
    "lon": 10.03744,
@@ -11515,6 +11905,12 @@
    "name": "Forcella Val de la Forscia",
    "lat": 46.29731,
    "lon": 12.38633,
+   "ele_m": 1666
+  },
+  {
+   "name": "Colle della Forchetta",
+   "lat": 45.33472,
+   "lon": 7.41297,
    "ele_m": 1666
   },
   {
@@ -12136,6 +12532,12 @@
    "ele_m": 1574
   },
   {
+   "name": "Colla Bassa",
+   "lat": 44.12585,
+   "lon": 7.93427,
+   "ele_m": 1574
+  },
+  {
    "name": "Colle dell'Impiso",
    "lat": 39.93302,
    "lon": 16.16318,
@@ -12196,6 +12598,12 @@
    "ele_m": 1565
   },
   {
+   "name": "Passo del lupo",
+   "lat": 44.13814,
+   "lon": 10.80361,
+   "ele_m": 1564
+  },
+  {
    "name": "Portella Cardazze",
    "lat": 37.9026,
    "lon": 14.51466,
@@ -12208,9 +12616,21 @@
    "ele_m": 1560
   },
   {
+   "name": "Valico della Crocetta",
+   "lat": 42.24097,
+   "lon": 13.41459,
+   "ele_m": 1560
+  },
+  {
    "name": "Passo del Cason di Lanza",
    "lat": 46.56598,
    "lon": 13.17097,
+   "ele_m": 1555
+  },
+  {
+   "name": "Portella Arena",
+   "lat": 37.87348,
+   "lon": 14.01396,
    "ele_m": 1555
   },
   {
@@ -12229,6 +12649,12 @@
    "name": "Bocca di Crenna",
    "lat": 44.68878,
    "lon": 9.1832,
+   "ele_m": 1553
+  },
+  {
+   "name": "Passo del Colletto",
+   "lat": 44.05155,
+   "lon": 7.79331,
    "ele_m": 1553
   },
   {
@@ -12364,6 +12790,12 @@
    "ele_m": 1533
   },
   {
+   "name": "Passo della Porta",
+   "lat": 45.67112,
+   "lon": 11.19608,
+   "ele_m": 1531
+  },
+  {
    "name": "Passo Pertica",
    "lat": 45.70348,
    "lon": 11.11606,
@@ -12391,6 +12823,12 @@
    "name": "Bocchetta di Scotto",
    "lat": 45.80197,
    "lon": 8.09127,
+   "ele_m": 1530
+  },
+  {
+   "name": "Portella Creta",
+   "lat": 37.90274,
+   "lon": 14.50819,
    "ele_m": 1530
   },
   {
@@ -12706,6 +13144,12 @@
    "ele_m": 1482
   },
   {
+   "name": "Passo del Lupo",
+   "lat": 44.10353,
+   "lon": 10.86828,
+   "ele_m": 1482
+  },
+  {
    "name": "Forca Pradulina",
    "lat": 46.52978,
    "lon": 13.1797,
@@ -12904,6 +13348,12 @@
    "ele_m": 1455
   },
   {
+   "name": "Passo della Colla",
+   "lat": 44.38904,
+   "lon": 10.06198,
+   "ele_m": 1455
+  },
+  {
    "name": "Passo del Redebus - Sontbisn",
    "lat": 46.13598,
    "lon": 11.32309,
@@ -12934,6 +13384,12 @@
    "ele_m": 1453
   },
   {
+   "name": "Bocca Giumella",
+   "lat": 45.91642,
+   "lon": 10.65376,
+   "ele_m": 1453
+  },
+  {
    "name": "Schloßhüttensattel / Sella del Poludnig",
    "lat": 46.57584,
    "lon": 13.38877,
@@ -12949,6 +13405,12 @@
    "name": "Foce della Faggiola",
    "lat": 44.10885,
    "lon": 10.15443,
+   "ele_m": 1452
+  },
+  {
+   "name": "Il Colletto",
+   "lat": 45.10076,
+   "lon": 7.06379,
    "ele_m": 1452
   },
   {
@@ -12988,6 +13450,12 @@
    "ele_m": 1448
   },
   {
+   "name": "Passo del Termine",
+   "lat": 44.09515,
+   "lon": 10.88738,
+   "ele_m": 1447
+  },
+  {
    "name": "Sella di Vassosa",
    "lat": 45.79198,
    "lon": 8.2055,
@@ -13018,10 +13486,28 @@
    "ele_m": 1442
   },
   {
+   "name": "Passo Croce",
+   "lat": 45.78668,
+   "lon": 10.31466,
+   "ele_m": 1441
+  },
+  {
+   "name": "Passo del Diavolo",
+   "lat": 41.85001,
+   "lon": 13.34967,
+   "ele_m": 1440
+  },
+  {
    "name": "Colle di Giada",
    "lat": 44.45474,
    "lon": 7.23483,
    "ele_m": 1440
+  },
+  {
+   "name": "Colle San Bartolomeo",
+   "lat": 44.1335,
+   "lon": 7.9665,
+   "ele_m": 1439
   },
   {
    "name": "Panidersattel - Passo Pinei",
@@ -13312,6 +13798,12 @@
    "ele_m": 1400
   },
   {
+   "name": "Passo del Diavolo",
+   "lat": 41.87579,
+   "lon": 13.74614,
+   "ele_m": 1400
+  },
+  {
    "name": "Passo delle Fittanze della Sega",
    "lat": 45.68389,
    "lon": 10.97912,
@@ -13357,6 +13849,12 @@
    "name": "Bocca di Valle",
    "lat": 45.79223,
    "lon": 10.58176,
+   "ele_m": 1394
+  },
+  {
+   "name": "Passo della Crocina",
+   "lat": 43.81698,
+   "lon": 11.87021,
    "ele_m": 1394
   },
   {
@@ -13519,6 +14017,12 @@
    "name": "Passo della Puria",
    "lat": 45.78123,
    "lon": 10.66977,
+   "ele_m": 1374
+  },
+  {
+   "name": "Sella dell'Oca",
+   "lat": 45.87459,
+   "lon": 8.22879,
    "ele_m": 1374
   },
   {
@@ -14356,6 +14860,12 @@
    "ele_m": 1274
   },
   {
+   "name": "Il Colletto",
+   "lat": 45.46494,
+   "lon": 7.69184,
+   "ele_m": 1274
+  },
+  {
    "name": "Sboccata dei Bagnadori",
    "lat": 44.14658,
    "lon": 10.85344,
@@ -14396,6 +14906,12 @@
    "lat": 44.53468,
    "lon": 9.33546,
    "ele_m": 1268
+  },
+  {
+   "name": "Passo della Crocetta",
+   "lat": 45.88125,
+   "lon": 9.79118,
+   "ele_m": 1267
   },
   {
    "name": "Passo di Cirone",
@@ -14464,6 +14980,12 @@
    "ele_m": 1257
   },
   {
+   "name": "La Forca",
+   "lat": 46.35094,
+   "lon": 12.98911,
+   "ele_m": 1257
+  },
+  {
    "name": "Sella della Rosetta",
    "lat": 45.7558,
    "lon": 8.21298,
@@ -14480,6 +15002,18 @@
    "lat": 45.87065,
    "lon": 9.18923,
    "ele_m": 1255
+  },
+  {
+   "name": "Passo del Gatto",
+   "lat": 44.30414,
+   "lon": 10.22053,
+   "ele_m": 1255
+  },
+  {
+   "name": "Passo della Croce",
+   "lat": 45.22987,
+   "lon": 7.46559,
+   "ele_m": 1254
   },
   {
    "name": "Passo di Gorda",
@@ -14632,6 +15166,12 @@
    "ele_m": 1240
   },
   {
+   "name": "Colle Bercia",
+   "lat": 44.27907,
+   "lon": 7.5846,
+   "ele_m": 1240
+  },
+  {
    "name": "I Selletti",
    "lat": 45.88326,
    "lon": 8.20777,
@@ -14678,6 +15218,12 @@
    "lat": 46.34938,
    "lon": 13.26747,
    "ele_m": 1231
+  },
+  {
+   "name": "Passo della Vacca",
+   "lat": 45.86246,
+   "lon": 9.3224,
+   "ele_m": 1230
   },
   {
    "name": "Passo dei Cerrini",
@@ -14761,6 +15307,12 @@
    "name": "La Forcella",
    "lat": 45.81051,
    "lon": 9.76982,
+   "ele_m": 1220
+  },
+  {
+   "name": "Passo della Croce",
+   "lat": 45.75994,
+   "lon": 10.39452,
    "ele_m": 1220
   },
   {
@@ -15232,10 +15784,22 @@
    "ele_m": 1165
   },
   {
+   "name": "Passo del Lupo",
+   "lat": 44.39187,
+   "lon": 9.66356,
+   "ele_m": 1165
+  },
+  {
    "name": "Pian delle Fugazze",
    "lat": 45.7602,
    "lon": 11.17332,
    "ele_m": 1163
+  },
+  {
+   "name": "Passo della Croce",
+   "lat": 45.3025,
+   "lon": 7.41293,
+   "ele_m": 1162
   },
   {
    "name": "Sella di Vuom",
@@ -15412,6 +15976,12 @@
    "ele_m": 1147
   },
   {
+   "name": "Passo Croce",
+   "lat": 44.03445,
+   "lon": 10.27261,
+   "ele_m": 1147
+  },
+  {
    "name": "Sella della Croce",
    "lat": 45.63847,
    "lon": 11.03072,
@@ -15532,6 +16102,12 @@
    "ele_m": 1130
   },
   {
+   "name": "Valico di San Fermo",
+   "lat": 44.6106,
+   "lon": 9.10352,
+   "ele_m": 1129
+  },
+  {
    "name": "Portella Mandrazzi",
    "lat": 37.97578,
    "lon": 15.13801,
@@ -15553,6 +16129,12 @@
    "name": "Passo Crosetta",
    "lat": 46.03499,
    "lon": 12.40605,
+   "ele_m": 1127
+  },
+  {
+   "name": "Colla Bassa",
+   "lat": 44.19663,
+   "lon": 8.07212,
    "ele_m": 1127
   },
   {
@@ -15670,6 +16252,12 @@
    "ele_m": 1118
   },
   {
+   "name": "Passo del Lupo",
+   "lat": 44.00416,
+   "lon": 7.90133,
+   "ele_m": 1118
+  },
+  {
    "name": "Bocchetta di Molina",
    "lat": 45.83849,
    "lon": 9.15816,
@@ -15751,6 +16339,12 @@
    "name": "Passo della Colomba",
    "lat": 45.75224,
    "lon": 10.65906,
+   "ele_m": 1110
+  },
+  {
+   "name": "Passo Cattivo",
+   "lat": 42.81395,
+   "lon": 12.85891,
    "ele_m": 1110
   },
   {
@@ -15844,6 +16438,12 @@
    "ele_m": 1097
   },
   {
+   "name": "Passo del Vestito",
+   "lat": 44.06759,
+   "lon": 10.23128,
+   "ele_m": 1096
+  },
+  {
    "name": "Passo di Monte Lago",
    "lat": 44.74683,
    "lon": 9.31067,
@@ -15926,6 +16526,12 @@
    "lat": 44.61823,
    "lon": 9.38267,
    "ele_m": 1085
+  },
+  {
+   "name": "Portella Femmina Morta",
+   "lat": 38.03188,
+   "lon": 15.26948,
+   "ele_m": 1083
   },
   {
    "name": "Passo della Cappelletta",
@@ -16042,6 +16648,12 @@
    "ele_m": 1072
   },
   {
+   "name": "Portella Tre Fontane",
+   "lat": 37.95764,
+   "lon": 15.17922,
+   "ele_m": 1072
+  },
+  {
    "name": "Passo di Conio",
    "lat": 43.97192,
    "lon": 7.87555,
@@ -16052,6 +16664,12 @@
    "lat": 45.75088,
    "lon": 10.21508,
    "ele_m": 1070
+  },
+  {
+   "name": "Passo dell'Incisa",
+   "lat": 44.56996,
+   "lon": 9.07477,
+   "ele_m": 1068
   },
   {
    "name": "Colle dell'Arpeselle",
@@ -16117,6 +16735,12 @@
    "name": "Colla San Bernardo",
    "lat": 44.09504,
    "lon": 7.88336,
+   "ele_m": 1061
+  },
+  {
+   "name": "Colle San Bartolomeo",
+   "lat": 44.24859,
+   "lon": 8.06167,
    "ele_m": 1061
   },
   {
@@ -16222,6 +16846,12 @@
    "ele_m": 1053
   },
   {
+   "name": "Portella Palumba",
+   "lat": 38.0239,
+   "lon": 15.33525,
+   "ele_m": 1053
+  },
+  {
    "name": "Portella Palumbe",
    "lat": 38.02037,
    "lon": 15.33521,
@@ -16249,6 +16879,12 @@
    "name": "Passo del Portello",
    "lat": 44.49542,
    "lon": 9.17866,
+   "ele_m": 1051
+  },
+  {
+   "name": "Passo della Crocetta",
+   "lat": 45.88023,
+   "lon": 9.71262,
    "ele_m": 1051
   },
   {
@@ -16426,6 +17062,12 @@
    "ele_m": 1040
   },
   {
+   "name": "La Forcella",
+   "lat": 45.88336,
+   "lon": 9.74722,
+   "ele_m": 1039
+  },
+  {
    "name": "Passo del Cuvignone",
    "lat": 45.92697,
    "lon": 8.67053,
@@ -16477,6 +17119,12 @@
    "name": "Col d'Arlaz",
    "lat": 45.69985,
    "lon": 7.7007,
+   "ele_m": 1030
+  },
+  {
+   "name": "Passo del Gatto",
+   "lat": 44.3903,
+   "lon": 9.47303,
    "ele_m": 1030
   },
   {
@@ -16696,6 +17344,12 @@
    "ele_m": 1007
   },
   {
+   "name": "Passo San Marco",
+   "lat": 43.84708,
+   "lon": 12.35279,
+   "ele_m": 1006
+  },
+  {
    "name": "Colle Braida",
    "lat": 45.08325,
    "lon": 7.33377,
@@ -16816,6 +17470,12 @@
    "ele_m": 1000
   },
   {
+   "name": "Passo di Sant'Antonio",
+   "lat": 45.80719,
+   "lon": 9.63536,
+   "ele_m": 1000
+  },
+  {
    "name": "Passo di Glevizza",
    "lat": 46.19336,
    "lon": 13.51016,
@@ -16852,6 +17512,12 @@
    "ele_m": 993
   },
   {
+   "name": "la Colletta",
+   "lat": 44.25765,
+   "lon": 8.20641,
+   "ele_m": 993
+  },
+  {
    "name": "Passo dei Casoni",
    "lat": 44.27992,
    "lon": 9.80875,
@@ -16874,6 +17540,12 @@
    "lat": 39.88551,
    "lon": 9.33488,
    "ele_m": 991
+  },
+  {
+   "name": "Passo della Crocetta",
+   "lat": 45.66607,
+   "lon": 10.86926,
+   "ele_m": 990
   },
   {
    "name": "Colle del Bandito",
@@ -16978,6 +17650,12 @@
    "ele_m": 979
   },
   {
+   "name": "Passo Crocetta",
+   "lat": 39.32081,
+   "lon": 16.11315,
+   "ele_m": 979
+  },
+  {
    "name": "Genna Filixi",
    "lat": 39.9003,
    "lon": 9.43724,
@@ -17059,6 +17737,12 @@
    "name": "Foce del Termine o Foce del Crocione",
    "lat": 43.97527,
    "lon": 10.35566,
+   "ele_m": 970
+  },
+  {
+   "name": "Colle della Crocetta",
+   "lat": 44.29315,
+   "lon": 8.0074,
    "ele_m": 970
   },
   {
@@ -17986,6 +18670,12 @@
    "ele_m": 886
   },
   {
+   "name": "Portella Riena",
+   "lat": 37.72037,
+   "lon": 13.53115,
+   "ele_m": 886
+  },
+  {
    "name": "Passo di San Michele",
    "lat": 45.93745,
    "lon": 8.70879,
@@ -18020,6 +18710,12 @@
    "lat": 46.27347,
    "lon": 13.01279,
    "ele_m": 884
+  },
+  {
+   "name": "Passo del Giogo",
+   "lat": 44.04685,
+   "lon": 11.38806,
+   "ele_m": 882
   },
   {
    "name": "Portella Gaggetto",
@@ -18088,6 +18784,12 @@
    "ele_m": 877
   },
   {
+   "name": "Passo della Forcella",
+   "lat": 44.46261,
+   "lon": 9.33545,
+   "ele_m": 875
+  },
+  {
    "name": "Passo Il Termine",
    "lat": 43.10289,
    "lon": 12.71892,
@@ -18116,6 +18818,12 @@
    "lat": 45.71202,
    "lon": 10.4919,
    "ele_m": 873
+  },
+  {
+   "name": "Passo della Crocetta",
+   "lat": 44.82965,
+   "lon": 9.38207,
+   "ele_m": 871
   },
   {
    "name": "Passo di Costa Verde",
@@ -18181,6 +18889,12 @@
    "name": "Portella Virrina",
    "lat": 37.69407,
    "lon": 14.21816,
+   "ele_m": 865
+  },
+  {
+   "name": "Passo del Termine",
+   "lat": 43.1528,
+   "lon": 12.83431,
    "ele_m": 865
   },
   {
@@ -18284,6 +18998,12 @@
    "lat": 46.30611,
    "lon": 12.96153,
    "ele_m": 848
+  },
+  {
+   "name": "Portella del Vento",
+   "lat": 37.91989,
+   "lon": 15.22926,
+   "ele_m": 847
   },
   {
    "name": "Portella Griole",
@@ -18544,6 +19264,12 @@
    "ele_m": 815
   },
   {
+   "name": "Passo della Croce",
+   "lat": 43.90167,
+   "lon": 7.59446,
+   "ele_m": 815
+  },
+  {
    "name": "Colle Scravaion",
    "lat": 44.15951,
    "lon": 8.12052,
@@ -18566,6 +19292,12 @@
    "lat": 37.99818,
    "lon": 13.37021,
    "ele_m": 813
+  },
+  {
+   "name": "Passo dell'Incisa",
+   "lat": 43.85841,
+   "lon": 12.05184,
+   "ele_m": 811
   },
   {
    "name": "Passo della Caprettana",
@@ -18928,6 +19660,12 @@
    "ele_m": 761
   },
   {
+   "name": "Passo di San Giacomo",
+   "lat": 43.99744,
+   "lon": 8.00248,
+   "ele_m": 760
+  },
+  {
    "name": "Sella del Quarone",
    "lat": 45.61262,
    "lon": 10.1704,
@@ -19012,6 +19750,12 @@
    "ele_m": 754
   },
   {
+   "name": "Passo della Croce",
+   "lat": 43.96623,
+   "lon": 11.17122,
+   "ele_m": 754
+  },
+  {
    "name": "Colle del Ghisallo",
    "lat": 45.92369,
    "lon": 9.26715,
@@ -19057,6 +19801,12 @@
    "name": "Passo Del Ballino",
    "lat": 45.9744,
    "lon": 10.81994,
+   "ele_m": 750
+  },
+  {
+   "name": "Passo di San Michele",
+   "lat": 43.5504,
+   "lon": 11.39837,
    "ele_m": 750
   },
   {
@@ -19124,6 +19874,12 @@
    "lat": 39.62951,
    "lon": 15.93864,
    "ele_m": 744
+  },
+  {
+   "name": "Portella del Vento",
+   "lat": 38.14698,
+   "lon": 15.4445,
+   "ele_m": 743
   },
   {
    "name": "Passo del Viglio",
@@ -19774,6 +20530,12 @@
    "ele_m": 640
   },
   {
+   "name": "Valico di Sant'Antonio",
+   "lat": 45.93158,
+   "lon": 8.69257,
+   "ele_m": 638
+  },
+  {
    "name": "Passo di Prato a Ceragiola",
    "lat": 43.73664,
    "lon": 10.54921,
@@ -19912,6 +20674,18 @@
    "ele_m": 612
   },
   {
+   "name": "Passo della Crocetta",
+   "lat": 44.53659,
+   "lon": 8.61955,
+   "ele_m": 612
+  },
+  {
+   "name": "Portella del Vento",
+   "lat": 37.56898,
+   "lon": 14.08132,
+   "ele_m": 611
+  },
+  {
    "name": "Bocchetta delle Chignole",
    "lat": 45.66224,
    "lon": 8.29456,
@@ -19942,6 +20716,12 @@
    "ele_m": 606
   },
   {
+   "name": "spartiacque Belice/Scanzano",
+   "lat": 37.89099,
+   "lon": 13.37038,
+   "ele_m": 605
+  },
+  {
    "name": "Passo Rive del Cerro",
    "lat": 44.18724,
    "lon": 11.62975,
@@ -19964,6 +20744,3072 @@
    "lat": 43.98882,
    "lon": 11.95282,
    "ele_m": 600
+  },
+  {
+   "name": "Passo della Crocetta",
+   "lat": 44.38457,
+   "lon": 9.2421,
+   "ele_m": 599
+  },
+  {
+   "name": "Valico di Montegrossi",
+   "lat": 43.48941,
+   "lon": 11.45072,
+   "ele_m": 596
+  },
+  {
+   "name": "Portella di San Martino",
+   "lat": 38.08218,
+   "lon": 13.27115,
+   "ele_m": 595
+  },
+  {
+   "name": "Passo di Lucerena",
+   "lat": 43.32473,
+   "lon": 11.17708,
+   "ele_m": 595
+  },
+  {
+   "name": "Bocchetta Canali",
+   "lat": 45.63071,
+   "lon": 10.51768,
+   "ele_m": 594
+  },
+  {
+   "name": "Passo Colla",
+   "lat": 40.02703,
+   "lon": 15.73113,
+   "ele_m": 594
+  },
+  {
+   "name": "Passo del Bardellone",
+   "lat": 44.19044,
+   "lon": 9.65388,
+   "ele_m": 592
+  },
+  {
+   "name": "Portella Raccuglia",
+   "lat": 38.03644,
+   "lon": 13.35712,
+   "ele_m": 591
+  },
+  {
+   "name": "Passo del Cane",
+   "lat": 43.87044,
+   "lon": 7.58979,
+   "ele_m": 591
+  },
+  {
+   "name": "Le Foci",
+   "lat": 43.97038,
+   "lon": 10.25403,
+   "ele_m": 589
+  },
+  {
+   "name": "Colle Serra",
+   "lat": 40.62113,
+   "lon": 14.52832,
+   "ele_m": 588
+  },
+  {
+   "name": "Portella del Pianetto",
+   "lat": 38.01865,
+   "lon": 13.36251,
+   "ele_m": 587
+  },
+  {
+   "name": "Valico della Collina",
+   "lat": 44.07543,
+   "lon": 11.72156,
+   "ele_m": 587
+  },
+  {
+   "name": "Valico Taglio Grosso",
+   "lat": 45.47044,
+   "lon": 7.98375,
+   "ele_m": 586
+  },
+  {
+   "name": "Passo San Udalrico",
+   "lat": 45.97505,
+   "lon": 10.97498,
+   "ele_m": 585
+  },
+  {
+   "name": "Foce di Vaggi",
+   "lat": 44.22311,
+   "lon": 9.5915,
+   "ele_m": 585
+  },
+  {
+   "name": "Colla del Bresca",
+   "lat": 44.28308,
+   "lon": 8.26292,
+   "ele_m": 583
+  },
+  {
+   "name": "Portella della Paglia",
+   "lat": 38.04557,
+   "lon": 13.35319,
+   "ele_m": 582
+  },
+  {
+   "name": "Bal di Maschi",
+   "lat": 45.05695,
+   "lon": 7.40332,
+   "ele_m": 582
+  },
+  {
+   "name": "Sella di Carpena",
+   "lat": 44.10751,
+   "lon": 9.76865,
+   "ele_m": 581
+  },
+  {
+   "name": "Passo Ciola",
+   "lat": 43.97965,
+   "lon": 12.1397,
+   "ele_m": 580
+  },
+  {
+   "name": "Passo della Motta Rossa",
+   "lat": 45.87402,
+   "lon": 8.80528,
+   "ele_m": 579
+  },
+  {
+   "name": "Passo Castello di Fosio",
+   "lat": 44.65515,
+   "lon": 9.99501,
+   "ele_m": 578
+  },
+  {
+   "name": "Passo della Castagnola",
+   "lat": 44.59763,
+   "lon": 8.88781,
+   "ele_m": 578
+  },
+  {
+   "name": "Valico dei Solini",
+   "lat": 44.21696,
+   "lon": 9.88528,
+   "ele_m": 575
+  },
+  {
+   "name": "Alberomato",
+   "lat": 45.56985,
+   "lon": 11.24093,
+   "ele_m": 575
+  },
+  {
+   "name": "Passo Sant'Eusebio",
+   "lat": 45.60958,
+   "lon": 10.36143,
+   "ele_m": 574
+  },
+  {
+   "name": "Portella Salvatore",
+   "lat": 38.06122,
+   "lon": 13.35194,
+   "ele_m": 571
+  },
+  {
+   "name": "Passo del Monte Trebbio",
+   "lat": 44.12933,
+   "lon": 11.82832,
+   "ele_m": 565
+  },
+  {
+   "name": "Portella Cummara",
+   "lat": 38.14064,
+   "lon": 15.47285,
+   "ele_m": 565
+  },
+  {
+   "name": "Portella Carda",
+   "lat": 38.17516,
+   "lon": 15.44973,
+   "ele_m": 565
+  },
+  {
+   "name": "Arcu de Mauru",
+   "lat": 39.40305,
+   "lon": 9.48503,
+   "ele_m": 564
+  },
+  {
+   "name": "Portella Scannata",
+   "lat": 37.71426,
+   "lon": 13.65002,
+   "ele_m": 563
+  },
+  {
+   "name": "Valico degli Eremiti",
+   "lat": 44.59975,
+   "lon": 8.80712,
+   "ele_m": 563
+  },
+  {
+   "name": "Portella San Nicola",
+   "lat": 37.58517,
+   "lon": 14.23683,
+   "ele_m": 561
+  },
+  {
+   "name": "Portella Castro",
+   "lat": 37.53431,
+   "lon": 14.26509,
+   "ele_m": 561
+  },
+  {
+   "name": "Monterumici",
+   "lat": 44.31702,
+   "lon": 11.28438,
+   "ele_m": 561
+  },
+  {
+   "name": "Portella Pandolfo",
+   "lat": 37.87676,
+   "lon": 15.27622,
+   "ele_m": 560
+  },
+  {
+   "name": "Portella Zii",
+   "lat": 38.11473,
+   "lon": 15.37933,
+   "ele_m": 560
+  },
+  {
+   "name": "Passo delle Croci",
+   "lat": 45.8196,
+   "lon": 10.06097,
+   "ele_m": 560
+  },
+  {
+   "name": "Selle Casao o bivio Bermego",
+   "lat": 44.12224,
+   "lon": 9.75619,
+   "ele_m": 559
+  },
+  {
+   "name": "Passo del Lucese",
+   "lat": 43.93648,
+   "lon": 10.38217,
+   "ele_m": 558
+  },
+  {
+   "name": "Passo della Conserva",
+   "lat": 43.76007,
+   "lon": 10.48457,
+   "ele_m": 558
+  },
+  {
+   "name": "Sella di Vignola",
+   "lat": 46.04695,
+   "lon": 11.2551,
+   "ele_m": 557
+  },
+  {
+   "name": "Passo La Foce",
+   "lat": 43.02503,
+   "lon": 11.77921,
+   "ele_m": 554
+  },
+  {
+   "name": "Passo del Bambino",
+   "lat": 37.79484,
+   "lon": 13.74276,
+   "ele_m": 554
+  },
+  {
+   "name": "Portella Càstani",
+   "lat": 37.49079,
+   "lon": 14.43541,
+   "ele_m": 554
+  },
+  {
+   "name": "Portella Matteo",
+   "lat": 37.42361,
+   "lon": 14.19201,
+   "ele_m": 553
+  },
+  {
+   "name": "Valico di Petrella",
+   "lat": 43.97358,
+   "lon": 12.04899,
+   "ele_m": 553
+  },
+  {
+   "name": "Portella di Blasi",
+   "lat": 37.89641,
+   "lon": 13.48484,
+   "ele_m": 552
+  },
+  {
+   "name": "Col d'Arsete",
+   "lat": 45.03731,
+   "lon": 7.74576,
+   "ele_m": 552
+  },
+  {
+   "name": "Portella San Michele",
+   "lat": 37.50692,
+   "lon": 14.0881,
+   "ele_m": 552
+  },
+  {
+   "name": "Valico di Vinchiaturo",
+   "lat": 41.45437,
+   "lon": 14.5887,
+   "ele_m": 552
+  },
+  {
+   "name": "Forca del Prete",
+   "lat": 46.27156,
+   "lon": 12.76021,
+   "ele_m": 552
+  },
+  {
+   "name": "Valico Cantoniera Jannas",
+   "lat": 40.23587,
+   "lon": 9.38714,
+   "ele_m": 550
+  },
+  {
+   "name": "Passo Vignaga",
+   "lat": 45.53851,
+   "lon": 11.26025,
+   "ele_m": 550
+  },
+  {
+   "name": "Passo Genna Bogai",
+   "lat": 39.37371,
+   "lon": 8.49716,
+   "ele_m": 549
+  },
+  {
+   "name": "Valico la Croce",
+   "lat": 45.63376,
+   "lon": 10.14391,
+   "ele_m": 548
+  },
+  {
+   "name": "S'arcu Montixi",
+   "lat": 39.01201,
+   "lon": 8.88127,
+   "ele_m": 546
+  },
+  {
+   "name": "Passo della Spinarola",
+   "lat": 44.40401,
+   "lon": 9.1827,
+   "ele_m": 546
+  },
+  {
+   "name": "Colle di Velva",
+   "lat": 44.28377,
+   "lon": 9.5576,
+   "ele_m": 545
+  },
+  {
+   "name": "Portella Tanabuto",
+   "lat": 37.5388,
+   "lon": 13.5735,
+   "ele_m": 544
+  },
+  {
+   "name": "Valico di Case d'Asta",
+   "lat": 44.7285,
+   "lon": 9.96979,
+   "ele_m": 544
+  },
+  {
+   "name": "Colletto della Lisega",
+   "lat": 43.81437,
+   "lon": 7.69522,
+   "ele_m": 543
+  },
+  {
+   "name": "Passo Coremò",
+   "lat": 39.22983,
+   "lon": 8.61533,
+   "ele_m": 543
+  },
+  {
+   "name": "Passo del Termine",
+   "lat": 44.15382,
+   "lon": 9.67254,
+   "ele_m": 542
+  },
+  {
+   "name": "Passo dell'Alberaccio",
+   "lat": 43.86374,
+   "lon": 11.34799,
+   "ele_m": 541
+  },
+  {
+   "name": "Passo della Quercia del Monaco",
+   "lat": 41.39735,
+   "lon": 13.4264,
+   "ele_m": 540
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.57663,
+   "lon": 7.8209,
+   "ele_m": 540
+  },
+  {
+   "name": "Passo San Quirico",
+   "lat": 44.37913,
+   "lon": 9.22942,
+   "ele_m": 539
+  },
+  {
+   "name": "Valico Monte Beccugiano",
+   "lat": 44.103,
+   "lon": 11.69944,
+   "ele_m": 537
+  },
+  {
+   "name": "Portella del Serù",
+   "lat": 37.98185,
+   "lon": 14.56221,
+   "ele_m": 534
+  },
+  {
+   "name": "Passo Crocetta",
+   "lat": 44.91882,
+   "lon": 9.10065,
+   "ele_m": 533
+  },
+  {
+   "name": "Passo del Corso",
+   "lat": 44.23511,
+   "lon": 11.59473,
+   "ele_m": 532
+  },
+  {
+   "name": "Valico di Castelpetroso",
+   "lat": 41.55161,
+   "lon": 14.31968,
+   "ele_m": 532
+  },
+  {
+   "name": "Passo del Sugame",
+   "lat": 43.59814,
+   "lon": 11.36358,
+   "ele_m": 530
+  },
+  {
+   "name": "Passo di Caiella",
+   "lat": 44.81348,
+   "lon": 9.10541,
+   "ele_m": 530
+  },
+  {
+   "name": "Passo del Turchino",
+   "lat": 44.4879,
+   "lon": 8.73383,
+   "ele_m": 530
+  },
+  {
+   "name": "Portella Orlando",
+   "lat": 37.33902,
+   "lon": 13.80269,
+   "ele_m": 530
+  },
+  {
+   "name": "La Colla",
+   "lat": 44.35681,
+   "lon": 9.2826,
+   "ele_m": 525
+  },
+  {
+   "name": "Portella Rossa",
+   "lat": 37.63361,
+   "lon": 13.28043,
+   "ele_m": 524
+  },
+  {
+   "name": "Foce del Cucco",
+   "lat": 44.1466,
+   "lon": 10.02438,
+   "ele_m": 520
+  },
+  {
+   "name": "Vetta le Croci",
+   "lat": 43.86596,
+   "lon": 11.34183,
+   "ele_m": 518
+  },
+  {
+   "name": "Passo del Giovo",
+   "lat": 44.42908,
+   "lon": 8.47355,
+   "ele_m": 516
+  },
+  {
+   "name": "Colle del Telegrafo",
+   "lat": 44.09291,
+   "lon": 9.76686,
+   "ele_m": 516
+  },
+  {
+   "name": "Portella Cialandria",
+   "lat": 37.42878,
+   "lon": 14.11386,
+   "ele_m": 516
+  },
+  {
+   "name": "Passo della Vitalba",
+   "lat": 43.42089,
+   "lon": 10.60522,
+   "ele_m": 512
+  },
+  {
+   "name": "Passo Le Crocette",
+   "lat": 41.36867,
+   "lon": 13.49761,
+   "ele_m": 510
+  },
+  {
+   "name": "Bocchetta d'Ovasine",
+   "lat": 45.66743,
+   "lon": 8.29032,
+   "ele_m": 510
+  },
+  {
+   "name": "Passo della Rocca dei Corvi",
+   "lat": 44.5491,
+   "lon": 8.65389,
+   "ele_m": 510
+  },
+  {
+   "name": "Portella Rondine",
+   "lat": 38.1974,
+   "lon": 15.46838,
+   "ele_m": 510
+  },
+  {
+   "name": "Varco Biforca",
+   "lat": 43.91256,
+   "lon": 12.35638,
+   "ele_m": 509
+  },
+  {
+   "name": "Portella Fanzina",
+   "lat": 37.33726,
+   "lon": 13.81047,
+   "ele_m": 509
+  },
+  {
+   "name": "Valico San Giovanni delle Formiche",
+   "lat": 45.68364,
+   "lon": 9.90178,
+   "ele_m": 508
+  },
+  {
+   "name": "Passo dell'Incrociati",
+   "lat": 43.29416,
+   "lon": 11.18379,
+   "ele_m": 506
+  },
+  {
+   "name": "Varco della Foce",
+   "lat": 40.71191,
+   "lon": 14.74082,
+   "ele_m": 506
+  },
+  {
+   "name": "Portella del Gigliotto",
+   "lat": 37.28731,
+   "lon": 14.38141,
+   "ele_m": 505
+  },
+  {
+   "name": "Foce Pennecchio",
+   "lat": 43.75191,
+   "lon": 10.49262,
+   "ele_m": 504
+  },
+  {
+   "name": "Sella di Osigo",
+   "lat": 45.88015,
+   "lon": 9.29944,
+   "ele_m": 494
+  },
+  {
+   "name": "Portella della Croce",
+   "lat": 37.77285,
+   "lon": 13.49489,
+   "ele_m": 493
+  },
+  {
+   "name": "Passo Bidderdi",
+   "lat": 39.48654,
+   "lon": 8.51682,
+   "ele_m": 492
+  },
+  {
+   "name": "Sella di Fadalto",
+   "lat": 46.08092,
+   "lon": 12.33641,
+   "ele_m": 488
+  },
+  {
+   "name": "Portella di Pitta",
+   "lat": 37.28882,
+   "lon": 14.19382,
+   "ele_m": 485
+  },
+  {
+   "name": "Passo di Tremusa",
+   "lat": 38.23206,
+   "lon": 15.77639,
+   "ele_m": 484
+  },
+  {
+   "name": "Portella Bordonaro",
+   "lat": 37.9437,
+   "lon": 13.47109,
+   "ele_m": 482
+  },
+  {
+   "name": "Portella di Abita",
+   "lat": 37.79572,
+   "lon": 13.01903,
+   "ele_m": 479
+  },
+  {
+   "name": "Passo del Gallo",
+   "lat": 44.38232,
+   "lon": 9.18019,
+   "ele_m": 478
+  },
+  {
+   "name": "Passo delle Golazze Aperte",
+   "lat": 43.24072,
+   "lon": 10.66794,
+   "ele_m": 477
+  },
+  {
+   "name": "Passo dell'Anchetta",
+   "lat": 44.35104,
+   "lon": 9.28614,
+   "ele_m": 474
+  },
+  {
+   "name": "Passo dei Giovi",
+   "lat": 44.55215,
+   "lon": 8.93686,
+   "ele_m": 472
+  },
+  {
+   "name": "Forcje di Cumieli",
+   "lat": 46.30072,
+   "lon": 13.13567,
+   "ele_m": 472
+  },
+  {
+   "name": "Valico del Rospatoio",
+   "lat": 43.1783,
+   "lon": 11.33219,
+   "ele_m": 471
+  },
+  {
+   "name": "Passo della Crocetta di Orero",
+   "lat": 44.51984,
+   "lon": 8.98784,
+   "ele_m": 471
+  },
+  {
+   "name": "Portella di Genchi",
+   "lat": 37.93472,
+   "lon": 13.52046,
+   "ele_m": 471
+  },
+  {
+   "name": "Portella San Rizzo",
+   "lat": 38.21558,
+   "lon": 15.50595,
+   "ele_m": 465
+  },
+  {
+   "name": "Genna Sartania",
+   "lat": 39.51299,
+   "lon": 8.52877,
+   "ele_m": 465
+  },
+  {
+   "name": "Sella della Poffa",
+   "lat": 45.53427,
+   "lon": 10.2847,
+   "ele_m": 465
+  },
+  {
+   "name": "Passo della Colla",
+   "lat": 43.82353,
+   "lon": 7.53843,
+   "ele_m": 464
+  },
+  {
+   "name": "Genna Sciria",
+   "lat": 39.54294,
+   "lon": 8.60207,
+   "ele_m": 463
+  },
+  {
+   "name": "Passo del Colletto",
+   "lat": 44.19394,
+   "lon": 9.60246,
+   "ele_m": 459
+  },
+  {
+   "name": "Bocchetta di Altare",
+   "lat": 44.33429,
+   "lon": 8.34909,
+   "ele_m": 459
+  },
+  {
+   "name": "Portella di Cignana",
+   "lat": 37.23597,
+   "lon": 13.75953,
+   "ele_m": 459
+  },
+  {
+   "name": "Valico di Strambinello",
+   "lat": 45.42172,
+   "lon": 7.75686,
+   "ele_m": 457
+  },
+  {
+   "name": "Portella Cazzola",
+   "lat": 37.36755,
+   "lon": 13.80471,
+   "ele_m": 455
+  },
+  {
+   "name": "Portella di Baida",
+   "lat": 38.05201,
+   "lon": 12.79986,
+   "ele_m": 455
+  },
+  {
+   "name": "Passo La Stacca",
+   "lat": 45.62728,
+   "lon": 10.536,
+   "ele_m": 450
+  },
+  {
+   "name": "Valico di Montebello",
+   "lat": 43.22347,
+   "lon": 11.16542,
+   "ele_m": 450
+  },
+  {
+   "name": "Passo della Collina",
+   "lat": 43.94834,
+   "lon": 11.10132,
+   "ele_m": 448
+  },
+  {
+   "name": "Portella Castanea",
+   "lat": 38.23638,
+   "lon": 15.52532,
+   "ele_m": 448
+  },
+  {
+   "name": "Passo Giandino",
+   "lat": 44.45388,
+   "lon": 8.94358,
+   "ele_m": 445
+  },
+  {
+   "name": "Passo dei Ciardelli",
+   "lat": 41.01222,
+   "lon": 14.73456,
+   "ele_m": 445
+  },
+  {
+   "name": "Colle di Santa Libera",
+   "lat": 44.34358,
+   "lon": 8.34666,
+   "ele_m": 441
+  },
+  {
+   "name": "Passo di Zattaglia",
+   "lat": 44.22347,
+   "lon": 11.67061,
+   "ele_m": 438
+  },
+  {
+   "name": "Portella San Lorenzo",
+   "lat": 37.6218,
+   "lon": 14.73659,
+   "ele_m": 437
+  },
+  {
+   "name": "Portella San Lorenzo",
+   "lat": 37.63456,
+   "lon": 14.7073,
+   "ele_m": 437
+  },
+  {
+   "name": "Forcea dee Ponte",
+   "lat": 45.31997,
+   "lon": 11.69245,
+   "ele_m": 434
+  },
+  {
+   "name": "Passo Grillarine",
+   "lat": 43.94029,
+   "lon": 8.03444,
+   "ele_m": 434
+  },
+  {
+   "name": "Arcu 'e Tidu",
+   "lat": 39.30552,
+   "lon": 9.39089,
+   "ele_m": 434
+  },
+  {
+   "name": "Sella la Rezza",
+   "lat": 45.09996,
+   "lon": 7.84466,
+   "ele_m": 430
+  },
+  {
+   "name": "Passo Eclano (Passo di Mirabella)",
+   "lat": 41.05525,
+   "lon": 15.02255,
+   "ele_m": 430
+  },
+  {
+   "name": "Sella di Sant'Agnese",
+   "lat": 46.3031,
+   "lon": 13.14283,
+   "ele_m": 427
+  },
+  {
+   "name": "Croci di Calenzano",
+   "lat": 43.94545,
+   "lon": 11.21369,
+   "ele_m": 427
+  },
+  {
+   "name": "Portella dell'Alvano",
+   "lat": 37.43612,
+   "lon": 13.41295,
+   "ele_m": 425
+  },
+  {
+   "name": "La Portella",
+   "lat": 38.37691,
+   "lon": 14.98334,
+   "ele_m": 424
+  },
+  {
+   "name": "Montecani",
+   "lat": 39.34374,
+   "lon": 8.43913,
+   "ele_m": 420
+  },
+  {
+   "name": "Arcu Gutturu Frascu",
+   "lat": 39.21294,
+   "lon": 9.47802,
+   "ele_m": 420
+  },
+  {
+   "name": "Portella del Lupo",
+   "lat": 37.94608,
+   "lon": 13.7543,
+   "ele_m": 420
+  },
+  {
+   "name": "Passo Porta Materna",
+   "lat": 43.04441,
+   "lon": 12.16363,
+   "ele_m": 419
+  },
+  {
+   "name": "Bocchetta di Padaro",
+   "lat": 45.93477,
+   "lon": 10.87654,
+   "ele_m": 418
+  },
+  {
+   "name": "Portella Vitrana",
+   "lat": 37.79883,
+   "lon": 13.54172,
+   "ele_m": 418
+  },
+  {
+   "name": "Portella della Trovatura",
+   "lat": 38.38017,
+   "lon": 14.98791,
+   "ele_m": 417
+  },
+  {
+   "name": "Forcje dai Agnui",
+   "lat": 46.32488,
+   "lon": 13.19348,
+   "ele_m": 410
+  },
+  {
+   "name": "Colla dei Scioli",
+   "lat": 44.32415,
+   "lon": 9.44221,
+   "ele_m": 410
+  },
+  {
+   "name": "Sella di Banne / Banovski vrh",
+   "lat": 45.6736,
+   "lon": 13.79688,
+   "ele_m": 410
+  },
+  {
+   "name": "Passo Guerrini",
+   "lat": 43.91746,
+   "lon": 8.00301,
+   "ele_m": 409
+  },
+  {
+   "name": "Portella Massara",
+   "lat": 37.48011,
+   "lon": 14.55396,
+   "ele_m": 407
+  },
+  {
+   "name": "Valico della Valletta",
+   "lat": 44.21319,
+   "lon": 11.71301,
+   "ele_m": 406
+  },
+  {
+   "name": "Passaggio di Nord Ovest",
+   "lat": 45.83105,
+   "lon": 11.96648,
+   "ele_m": 405
+  },
+  {
+   "name": "Portella dell'Arigano",
+   "lat": 37.65381,
+   "lon": 13.1925,
+   "ele_m": 405
+  },
+  {
+   "name": "Sella berba",
+   "lat": 44.23738,
+   "lon": 8.37424,
+   "ele_m": 405
+  },
+  {
+   "name": "La Sellata",
+   "lat": 40.0633,
+   "lon": 15.35322,
+   "ele_m": 403
+  },
+  {
+   "name": "Sella della Gallina",
+   "lat": 45.65596,
+   "lon": 8.31418,
+   "ele_m": 400
+  },
+  {
+   "name": "Portella del Paniere",
+   "lat": 38.00887,
+   "lon": 12.79109,
+   "ele_m": 398
+  },
+  {
+   "name": "Passo Buca del Calcinaro",
+   "lat": 43.03636,
+   "lon": 12.1426,
+   "ele_m": 396
+  },
+  {
+   "name": "Portella dei Lupi",
+   "lat": 37.46679,
+   "lon": 13.81911,
+   "ele_m": 395
+  },
+  {
+   "name": "Cima Dante",
+   "lat": 44.04548,
+   "lon": 12.21338,
+   "ele_m": 394
+  },
+  {
+   "name": "Passo del Muraglione",
+   "lat": 44.39433,
+   "lon": 8.57368,
+   "ele_m": 394
+  },
+  {
+   "name": "Valico di Trensasco",
+   "lat": 44.46274,
+   "lon": 8.95217,
+   "ele_m": 392
+  },
+  {
+   "name": "Portella Tropiano",
+   "lat": 37.853,
+   "lon": 15.25938,
+   "ele_m": 392
+  },
+  {
+   "name": "Spartiacque",
+   "lat": 37.90777,
+   "lon": 12.80503,
+   "ele_m": 390
+  },
+  {
+   "name": "Genna e Frongia",
+   "lat": 39.53172,
+   "lon": 8.61167,
+   "ele_m": 384
+  },
+  {
+   "name": "Passo della Prè",
+   "lat": 44.26608,
+   "lon": 11.61957,
+   "ele_m": 384
+  },
+  {
+   "name": "Portella Grancifone",
+   "lat": 37.23817,
+   "lon": 13.74236,
+   "ele_m": 383
+  },
+  {
+   "name": "Kreiter Sattel - Sella di Novale al Varco",
+   "lat": 46.38436,
+   "lon": 11.28203,
+   "ele_m": 382
+  },
+  {
+   "name": "Sella dei Bagari",
+   "lat": 44.15469,
+   "lon": 9.62912,
+   "ele_m": 380
+  },
+  {
+   "name": "Portella Tagliata",
+   "lat": 37.24421,
+   "lon": 14.25573,
+   "ele_m": 379
+  },
+  {
+   "name": "Passo Campiano",
+   "lat": 45.76374,
+   "lon": 10.82344,
+   "ele_m": 375
+  },
+  {
+   "name": "Portella Arena",
+   "lat": 38.24248,
+   "lon": 15.55569,
+   "ele_m": 373
+  },
+  {
+   "name": "Forcella Mostaccin",
+   "lat": 45.82394,
+   "lon": 11.96083,
+   "ele_m": 372
+  },
+  {
+   "name": "Passo Valle",
+   "lat": 44.38357,
+   "lon": 8.58007,
+   "ele_m": 368
+  },
+  {
+   "name": "Passo Quadassoni",
+   "lat": 39.75838,
+   "lon": 9.58453,
+   "ele_m": 367
+  },
+  {
+   "name": "Portella Cardalà",
+   "lat": 37.26763,
+   "lon": 14.25913,
+   "ele_m": 364
+  },
+  {
+   "name": "Crociera di Pino",
+   "lat": 44.46826,
+   "lon": 8.95998,
+   "ele_m": 362
+  },
+  {
+   "name": "Sella della Croce",
+   "lat": 37.48043,
+   "lon": 13.41815,
+   "ele_m": 362
+  },
+  {
+   "name": "Buchet dal Buer",
+   "lat": 45.34573,
+   "lon": 7.85864,
+   "ele_m": 362
+  },
+  {
+   "name": "Arcu de is Tasonis",
+   "lat": 38.96958,
+   "lon": 8.89629,
+   "ele_m": 361
+  },
+  {
+   "name": "Passo di Santa Croce",
+   "lat": 45.34956,
+   "lon": 7.84091,
+   "ele_m": 359
+  },
+  {
+   "name": "Bocca dei Cavallin",
+   "lat": 44.06992,
+   "lon": 9.80473,
+   "ele_m": 358
+  },
+  {
+   "name": "Passo Plebi",
+   "lat": 40.97674,
+   "lon": 9.46317,
+   "ele_m": 358
+  },
+  {
+   "name": "Portella Schioppettate",
+   "lat": 37.46782,
+   "lon": 14.17285,
+   "ele_m": 354
+  },
+  {
+   "name": "Sella Spirito Santo",
+   "lat": 41.05334,
+   "lon": 14.43895,
+   "ele_m": 352
+  },
+  {
+   "name": "Valico di Monte Spaccato / Drašca",
+   "lat": 45.65297,
+   "lon": 13.82535,
+   "ele_m": 352
+  },
+  {
+   "name": "Bocca d'Arbaro",
+   "lat": 45.38327,
+   "lon": 8.00855,
+   "ele_m": 350
+  },
+  {
+   "name": "Trevo",
+   "lat": 44.24504,
+   "lon": 8.41319,
+   "ele_m": 350
+  },
+  {
+   "name": "Passo Fiorine",
+   "lat": 45.35766,
+   "lon": 11.66504,
+   "ele_m": 347
+  },
+  {
+   "name": "Portella Santa Maria",
+   "lat": 37.96014,
+   "lon": 14.1708,
+   "ele_m": 347
+  },
+  {
+   "name": "Passo di Portella Bianca",
+   "lat": 37.24326,
+   "lon": 14.38195,
+   "ele_m": 346
+  },
+  {
+   "name": "Passo delle Crosette",
+   "lat": 45.57275,
+   "lon": 10.18948,
+   "ele_m": 345
+  },
+  {
+   "name": "Portella Rita",
+   "lat": 37.46584,
+   "lon": 14.48126,
+   "ele_m": 344
+  },
+  {
+   "name": "Sella di Monte Cancelle",
+   "lat": 43.03157,
+   "lon": 9.81092,
+   "ele_m": 336
+  },
+  {
+   "name": "Portella San Damiano",
+   "lat": 37.85837,
+   "lon": 15.23659,
+   "ele_m": 335
+  },
+  {
+   "name": "Portella Mazzadiana",
+   "lat": 37.83544,
+   "lon": 13.26397,
+   "ele_m": 334
+  },
+  {
+   "name": "Portella Catania",
+   "lat": 37.56157,
+   "lon": 14.42361,
+   "ele_m": 333
+  },
+  {
+   "name": "Portella Moneta",
+   "lat": 37.51571,
+   "lon": 14.5531,
+   "ele_m": 332
+  },
+  {
+   "name": "Colla Di Gritta",
+   "lat": 44.1632,
+   "lon": 9.64959,
+   "ele_m": 330
+  },
+  {
+   "name": "Le Panche",
+   "lat": 42.80861,
+   "lon": 10.39358,
+   "ele_m": 325
+  },
+  {
+   "name": "Passo Scuppelino",
+   "lat": 43.90377,
+   "lon": 8.00845,
+   "ele_m": 321
+  },
+  {
+   "name": "Portella Creta",
+   "lat": 37.40864,
+   "lon": 13.456,
+   "ele_m": 319
+  },
+  {
+   "name": "Spartiacque",
+   "lat": 38.05702,
+   "lon": 13.42886,
+   "ele_m": 318
+  },
+  {
+   "name": "Passo Littu",
+   "lat": 40.29986,
+   "lon": 9.63283,
+   "ele_m": 317
+  },
+  {
+   "name": "Sella di Interneppo",
+   "lat": 46.31875,
+   "lon": 13.08867,
+   "ele_m": 314
+  },
+  {
+   "name": "Portella Safi",
+   "lat": 38.15353,
+   "lon": 15.40634,
+   "ele_m": 314
+  },
+  {
+   "name": "Passo della Forcella",
+   "lat": 45.59797,
+   "lon": 10.17725,
+   "ele_m": 310
+  },
+  {
+   "name": "Portella del Corvo",
+   "lat": 37.30884,
+   "lon": 13.75213,
+   "ele_m": 308
+  },
+  {
+   "name": "Portella di Montenero (304m)",
+   "lat": 37.96661,
+   "lon": 14.10515,
+   "ele_m": 304
+  },
+  {
+   "name": "Aia di Cacio",
+   "lat": 42.82564,
+   "lon": 10.40172,
+   "ele_m": 302
+  },
+  {
+   "name": "Genna Craboni",
+   "lat": 39.52537,
+   "lon": 8.51302,
+   "ele_m": 298
+  },
+  {
+   "name": "Nuraxemesu",
+   "lat": 38.94526,
+   "lon": 8.80995,
+   "ele_m": 297
+  },
+  {
+   "name": "Portella Cuscheri",
+   "lat": 37.42694,
+   "lon": 13.39902,
+   "ele_m": 297
+  },
+  {
+   "name": "Portella dell'Accia",
+   "lat": 38.02116,
+   "lon": 13.48943,
+   "ele_m": 294
+  },
+  {
+   "name": "Sapel da Mur",
+   "lat": 45.39258,
+   "lon": 8.06055,
+   "ele_m": 294
+  },
+  {
+   "name": "Sella di Arpaia",
+   "lat": 41.03508,
+   "lon": 14.53988,
+   "ele_m": 286
+  },
+  {
+   "name": "Forcje di Ca",
+   "lat": 46.29644,
+   "lon": 13.12924,
+   "ele_m": 281
+  },
+  {
+   "name": "Portella Puledro",
+   "lat": 37.41979,
+   "lon": 13.3862,
+   "ele_m": 281
+  },
+  {
+   "name": "Forma di Monte Marino",
+   "lat": 42.04721,
+   "lon": 12.08236,
+   "ele_m": 276
+  },
+  {
+   "name": "Sella di Longera",
+   "lat": 45.63312,
+   "lon": 13.84052,
+   "ele_m": 275
+  },
+  {
+   "name": "Passo San Giovanni",
+   "lat": 45.87384,
+   "lon": 10.90662,
+   "ele_m": 272
+  },
+  {
+   "name": "Genna Cresia",
+   "lat": 39.78261,
+   "lon": 9.55295,
+   "ele_m": 270
+  },
+  {
+   "name": "Portella dei Lupi",
+   "lat": 37.23813,
+   "lon": 13.98736,
+   "ele_m": 262
+  },
+  {
+   "name": "Genna Murtas",
+   "lat": 39.29957,
+   "lon": 8.4678,
+   "ele_m": 253
+  },
+  {
+   "name": "Colle dei Bardellini",
+   "lat": 43.8972,
+   "lon": 8.01646,
+   "ele_m": 237
+  },
+  {
+   "name": "Genna Didu",
+   "lat": 39.71081,
+   "lon": 9.65207,
+   "ele_m": 232
+  },
+  {
+   "name": "Passo del Lupo",
+   "lat": 43.5424,
+   "lon": 13.62611,
+   "ele_m": 220
+  },
+  {
+   "name": "Passo di Dante",
+   "lat": 43.77062,
+   "lon": 10.45074,
+   "ele_m": 215
+  },
+  {
+   "name": "Colle San Leonardo",
+   "lat": 43.89988,
+   "lon": 8.05779,
+   "ele_m": 199
+  },
+  {
+   "name": "Sella dei Derbi",
+   "lat": 44.06144,
+   "lon": 9.81859,
+   "ele_m": 190
+  },
+  {
+   "name": "S'arcu Abruxiau",
+   "lat": 39.00011,
+   "lon": 8.93106,
+   "ele_m": 183
+  },
+  {
+   "name": "Passo della Calchera",
+   "lat": 45.8613,
+   "lon": 12.03734,
+   "ele_m": 156
+  },
+  {
+   "name": "Piccola Vedetta Lombarda",
+   "lat": 45.37849,
+   "lon": 10.54171,
+   "ele_m": 148
+  },
+  {
+   "name": "Sella di Carpeneggio",
+   "lat": 44.18704,
+   "lon": 9.57395,
+   "ele_m": 132
+  },
+  {
+   "name": "S'Arcu sa Canna",
+   "lat": 38.97423,
+   "lon": 8.42055,
+   "ele_m": 110
+  },
+  {
+   "name": "Foce di Casalina",
+   "lat": 43.82304,
+   "lon": 10.37522,
+   "ele_m": 109
+  },
+  {
+   "name": "Arcus de Cannai",
+   "lat": 39.01281,
+   "lon": 8.43551,
+   "ele_m": 106
+  },
+  {
+   "name": "Valico Monte Masoni",
+   "lat": 39.50536,
+   "lon": 9.42289,
+   "ele_m": 87
+  },
+  {
+   "name": "Passo della Madonna",
+   "lat": 38.71393,
+   "lon": 13.16873,
+   "ele_m": 70
+  },
+  {
+   "name": "Portella Papera",
+   "lat": 37.3388,
+   "lon": 14.93204,
+   "ele_m": 44
+  },
+  {
+   "name": "Sella Nord Est del Monte Varagna",
+   "lat": 45.82612,
+   "lon": 10.89763
+  },
+  {
+   "name": "Passo della Rutta",
+   "lat": 38.77804,
+   "lon": 16.36907
+  },
+  {
+   "name": "Passo di Catanzaro",
+   "lat": 38.79564,
+   "lon": 16.3733
+  },
+  {
+   "name": "Passo Siepi",
+   "lat": 43.94771,
+   "lon": 12.3188
+  },
+  {
+   "name": "Giogo di Paravanico",
+   "lat": 44.52893,
+   "lon": 8.8345
+  },
+  {
+   "name": "Passo La Crocetta",
+   "lat": 44.39357,
+   "lon": 9.06351
+  },
+  {
+   "name": "Passo della Colomba",
+   "lat": 43.91397,
+   "lon": 7.56052
+  },
+  {
+   "name": "Sella del Misone",
+   "lat": 45.96454,
+   "lon": 10.83106
+  },
+  {
+   "name": "Passo della Biscia",
+   "lat": 44.3904,
+   "lon": 8.42213
+  },
+  {
+   "name": "Passo della Portela",
+   "lat": 45.79349,
+   "lon": 11.0705
+  },
+  {
+   "name": "Bassa della Scoggia",
+   "lat": 44.24723,
+   "lon": 8.26203
+  },
+  {
+   "name": "Colle Baltera",
+   "lat": 44.27103,
+   "lon": 8.21139
+  },
+  {
+   "name": "Passo Pelagatta",
+   "lat": 45.7111,
+   "lon": 11.14109
+  },
+  {
+   "name": "Ochsenscharte",
+   "lat": 46.91731,
+   "lon": 11.36756
+  },
+  {
+   "name": "Sella del Monte Carso",
+   "lat": 45.61108,
+   "lon": 13.87552
+  },
+  {
+   "name": "Sella Blasic",
+   "lat": 46.38299,
+   "lon": 13.41174
+  },
+  {
+   "name": "Colle Santa Margherita",
+   "lat": 44.45978,
+   "lon": 7.2409
+  },
+  {
+   "name": "Forcella Fontanafredda",
+   "lat": 46.58242,
+   "lon": 13.04389
+  },
+  {
+   "name": "Molignonpass - Passo Molignon",
+   "lat": 46.4892,
+   "lon": 11.63973
+  },
+  {
+   "name": "Colla di Magnone",
+   "lat": 44.21942,
+   "lon": 8.37311
+  },
+  {
+   "name": "Passo Saiardo",
+   "lat": 44.44824,
+   "lon": 8.67119
+  },
+  {
+   "name": "La Sellaccia",
+   "lat": 44.70792,
+   "lon": 7.10136
+  },
+  {
+   "name": "Genna Petta",
+   "lat": 40.17255,
+   "lon": 9.52698
+  },
+  {
+   "name": "La crocetta",
+   "lat": 44.48137,
+   "lon": 6.93823
+  },
+  {
+   "name": "Passo Colombo",
+   "lat": 45.69417,
+   "lon": 11.28726
+  },
+  {
+   "name": "Forcella Dolada",
+   "lat": 46.19688,
+   "lon": 12.35221
+  },
+  {
+   "name": "Forcella Nuvolau",
+   "lat": 46.49972,
+   "lon": 12.04046
+  },
+  {
+   "name": "Colle San Giovanni",
+   "lat": 44.46625,
+   "lon": 7.08245
+  },
+  {
+   "name": "Bocchetta Alta dei Massodi",
+   "lat": 46.17528,
+   "lon": 10.90244
+  },
+  {
+   "name": "Passo Cerbiolo",
+   "lat": 45.71646,
+   "lon": 10.88532
+  },
+  {
+   "name": "Bocca d'Enzima",
+   "lat": 45.87544,
+   "lon": 10.82687
+  },
+  {
+   "name": "Passo Sessenelle",
+   "lat": 44.58869,
+   "lon": 9.10719
+  },
+  {
+   "name": "Karlesjoch",
+   "lat": 46.77273,
+   "lon": 10.96711
+  },
+  {
+   "name": "Pfaßerscharte",
+   "lat": 46.77419,
+   "lon": 10.93987
+  },
+  {
+   "name": "Planeillscharte - Passo del Planol",
+   "lat": 46.8008,
+   "lon": 10.67339
+  },
+  {
+   "name": "Höllerscharte",
+   "lat": 46.77794,
+   "lon": 10.72349
+  },
+  {
+   "name": "Passo Gua",
+   "lat": 44.41608,
+   "lon": 8.66045
+  },
+  {
+   "name": "Colletto Alto di Fieno",
+   "lat": 45.7732,
+   "lon": 11.17943
+  },
+  {
+   "name": "Bochet de Zori",
+   "lat": 45.90983,
+   "lon": 10.71496
+  },
+  {
+   "name": "Passo di Val Marza",
+   "lat": 45.87896,
+   "lon": 10.49203
+  },
+  {
+   "name": "Bocca del Xetele",
+   "lat": 45.77683,
+   "lon": 11.23293
+  },
+  {
+   "name": "Passo Scandellari",
+   "lat": 44.40304,
+   "lon": 10.16389
+  },
+  {
+   "name": "Selletta Generale Von Mecenseffy",
+   "lat": 45.97869,
+   "lon": 11.47502
+  },
+  {
+   "name": "Passo del Pisello",
+   "lat": 46.1034,
+   "lon": 9.65116
+  },
+  {
+   "name": "Bocchetta di Valbruna",
+   "lat": 46.55643,
+   "lon": 10.20742
+  },
+  {
+   "name": "Passo di Crapinellin",
+   "lat": 46.49402,
+   "lon": 10.43467
+  },
+  {
+   "name": "Valico Cima Forca",
+   "lat": 42.66887,
+   "lon": 12.58109
+  },
+  {
+   "name": "Passo della Catena",
+   "lat": 43.85711,
+   "lon": 11.34703
+  },
+  {
+   "name": "Foce ai Cerri",
+   "lat": 43.93518,
+   "lon": 11.16063
+  },
+  {
+   "name": "Passo delle Cavallaie",
+   "lat": 43.98179,
+   "lon": 11.07238
+  },
+  {
+   "name": "Il Partigiano",
+   "lat": 44.09149,
+   "lon": 11.0171
+  },
+  {
+   "name": "Passo della Scisa",
+   "lat": 44.52052,
+   "lon": 8.73603
+  },
+  {
+   "name": "Colla la Tagliata",
+   "lat": 44.26964,
+   "lon": 8.31853
+  },
+  {
+   "name": "Colle di Bisantola",
+   "lat": 43.75804,
+   "lon": 10.53481
+  },
+  {
+   "name": "Foce del Fosco",
+   "lat": 44.41612,
+   "lon": 9.99685
+  },
+  {
+   "name": "Passo del Lupo",
+   "lat": 44.21479,
+   "lon": 10.71893
+  },
+  {
+   "name": "Passo Coppi",
+   "lat": 44.80528,
+   "lon": 8.9211
+  },
+  {
+   "name": "Große Scharte - Forcella Grande",
+   "lat": 46.48756,
+   "lon": 11.2071
+  },
+  {
+   "name": "Passo Perdoni",
+   "lat": 44.33336,
+   "lon": 8.43312
+  },
+  {
+   "name": "Valico Monte Busca",
+   "lat": 44.05754,
+   "lon": 11.77029
+  },
+  {
+   "name": "Passo della Crocetta",
+   "lat": 44.4004,
+   "lon": 9.90819
+  },
+  {
+   "name": "Passo della Crocetta",
+   "lat": 44.17201,
+   "lon": 11.45072
+  },
+  {
+   "name": "La Collina",
+   "lat": 43.99013,
+   "lon": 11.0918
+  },
+  {
+   "name": "Colle del Prà",
+   "lat": 44.2641,
+   "lon": 8.17286
+  },
+  {
+   "name": "Passo di Pietena",
+   "lat": 46.107,
+   "lon": 11.84355
+  },
+  {
+   "name": "Forcella di Fraile",
+   "lat": 41.32091,
+   "lon": 13.61599
+  },
+  {
+   "name": "Passo Arietta",
+   "lat": 43.98202,
+   "lon": 7.84937
+  },
+  {
+   "name": "Passo dei Sogli",
+   "lat": 43.9774,
+   "lon": 7.85176
+  },
+  {
+   "name": "Colle del Lubè",
+   "lat": 44.95131,
+   "lon": 7.27314
+  },
+  {
+   "name": "Colle Infernetto",
+   "lat": 44.93978,
+   "lon": 7.30189
+  },
+  {
+   "name": "Forca di Arrone",
+   "lat": 42.56166,
+   "lon": 12.77635
+  },
+  {
+   "name": "Passo di San Giacomo",
+   "lat": 46.11773,
+   "lon": 11.00282
+  },
+  {
+   "name": "Passo della Mauria",
+   "lat": 46.45442,
+   "lon": 12.51334
+  },
+  {
+   "name": "Passo Salmaceto",
+   "lat": 44.45497,
+   "lon": 8.45919
+  },
+  {
+   "name": "Passo di Pietrebianche",
+   "lat": 44.42203,
+   "lon": 9.55532
+  },
+  {
+   "name": "Passo del Sericiotto",
+   "lat": 44.41965,
+   "lon": 9.52913
+  },
+  {
+   "name": "Selletta Monte Buso",
+   "lat": 45.82202,
+   "lon": 11.17094
+  },
+  {
+   "name": "Passo Cagnon di sopra",
+   "lat": 46.15129,
+   "lon": 11.37858
+  },
+  {
+   "name": "Passo del Carpi",
+   "lat": 44.34234,
+   "lon": 8.38266
+  },
+  {
+   "name": "Passo del Pian di Grano",
+   "lat": 44.33754,
+   "lon": 8.47851
+  },
+  {
+   "name": "Bocca de Tortavai",
+   "lat": 45.94137,
+   "lon": 10.70279
+  },
+  {
+   "name": "Passo della Fota",
+   "lat": 41.59924,
+   "lon": 13.04956
+  },
+  {
+   "name": "Rovereda",
+   "lat": 44.23942,
+   "lon": 9.75256
+  },
+  {
+   "name": "Sella Stronzi",
+   "lat": 44.26162,
+   "lon": 9.57309
+  },
+  {
+   "name": "Portella Santa Caterina",
+   "lat": 37.87833,
+   "lon": 13.57188
+  },
+  {
+   "name": "Colle di Luca",
+   "lat": 44.62769,
+   "lon": 7.14758
+  },
+  {
+   "name": "Passo di Vasia",
+   "lat": 43.92999,
+   "lon": 7.97151
+  },
+  {
+   "name": "Forcella di Val Inferna",
+   "lat": 46.38597,
+   "lon": 12.22904
+  },
+  {
+   "name": "Forcella Deona",
+   "lat": 46.38438,
+   "lon": 12.2454
+  },
+  {
+   "name": "La Focetta",
+   "lat": 43.97554,
+   "lon": 10.26975
+  },
+  {
+   "name": "Località Cima",
+   "lat": 45.66005,
+   "lon": 11.33009
+  },
+  {
+   "name": "Kellerscharte",
+   "lat": 46.94113,
+   "lon": 11.65834
+  },
+  {
+   "name": "Passo Broccheie",
+   "lat": 44.3412,
+   "lon": 9.50472
+  },
+  {
+   "name": "Passo la Croce Orientale",
+   "lat": 44.40795,
+   "lon": 6.96995
+  },
+  {
+   "name": "Passo di Lausa",
+   "lat": 46.47114,
+   "lon": 11.65635
+  },
+  {
+   "name": "Colle Frascà",
+   "lat": 45.01385,
+   "lon": 7.40522
+  },
+  {
+   "name": "Colle del Teit",
+   "lat": 45.00915,
+   "lon": 7.38941
+  },
+  {
+   "name": "Passo Cavallara",
+   "lat": 44.07676,
+   "lon": 11.67328
+  },
+  {
+   "name": "Bocca Levrer",
+   "lat": 45.83392,
+   "lon": 10.64485
+  },
+  {
+   "name": "Passo di Rango",
+   "lat": 45.88311,
+   "lon": 10.62547
+  },
+  {
+   "name": "Sella cima Visì - Borei",
+   "lat": 45.87819,
+   "lon": 10.62921
+  },
+  {
+   "name": "Passo Croce Ferrata",
+   "lat": 38.4436,
+   "lon": 16.27237
+  },
+  {
+   "name": "Bocca Magnone",
+   "lat": 45.93066,
+   "lon": 10.78189
+  },
+  {
+   "name": "Colla la Costa",
+   "lat": 44.29428,
+   "lon": 8.27763
+  },
+  {
+   "name": "Colla del Pino",
+   "lat": 44.26684,
+   "lon": 8.27774
+  },
+  {
+   "name": "Madonna della Cima",
+   "lat": 43.37856,
+   "lon": 12.6041
+  },
+  {
+   "name": "Colla Bruna",
+   "lat": 44.28686,
+   "lon": 8.31161
+  },
+  {
+   "name": "Colletta",
+   "lat": 44.29647,
+   "lon": 8.31555
+  },
+  {
+   "name": "Passo La Costea",
+   "lat": 44.38315,
+   "lon": 8.58885
+  },
+  {
+   "name": "Passo Gigiotti",
+   "lat": 44.34915,
+   "lon": 9.65523
+  },
+  {
+   "name": "Bochet Casedri",
+   "lat": 45.88266,
+   "lon": 10.65793
+  },
+  {
+   "name": "Bocca val di Bregn",
+   "lat": 45.88326,
+   "lon": 10.6463
+  },
+  {
+   "name": "Sella del Termo",
+   "lat": 44.13029,
+   "lon": 9.74815
+  },
+  {
+   "name": "Forca di Cese",
+   "lat": 42.66905,
+   "lon": 12.78455
+  },
+  {
+   "name": "Collet",
+   "lat": 44.58523,
+   "lon": 7.28606
+  },
+  {
+   "name": "Gamsstallscharte - Forcella dei Camosci",
+   "lat": 46.36728,
+   "lon": 11.55886
+  },
+  {
+   "name": "Boca di Senter",
+   "lat": 45.66738,
+   "lon": 9.86886
+  },
+  {
+   "name": "Col dei Gai de Cornia",
+   "lat": 46.29779,
+   "lon": 12.19385
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.7049,
+   "lon": 7.70392
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.69543,
+   "lon": 7.77718
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.66313,
+   "lon": 7.79266
+  },
+  {
+   "name": "Pertuso",
+   "lat": 41.8485,
+   "lon": 13.39731
+  },
+  {
+   "name": "Sella Roisettaz",
+   "lat": 45.88597,
+   "lon": 7.68128
+  },
+  {
+   "name": "Forcella di Volaca",
+   "lat": 41.32802,
+   "lon": 13.56606
+  },
+  {
+   "name": "Il Passetto",
+   "lat": 44.42886,
+   "lon": 7.22355
+  },
+  {
+   "name": "Bocchetta di Penscei",
+   "lat": 45.90894,
+   "lon": 9.50922
+  },
+  {
+   "name": "Passo le Crocelle",
+   "lat": 41.78571,
+   "lon": 14.06621
+  },
+  {
+   "name": "Valico della Corte",
+   "lat": 41.83182,
+   "lon": 13.86721
+  },
+  {
+   "name": "Colle delle Bule",
+   "lat": 44.85267,
+   "lon": 7.24322
+  },
+  {
+   "name": "Passo Pra di Bals",
+   "lat": 44.40485,
+   "lon": 6.93696
+  },
+  {
+   "name": "Forcella Suncòstes",
+   "lat": 46.39128,
+   "lon": 12.28251
+  },
+  {
+   "name": "Colle della Liretta",
+   "lat": 44.50126,
+   "lon": 7.3796
+  },
+  {
+   "name": "Passo Laghetto",
+   "lat": 45.67146,
+   "lon": 11.154
+  },
+  {
+   "name": "colletto di Brondello",
+   "lat": 44.59772,
+   "lon": 7.38339
+  },
+  {
+   "name": "colletto alto di Brondello",
+   "lat": 44.60403,
+   "lon": 7.38336
+  },
+  {
+   "name": "Passaggio dei Ghiacciai del Gelas",
+   "lat": 44.12913,
+   "lon": 7.38855
+  },
+  {
+   "name": "Colletto della Rocchetta",
+   "lat": 44.68252,
+   "lon": 7.31158
+  },
+  {
+   "name": "sea",
+   "lat": 44.68925,
+   "lon": 7.30037
+  },
+  {
+   "name": "Forcella Pian della Biscia",
+   "lat": 46.64331,
+   "lon": 12.41682
+  },
+  {
+   "name": "Passo della Valicatoia",
+   "lat": 43.99395,
+   "lon": 11.04625
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.60505,
+   "lon": 7.12318
+  },
+  {
+   "name": "Forcella Stiliza",
+   "lat": 46.33501,
+   "lon": 13.25358
+  },
+  {
+   "name": "Bocchetta del Tavola",
+   "lat": 44.42212,
+   "lon": 10.00278
+  },
+  {
+   "name": "Passo del Tombolin",
+   "lat": 46.12184,
+   "lon": 11.56896
+  },
+  {
+   "name": "Portellino di Val Porsig / Porcile",
+   "lat": 46.00771,
+   "lon": 11.49099
+  },
+  {
+   "name": "Colle Sud delle Cadreghe di Viso",
+   "lat": 44.67349,
+   "lon": 7.08827
+  },
+  {
+   "name": "Corda",
+   "lat": 45.85673,
+   "lon": 10.62033
+  },
+  {
+   "name": "Passo del Bandito",
+   "lat": 43.82579,
+   "lon": 7.71037
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.57392,
+   "lon": 7.35939
+  },
+  {
+   "name": "Col du Gran Plan",
+   "lat": 45.68002,
+   "lon": 7.33587
+  },
+  {
+   "name": "Bochet dei Albi",
+   "lat": 45.84804,
+   "lon": 10.70438
+  },
+  {
+   "name": "Portella Giumenta",
+   "lat": 37.76736,
+   "lon": 15.01519
+  },
+  {
+   "name": "Passo del Piano",
+   "lat": 38.3908,
+   "lon": 14.96665
+  },
+  {
+   "name": "Passo dello Zanchetto",
+   "lat": 44.14387,
+   "lon": 11.10174
+  },
+  {
+   "name": "Pas del Soc",
+   "lat": 45.93334,
+   "lon": 10.04635
+  },
+  {
+   "name": "Colle Teje",
+   "lat": 44.46998,
+   "lon": 7.25753
+  },
+  {
+   "name": "Colle di Poca",
+   "lat": 44.47393,
+   "lon": 7.24318
+  },
+  {
+   "name": "Passo Roverello",
+   "lat": 45.30643,
+   "lon": 11.69831
+  },
+  {
+   "name": "Valico Roccolo",
+   "lat": 45.31838,
+   "lon": 11.70198
+  },
+  {
+   "name": "Col d'Ars",
+   "lat": 45.79037,
+   "lon": 7.20334
+  },
+  {
+   "name": "Sella degli Aquiloni",
+   "lat": 45.60938,
+   "lon": 13.86924
+  },
+  {
+   "name": "Passo Prato di Foppiano",
+   "lat": 44.568,
+   "lon": 9.36874
+  },
+  {
+   "name": "Vado del Pozzotello",
+   "lat": 41.82766,
+   "lon": 13.37167
+  },
+  {
+   "name": "Colla dei Cianetti",
+   "lat": 44.47471,
+   "lon": 8.63319
+  },
+  {
+   "name": "Forcella Valzanchetta",
+   "lat": 46.25484,
+   "lon": 11.7467
+  },
+  {
+   "name": "Passo Nabries",
+   "lat": 46.186,
+   "lon": 13.59964
+  },
+  {
+   "name": "Passo Tappe",
+   "lat": 44.51763,
+   "lon": 8.26253
+  },
+  {
+   "name": "Colle della Tressa",
+   "lat": 44.44999,
+   "lon": 7.25265
+  },
+  {
+   "name": "Forcella Caldenave",
+   "lat": 46.12312,
+   "lon": 11.54057
+  },
+  {
+   "name": "Forca Rossa",
+   "lat": 46.40171,
+   "lon": 11.86025
+  },
+  {
+   "name": "Colle di Donetta",
+   "lat": 44.53309,
+   "lon": 9.14704
+  },
+  {
+   "name": "Passo del Lupo",
+   "lat": 44.17581,
+   "lon": 8.14178
+  },
+  {
+   "name": "Bocchetta Bassa del Massodi",
+   "lat": 46.1742,
+   "lon": 10.89978
+  },
+  {
+   "name": "Bocchetta di Molveno",
+   "lat": 46.17074,
+   "lon": 10.90039
+  },
+  {
+   "name": "Valico di Fondillo",
+   "lat": 41.73546,
+   "lon": 13.86724
+  },
+  {
+   "name": "Colle del Monte di Lor",
+   "lat": 45.62681,
+   "lon": 7.12326
+  },
+  {
+   "name": "2478",
+   "lat": 45.89094,
+   "lon": 7.57533
+  },
+  {
+   "name": "Colletta Bernarda",
+   "lat": 44.3098,
+   "lon": 7.05562
+  },
+  {
+   "name": "Valico Inguagnera",
+   "lat": 41.73675,
+   "lon": 13.85149
+  },
+  {
+   "name": "Pietre rosse",
+   "lat": 41.73761,
+   "lon": 13.8407
+  },
+  {
+   "name": "Passo Carla",
+   "lat": 44.22818,
+   "lon": 11.83235
+  },
+  {
+   "name": "Passo Bisinella (Passo delle Rocche)",
+   "lat": 44.48402,
+   "lon": 9.37286
+  },
+  {
+   "name": "Colle di Passeraia",
+   "lat": 45.91884,
+   "lon": 10.02458
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.53002,
+   "lon": 7.1515
+  },
+  {
+   "name": "Portella Corsa dei Ladri",
+   "lat": 37.99956,
+   "lon": 13.5396
+  },
+  {
+   "name": "Forcella Armasio",
+   "lat": 46.19036,
+   "lon": 12.53652
+  },
+  {
+   "name": "Passo del Landro",
+   "lat": 46.46817,
+   "lon": 12.54144
+  },
+  {
+   "name": "Passo San Giorgio",
+   "lat": 44.37749,
+   "lon": 8.4137
+  },
+  {
+   "name": "Pietra Voiara",
+   "lat": 44.38721,
+   "lon": 8.45294
+  },
+  {
+   "name": "Colle di Rodoretto",
+   "lat": 44.88634,
+   "lon": 6.9997
+  },
+  {
+   "name": "Colle Salè",
+   "lat": 44.36666,
+   "lon": 7.11792
+  },
+  {
+   "name": "Colle Agnelliera",
+   "lat": 44.53427,
+   "lon": 7.18791
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.53292,
+   "lon": 7.47595
+  },
+  {
+   "name": "Forcella Sprit",
+   "lat": 46.2478,
+   "lon": 11.92593
+  },
+  {
+   "name": "Punta delle Castagne",
+   "lat": 40.65254,
+   "lon": 14.59665
+  },
+  {
+   "name": "Forcella Pagnac di dentro",
+   "lat": 46.32561,
+   "lon": 12.3701
+  },
+  {
+   "name": "Sella Alzabecchi",
+   "lat": 44.15421,
+   "lon": 8.15719
+  },
+  {
+   "name": "Bocchetta del Cortese",
+   "lat": 45.8981,
+   "lon": 8.11516
+  },
+  {
+   "name": "Passo di Merlo",
+   "lat": 43.89275,
+   "lon": 7.80083
+  },
+  {
+   "name": "Hörtlahner Scharte",
+   "lat": 46.77665,
+   "lon": 11.48731
+  },
+  {
+   "name": "Portella Calvagna",
+   "lat": 37.99075,
+   "lon": 15.047
+  },
+  {
+   "name": "Sella Alpe",
+   "lat": 44.12795,
+   "lon": 8.08069
+  },
+  {
+   "name": "Colla d'Onzo",
+   "lat": 44.09539,
+   "lon": 8.04462
+  },
+  {
+   "name": "Bocchetta di Calla",
+   "lat": 46.18073,
+   "lon": 13.43486
+  },
+  {
+   "name": "Passo Salaroli",
+   "lat": 45.67262,
+   "lon": 8.27005
+  },
+  {
+   "name": "Forcella di Campello",
+   "lat": 41.3327,
+   "lon": 13.5979
+  },
+  {
+   "name": "Bocca Frontale",
+   "lat": 45.96365,
+   "lon": 10.52358
+  },
+  {
+   "name": "Lotterscharte",
+   "lat": 46.9263,
+   "lon": 11.3759
+  },
+  {
+   "name": "Goletto",
+   "lat": 45.55968,
+   "lon": 10.2946
+  },
+  {
+   "name": "Forcella Roccati",
+   "lat": 44.12521,
+   "lon": 7.37476
+  },
+  {
+   "name": "Passo Madonna degli Alpini",
+   "lat": 45.9153,
+   "lon": 8.808
+  },
+  {
+   "name": "Colle Traversiera",
+   "lat": 44.54148,
+   "lon": 6.93894
+  },
+  {
+   "name": "Colle Pigna",
+   "lat": 44.26993,
+   "lon": 7.71224
+  },
+  {
+   "name": "Forcella Bassa del Col Nudo",
+   "lat": 46.228,
+   "lon": 12.39821
+  },
+  {
+   "name": "Porta dell'Agla",
+   "lat": 45.92598,
+   "lon": 10.03254
+  },
+  {
+   "name": "Forcella dei Negher",
+   "lat": 46.39874,
+   "lon": 11.90045
+  },
+  {
+   "name": "Passo dell'Incisa",
+   "lat": 44.03093,
+   "lon": 10.88878
+  },
+  {
+   "name": "Sella Madonna del Bosco",
+   "lat": 45.70734,
+   "lon": 9.62603
+  },
+  {
+   "name": "Vado di Porca",
+   "lat": 41.78638,
+   "lon": 13.39978
+  },
+  {
+   "name": "Foce di Lizzano",
+   "lat": 44.04994,
+   "lon": 9.96238
+  },
+  {
+   "name": "Passo Pietra Cavallina",
+   "lat": 44.46059,
+   "lon": 9.21001
+  },
+  {
+   "name": "Bocca del Lupo",
+   "lat": 44.72412,
+   "lon": 8.8986
+  },
+  {
+   "name": "Goletto Valle Larga",
+   "lat": 45.68518,
+   "lon": 10.20841
+  },
+  {
+   "name": "Varco Diecimare",
+   "lat": 40.73671,
+   "lon": 14.73228
+  },
+  {
+   "name": "Arcu Genna Arrela",
+   "lat": 39.47537,
+   "lon": 9.60552
+  },
+  {
+   "name": "Colletto del Pizzo Nero",
+   "lat": 45.94628,
+   "lon": 7.95016
+  },
+  {
+   "name": "Passo di Monte Croce",
+   "lat": 46.1972,
+   "lon": 13.28937
+  },
+  {
+   "name": "Passo Frese",
+   "lat": 44.3779,
+   "lon": 8.61159
+  },
+  {
+   "name": "Passo della Rocca",
+   "lat": 44.51085,
+   "lon": 9.29212
+  },
+  {
+   "name": "Portella Iannuzzo",
+   "lat": 37.73502,
+   "lon": 13.47072
+  },
+  {
+   "name": "Forcellino del Gadöl",
+   "lat": 45.75687,
+   "lon": 10.09718
+  },
+  {
+   "name": "Passo della Cisa",
+   "lat": 45.73074,
+   "lon": 10.26875
+  },
+  {
+   "name": "Porta di Pizzo Alto",
+   "lat": 46.07647,
+   "lon": 9.45959
+  },
+  {
+   "name": "Sella San Venditti",
+   "lat": 41.66095,
+   "lon": 14.34312
+  },
+  {
+   "name": "Passo della Rocca",
+   "lat": 44.1888,
+   "lon": 8.316
+  },
+  {
+   "name": "Passo del Riale",
+   "lat": 45.95724,
+   "lon": 8.19223
+  },
+  {
+   "name": "Passo della Sedia",
+   "lat": 45.93142,
+   "lon": 11.53599
+  },
+  {
+   "name": "Passo del Monumento",
+   "lat": 42.76543,
+   "lon": 10.27358
+  },
+  {
+   "name": "Porta Molina",
+   "lat": 46.01257,
+   "lon": 11.53592
+  },
+  {
+   "name": "Passo della Merendera",
+   "lat": 46.52721,
+   "lon": 12.60073
+  },
+  {
+   "name": "Forcella Van de Ruditia",
+   "lat": 46.33555,
+   "lon": 12.36839
+  },
+  {
+   "name": "Passo del Diavolo",
+   "lat": 45.72459,
+   "lon": 10.17582
+  },
+  {
+   "name": "Colletto",
+   "lat": 46.2308,
+   "lon": 8.17676
+  },
+  {
+   "name": "Passo Cancedda",
+   "lat": 39.18156,
+   "lon": 8.60506
+  },
+  {
+   "name": "Portella Sant’Antonio",
+   "lat": 37.86228,
+   "lon": 14.69922
+  },
+  {
+   "name": "Portella Sella Maria",
+   "lat": 37.89964,
+   "lon": 14.65486
+  },
+  {
+   "name": "Bocchetta delle Vallette",
+   "lat": 45.72148,
+   "lon": 8.00333
+  },
+  {
+   "name": "Sella della Bora",
+   "lat": 45.80095,
+   "lon": 8.23344
+  },
+  {
+   "name": "Foce di Pucara",
+   "lat": 40.67367,
+   "lon": 14.6727
+  },
+  {
+   "name": "Passo di Preazzano",
+   "lat": 40.63177,
+   "lon": 14.4643
+  },
+  {
+   "name": "Roccia Elefante",
+   "lat": 40.65029,
+   "lon": 14.50021
+  },
+  {
+   "name": "Foce di Tramonti",
+   "lat": 40.68294,
+   "lon": 14.66978
+  },
+  {
+   "name": "Colle Scaletta",
+   "lat": 44.40363,
+   "lon": 7.24946
+  },
+  {
+   "name": "Valico dello Scalone",
+   "lat": 41.84447,
+   "lon": 13.9455
+  },
+  {
+   "name": "Il Colletto",
+   "lat": 44.33037,
+   "lon": 7.80058
+  },
+  {
+   "name": "Passo Ropolà",
+   "lat": 38.281,
+   "lon": 16.19524
+  },
+  {
+   "name": "Passo Crocetta",
+   "lat": 45.97041,
+   "lon": 9.99082
+  },
+  {
+   "name": "Passo Croce Verranco",
+   "lat": 39.35112,
+   "lon": 16.10573
+  },
+  {
+   "name": "Seescharte",
+   "lat": 46.94536,
+   "lon": 11.66002
+  },
+  {
+   "name": "Colle della Cima",
+   "lat": 45.53716,
+   "lon": 7.76603
+  },
+  {
+   "name": "Passo del Vendulo",
+   "lat": 45.95916,
+   "lon": 9.74429
+  },
+  {
+   "name": "Passo di Loggia",
+   "lat": 43.9111,
+   "lon": 7.59071
+  },
+  {
+   "name": "Passo del Mercante",
+   "lat": 38.34369,
+   "lon": 16.11382
+  },
+  {
+   "name": "Varco S.Lucia",
+   "lat": 40.75185,
+   "lon": 14.72311
+  },
+  {
+   "name": "quota 2610",
+   "lat": 45.57161,
+   "lon": 7.04473
+  },
+  {
+   "name": "Passo La Foce",
+   "lat": 43.36761,
+   "lon": 11.95181
+  },
+  {
+   "name": "Sella dela Cita",
+   "lat": 45.8433,
+   "lon": 10.63578
+  },
+  {
+   "name": "Forchetta di Usigni",
+   "lat": 42.68474,
+   "lon": 12.9381
+  },
+  {
+   "name": "Colletto del Vailetto",
+   "lat": 44.21325,
+   "lon": 7.39697
+  },
+  {
+   "name": "Goletto Valgradello",
+   "lat": 45.83431,
+   "lon": 10.3601
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.58241,
+   "lon": 7.44996
+  },
+  {
+   "name": "Passo del Ronco",
+   "lat": 44.51468,
+   "lon": 8.26673
+  },
+  {
+   "name": "Forcella Busa della Neve",
+   "lat": 46.20111,
+   "lon": 11.5167
+  },
+  {
+   "name": "Ianna Sas Tualas",
+   "lat": 40.14189,
+   "lon": 9.41751
+  },
+  {
+   "name": "Respiro",
+   "lat": 45.69835,
+   "lon": 9.4404
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.58454,
+   "lon": 7.42138
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.5829,
+   "lon": 7.41725
+  },
+  {
+   "name": "Colletto",
+   "lat": 45.49384,
+   "lon": 7.11873
+  },
+  {
+   "name": "Passo del Col Becher",
+   "lat": 46.39778,
+   "lon": 11.86808
+  },
+  {
+   "name": "Passo Moglio",
+   "lat": 44.45204,
+   "lon": 8.45277
+  },
+  {
+   "name": "Colle Chalvet",
+   "lat": 44.91764,
+   "lon": 6.85972
+  },
+  {
+   "name": "Cancello di Arola",
+   "lat": 40.62446,
+   "lon": 14.44753
+  },
+  {
+   "name": "Purtedda Girasa",
+   "lat": 37.8855,
+   "lon": 14.44118
+  },
+  {
+   "name": "Foce di Rifogliola",
+   "lat": 44.16161,
+   "lon": 10.20613
+  },
+  {
+   "name": "Passo Croce di Panaro",
+   "lat": 38.55917,
+   "lon": 16.36375
+  },
+  {
+   "name": "Colle Ruines",
+   "lat": 45.79723,
+   "lon": 7.72901
+  },
+  {
+   "name": "Varco di Vesole",
+   "lat": 40.41252,
+   "lon": 15.15727
+  },
+  {
+   "name": "Tavolino",
+   "lat": 44.09404,
+   "lon": 11.18984
+  },
+  {
+   "name": "Portella San Francesco",
+   "lat": 37.70757,
+   "lon": 13.5647
+  },
+  {
+   "name": "Passo Cantoniera",
+   "lat": 43.78554,
+   "lon": 12.29916
+  },
+  {
+   "name": "S'Arco de sa Palma",
+   "lat": 38.89328,
+   "lon": 8.83931
+  },
+  {
+   "name": "Passo Alfa",
+   "lat": 40.26328,
+   "lon": 15.3498
+  },
+  {
+   "name": "Passo Palette",
+   "lat": 46.11586,
+   "lon": 10.70446
+  },
+  {
+   "name": "Tre Purtelle",
+   "lat": 40.67382,
+   "lon": 14.48744
+  },
+  {
+   "name": "Col Porcel",
+   "lat": 44.76325,
+   "lon": 7.05914
+  },
+  {
+   "name": "Colle della Rocca",
+   "lat": 45.44547,
+   "lon": 7.12595
+  },
+  {
+   "name": "Croce a Vaccoli",
+   "lat": 43.80028,
+   "lon": 10.45158
+  },
+  {
+   "name": "Passo dei Sii",
+   "lat": 44.12678,
+   "lon": 7.96787
+  },
+  {
+   "name": "Bocca dei Ravari",
+   "lat": 44.30048,
+   "lon": 11.01493
+  },
+  {
+   "name": "Colle della Montagnetta",
+   "lat": 44.36661,
+   "lon": 7.01535
+  },
+  {
+   "name": "Passo Croce Paumont",
+   "lat": 45.11413,
+   "lon": 6.72226
+  },
+  {
+   "name": "La Colonna",
+   "lat": 43.99574,
+   "lon": 11.09914
+  },
+  {
+   "name": "Passo della Rocca Patanua",
+   "lat": 45.17885,
+   "lon": 7.21881
+  },
+  {
+   "name": "Bocchetta della Borcola",
+   "lat": 46.22631,
+   "lon": 10.97916
+  },
+  {
+   "name": "Forcella della Lucche",
+   "lat": 45.80101,
+   "lon": 11.20826
+  },
+  {
+   "name": "Forcella del Tauro",
+   "lat": 45.80079,
+   "lon": 11.20843
+  },
+  {
+   "name": "Forcella della Sfinge",
+   "lat": 46.58578,
+   "lon": 12.30076
+  },
+  {
+   "name": "Kniepass - La Serra",
+   "lat": 46.78887,
+   "lon": 11.87138
+  },
+  {
+   "name": "Forca Diame",
+   "lat": 46.41369,
+   "lon": 13.24918
+  },
+  {
+   "name": "Valico della Siligata",
+   "lat": 43.94288,
+   "lon": 12.82309
+  },
+  {
+   "name": "Valico Cantoniera Esterzili",
+   "lat": 39.78719,
+   "lon": 9.25544
+  },
+  {
+   "name": "Focetta del Bernicciolo",
+   "lat": 44.08701,
+   "lon": 10.56915
+  },
+  {
+   "name": "Passo Baldassarre",
+   "lat": 43.92719,
+   "lon": 8.04016
+  },
+  {
+   "name": "Colle di Rocce Platasse",
+   "lat": 44.90837,
+   "lon": 6.94294
+  },
+  {
+   "name": "Colle  Platasse",
+   "lat": 44.92541,
+   "lon": 6.94345
+  },
+  {
+   "name": "Passo della Vecchia",
+   "lat": 44.06826,
+   "lon": 11.35309
+  },
+  {
+   "name": "Passo di San Martino",
+   "lat": 46.16571,
+   "lon": 13.57534
+  },
+  {
+   "name": "Forcella l'Airole",
+   "lat": 41.49946,
+   "lon": 14.21579
   }
  ]
 }
