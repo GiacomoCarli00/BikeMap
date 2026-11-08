@@ -149,6 +149,7 @@
       costing_options: { [costing]: { use_highways: useHighways } },
       directions_options: { units: "kilometers" },
     };
+    requests++;
     const r = await fetch(VALHALLA, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -297,19 +298,126 @@
     return { waypoints: wps, simulated: cur.car, fidelity: cur.f, iterations };
   }
 
+  // ---------- ricerca automatica delle deviazioni (solo stile "Curve") ----------
+  const DETOUR_BUDGET = 20;          // richieste a Valhalla per la ricerca, come concordato
+  const STRAIGHT_V = 0.95;           // tratto "dritto": curvatura sopra questa soglia
+  const STRAIGHT_MIN_M = 4000;       // lunghezza minima del tratto dritto da correggere
+  const DETOUR_RADIUS_M = 25000;     // passi candidati entro questa distanza dal tratto
+  const MAX_TIME_RATIO = 1.4;        // la deviazione non deve allungare i tempi oltre il 40%
+  const MIN_GAIN_KM = 0.5;           // guadagno minimo di km tortuosi per accettarla
+
+  let requests = 0;                  // contatore delle richieste a Valhalla
+
+  let poiCache = null;
+  async function loadPois() {
+    if (poiCache) return poiCache;
+    try {
+      const r = await fetch("poi-motociclisti.json");
+      poiCache = (await r.json()).passi.map((p) => [p.lat, p.lon]);
+    } catch {
+      poiCache = [];
+    }
+    return poiCache;
+  }
+
+  // Km percorsi in tratti tortuosi (curvatura sotto 0.9), come nella colorazione della mappa.
+  function curvyKm(points) {
+    const cum = cumulative(points);
+    let km = 0;
+    for (const [a, b, v] of curvature(points)) if (v < 0.9) km += (cum[b] - cum[a]) / 1000;
+    return km;
+  }
+
+  // Il tratto piu' lungo in cui il percorso e' quasi dritto: restituisce il suo punto centrale.
+  function longestStraightRun(points) {
+    const ch = curvature(points);
+    const cum = cumulative(points);
+    let best = null, i = 0;
+    while (i < ch.length) {
+      if (ch[i][2] < STRAIGHT_V) { i++; continue; }
+      let j = i;
+      while (j < ch.length && ch[j][2] >= STRAIGHT_V) j++;
+      const a = ch[i][0], b = ch[j - 1][1];
+      const len = cum[b] - cum[a];
+      if (len >= STRAIGHT_MIN_M && (!best || len > best.len)) best = { len, a, b };
+      i = j;
+    }
+    if (!best) return null;
+    const mid = Math.floor((best.a + best.b) / 2);
+    return { len: best.len, mid, midPt: points[mid] };
+  }
+
+  // Inserisce una tappa nell'ordine in cui il percorso la attraversa.
+  function insertInOrder(stops, stop, routePts) {
+    const pos = (p) => nearestIndex(routePts, p);
+    const idx = pos(stop);
+    const out = stops.slice();
+    let at = out.findIndex((s) => pos(s) > idx);
+    if (at < 0) at = out.length;
+    out.splice(at, 0, stop);
+    return out;
+  }
+
+  async function improveCurves(req, startMoto, intermediates) {
+    const pois = await loadPois();
+    const used = [];
+    let cur = startMoto;
+    let stops = intermediates.slice();
+    const startBudget = requests;
+    const motoHw = 0.1;
+
+    while (requests - startBudget < DETOUR_BUDGET) {
+      const run = longestStraightRun(cur.points);
+      if (!run) break;
+      if (used.some((m) => haversine(m, run.midPt) < 5000)) break;   // stesso tratto gia' provato
+      used.push(run.midPt);
+
+      const cands = pois
+        .filter((p) => haversine(p, run.midPt) < DETOUR_RADIUS_M && !stops.some((s) => haversine(s, p) < 2000))
+        .sort((a, b) => haversine(a, run.midPt) - haversine(b, run.midPt))
+        .slice(0, 3);
+
+      const baseKm = curvyKm(cur.points);
+      let best = null;
+      for (const c of cands) {
+        if (requests - startBudget >= DETOUR_BUDGET) break;
+        const trialStops = insertInOrder(stops, c, cur.points);
+        let t;
+        try {
+          t = await valhallaRoute([req.start, ...trialStops, req.end], "motorcycle", motoHw);
+        } catch {
+          continue;                                   // punto non raggiungibile: lo saltiamo
+        }
+        // limite rispetto al percorso originale, non alla deviazione precedente
+        if (t.time_s > startMoto.time_s * MAX_TIME_RATIO) continue;
+        const km = curvyKm(t.points);
+        if (km - baseKm >= MIN_GAIN_KM && (!best || km > best.km)) best = { t, trialStops, km };
+      }
+      if (best) { cur = best.t; stops = best.trialStops; }
+    }
+    return { moto: cur, intermediates: stops };
+  }
+
   // ---------- API pubblica: stessa forma della risposta di /api/route ----------
   async function route(req) {
     const avoidHw = !!req.google_avoid_highways;
     const motoHighways = req.style === "moto" ? 0.3 : 0.1;
 
-    const moto = await valhallaRoute([req.start, ...req.via, req.end], "motorcycle", motoHighways);
+    let moto = await valhallaRoute([req.start, ...req.via, req.end], "motorcycle", motoHighways);
+    let stops = req.via.slice();
+    if (req.style === "moto_curve") {
+      const improved = await improveCurves(req, moto, stops);
+      moto = improved.moto;
+      stops = improved.intermediates;
+    }
     const fastest = await valhallaRoute([req.start, req.end], "auto", avoidHw ? 0 : 1);
 
+    // Le deviazioni scelte sono tappe obbligatorie anche per il link di Google Maps
     const wp = await chooseWaypoints(
       moto.points,
       async (pts) => (await valhallaRoute(pts, "auto", avoidHw ? 0 : 1)).points,
       Math.min(req.max_waypoints, 9),
-      req.via
+      stops
     );
 
     const start = moto.points[0], end = moto.points[moto.points.length - 1];
