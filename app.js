@@ -350,15 +350,21 @@ function refreshPois() {
   $("#poi-count").textContent = `${parts.join(" + ") || "nessun punto"} entro ${radius} km · inclusi nel giro: ${state.via.length}`;
 }
 
-// Link alla voce Wikipedia del punto, se nota; altrimenti a una ricerca su Wikipedia italiana
-function infoUrl(p) {
-  const w = p.wikipedia || "";
-  const i = w.indexOf(":");
-  if (i > 0) {
-    const lang = w.slice(0, i), title = w.slice(i + 1).replace(/ /g, "_");
-    return `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}`;
-  }
-  return `https://it.wikipedia.org/w/index.php?search=${encodeURIComponent(p.name)}`;
+// "Info": cerca su Google il nome del punto piu' la localita' (ricavata dalle coordinate)
+async function openInfo(p) {
+  // la scheda si apre subito, cosi' il browser non la blocca; poi ci mettiamo la ricerca
+  const win = window.open("", "_blank");
+  let place = "Italia";
+  try {
+    const r = await fetch("https://nominatim.openstreetmap.org/reverse?" +
+      new URLSearchParams({ lat: p.lat, lon: p.lon, format: "jsonv2", zoom: "10", "accept-language": "it" }));
+    const a = (await r.json()).address || {};
+    const town = a.village || a.town || a.city || a.municipality || a.hamlet;
+    place = [town, a.county || a.state].filter(Boolean).join(", ") || "Italia";
+  } catch { /* senza localita' cerchiamo solo per nome */ }
+  const url = "https://www.google.com/search?q=" + encodeURIComponent(`${p.name} ${place}`);
+  if (win) win.location.href = url;
+  else window.open(url, "_blank");
 }
 
 // Popup persistente con nome e conferma: funziona anche al tocco su telefono
@@ -380,12 +386,10 @@ function openPoiPopup(p, latlng) {
   const cancel = document.createElement("button");
   cancel.textContent = "Annulla";
   cancel.onclick = () => map.closePopup();
-  const infoLink = document.createElement("a");
-  infoLink.textContent = "Info";
-  infoLink.href = infoUrl(p);
-  infoLink.target = "_blank";
-  infoLink.rel = "noopener";
-  actions.append(ok, infoLink, cancel);
+  const infoBtn = document.createElement("button");
+  infoBtn.textContent = "Info";
+  infoBtn.onclick = () => openInfo(p);
+  actions.append(ok, infoBtn, cancel);
   box.append(title, info, actions);
   L.popup({ closeButton: true }).setLatLng(latlng).setContent(box).openOn(map);
 }
