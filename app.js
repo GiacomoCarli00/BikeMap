@@ -131,7 +131,8 @@ async function calc() {
       via: state.via.map((p) => [p.lat, p.lon]),
       style: "moto_curve",            // stile fisso: la scelta Sport/Tour/Crossover riguarda i punti sulla mappa
       max_waypoints: Number($("#max-wp").value),
-      google_avoid_highways: $("#avoid-hw").checked,
+      // Google evita le autostrade sempre, tranne con "Percorso piu' breve" attivo e "Autostrade" non escluse
+      google_avoid_highways: !($("#shortest").checked && !$("#no-hw").checked),
       shortest: $("#shortest").checked,
       exclude_highways: $("#no-hw").checked,
     };
@@ -165,7 +166,7 @@ function updateCalcLabel() {
     : "Calcola percorso";
 }
 $("#calc").onclick = calc;
-["#max-wp", "#avoid-hw", "#no-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
+["#max-wp", "#no-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
 // "Autostrade" compare solo con il percorso piu' breve
 $("#shortest").addEventListener("change", () => {
   $("#no-hw-row").hidden = !$("#shortest").checked;
