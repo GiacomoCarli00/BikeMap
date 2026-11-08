@@ -473,6 +473,6 @@ setInterval(checkHealth, 15000);
 const fsBtn = $("#fs-toggle");
 fsBtn.onclick = () => {
   const on = document.body.classList.toggle("map-full");
-  fsBtn.textContent = on ? "✕ Riduci" : "⛶ Schermo intero";
+  fsBtn.textContent = on ? "✕ Riduci" : "⛶ Visualizza mappa a schermo intero";
   setTimeout(() => map.invalidateSize(), 50);   // Leaflet ricalcola le dimensioni della mappa
 };
