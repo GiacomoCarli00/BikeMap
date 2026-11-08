@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BikeMap</title>
+  <meta name="theme-color" content="#e4572e">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="BikeMap">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside id="panel">
+    <header>
+      <h1>BikeMap</h1>
+      <span id="status" class="status">…</span>
+    </header>
+
+    <section class="places">
+      <label>Partenza
+        <div class="search"><input id="start-q" placeholder="Cerca un luogo o clicca sulla mappa" autocomplete="off"><ul class="results"></ul></div>
+      </label>
+      <div id="via-list"></div>
+      <label>Arrivo
+        <div class="search"><input id="end-q" placeholder="Cerca un luogo o clicca sulla mappa" autocomplete="off"><ul class="results"></ul></div>
+      </label>
+      <p class="hint">Clic sulla mappa: partenza, poi arrivo. Clic destro: aggiungi una tappa obbligatoria. I segnaposto si possono trascinare.</p>
+    </section>
+
+    <section class="options">
+      <label>Stile
+        <select id="style">
+          <option value="moto_curve" selected>Curve: cerca strade tortuose</option>
+          <option value="moto">Equilibrato: evita autostrade e città</option>
+        </select>
+      </label>
+      <label>Apro il link con
+        <select id="max-wp">
+          <option value="9" selected>App Google Maps (fino a 9 tappe)</option>
+          <option value="3">Browser del telefono (fino a 3 tappe)</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" id="avoid-hw"> In Google Maps attiverò "Evita autostrade"</label>
+      <button id="calc" class="primary" disabled>Calcola percorso</button>
+    </section>
+
+    <section id="result" hidden>
+      <div class="stats">
+        <div><b id="r-dist"></b><span>km</span></div>
+        <div><b id="r-time"></b><span>durata</span></div>
+        <div><b id="r-extra"></b><span>vs più veloce</span></div>
+      </div>
+
+      <h2>Tortuosità</h2>
+      <div class="bar" id="curvy-bar"></div>
+      <div class="legend">
+        <span><i style="background:var(--c-very)"></i>molto curvo</span>
+        <span><i style="background:var(--c-curvy)"></i>curvo</span>
+        <span><i style="background:var(--c-mixed)"></i>mosso</span>
+        <span><i style="background:var(--c-straight)"></i>dritto</span>
+      </div>
+
+      <h2>Link Google Maps</h2>
+      <p class="fidelity">Fedeltà al percorso: <b id="r-fid"></b> con <b id="r-nwp"></b> tappe
+        <span class="hint">(la linea tratteggiata è ciò che farà probabilmente Google)</span></p>
+      <div class="actions">
+        <a id="open-gmaps" class="primary button" target="_blank" rel="noopener">Apri in Google Maps</a>
+        <button id="copy-link">Copia link</button>
+        <button id="dl-gpx">Scarica GPX</button>
+      </div>
+      <details>
+        <summary>QR code per il telefono</summary>
+        <div id="qr"></div>
+      </details>
+    </section>
+
+    <p id="error" class="error" hidden></p>
+  </aside>
+  <main id="map"></main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
