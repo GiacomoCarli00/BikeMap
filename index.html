@@ -50,6 +50,15 @@
       <button id="calc" class="primary" disabled>Calcola percorso</button>
     </section>
 
+    <section id="pois" class="pois" hidden>
+      <h2>Passi di montagna</h2>
+      <label class="slider">Distanza massima dal percorso: <b id="poi-km">150</b> km
+        <input type="range" id="poi-radius" min="10" max="200" step="5" value="150">
+      </label>
+      <p class="hint" id="poi-count"></p>
+      <p class="hint">Tocca un passo sulla mappa per includerlo nel giro (diventa verde), poi premi il pulsante per ricalcolare.</p>
+    </section>
+
     <section id="result" hidden>
       <div class="stats">
         <div><b id="r-dist"></b><span>km</span></div>

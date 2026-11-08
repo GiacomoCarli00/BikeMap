@@ -31,8 +31,8 @@ function setPoint(kind, latlng, label) {
   updateButton();
 }
 
-function addVia(latlng) {
-  const p = { lat: latlng.lat, lon: latlng.lng };
+function addVia(latlng, name) {
+  const p = { lat: latlng.lat, lon: latlng.lng ?? latlng.lon, name };
   state.via.push(p);
   const m = L.marker([p.lat, p.lon], { draggable: true, icon: pinIcon("📍") }).addTo(map);
   m.on("dragend", (e) => { const ll = e.target.getLatLng(); p.lat = ll.lat; p.lon = ll.lng; autoCalc(); });
@@ -46,7 +46,8 @@ function renderVia() {
   state.via.forEach((p, i) => {
     const row = document.createElement("div");
     row.className = "via";
-    row.innerHTML = `<span>📍 Tappa ${i + 1}: ${p.lat.toFixed(4)}, ${p.lon.toFixed(4)}</span><button title="Rimuovi">✕</button>`;
+    const label = p.name ? p.name : `${p.lat.toFixed(4)}, ${p.lon.toFixed(4)}`;
+    row.innerHTML = `<span>📍 Tappa ${i + 1}: ${label}</span><button title="Rimuovi">✕</button>`;
     row.querySelector("button").onclick = () => {
       map.removeLayer(markers.via[i]);
       markers.via.splice(i, 1);
@@ -151,9 +152,15 @@ async function calc() {
     $("#error").textContent = err.message;
     $("#error").hidden = false;
   } finally {
-    btn.textContent = "Calcola percorso";
+    updateCalcLabel();
     updateButton();
   }
+}
+
+function updateCalcLabel() {
+  $("#calc").textContent = state.result
+    ? `Ricalcola percorso (${state.via.length} tappe)`
+    : "Calcola percorso";
 }
 $("#calc").onclick = calc;
 ["#style", "#max-wp", "#avoid-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
@@ -210,6 +217,7 @@ function draw(data) {
   if (window.QRCode) new QRCode(qr, { text: data.google.url, width: 200, height: 200, correctLevel: QRCode.CorrectLevel.L });
 
   $("#result").hidden = false;
+  refreshPois();
 }
 
 function fmtTime(s) {
@@ -228,6 +236,101 @@ $("#dl-gpx").onclick = () => {
   a.click();
   URL.revokeObjectURL(a.href);
 };
+
+// ---------- passi di montagna sulla mappa ----------
+// I passi (file poi-motociclisti.json, da OpenStreetMap) si mostrano entro la distanza scelta
+// con lo slider dal percorso calcolato. Toccandoli si includono nel giro.
+const poiLayer = L.layerGroup().addTo(map);
+let pois = [];
+fetch("poi-motociclisti.json")
+  .then((r) => r.json())
+  .then((d) => { pois = d.passi; refreshPois(); })
+  .catch(() => { pois = []; });
+
+$("#poi-radius").addEventListener("input", refreshPois);
+
+// Distanza approssimata in km (sufficiente per qualche centinaio di km in Italia)
+function approxKm(a, b) {
+  const kx = 111.32 * Math.cos(((a[0] + b[0]) / 2) * Math.PI / 180);
+  const dx = (a[1] - b[1]) * kx, dy = (a[0] - b[0]) * 110.57;
+  return Math.hypot(dx, dy);
+}
+
+// Campioni del percorso (circa uno ogni qualche centinaio di metri), per il calcolo veloce
+function sampleRoute(pts) {
+  const step = Math.max(1, Math.floor(pts.length / 1500));
+  return pts.filter((_, i) => i % step === 0 || i === pts.length - 1);
+}
+
+function nearRoute(p, samples, radiusKm) {
+  for (const s of samples) {
+    if (Math.abs(s[0] - p.lat) > radiusKm / 110) continue;   // scarto veloce in latitudine
+    if (approxKm([p.lat, p.lon], s) <= radiusKm) return true;
+  }
+  return false;
+}
+
+const sameSpot = (a, b) => Math.abs(a.lat - b.lat) < 1e-5 && Math.abs(a.lon - b.lon) < 1e-5;
+const isSelected = (p) => state.via.some((v) => sameSpot(v, p));
+
+function refreshPois() {
+  poiLayer.clearLayers();
+  const box = $("#pois");
+  if (!state.result || !pois.length) { box.hidden = true; return; }
+  box.hidden = false;
+
+  const radius = Number($("#poi-radius").value);
+  $("#poi-km").textContent = radius;
+  const samples = sampleRoute(state.result.route.points);
+  let n = 0;
+  for (const p of pois) {
+    if (!nearRoute(p, samples, radius)) continue;
+    n++;
+    const sel = isSelected(p);
+    L.circleMarker([p.lat, p.lon], {
+      radius: sel ? 9 : 6,
+      color: sel ? "#1a7f37" : "#444",
+      fillColor: sel ? "#2da44e" : "#fff",
+      fillOpacity: 1,
+      weight: 2,
+      bubblingMouseEvents: false,
+    })
+      .bindTooltip(`${p.name} · ${p.ele_m} m${sel ? " (incluso)" : ""}`)
+      .on("click", () => togglePoi(p))
+      .addTo(poiLayer);
+  }
+  $("#poi-count").textContent = `${n} passi entro ${radius} km · inclusi nel giro: ${state.via.length}`;
+}
+
+function togglePoi(p) {
+  const list = state.via.filter((v) => !sameSpot(v, p));
+  if (list.length === state.via.length) list.push({ lat: p.lat, lon: p.lon, name: p.name });
+  rebuildVia(list);
+  sortViaAlongRoute();
+  updateCalcLabel();
+  refreshPois();
+}
+
+// Ricostruisce le tappe (e i loro segnaposto) dalla lista data
+function rebuildVia(list) {
+  markers.via.forEach((m) => map.removeLayer(m));
+  markers.via = [];
+  state.via = [];
+  list.forEach((p) => addVia({ lat: p.lat, lng: p.lon }, p.name));
+}
+
+// Ordina le tappe nell'ordine in cui il percorso le attraversa
+function sortViaAlongRoute() {
+  if (!state.result) return;
+  const pts = state.result.route.points;
+  const progress = (p) => {
+    let best = 0, bestD = Infinity;
+    pts.forEach((q, i) => { const d = approxKm([p.lat, p.lon], q); if (d < bestD) { bestD = d; best = i; } });
+    return best;
+  };
+  const sorted = state.via.map((p) => ({ p, at: progress(p) })).sort((a, b) => a.at - b.at).map((x) => x.p);
+  rebuildVia(sorted);
+}
 
 // ---------- stato GraphHopper ----------
 // Nessun backend richiesto per la ricerca; il calcolo usa il motore in API_BASE.
