@@ -109,3 +109,5 @@ details { margin-top: 10px; }
 .switch input:checked + .track { background: #2da44e; }
 .switch input:checked + .track::after { transform: translateX(18px); }
 .switch.sub { margin-left: 24px; }
+
+.stats.costs { grid-template-columns: repeat(2, 1fr); }

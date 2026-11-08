@@ -125,7 +125,7 @@
 
   async function valhallaRoute(points, costing, useHighways) {
     if (points.length <= MAX_LOCATIONS) return valhallaSingle(points, costing, useHighways);
-    let shape = [], distance_m = 0, time_s = 0;
+    let shape = [], distance_m = 0, time_s = 0, toll_km = 0;
     for (let s = 0; s < points.length - 1; s += MAX_LOCATIONS - 1) {
       const block = points.slice(s, Math.min(s + MAX_LOCATIONS, points.length));
       const part = await valhallaSingle(block, costing, useHighways);
@@ -133,8 +133,9 @@
       shape = shape.concat(part.points);
       distance_m += part.distance_m;
       time_s += part.time_s;
+      toll_km += part.toll_km;
     }
-    return { points: shape, distance_m, time_s };
+    return { points: shape, distance_m, time_s, toll_km };
   }
 
   // Una sola richiesta a Valhalla (al massimo MAX_LOCATIONS punti).
@@ -163,10 +164,16 @@
       if (shape.length && pts.length) pts.shift();
       shape = shape.concat(pts);
     }
+    // km dei tratti a pedaggio (autostrade a pagamento), dai singoli passaggi del percorso
+    let toll_km = 0;
+    for (const leg of data.trip.legs) {
+      for (const m of leg.maneuvers) if (m.toll) toll_km += m.length;
+    }
     return {
       points: shape,
       distance_m: data.trip.summary.length * 1000,
       time_s: data.trip.summary.time,
+      toll_km,
     };
   }
 
@@ -327,6 +334,7 @@
         points: moto.points,
         distance_m: moto.distance_m,
         time_s: moto.time_s,
+        toll_km: moto.toll_km,
         curvature: curv,
         curvy_share: curvyShare(moto.points, curv),
       },

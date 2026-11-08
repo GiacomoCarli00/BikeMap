@@ -205,6 +205,18 @@ function draw(data) {
   const extraMin = (data.route.time_s - data.fastest.time_s) / 60;
   $("#r-extra").textContent = `${extraMin >= 0 ? "+" : ""}${fmtTime(Math.abs(extraMin * 60))}`;
 
+  // costi stimati: pedaggio (km a pedaggio x tariffa) e benzina per i tre tipi di percorso
+  const c = window.BIKEMAP_COSTS;
+  const eur = (x) => `${x.toFixed(2).replace(".", ",")} €`;
+  const tollKm = data.route.toll_km || 0;
+  $("#r-toll").textContent = tollKm > 0 ? `~${eur(tollKm * c.tollEurPerKm)}` : "0 €";
+  $("#r-fuel-sport").textContent = `~${eur((km / c.kmPerL.sport) * c.fuelPricePerL)}`;
+  $("#r-fuel-tour").textContent = `~${eur((km / c.kmPerL.tour) * c.fuelPricePerL)}`;
+  $("#r-fuel-cross").textContent = `~${eur((km / c.kmPerL.crossover) * c.fuelPricePerL)}`;
+  $("#cost-note").textContent =
+    `Benzina a ${eur(c.fuelPricePerL)}/L (prezzo del ${c.fuelPriceDate}, da aggiornare). ` +
+    `Pedaggio: ${tollKm.toFixed(0)} km a pedaggio × ${eur(c.tollEurPerKm)}/km (stima, non tariffa ufficiale).`;
+
   const sh = data.route.curvy_share;
   const bar = $("#curvy-bar");
   bar.innerHTML = "";
