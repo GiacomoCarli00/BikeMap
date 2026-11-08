@@ -350,6 +350,17 @@ function refreshPois() {
   $("#poi-count").textContent = `${parts.join(" + ") || "nessun punto"} entro ${radius} km · inclusi nel giro: ${state.via.length}`;
 }
 
+// Link alla voce Wikipedia del punto, se nota; altrimenti a una ricerca su Wikipedia italiana
+function infoUrl(p) {
+  const w = p.wikipedia || "";
+  const i = w.indexOf(":");
+  if (i > 0) {
+    const lang = w.slice(0, i), title = w.slice(i + 1).replace(/ /g, "_");
+    return `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}`;
+  }
+  return `https://it.wikipedia.org/w/index.php?search=${encodeURIComponent(p.name)}`;
+}
+
 // Popup persistente con nome e conferma: funziona anche al tocco su telefono
 function openPoiPopup(p, latlng) {
   const sel = isSelected(p);
@@ -369,7 +380,12 @@ function openPoiPopup(p, latlng) {
   const cancel = document.createElement("button");
   cancel.textContent = "Annulla";
   cancel.onclick = () => map.closePopup();
-  actions.append(ok, cancel);
+  const infoLink = document.createElement("a");
+  infoLink.textContent = "Info";
+  infoLink.href = infoUrl(p);
+  infoLink.target = "_blank";
+  infoLink.rel = "noopener";
+  actions.append(ok, infoLink, cancel);
   box.append(title, info, actions);
   L.popup({ closeButton: true }).setLatLng(latlng).setContent(box).openOn(map);
 }

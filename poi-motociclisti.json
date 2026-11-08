@@ -13,7 +13,8 @@
    "name": "Lisjoch",
    "lat": 45.92019,
    "lon": 7.85328,
-   "ele_m": 4152
+   "ele_m": 4152,
+   "wikipedia": "lmo:Coll_del_Lys"
   },
   {
    "name": "Passo del Naso",
@@ -667,7 +668,8 @@
    "name": "Col Bassac Deré",
    "lat": 45.50456,
    "lon": 7.04353,
-   "ele_m": 3083
+   "ele_m": 3083,
+   "wikipedia": "it:Col Bassac Déré"
   },
   {
    "name": "Col di Tzaboc",
@@ -685,13 +687,15 @@
    "name": "Colle de Valcournera",
    "lat": 45.90199,
    "lon": 7.55993,
-   "ele_m": 3075
+   "ele_m": 3075,
+   "wikipedia": "it:Colle di Valcornera"
   },
   {
    "name": "Col Collon",
    "lat": 45.9609,
    "lon": 7.51339,
-   "ele_m": 3074
+   "ele_m": 3074,
+   "wikipedia": "it:Colle Collon"
   },
   {
    "name": "Colle Sule",
@@ -865,7 +869,8 @@
    "name": "Col de Sommeiller / Colle del Sommeiller",
    "lat": 45.13321,
    "lon": 6.84585,
-   "ele_m": 3009
+   "ele_m": 3009,
+   "wikipedia": "it:Colle del Sommeiller"
   },
   {
    "name": "Rotgratscharte - Forcella della Cresta Rossa",
@@ -1003,7 +1008,8 @@
    "name": "Passo dei Salati",
    "lat": 45.87589,
    "lon": 7.86826,
-   "ele_m": 2980
+   "ele_m": 2980,
+   "wikipedia": "it:Passo dei Salati"
   },
   {
    "name": "Passo Bureloni",
@@ -1249,7 +1255,8 @@
    "name": "Colle Carrel",
    "lat": 45.68274,
    "lon": 7.36771,
-   "ele_m": 2913
+   "ele_m": 2913,
+   "wikipedia": "it:Colle Carrel"
   },
   {
    "name": "Colle della Terra",
@@ -1513,7 +1520,8 @@
    "name": "Col d'Olen",
    "lat": 45.8705,
    "lon": 7.86879,
-   "ele_m": 2880
+   "ele_m": 2880,
+   "wikipedia": "it:Col d'Olen"
   },
   {
    "name": "Pas de la Lauze / Passo della Lausa",
@@ -1615,7 +1623,8 @@
    "name": "Hochjoch - Giogo Alto",
    "lat": 46.78786,
    "lon": 10.79898,
-   "ele_m": 2861
+   "ele_m": 2861,
+   "wikipedia": "de:Hochjoch (Schnalskamm)"
   },
   {
    "name": "Passo di Ombrettola",
@@ -1909,7 +1918,8 @@
    "name": "Finestra di Champorcher",
    "lat": 45.59938,
    "lon": 7.49816,
-   "ele_m": 2826
+   "ele_m": 2826,
+   "wikipedia": "it:Fenêtre de Champorcher"
   },
   {
    "name": "Col De La Crosatie",
@@ -2083,7 +2093,8 @@
    "name": "Col d'Etache / Colle d'Etiache",
    "lat": 45.14879,
    "lon": 6.81253,
-   "ele_m": 2799
+   "ele_m": 2799,
+   "wikipedia": "it:Colle d'Etiache"
   },
   {
    "name": "Pas de Pagari / Passo di Pagarì",
@@ -2209,7 +2220,8 @@
    "name": "Col Pinter",
    "lat": 45.8195,
    "lon": 7.78751,
-   "ele_m": 2777
+   "ele_m": 2777,
+   "wikipedia": "it:Colle Pinter"
   },
   {
    "name": "Colletto",
@@ -2245,7 +2257,8 @@
    "name": "Passo di Antermoia",
    "lat": 46.47079,
    "lon": 11.64568,
-   "ele_m": 2770
+   "ele_m": 2770,
+   "wikipedia": "it:Passo di Antermoia"
   },
   {
    "name": "Marchsteinjöchl",
@@ -2269,7 +2282,8 @@
    "name": "Bocchetta di Forcola",
    "lat": 46.54006,
    "lon": 10.39103,
-   "ele_m": 2768
+   "ele_m": 2768,
+   "wikipedia": "fr:Bocchetta di Forcola"
   },
   {
    "name": "Colletto",
@@ -2305,7 +2319,8 @@
    "name": "Passo di San Chiaffredo",
    "lat": 44.64184,
    "lon": 7.10766,
-   "ele_m": 2764
+   "ele_m": 2764,
+   "wikipedia": "it:Passo di San Chiaffredo"
   },
   {
    "name": "Gemsbichljoch - Forcella Valfredda",
@@ -2347,7 +2362,8 @@
    "name": "Passo dello Stelvio - Stilfser Joch",
    "lat": 46.52862,
    "lon": 10.45321,
-   "ele_m": 2758
+   "ele_m": 2758,
+   "wikipedia": "it: Passo dello Stelvio"
   },
   {
    "name": "Passo della Pennazza",
@@ -2365,7 +2381,8 @@
    "name": "Ghicet di Sea",
    "lat": 45.32559,
    "lon": 7.18899,
-   "ele_m": 2750
+   "ele_m": 2750,
+   "wikipedia": "it:Ghicet di Sea"
   },
   {
    "name": "Bocca degli Armi",
@@ -2407,7 +2424,8 @@
    "name": "Col Agnel / Colle dell'Agnello",
    "lat": 44.68389,
    "lon": 6.97959,
-   "ele_m": 2744
+   "ele_m": 2744,
+   "wikipedia": "fr:Col Agnel"
   },
   {
    "name": "Passo Clopacà",
@@ -2461,7 +2479,8 @@
    "name": "Colle di Turlo",
    "lat": 45.90273,
    "lon": 7.958,
-   "ele_m": 2738
+   "ele_m": 2738,
+   "wikipedia": "it:Passo del Turlo"
   },
   {
    "name": "Col de Valpreveyre / Passo Bucie",
@@ -2587,7 +2606,8 @@
    "name": "Passo della Sentinella - Sentinellascharte",
    "lat": 46.64131,
    "lon": 12.37882,
-   "ele_m": 2717
+   "ele_m": 2717,
+   "wikipedia": "it:Passo della Sentinella (Dolomiti)"
   },
   {
    "name": "Bocchetta di Vicima",
@@ -2641,7 +2661,8 @@
    "name": "Col de Champillon",
    "lat": 45.85016,
    "lon": 7.2594,
-   "ele_m": 2709
+   "ele_m": 2709,
+   "wikipedia": "fr:Col de Champillon"
   },
   {
    "name": "Colle dell'Albergian",
@@ -2995,7 +3016,8 @@
    "name": "Colle Della Bettaforca",
    "lat": 45.86847,
    "lon": 7.78118,
-   "ele_m": 2672
+   "ele_m": 2672,
+   "wikipedia": "it:Colle Bettaforca"
   },
   {
    "name": "Col du Lac Noir / Passo del Lago Nero",
@@ -3037,7 +3059,8 @@
    "name": "Birnlücke - Forcella del Picco",
    "lat": 47.08516,
    "lon": 12.21644,
-   "ele_m": 2667
+   "ele_m": 2667,
+   "wikipedia": "it:Forcella del Picco"
   },
   {
    "name": "Forcellino di Tredenus",
@@ -3085,7 +3108,8 @@
    "name": "Colle Di Palasina",
    "lat": 45.79342,
    "lon": 7.75841,
-   "ele_m": 2661
+   "ele_m": 2661,
+   "wikipedia": "it:Colle Palasina"
   },
   {
    "name": "Colletto Di Bringuez",
@@ -3187,7 +3211,8 @@
    "name": "Passo Bondione",
    "lat": 46.04734,
    "lon": 10.08376,
-   "ele_m": 2650
+   "ele_m": 2650,
+   "wikipedia": "it:Passo di Bondione"
   },
   {
    "name": "Colle del Bondormir",
@@ -3223,7 +3248,8 @@
    "name": "Colle del Longet",
    "lat": 44.6432,
    "lon": 6.95709,
-   "ele_m": 2649
+   "ele_m": 2649,
+   "wikipedia": "it:Colle del Longet"
   },
   {
    "name": "Colle della Meja",
@@ -3253,7 +3279,8 @@
    "name": "Passo di Coca",
    "lat": 46.07365,
    "lon": 9.99344,
-   "ele_m": 2647
+   "ele_m": 2647,
+   "wikipedia": "it:Passo Coca"
   },
   {
    "name": "Ulsenjoch - Giogo di Ulsen",
@@ -3349,7 +3376,8 @@
    "name": "Col de Mary / Colle del Maurin",
    "lat": 44.5522,
    "lon": 6.8865,
-   "ele_m": 2637
+   "ele_m": 2637,
+   "wikipedia": "it:Colle del Maurin"
   },
   {
    "name": "Col Couis",
@@ -3361,7 +3389,8 @@
    "name": "Bocchetta di Valmaggia",
    "lat": 46.43929,
    "lon": 8.46395,
-   "ele_m": 2635
+   "ele_m": 2635,
+   "wikipedia": "de:Bocchetta di Val Maggia"
   },
   {
    "name": "Colle di Valdobbiola",
@@ -3433,7 +3462,8 @@
    "name": "Passo Confinale",
    "lat": 46.32811,
    "lon": 9.9839,
-   "ele_m": 2626
+   "ele_m": 2626,
+   "wikipedia": "it:Passo Confinale"
   },
   {
    "name": "Passo di Guinzana",
@@ -3463,7 +3493,8 @@
    "name": "Passo di Gavia",
    "lat": 46.34348,
    "lon": 10.48733,
-   "ele_m": 2621
+   "ele_m": 2621,
+   "wikipedia": "it:Passo di Gavia"
   },
   {
    "name": "Passo dell'Omo di Malgina",
@@ -3565,13 +3596,15 @@
    "name": "Colle del Nivolet",
    "lat": 45.47921,
    "lon": 7.14232,
-   "ele_m": 2612
+   "ele_m": 2612,
+   "wikipedia": "it:Colle del Nivolet"
   },
   {
    "name": "Passo di Caronella",
    "lat": 46.08793,
    "lon": 10.07888,
-   "ele_m": 2612
+   "ele_m": 2612,
+   "wikipedia": "it:Passo di Caronella"
   },
   {
    "name": "Col Tantané",
@@ -3799,7 +3832,8 @@
    "name": "Gerölljoch (Gröllerjoch)",
    "lat": 46.80057,
    "lon": 11.39646,
-   "ele_m": 2590
+   "ele_m": 2590,
+   "wikipedia": "de:Penser Weißhorn"
   },
   {
    "name": "Col Varotta",
@@ -4093,7 +4127,8 @@
    "name": "Passo del Muretto",
    "lat": 46.3488,
    "lon": 9.73381,
-   "ele_m": 2562
+   "ele_m": 2562,
+   "wikipedia": "de:Murettopass"
   },
   {
    "name": "Col de la Sèche / Colle di Seccia",
@@ -4141,7 +4176,8 @@
    "name": "Colle Croce di Ferro",
    "lat": 45.18693,
    "lon": 7.13381,
-   "ele_m": 2558
+   "ele_m": 2558,
+   "wikipedia": "it:Colle Croce di Ferro"
   },
   {
    "name": "Col Fetita",
@@ -4237,7 +4273,8 @@
    "name": "Passo delle Zigolade",
    "lat": 46.43442,
    "lon": 11.63088,
-   "ele_m": 2547
+   "ele_m": 2547,
+   "wikipedia": "it:Passo delle Cigolade"
   },
   {
    "name": "Fenêtre de Sereina",
@@ -4255,7 +4292,8 @@
    "name": "Eisbruggjoch - Passo Ponte di Ghiaccio",
    "lat": 46.94704,
    "lon": 11.73946,
-   "ele_m": 2545
+   "ele_m": 2545,
+   "wikipedia": "it:Passo Ponte di Ghiaccio"
   },
   {
    "name": "Bocchetta di Cantonasc",
@@ -4273,7 +4311,8 @@
    "name": "Col de Cerise / Colle di Ciriegia",
    "lat": 44.14178,
    "lon": 7.2841,
-   "ele_m": 2543
+   "ele_m": 2543,
+   "wikipedia": "fr:Col de Cerise"
   },
   {
    "name": "Passo Tremoncelli",
@@ -4291,13 +4330,15 @@
    "name": "Col du Fréjus / Passo del Frejus",
    "lat": 45.13069,
    "lon": 6.67387,
-   "ele_m": 2542
+   "ele_m": 2542,
+   "wikipedia": "fr:Col du Fréjus"
   },
   {
    "name": "Col de la Roue / Colle della Rho",
    "lat": 45.1161,
    "lon": 6.64271,
-   "ele_m": 2541
+   "ele_m": 2541,
+   "wikipedia": "it:Colle della Rho"
   },
   {
    "name": "Forcella Gasser Depot",
@@ -4423,7 +4464,8 @@
    "name": "Passo delle Selle",
    "lat": 46.39702,
    "lon": 11.76266,
-   "ele_m": 2530
+   "ele_m": 2530,
+   "wikipedia": "it:Passo delle Selle"
   },
   {
    "name": "Colle Vallonetto",
@@ -4483,7 +4525,8 @@
    "name": "Colle del Mulo",
    "lat": 44.38956,
    "lon": 7.09303,
-   "ele_m": 2527
+   "ele_m": 2527,
+   "wikipedia": "it:Colle del Mulo"
   },
   {
    "name": "Passo Ignaga",
@@ -4513,7 +4556,8 @@
    "name": "Colle della Gianna",
    "lat": 44.72155,
    "lon": 7.10285,
-   "ele_m": 2525
+   "ele_m": 2525,
+   "wikipedia": "it:Colle della Gianna"
   },
   {
    "name": "Col Entre Deux Sauts",
@@ -4621,7 +4665,8 @@
    "name": "Col de la Seigne",
    "lat": 45.75126,
    "lon": 6.80721,
-   "ele_m": 2515
+   "ele_m": 2515,
+   "wikipedia": "it:Colle della Seigne"
   },
   {
    "name": "Forcella della Moiazza",
@@ -4639,7 +4684,8 @@
    "name": "Passo Grasso di Pila",
    "lat": 46.08044,
    "lon": 10.10267,
-   "ele_m": 2513
+   "ele_m": 2513,
+   "wikipedia": "it:Passo di Pila"
   },
   {
    "name": "Passo Boia",
@@ -4765,7 +4811,8 @@
    "name": "Passo di Valsecca",
    "lat": 46.03891,
    "lon": 9.91065,
-   "ele_m": 2496
+   "ele_m": 2496,
+   "wikipedia": "it:Passo di Valsecca"
   },
   {
    "name": "Passo del Maccagno",
@@ -4909,13 +4956,15 @@
    "name": "Col Citrin",
    "lat": 45.7959,
    "lon": 7.14441,
-   "ele_m": 2484
+   "ele_m": 2484,
+   "wikipedia": "fr:Col Citrin"
   },
   {
    "name": "Colle Fauniera",
    "lat": 44.38565,
    "lon": 7.12181,
-   "ele_m": 2481
+   "ele_m": 2481,
+   "wikipedia": "it:Colle Fauniera"
   },
   {
    "name": "Colle di Fourclaz",
@@ -4927,7 +4976,8 @@
    "name": "Colle Di Valdobbia",
    "lat": 45.78836,
    "lon": 7.866,
-   "ele_m": 2480
+   "ele_m": 2480,
+   "wikipedia": "it:Colle di Valdobbia"
   },
   {
    "name": "Col de Brison",
@@ -4975,7 +5025,8 @@
    "name": "Col de Fenestre / Colle di Finestra",
    "lat": 44.11641,
    "lon": 7.36097,
-   "ele_m": 2474
+   "ele_m": 2474,
+   "wikipedia": "fr:Col de Fenestre"
   },
   {
    "name": "Forcella Val d'Arcia",
@@ -5035,7 +5086,8 @@
    "name": "Passo di Rabbi - Rabbijoch",
    "lat": 46.44221,
    "lon": 10.82194,
-   "ele_m": 2467
+   "ele_m": 2467,
+   "wikipedia": "it:Passo di Rabbi"
   },
   {
    "name": "Passo Canali",
@@ -5197,13 +5249,15 @@
    "name": "Colle del Loo",
    "lat": 45.73774,
    "lon": 7.92731,
-   "ele_m": 2452
+   "ele_m": 2452,
+   "wikipedia": "it:Colle del Loo"
   },
   {
    "name": "Col Giulian",
    "lat": 44.84582,
    "lon": 7.06735,
-   "ele_m": 2451
+   "ele_m": 2451,
+   "wikipedia": "it:Colle Giulian"
   },
   {
    "name": "Bocca dei Casinei",
@@ -5269,7 +5323,8 @@
    "name": "Passo di Venina",
    "lat": 46.04618,
    "lon": 9.85903,
-   "ele_m": 2442
+   "ele_m": 2442,
+   "wikipedia": "it:Passo di Venina"
   },
   {
    "name": "Passo dell'Omo di Caronella",
@@ -5323,7 +5378,8 @@
    "name": "Passo della Gardetta",
    "lat": 44.41139,
    "lon": 7.00273,
-   "ele_m": 2437
+   "ele_m": 2437,
+   "wikipedia": "it:Passo della Gardetta"
   },
   {
    "name": "Chriegalppass",
@@ -5347,7 +5403,8 @@
    "name": "Passo Paschiet",
    "lat": 45.2602,
    "lon": 7.23453,
-   "ele_m": 2435
+   "ele_m": 2435,
+   "wikipedia": "it:Passo Paschiet"
   },
   {
    "name": "Forcella Averau",
@@ -5389,7 +5446,8 @@
    "name": "Col du Lausfer",
    "lat": 44.22173,
    "lon": 7.09096,
-   "ele_m": 2430
+   "ele_m": 2430,
+   "wikipedia": "fr:Col du Lausfer"
   },
   {
    "name": "Colletto del Valasco",
@@ -5551,7 +5609,8 @@
    "name": "Passo del Gatto",
    "lat": 46.04952,
    "lon": 10.17566,
-   "ele_m": 2416
+   "ele_m": 2416,
+   "wikipedia": "it:Passo del Gatto"
   },
   {
    "name": "Colletto Taf",
@@ -5563,7 +5622,8 @@
    "name": "Colle Valcavera",
    "lat": 44.38164,
    "lon": 7.10124,
-   "ele_m": 2416
+   "ele_m": 2416,
+   "wikipedia": "it:Colle Valcavera"
   },
   {
    "name": "Colma di Zana",
@@ -5593,7 +5653,8 @@
    "name": "Passo della Mulattiera",
    "lat": 45.02734,
    "lon": 6.70447,
-   "ele_m": 2412
+   "ele_m": 2412,
+   "wikipedia": "it:Passo della Mulattiera"
   },
   {
    "name": "Passo del Sellerino",
@@ -5785,7 +5846,8 @@
    "name": "Colle Lazoney",
    "lat": 45.73597,
    "lon": 7.91767,
-   "ele_m": 2392
+   "ele_m": 2392,
+   "wikipedia": "it:Colle Lazoney"
   },
   {
    "name": "Colle Morina",
@@ -5977,7 +6039,8 @@
    "name": "Colle d'Esischie",
    "lat": 44.39668,
    "lon": 7.12388,
-   "ele_m": 2370
+   "ele_m": 2370,
+   "wikipedia": "it:Colle d'Esischie"
   },
   {
    "name": "Lappacher Jöchl - Forcella di Lappago",
@@ -6007,7 +6070,8 @@
    "name": "Colle Barant",
    "lat": 44.77151,
    "lon": 7.06422,
-   "ele_m": 2369
+   "ele_m": 2369,
+   "wikipedia": "it:Colle Barant"
   },
   {
    "name": "Forcella Vanedel",
@@ -6079,7 +6143,8 @@
    "name": "Colle della Mologna Grande",
    "lat": 45.72311,
    "lon": 7.93461,
-   "ele_m": 2364
+   "ele_m": 2364,
+   "wikipedia": "it:Colle della Mologna Grande"
   },
   {
    "name": "Forcella dei Torrioni Berti",
@@ -6169,7 +6234,8 @@
    "name": "Col de la Lombarde / Colle della Lombarda",
    "lat": 44.20267,
    "lon": 7.1501,
-   "ele_m": 2351
+   "ele_m": 2351,
+   "wikipedia": "fr:Col de la Lombarde"
   },
   {
    "name": "Forcella De Zita Sud",
@@ -6481,7 +6547,8 @@
    "name": "Guriner Furggu",
    "lat": 46.323,
    "lon": 8.45368,
-   "ele_m": 2323
+   "ele_m": 2323,
+   "wikipedia": "de:Guriner Furggu"
   },
   {
    "name": "Colle Costapiana",
@@ -6541,7 +6608,8 @@
    "name": "Passo Forcola di Livigno",
    "lat": 46.44094,
    "lon": 10.05619,
-   "ele_m": 2315
+   "ele_m": 2315,
+   "wikipedia": "de:Forcola di Livigno"
   },
   {
    "name": "Forcella Col di Mezzo - Forcella del Col de Mèdo - Mitterscharte",
@@ -6565,13 +6633,15 @@
    "name": "Passo di San Giacomo",
    "lat": 46.45913,
    "lon": 8.45212,
-   "ele_m": 2313
+   "ele_m": 2313,
+   "wikipedia": "it:Passo di San Giacomo"
   },
   {
    "name": "Colle delle Vallette",
    "lat": 45.05884,
    "lon": 7.17817,
-   "ele_m": 2312
+   "ele_m": 2312,
+   "wikipedia": "it:Colle delle Vallette"
   },
   {
    "name": "Forcella Inferiore",
@@ -6787,7 +6857,8 @@
    "name": "Scharljoch - Passo della Cruschetta",
    "lat": 46.691,
    "lon": 10.39419,
-   "ele_m": 2296
+   "ele_m": 2296,
+   "wikipedia": "de:Cruschetta"
   },
   {
    "name": "Passo Binasia",
@@ -6847,7 +6918,8 @@
    "name": "Passo Foscagno",
    "lat": 46.49636,
    "lon": 10.20786,
-   "ele_m": 2291
+   "ele_m": 2291,
+   "wikipedia": "it:Passo del Foscagno"
   },
   {
    "name": "Passo di Porcile",
@@ -6901,7 +6973,8 @@
    "name": "Klammljoch",
    "lat": 46.98419,
    "lon": 12.13258,
-   "ele_m": 2288
+   "ele_m": 2288,
+   "wikipedia": "it:Passo Gola"
   },
   {
    "name": "Bocchetta d'Ea",
@@ -6949,7 +7022,8 @@
    "name": "Colle di Sampeyre",
    "lat": 44.55095,
    "lon": 7.11958,
-   "ele_m": 2284
+   "ele_m": 2284,
+   "wikipedia": "it:Colle di Sampeyre"
   },
   {
    "name": "Forcella Val de Drap",
@@ -7075,7 +7149,8 @@
    "name": "Passo della Portula",
    "lat": 46.01593,
    "lon": 9.88909,
-   "ele_m": 2273
+   "ele_m": 2273,
+   "wikipedia": "it:Passo della Portula"
   },
   {
    "name": "Sela Palacia - Christjoch",
@@ -7165,7 +7240,8 @@
    "name": "Colle della Barma",
    "lat": 45.64049,
    "lon": 7.93886,
-   "ele_m": 2261
+   "ele_m": 2261,
+   "wikipedia": "it:Colle della Barma"
   },
   {
    "name": "Forcella Litegosa",
@@ -7249,7 +7325,8 @@
    "name": "Pfitscher Joch - Passo di Vizze",
    "lat": 46.99475,
    "lon": 11.66038,
-   "ele_m": 2251
+   "ele_m": 2251,
+   "wikipedia": "de:Pfitscher Joch"
   },
   {
    "name": "Il Portellin",
@@ -7345,7 +7422,8 @@
    "name": "Jouf de Sela - Passo Sella - Sellajoch",
    "lat": 46.50807,
    "lon": 11.76733,
-   "ele_m": 2240
+   "ele_m": 2240,
+   "wikipedia": "it:Passo Sella"
   },
   {
    "name": "Passo del Forcellino",
@@ -7381,7 +7459,8 @@
    "name": "Jouf de Pordoi - Passo Pordoi - Pordoijoch",
    "lat": 46.48755,
    "lon": 11.81219,
-   "ele_m": 2239
+   "ele_m": 2239,
+   "wikipedia": "it:Passo Pordoi"
   },
   {
    "name": "Colle di Bonze",
@@ -7393,7 +7472,8 @@
    "name": "Passo di Giau",
    "lat": 46.48252,
    "lon": 12.05367,
-   "ele_m": 2236
+   "ele_m": 2236,
+   "wikipedia": "it:Passo di Giau"
   },
   {
    "name": "Durnholzer Jöchl - Forcella di Valdurna",
@@ -7429,7 +7509,8 @@
    "name": "Colle del Vento",
    "lat": 45.06583,
    "lon": 7.17705,
-   "ele_m": 2232
+   "ele_m": 2232,
+   "wikipedia": "it:Colle del Vento"
   },
   {
    "name": "Bocchetta Verde",
@@ -7495,7 +7576,8 @@
    "name": "Col d'Anzana",
    "lat": 46.22308,
    "lon": 10.07835,
-   "ele_m": 2224
+   "ele_m": 2224,
+   "wikipedia": "de:Col d’Anzana"
   },
   {
    "name": "Bocchetta delle Vacche",
@@ -7621,7 +7703,8 @@
    "name": "Colle della Gragliasca",
    "lat": 45.65916,
    "lon": 7.92192,
-   "ele_m": 2213
+   "ele_m": 2213,
+   "wikipedia": "it:Colle della Gragliasca"
   },
   {
    "name": "Schlüsseljoch - Passo della Chiave",
@@ -7651,7 +7734,8 @@
    "name": "Penser Joch - Passo di Pennes",
    "lat": 46.81878,
    "lon": 11.44125,
-   "ele_m": 2211
+   "ele_m": 2211,
+   "wikipedia": "de:Penser Joch"
   },
   {
    "name": "Forcella del Frate",
@@ -7675,7 +7759,8 @@
    "name": "Passo Eira",
    "lat": 46.53832,
    "lon": 10.16642,
-   "ele_m": 2208
+   "ele_m": 2208,
+   "wikipedia": "it:Passo dell'Eira"
   },
   {
    "name": "Passo della Forcola",
@@ -7699,7 +7784,8 @@
    "name": "Gsieser Torl",
    "lat": 46.88714,
    "lon": 12.2597,
-   "ele_m": 2206
+   "ele_m": 2206,
+   "wikipedia": "de:Gsieser Törl"
   },
   {
    "name": "Colletto delle Rocche di Serpentera",
@@ -7711,7 +7797,8 @@
    "name": "Colle della Mologna Piccola",
    "lat": 45.71125,
    "lon": 7.92752,
-   "ele_m": 2205
+   "ele_m": 2205,
+   "wikipedia": "it:Colle della Mologna Piccola"
   },
   {
    "name": "Jëuf da Duron - Mahlknechtjoch - Passo Duron",
@@ -7861,7 +7948,8 @@
    "name": "Colle della Vecchia",
    "lat": 45.69334,
    "lon": 7.90747,
-   "ele_m": 2185
+   "ele_m": 2185,
+   "wikipedia": "it:Colle della Vecchia"
   },
   {
    "name": "Colle Borel",
@@ -7921,7 +8009,8 @@
    "name": "Colle delle Finestre",
    "lat": 45.07203,
    "lon": 7.05334,
-   "ele_m": 2176
+   "ele_m": 2176,
+   "wikipedia": "it:Colle delle Finestre"
   },
   {
    "name": "Colle Rastcias",
@@ -7975,7 +8064,8 @@
    "name": "Jú de Limo",
    "lat": 46.60936,
    "lon": 12.01531,
-   "ele_m": 2172
+   "ele_m": 2172,
+   "wikipedia": "it:Passo di Limo"
   },
   {
    "name": "Forca del Cridola",
@@ -8017,7 +8107,8 @@
    "name": "Forcella Mangart / Mangartsko sedlo",
    "lat": 46.44559,
    "lon": 13.64954,
-   "ele_m": 2166
+   "ele_m": 2166,
+   "wikipedia": "en:Mangart Saddle"
   },
   {
    "name": "Colletto del Civrari",
@@ -8359,19 +8450,22 @@
    "name": "Passo del Camino",
    "lat": 45.6958,
    "lon": 10.82661,
-   "ele_m": 2121
+   "ele_m": 2121,
+   "wikipedia": "it:Passo del Camino"
   },
   {
    "name": "Colle della Lace",
    "lat": 45.59892,
    "lon": 7.8915,
-   "ele_m": 2121
+   "ele_m": 2121,
+   "wikipedia": "it:Colle della Lace"
   },
   {
    "name": "Ju de Frara - Grödner Joch - Passo Gardena",
    "lat": 46.54982,
    "lon": 11.80839,
-   "ele_m": 2121
+   "ele_m": 2121,
+   "wikipedia": "it:Passo Gardena"
   },
   {
    "name": "Passo di Tanerle",
@@ -8401,7 +8495,8 @@
    "name": "Passo Feudo - Satteljoch",
    "lat": 46.34465,
    "lon": 11.55901,
-   "ele_m": 2118
+   "ele_m": 2118,
+   "wikipedia": "it:Passo Feudo"
   },
   {
    "name": "Bocchetta della Bassa",
@@ -8473,7 +8568,8 @@
    "name": "Passo di Tartano",
    "lat": 46.06363,
    "lon": 9.71857,
-   "ele_m": 2108
+   "ele_m": 2108,
+   "wikipedia": "it:Passo di Tartano"
   },
   {
    "name": "Passo del Gatto",
@@ -8485,7 +8581,8 @@
    "name": "Passo Falzarego",
    "lat": 46.51875,
    "lon": 12.00843,
-   "ele_m": 2105
+   "ele_m": 2105,
+   "wikipedia": "it:Passo di Falzarego"
   },
   {
    "name": "Colle d'Attia",
@@ -8539,7 +8636,8 @@
    "name": "Col de la Celle Vieille / Colle delle Selle Vecchie",
    "lat": 44.14215,
    "lon": 7.67664,
-   "ele_m": 2099
+   "ele_m": 2099,
+   "wikipedia": "it:Colle delle Selle Vecchie"
   },
   {
    "name": "Forcella dei Cadini",
@@ -8575,7 +8673,8 @@
    "name": "Jaufenpass - Passo di Monte Giovo",
    "lat": 46.8396,
    "lon": 11.32147,
-   "ele_m": 2094
+   "ele_m": 2094,
+   "wikipedia": "de:Jaufenpass"
   },
   {
    "name": "Tilliacher Joch - Forcella Dignas",
@@ -8623,7 +8722,8 @@
    "name": "Passo Frontè",
    "lat": 44.05916,
    "lon": 7.75816,
-   "ele_m": 2090
+   "ele_m": 2090,
+   "wikipedia": "it:Passo Frontè"
   },
   {
    "name": "Bocchetta di Piedavalle",
@@ -8791,7 +8891,8 @@
    "name": "Prevala",
    "lat": 46.36715,
    "lon": 13.48072,
-   "ele_m": 2067
+   "ele_m": 2067,
+   "wikipedia": "sl:Prevala"
   },
   {
    "name": "Passo Sadole",
@@ -8839,7 +8940,8 @@
    "name": "Passo Dordona",
    "lat": 46.06291,
    "lon": 9.76396,
-   "ele_m": 2061
+   "ele_m": 2061,
+   "wikipedia": "it:Passo Dordona"
   },
   {
    "name": "Forcella di Valon",
@@ -8875,7 +8977,8 @@
    "name": "Passo Fedaia",
    "lat": 46.46402,
    "lon": 11.86259,
-   "ele_m": 2057
+   "ele_m": 2057,
+   "wikipedia": "it:Passo Fedaia"
   },
   {
    "name": "Passo dei Rossi",
@@ -8893,7 +8996,8 @@
    "name": "Forcella Rossa",
    "lat": 46.04614,
    "lon": 9.68504,
-   "ele_m": 2055
+   "ele_m": 2055,
+   "wikipedia": "it:Forcella Rossa"
   },
   {
    "name": "Fedaia (bis)",
@@ -8917,7 +9021,8 @@
    "name": "Staller Sattel - Passo di Stalle",
    "lat": 46.88772,
    "lon": 12.19969,
-   "ele_m": 2052
+   "ele_m": 2052,
+   "wikipedia": "de:Staller Sattel"
   },
   {
    "name": "Col de la Liet",
@@ -8959,7 +9064,8 @@
    "name": "Passo Manghen",
    "lat": 46.17325,
    "lon": 11.44147,
-   "ele_m": 2047
+   "ele_m": 2047,
+   "wikipedia": "it:Passo Manghen"
   },
   {
    "name": "Passo Mirafiori",
@@ -9079,7 +9185,8 @@
    "name": "Colle del Sestriere",
    "lat": 44.95909,
    "lon": 6.88254,
-   "ele_m": 2035
+   "ele_m": 2035,
+   "wikipedia": "it:Colle del Sestriere"
   },
   {
    "name": "Colle dei Test",
@@ -9109,7 +9216,8 @@
    "name": "Passo Valles",
    "lat": 46.33861,
    "lon": 11.80026,
-   "ele_m": 2032
+   "ele_m": 2032,
+   "wikipedia": "it:Passo Valles"
   },
   {
    "name": "Goletto di Cludona",
@@ -9175,7 +9283,8 @@
    "name": "Passo Cinque Croci",
    "lat": 46.1754,
    "lon": 11.55015,
-   "ele_m": 2023
+   "ele_m": 2023,
+   "wikipedia": "it:Passo Cinque Croci"
   },
   {
    "name": "Passo delle Mastrelle",
@@ -9187,7 +9296,8 @@
    "name": "Passo di Garlenda",
    "lat": 44.05117,
    "lon": 7.74739,
-   "ele_m": 2021
+   "ele_m": 2021,
+   "wikipedia": "it:Passo Garlenda"
   },
   {
    "name": "Forcella de Lerosa",
@@ -9397,7 +9507,8 @@
    "name": "Passo del Re",
    "lat": 45.92917,
    "lon": 9.84882,
-   "ele_m": 1997
+   "ele_m": 1997,
+   "wikipedia": "it:Passo del Re"
   },
   {
    "name": "Passo di Menna",
@@ -9433,7 +9544,8 @@
    "name": "Plätzwiese - Prato Piazza",
    "lat": 46.65639,
    "lon": 12.17626,
-   "ele_m": 1993
+   "ele_m": 1993,
+   "wikipedia": "it:Prato Piazza"
   },
   {
    "name": "Colle Canaggio",
@@ -9451,13 +9563,15 @@
    "name": "Passo San Marco",
    "lat": 46.04719,
    "lon": 9.62278,
-   "ele_m": 1991
+   "ele_m": 1991,
+   "wikipedia": "it:Passo di San Marco"
   },
   {
    "name": "Col de Larche / Colle della Maddalena",
    "lat": 44.42183,
    "lon": 6.89843,
-   "ele_m": 1991
+   "ele_m": 1991,
+   "wikipedia": "it:Colle della Maddalena"
   },
   {
    "name": "Forcje dai Claps",
@@ -9493,7 +9607,8 @@
    "name": "Jochgrimm - Passo Oclini",
    "lat": 46.34732,
    "lon": 11.45154,
-   "ele_m": 1989
+   "ele_m": 1989,
+   "wikipedia": "de:Jochgrimm"
   },
   {
    "name": "Passo del Duca",
@@ -9511,7 +9626,8 @@
    "name": "Jü de Börz - Würzjoch - Passo delle Erbe",
    "lat": 46.67511,
    "lon": 11.81431,
-   "ele_m": 1987
+   "ele_m": 1987,
+   "wikipedia": "de:Würzjoch"
   },
   {
    "name": "Bocchetta di Sebol",
@@ -9535,7 +9651,8 @@
    "name": "Reiterjoch - Passo di Pampeago",
    "lat": 46.35381,
    "lon": 11.53983,
-   "ele_m": 1983
+   "ele_m": 1983,
+   "wikipedia": "it:Passo di Pampeago"
   },
   {
    "name": "Forcella Ronce",
@@ -9565,7 +9682,8 @@
    "name": "Bocchetta del Coal Santo",
    "lat": 45.69062,
    "lon": 10.82195,
-   "ele_m": 1978
+   "ele_m": 1978,
+   "wikipedia": "it:Passo di Coal Santo"
   },
   {
    "name": "Colletto Pellerina",
@@ -9577,7 +9695,8 @@
    "name": "Forcella Forada",
    "lat": 46.43396,
    "lon": 12.13153,
-   "ele_m": 1977
+   "ele_m": 1977,
+   "wikipedia": "it:Forcella Forada"
   },
   {
    "name": "Forcella di Sabbia",
@@ -9619,7 +9738,8 @@
    "name": "Passo Rolle",
    "lat": 46.2963,
    "lon": 11.78632,
-   "ele_m": 1971
+   "ele_m": 1971,
+   "wikipedia": "it:Passo Rolle"
   },
   {
    "name": "Sella Nabois",
@@ -9733,7 +9853,8 @@
    "name": "Bocchetta del Croso",
    "lat": 45.7204,
    "lon": 7.97435,
-   "ele_m": 1954
+   "ele_m": 1954,
+   "wikipedia": "it:Bocchetta del Croso"
   },
   {
    "name": "Passo della Croce",
@@ -9751,7 +9872,8 @@
    "name": "Passo di Fraele",
    "lat": 46.55271,
    "lon": 10.25308,
-   "ele_m": 1952
+   "ele_m": 1952,
+   "wikipedia": "de:Passo di Fraele"
   },
   {
    "name": "Forca Resuni",
@@ -9763,7 +9885,8 @@
    "name": "Colle San Carlo",
    "lat": 45.74282,
    "lon": 6.98861,
-   "ele_m": 1951
+   "ele_m": 1951,
+   "wikipedia": "it:Colle San Carlo"
   },
   {
    "name": "Passo degli Agnelli",
@@ -9949,7 +10072,8 @@
    "name": "Porte del Pasubio",
    "lat": 45.78432,
    "lon": 11.18665,
-   "ele_m": 1928
+   "ele_m": 1928,
+   "wikipedia": "it:Porte del Pasubio"
   },
   {
    "name": "Colletto del Laus",
@@ -10021,7 +10145,8 @@
    "name": "Passo San Pellegrino",
    "lat": 46.37836,
    "lon": 11.79172,
-   "ele_m": 1918
+   "ele_m": 1918,
+   "wikipedia": "it:Passo San Pellegrino"
   },
   {
    "name": "Colle San Michele",
@@ -10111,7 +10236,8 @@
    "name": "Sella di Leonessa",
    "lat": 42.47373,
    "lon": 13.00618,
-   "ele_m": 1900
+   "ele_m": 1900,
+   "wikipedia": "it:Sella di Leonessa"
   },
   {
    "name": "Sella delle Piode Nere",
@@ -10159,7 +10285,8 @@
    "name": "Passo di Crocedomini",
    "lat": 45.90753,
    "lon": 10.40951,
-   "ele_m": 1892
+   "ele_m": 1892,
+   "wikipedia": "it:Passo di Crocedomini"
   },
   {
    "name": "Bocchetta Albano",
@@ -10183,7 +10310,8 @@
    "name": "Colle del Colombardo",
    "lat": 45.1873,
    "lon": 7.31113,
-   "ele_m": 1888
+   "ele_m": 1888,
+   "wikipedia": "it:Colle del Colombardo"
   },
   {
    "name": "Colletto Balma",
@@ -10195,7 +10323,8 @@
    "name": "Passo del Tonale",
    "lat": 46.25801,
    "lon": 10.58185,
-   "ele_m": 1883
+   "ele_m": 1883,
+   "wikipedia": "it:Passo del Tonale"
   },
   {
    "name": "Bocchetta di Saler",
@@ -10309,7 +10438,8 @@
    "name": "Col de Tende / Colle di Tenda",
    "lat": 44.14968,
    "lon": 7.56188,
-   "ele_m": 1871
+   "ele_m": 1871,
+   "wikipedia": "it:Colle di Tenda"
   },
   {
    "name": "Colle di Melle",
@@ -10333,7 +10463,8 @@
    "name": "Passo Cattivo",
    "lat": 42.9058,
    "lon": 13.20317,
-   "ele_m": 1869
+   "ele_m": 1869,
+   "wikipedia": "it:Passo Cattivo"
   },
   {
    "name": "Passo di Mura",
@@ -10375,7 +10506,8 @@
    "name": "Kofeljoch - Passo Eores",
    "lat": 46.66625,
    "lon": 11.77395,
-   "ele_m": 1863
+   "ele_m": 1863,
+   "wikipedia": "de:Kofeljoch"
   },
   {
    "name": "Bocchetta di Valmala",
@@ -10465,7 +10597,8 @@
    "name": "Passo della Foppa",
    "lat": 46.24786,
    "lon": 10.30037,
-   "ele_m": 1852
+   "ele_m": 1852,
+   "wikipedia": "it:Passo del Mortirolo"
   },
   {
    "name": "Passo Olone",
@@ -10477,7 +10610,8 @@
    "name": "Passo del Mortirolo",
    "lat": 46.24786,
    "lon": 10.29831,
-   "ele_m": 1852
+   "ele_m": 1852,
+   "wikipedia": "it:Passo del Mortirolo"
   },
   {
    "name": "Colletto dell'Orso",
@@ -10663,7 +10797,8 @@
    "name": "Passo del Vivione",
    "lat": 46.03659,
    "lon": 10.19927,
-   "ele_m": 1828
+   "ele_m": 1828,
+   "wikipedia": "de:Passo del Vivione"
   },
   {
    "name": "Colle Conciuffre",
@@ -10819,7 +10954,8 @@
    "name": "Passo Tre Croci - Son Zuógo",
    "lat": 46.55702,
    "lon": 12.20185,
-   "ele_m": 1809
+   "ele_m": 1809,
+   "wikipedia": "it:Passo Tre Croci"
   },
   {
    "name": "Colle Crosiasse",
@@ -10837,7 +10973,8 @@
    "name": "Passo di Lavazè",
    "lat": 46.35467,
    "lon": 11.49274,
-   "ele_m": 1807
+   "ele_m": 1807,
+   "wikipedia": "it:Passo di Lavazè"
   },
   {
    "name": "Buchsenriedl - Passo del Capro",
@@ -10873,7 +11010,8 @@
    "name": "Passo della Manina",
    "lat": 46.01341,
    "lon": 10.02788,
-   "ele_m": 1799
+   "ele_m": 1799,
+   "wikipedia": "it:Passo della Manina"
   },
   {
    "name": "Portella / Vraška škrbina",
@@ -10921,7 +11059,8 @@
    "name": "Colle di Garezzo",
    "lat": 44.04525,
    "lon": 7.77488,
-   "ele_m": 1795
+   "ele_m": 1795,
+   "wikipedia": "it:Colle del Garezzo"
   },
   {
    "name": "Selletta di Val Còmera",
@@ -10945,7 +11084,8 @@
    "name": "Passo di Annibale",
    "lat": 44.12232,
    "lon": 10.6232,
-   "ele_m": 1794
+   "ele_m": 1794,
+   "wikipedia": "it:Passo di Annibale"
   },
   {
    "name": "Forcella Ciol di Sass",
@@ -10999,7 +11139,8 @@
    "name": "Ju de Furćia - Furkelpass - Passo Furcia",
    "lat": 46.72291,
    "lon": 11.96892,
-   "ele_m": 1789
+   "ele_m": 1789,
+   "wikipedia": "de:Furkelpass"
   },
   {
    "name": "Forcella della Vacca",
@@ -11035,7 +11176,8 @@
    "name": "Forcella Pécol",
    "lat": 46.42761,
    "lon": 12.0686,
-   "ele_m": 1786
+   "ele_m": 1786,
+   "wikipedia": "it:Forcella Pecol"
   },
   {
    "name": "Forcella Valbona",
@@ -11047,13 +11189,15 @@
    "name": "Passo Castrin - Hofmahdjoch",
    "lat": 46.51428,
    "lon": 11.051,
-   "ele_m": 1785
+   "ele_m": 1785,
+   "wikipedia": "en:Hofmahdjoch"
   },
   {
    "name": "Foce di Campolino",
    "lat": 44.10788,
    "lon": 10.65172,
-   "ele_m": 1785
+   "ele_m": 1785,
+   "wikipedia": "it:Foce di Campolino"
   },
   {
    "name": "Bocchetta di Pesciola",
@@ -11161,7 +11305,8 @@
    "name": "Passo Staulanza",
    "lat": 46.4207,
    "lon": 12.1045,
-   "ele_m": 1766
+   "ele_m": 1766,
+   "wikipedia": "it:Passo Staulanza"
   },
   {
    "name": "Passo della Finestra",
@@ -11197,7 +11342,8 @@
    "name": "Passo Tratto Spino",
    "lat": 45.76755,
    "lon": 10.86547,
-   "ele_m": 1760
+   "ele_m": 1760,
+   "wikipedia": "it:Passo Tratto Spino"
   },
   {
    "name": "Passo degli Onari",
@@ -11299,7 +11445,8 @@
    "name": "Passo di Costalunga - Karerpass",
    "lat": 46.40428,
    "lon": 11.60899,
-   "ele_m": 1745
+   "ele_m": 1745,
+   "wikipedia": "it:Passo di Costalunga"
   },
   {
    "name": "Passo del Cavallo",
@@ -11509,7 +11656,8 @@
    "name": "Passo Tre Croci (Passo della Lora)",
    "lat": 45.69684,
    "lon": 11.1387,
-   "ele_m": 1716
+   "ele_m": 1716,
+   "wikipedia": "it:Passo della Lora"
   },
   {
    "name": "Forcella di Riobianco / Čez Beli potok",
@@ -11689,7 +11837,8 @@
    "name": "Nigerpass - Passo Nigra",
    "lat": 46.45599,
    "lon": 11.58589,
-   "ele_m": 1690
+   "ele_m": 1690,
+   "wikipedia": "de:Nigerpass"
   },
   {
    "name": "Valico dell'Aceretta",
@@ -11761,7 +11910,8 @@
    "name": "Passo Campo Carlo Magno",
    "lat": 46.24312,
    "lon": 10.84023,
-   "ele_m": 1682
+   "ele_m": 1682,
+   "wikipedia": "en:Campo Carlo Magno"
   },
   {
    "name": "Foce Banciola",
@@ -11851,7 +12001,8 @@
    "name": "Col-de-Fenêtre",
    "lat": 45.63121,
    "lon": 7.78247,
-   "ele_m": 1673
+   "ele_m": 1673,
+   "wikipedia": "it:Col de Fenêtre"
   },
   {
    "name": "Valico Passaggio dell'Orso",
@@ -11881,7 +12032,8 @@
    "name": "Passo di Croce Arcana",
    "lat": 44.13212,
    "lon": 10.77784,
-   "ele_m": 1669
+   "ele_m": 1669,
+   "wikipedia": "it:Passo della Croce Arcana"
   },
   {
    "name": "Passo Belfiore",
@@ -11917,19 +12069,22 @@
    "name": "Passo di Tremalzo",
    "lat": 45.83669,
    "lon": 10.69026,
-   "ele_m": 1664
+   "ele_m": 1664,
+   "wikipedia": "it:Passo del Tremalzo"
   },
   {
    "name": "Giogo del Maniva",
    "lat": 45.82263,
    "lon": 10.4101,
-   "ele_m": 1664
+   "ele_m": 1664,
+   "wikipedia": "it:Passo del Maniva"
   },
   {
    "name": "Foce a Giovo",
    "lat": 44.11828,
    "lon": 10.60955,
-   "ele_m": 1664
+   "ele_m": 1664,
+   "wikipedia": "it:Foce a Giovo"
   },
   {
    "name": "Forcella di Teglara",
@@ -12037,7 +12192,8 @@
    "name": "Cima Mammarosa",
    "lat": 42.17112,
    "lon": 14.11655,
-   "ele_m": 1650
+   "ele_m": 1650,
+   "wikipedia": "it:Cima Mammarosa"
   },
   {
    "name": "Valico del Laghetto",
@@ -12073,7 +12229,8 @@
    "name": "Passo della Focolaccia",
    "lat": 44.11307,
    "lon": 10.22125,
-   "ele_m": 1642
+   "ele_m": 1642,
+   "wikipedia": "it:Passo della Focolaccia"
   },
   {
    "name": "Colle di Balmascura",
@@ -12109,13 +12266,15 @@
    "name": "Col de Joux",
    "lat": 45.754,
    "lon": 7.70288,
-   "ele_m": 1639
+   "ele_m": 1639,
+   "wikipedia": "it:Col de Joux"
   },
   {
    "name": "Kreuzbergpass - Passo Monte Croce di Comelico",
    "lat": 46.65594,
    "lon": 12.42011,
-   "ele_m": 1636
+   "ele_m": 1636,
+   "wikipedia": "de:Kreuzbergpass"
   },
   {
    "name": "Passo della Nevaia",
@@ -12157,7 +12316,8 @@
    "name": "Passo Godi",
    "lat": 41.83495,
    "lon": 13.93156,
-   "ele_m": 1630
+   "ele_m": 1630,
+   "wikipedia": "it:Passo Godi"
   },
   {
    "name": "Goletto Campo di Nasso",
@@ -12205,7 +12365,8 @@
    "name": "Colletta delle Salse",
    "lat": 44.11242,
    "lon": 7.72585,
-   "ele_m": 1623
+   "ele_m": 1623,
+   "wikipedia": "it:Colletta delle Salse"
   },
   {
    "name": "Passo della Tambura",
@@ -12265,7 +12426,8 @@
    "name": "Passo Brocon",
    "lat": 46.11861,
    "lon": 11.68854,
-   "ele_m": 1616
+   "ele_m": 1616,
+   "wikipedia": "it:Passo Brocon"
   },
   {
    "name": "Forcella de Busnich",
@@ -12307,7 +12469,8 @@
    "name": "Passo Coe",
    "lat": 45.87732,
    "lon": 11.21206,
-   "ele_m": 1610
+   "ele_m": 1610,
+   "wikipedia": "it:Passo Coe"
   },
   {
    "name": "Forcella di Frasnedo",
@@ -12349,7 +12512,8 @@
    "name": "Passo Duran",
    "lat": 46.32491,
    "lon": 12.09606,
-   "ele_m": 1605
+   "ele_m": 1605,
+   "wikipedia": "it:Passo Duran"
   },
   {
    "name": "Passo della Colmine",
@@ -12529,7 +12693,8 @@
    "name": "Passo di Pradarena",
    "lat": 44.28577,
    "lon": 10.30039,
-   "ele_m": 1574
+   "ele_m": 1574,
+   "wikipedia": "it:Passo della Pradarena"
   },
   {
    "name": "Colla Bassa",
@@ -12625,7 +12790,8 @@
    "name": "Passo del Cason di Lanza",
    "lat": 46.56598,
    "lon": 13.17097,
-   "ele_m": 1555
+   "ele_m": 1555,
+   "wikipedia": "it:Passo del Cason di Lanza"
   },
   {
    "name": "Portella Arena",
@@ -12679,7 +12845,8 @@
    "name": "Passo San Lucio",
    "lat": 46.08612,
    "lon": 9.08945,
-   "ele_m": 1550
+   "ele_m": 1550,
+   "wikipedia": "it:Passo San Lucio"
   },
   {
    "name": "La Scaletta",
@@ -12697,7 +12864,8 @@
    "name": "Passo della Spingarda",
    "lat": 44.47629,
    "lon": 9.45528,
-   "ele_m": 1546
+   "ele_m": 1546,
+   "wikipedia": "it:Passo della Spingarda"
   },
   {
    "name": "Passo della Vena di Sopra",
@@ -12715,7 +12883,8 @@
    "name": "Forca Canapine",
    "lat": 42.7487,
    "lon": 13.19919,
-   "ele_m": 1543
+   "ele_m": 1543,
+   "wikipedia": "it:Forca Canapine"
   },
   {
    "name": "Sella del Campetto",
@@ -12745,7 +12914,8 @@
    "name": "Forcella Lavardet",
    "lat": 46.49978,
    "lon": 12.62857,
-   "ele_m": 1542
+   "ele_m": 1542,
+   "wikipedia": "it:Forcella Lavardet"
   },
   {
    "name": "Colle Valmala",
@@ -12763,7 +12933,8 @@
    "name": "Forca d'Acero",
    "lat": 41.75176,
    "lon": 13.81578,
-   "ele_m": 1538
+   "ele_m": 1538,
+   "wikipedia": "it:Forca d'Acero"
   },
   {
    "name": "Passo Prè de Lame",
@@ -12775,7 +12946,8 @@
    "name": "Forca di Presta",
    "lat": 42.79,
    "lon": 13.2607,
-   "ele_m": 1534
+   "ele_m": 1534,
+   "wikipedia": "it:Forca di Presta"
   },
   {
    "name": "Sella Penna Soprana",
@@ -12805,19 +12977,22 @@
    "name": "Im Gemärk - Passo Cimabanche",
    "lat": 46.62059,
    "lon": 12.18398,
-   "ele_m": 1530
+   "ele_m": 1530,
+   "wikipedia": "it:Passo Cimabanche"
   },
   {
    "name": "Passo Cibiana",
    "lat": 46.37443,
    "lon": 12.2598,
-   "ele_m": 1530
+   "ele_m": 1530,
+   "wikipedia": "it:Passo Cibiana"
   },
   {
    "name": "Nassfeldpass / Passo di Pramollo",
    "lat": 46.55996,
    "lon": 13.27556,
-   "ele_m": 1530
+   "ele_m": 1530,
+   "wikipedia": "it:Passo di Pramollo"
   },
   {
    "name": "Bocchetta di Scotto",
@@ -12925,7 +13100,8 @@
    "name": "Gampenpass - Passo delle Palade",
    "lat": 46.52955,
    "lon": 11.1118,
-   "ele_m": 1518
+   "ele_m": 1518,
+   "wikipedia": "de:Gampenpass"
   },
   {
    "name": "Colma di Lavaggio",
@@ -12979,7 +13155,8 @@
    "name": "Reschenpass - Passo Resia",
    "lat": 46.83435,
    "lon": 10.51025,
-   "ele_m": 1507
+   "ele_m": 1507,
+   "wikipedia": "de:Reschenpass"
   },
   {
    "name": "Portella della Miraglia",
@@ -13141,7 +13318,8 @@
    "name": "Passo del Tomarlo",
    "lat": 44.53591,
    "lon": 9.50116,
-   "ele_m": 1482
+   "ele_m": 1482,
+   "wikipedia": "it:Passo del Tomarlo"
   },
   {
    "name": "Passo del Lupo",
@@ -13183,7 +13361,8 @@
    "name": "Passo di Sant'Antonio",
    "lat": 46.572,
    "lon": 12.48236,
-   "ele_m": 1476
+   "ele_m": 1476,
+   "wikipedia": "it:Passo di Sant'Antonio"
   },
   {
    "name": "Passo delle Buse Scure",
@@ -13267,7 +13446,8 @@
    "name": "Passo dell'Incisa",
    "lat": 44.47918,
    "lon": 9.48145,
-   "ele_m": 1463
+   "ele_m": 1463,
+   "wikipedia": "it:Passo dell'Incisa"
   },
   {
    "name": "Fresnapass - Passo Fresna",
@@ -13285,13 +13465,15 @@
    "name": "Colle della Vaccera",
    "lat": 44.87575,
    "lon": 7.20325,
-   "ele_m": 1461
+   "ele_m": 1461,
+   "wikipedia": "it:Colle della Vaccera"
   },
   {
    "name": "Passo Buole",
    "lat": 45.7783,
    "lon": 11.08463,
-   "ele_m": 1460
+   "ele_m": 1460,
+   "wikipedia": "it:Passo Buole"
   },
   {
    "name": "Passo dei Porcelletti",
@@ -13357,7 +13539,8 @@
    "name": "Passo del Redebus - Sontbisn",
    "lat": 46.13598,
    "lon": 11.32309,
-   "ele_m": 1455
+   "ele_m": 1455,
+   "wikipedia": "it:Passo Redebus"
   },
   {
    "name": "Valico di Santa Maria Maddalena",
@@ -13381,7 +13564,8 @@
    "name": "Passo di Campogrosso",
    "lat": 45.729,
    "lon": 11.16886,
-   "ele_m": 1453
+   "ele_m": 1453,
+   "wikipedia": "it:Passo di Campogrosso"
   },
   {
    "name": "Bocca Giumella",
@@ -13603,7 +13787,8 @@
    "name": "Bocca di Navene",
    "lat": 45.78796,
    "lon": 10.87259,
-   "ele_m": 1425
+   "ele_m": 1425,
+   "wikipedia": "it:Bocca di Navene"
   },
   {
    "name": "Passo Prà della Rosa",
@@ -13615,7 +13800,8 @@
    "name": "Bocchetta della Boscarola",
    "lat": 45.73775,
    "lon": 8.09576,
-   "ele_m": 1422
+   "ele_m": 1422,
+   "wikipedia": "it:Bocchetta della Boscarola"
   },
   {
    "name": "Sella Brisiach",
@@ -13651,7 +13837,8 @@
    "name": "Colle di San Zeno",
    "lat": 45.7812,
    "lon": 10.18737,
-   "ele_m": 1418
+   "ele_m": 1418,
+   "wikipedia": "it:Colle di San Zeno"
   },
   {
    "name": "Portella Colla",
@@ -13723,13 +13910,15 @@
    "name": "Foce dei Tre Confini",
    "lat": 44.36587,
    "lon": 9.68679,
-   "ele_m": 1408
+   "ele_m": 1408,
+   "wikipedia": "it:Foce dei Tre Confini"
   },
   {
    "name": "Passo del Baremone",
    "lat": 45.79197,
    "lon": 10.46527,
-   "ele_m": 1406
+   "ele_m": 1406,
+   "wikipedia": "it:Passo Baremone"
   },
   {
    "name": "Colle Vert",
@@ -13771,7 +13960,8 @@
    "name": "Passo Vezzena",
    "lat": 45.95661,
    "lon": 11.32859,
-   "ele_m": 1402
+   "ele_m": 1402,
+   "wikipedia": "it:Passo Vezzena"
   },
   {
    "name": "Bocca di Forca",
@@ -13783,7 +13973,8 @@
    "name": "Passo dello Zovallo",
    "lat": 44.57362,
    "lon": 9.52061,
-   "ele_m": 1401
+   "ele_m": 1401,
+   "wikipedia": "it:Passo dello Zovallo"
   },
   {
    "name": "Sella Somdogna",
@@ -13807,7 +13998,8 @@
    "name": "Passo delle Fittanze della Sega",
    "lat": 45.68389,
    "lon": 10.97912,
-   "ele_m": 1399
+   "ele_m": 1399,
+   "wikipedia": "it:Passo delle Fittanze della Sega"
   },
   {
    "name": "Portella del Ceramese",
@@ -13849,7 +14041,8 @@
    "name": "Bocca di Valle",
    "lat": 45.79223,
    "lon": 10.58176,
-   "ele_m": 1394
+   "ele_m": 1394,
+   "wikipedia": "it:Bocca di Valle"
   },
   {
    "name": "Passo della Crocina",
@@ -13867,7 +14060,8 @@
    "name": "Passo dei Due Santi",
    "lat": 44.38862,
    "lon": 9.75274,
-   "ele_m": 1392
+   "ele_m": 1392,
+   "wikipedia": "it:Passo dei Due Santi"
   },
   {
    "name": "Bocchetta di Cino",
@@ -13945,7 +14139,8 @@
    "name": "Passo dell'Abetone",
    "lat": 44.14564,
    "lon": 10.66496,
-   "ele_m": 1388
+   "ele_m": 1388,
+   "wikipedia": "it:Passo dell'Abetone"
   },
   {
    "name": "Sella Colrotondo",
@@ -13975,7 +14170,8 @@
    "name": "Colla di Casotto",
    "lat": 44.21614,
    "lon": 7.94558,
-   "ele_m": 1381
+   "ele_m": 1381,
+   "wikipedia": "it:Colla di Casotto"
   },
   {
    "name": "Passo del Vaso Tondo",
@@ -14005,7 +14201,8 @@
    "name": "Colle di Caprauna",
    "lat": 44.10816,
    "lon": 7.92972,
-   "ele_m": 1376
+   "ele_m": 1376,
+   "wikipedia": "it:Colle di Caprauna"
   },
   {
    "name": "Passo di Romezzano",
@@ -14029,7 +14226,8 @@
    "name": "Bocchetto Sessera",
    "lat": 45.66415,
    "lon": 8.0628,
-   "ele_m": 1373
+   "ele_m": 1373,
+   "wikipedia": "it:Bocchetto di Sessera"
   },
   {
    "name": "Passo Lucco",
@@ -14089,7 +14287,8 @@
    "name": "Passo Cereda",
    "lat": 46.19305,
    "lon": 11.90542,
-   "ele_m": 1369
+   "ele_m": 1369,
+   "wikipedia": "it:Passo Cereda"
   },
   {
    "name": "Col de La Cou",
@@ -14113,7 +14312,8 @@
    "name": "Passo del Giovà",
    "lat": 44.68376,
    "lon": 9.21694,
-   "ele_m": 1366
+   "ele_m": 1366,
+   "wikipedia": "it:Passo del Giovà"
   },
   {
    "name": "Forcella Gleris",
@@ -14137,7 +14337,8 @@
    "name": "Passo della Scalucchia",
    "lat": 44.35824,
    "lon": 10.22783,
-   "ele_m": 1364
+   "ele_m": 1364,
+   "wikipedia": "it:Passo della Scalucchia"
   },
   {
    "name": "Sella Giove Brazome",
@@ -14149,7 +14350,8 @@
    "name": "Passo della Mendola - Mendelpass",
    "lat": 46.41676,
    "lon": 11.20833,
-   "ele_m": 1363
+   "ele_m": 1363,
+   "wikipedia": "de:Mendelpass"
   },
   {
    "name": "Portella della Porta",
@@ -14161,7 +14363,8 @@
    "name": "Passo di Monte Croce Carnico / Plöckenpass",
    "lat": 46.60356,
    "lon": 12.94513,
-   "ele_m": 1360
+   "ele_m": 1360,
+   "wikipedia": "it:Passo di Monte Croce Carnico"
   },
   {
    "name": "Sella di Monte Cocca",
@@ -14287,7 +14490,8 @@
    "name": "Passo Sommo",
    "lat": 45.91955,
    "lon": 11.20625,
-   "ele_m": 1341
+   "ele_m": 1341,
+   "wikipedia": "it:Passo Sommo"
   },
   {
    "name": "Bocchetta di Desio",
@@ -14299,7 +14503,8 @@
    "name": "Passo di Valcava",
    "lat": 45.7882,
    "lon": 9.51421,
-   "ele_m": 1340
+   "ele_m": 1340,
+   "wikipedia": "it:Valico di Valcava"
   },
   {
    "name": "Foce di Torsana",
@@ -14413,7 +14618,8 @@
    "name": "Bocca Cocca",
    "lat": 45.77386,
    "lon": 10.56082,
-   "ele_m": 1327
+   "ele_m": 1327,
+   "wikipedia": "it:Bocca Cocca"
   },
   {
    "name": "Colletto di Bossola",
@@ -14461,7 +14667,8 @@
    "name": "Passo Lanciano",
    "lat": 42.18895,
    "lon": 14.1045,
-   "ele_m": 1318
+   "ele_m": 1318,
+   "wikipedia": "it:Passo Lanciano"
   },
   {
    "name": "Sella del Carmo",
@@ -14485,7 +14692,8 @@
    "name": "Colle del Lis",
    "lat": 45.17791,
    "lon": 7.38257,
-   "ele_m": 1311
+   "ele_m": 1311,
+   "wikipedia": "it:Colle del Lys (Alpi Graie)"
   },
   {
    "name": "Passo di Forcella Alta",
@@ -14551,7 +14759,8 @@
    "name": "Valico delle Capannelle",
    "lat": 42.45935,
    "lon": 13.35144,
-   "ele_m": 1300
+   "ele_m": 1300,
+   "wikipedia": "it:Passo delle Capannelle"
   },
   {
    "name": "Passo delle Lame",
@@ -14575,7 +14784,8 @@
    "name": "Forcella Aurine",
    "lat": 46.23657,
    "lon": 11.97605,
-   "ele_m": 1299
+   "ele_m": 1299,
+   "wikipedia": "it:Forcella Aurine"
   },
   {
    "name": "Passo di Giovo",
@@ -14593,7 +14803,8 @@
    "name": "Passo della Presolana",
    "lat": 45.92921,
    "lon": 10.09902,
-   "ele_m": 1297
+   "ele_m": 1297,
+   "wikipedia": "it:Passo della Presolana"
   },
   {
    "name": "Passo di Passabocche",
@@ -14617,7 +14828,8 @@
    "name": "Passo della Calla",
    "lat": 43.85973,
    "lon": 11.74443,
-   "ele_m": 1296
+   "ele_m": 1296,
+   "wikipedia": "it:Passo la Calla"
   },
   {
    "name": "Bocchetta di Nansesa",
@@ -14653,7 +14865,8 @@
    "name": "Cima Sappada",
    "lat": 46.57018,
    "lon": 12.72121,
-   "ele_m": 1292
+   "ele_m": 1292,
+   "wikipedia": "it:Cima Sappada"
   },
   {
    "name": "Passo di Cainallo",
@@ -14761,7 +14974,8 @@
    "name": "Passo San Leonardo",
    "lat": 42.07367,
    "lon": 14.03031,
-   "ele_m": 1282
+   "ele_m": 1282,
+   "wikipedia": "it:Passo San Leonardo"
   },
   {
    "name": "Forcella Vualt",
@@ -14917,7 +15131,8 @@
    "name": "Passo di Cirone",
    "lat": 44.43881,
    "lon": 10.0032,
-   "ele_m": 1266
+   "ele_m": 1266,
+   "wikipedia": "it:Passo di Cirone"
   },
   {
    "name": "Portella dello Zoppo",
@@ -14929,7 +15144,8 @@
    "name": "Colle di Zambla",
    "lat": 45.8871,
    "lon": 9.79774,
-   "ele_m": 1264
+   "ele_m": 1264,
+   "wikipedia": "it:Colle di Zambla"
   },
   {
    "name": "Passo Cento Croci",
@@ -14947,7 +15163,8 @@
    "name": "Colle San Bernardo di Mendatica",
    "lat": 44.08484,
    "lon": 7.78432,
-   "ele_m": 1263
+   "ele_m": 1263,
+   "wikipedia": "it:Colle San Bernardo di Mendatica"
   },
   {
    "name": "Passo del Fante",
@@ -14965,7 +15182,8 @@
    "name": "Passo Culmine di San Pietro",
    "lat": 45.90222,
    "lon": 9.49392,
-   "ele_m": 1258
+   "ele_m": 1258,
+   "wikipedia": "it:Culmine di San Pietro"
   },
   {
    "name": "Passo della Scaletta",
@@ -15013,7 +15231,8 @@
    "name": "Passo della Croce",
    "lat": 45.22987,
    "lon": 7.46559,
-   "ele_m": 1254
+   "ele_m": 1254,
+   "wikipedia": "it:Passo della Croce"
   },
   {
    "name": "Passo di Gorda",
@@ -15055,7 +15274,8 @@
    "name": "Passo Bordala",
    "lat": 45.90714,
    "lon": 10.97714,
-   "ele_m": 1250
+   "ele_m": 1250,
+   "wikipedia": "it:Passo Bordala"
   },
   {
    "name": "Prato alla Penna",
@@ -15085,7 +15305,8 @@
    "name": "Passo Predaia",
    "lat": 46.32653,
    "lon": 11.14073,
-   "ele_m": 1250
+   "ele_m": 1250,
+   "wikipedia": "it:Passo Predaia"
   },
   {
    "name": "Forca Griffon",
@@ -15103,7 +15324,8 @@
    "name": "Arcu Correboi",
    "lat": 40.07471,
    "lon": 9.35936,
-   "ele_m": 1246
+   "ele_m": 1246,
+   "wikipedia": "it:Passo di Correboi"
   },
   {
    "name": "Zise",
@@ -15127,7 +15349,8 @@
    "name": "Passo del Cerreto",
    "lat": 44.30408,
    "lon": 10.21713,
-   "ele_m": 1243
+   "ele_m": 1243,
+   "wikipedia": "it:Passo del Cerreto"
   },
   {
    "name": "Passo di Pratizzano",
@@ -15235,7 +15458,8 @@
    "name": "Passo Fangacci",
    "lat": 43.80929,
    "lon": 11.84945,
-   "ele_m": 1229
+   "ele_m": 1229,
+   "wikipedia": "it:Passo Fangacci"
   },
   {
    "name": "Valico del Monte Carruozzo",
@@ -15325,13 +15549,15 @@
    "name": "Passo di Santa Crocella",
    "lat": 41.38266,
    "lon": 14.58147,
-   "ele_m": 1219
+   "ele_m": 1219,
+   "wikipedia": "it:Passo di Santa Crocella"
   },
   {
    "name": "Bocchetta Campiglia",
    "lat": 45.77882,
    "lon": 11.22806,
-   "ele_m": 1216
+   "ele_m": 1216,
+   "wikipedia": "it:Bocchetta Campiglia"
   },
   {
    "name": "Sella Tre Bocchette",
@@ -15409,7 +15635,8 @@
    "name": "Passo della Borcola",
    "lat": 45.82916,
    "lon": 11.20563,
-   "ele_m": 1207
+   "ele_m": 1207,
+   "wikipedia": "it:Passo della Borcola"
   },
   {
    "name": "Bocchetta di Sant'Anna",
@@ -15451,7 +15678,8 @@
    "name": "Passo di Fregarolo",
    "lat": 44.51741,
    "lon": 9.31924,
-   "ele_m": 1203
+   "ele_m": 1203,
+   "wikipedia": "it:Passo di Fregarolo"
   },
   {
    "name": "Passo del Cavalletto",
@@ -15499,7 +15727,8 @@
    "name": "Passo del Lagastrello",
    "lat": 44.34026,
    "lon": 10.12977,
-   "ele_m": 1200
+   "ele_m": 1200,
+   "wikipedia": "it:Passo del Lagastrello"
   },
   {
    "name": "Portella Maruggi",
@@ -15667,7 +15896,8 @@
    "name": "Valico del Pescino",
    "lat": 44.58494,
    "lon": 9.40618,
-   "ele_m": 1179
+   "ele_m": 1179,
+   "wikipedia": "it:Valico del Pescino"
   },
   {
    "name": "Passo della Forcora",
@@ -15697,7 +15927,8 @@
    "name": "Passo dei Mandrioli",
    "lat": 43.79751,
    "lon": 11.91509,
-   "ele_m": 1173
+   "ele_m": 1173,
+   "wikipedia": "it:Passo dei Mandrioli"
   },
   {
    "name": "Passo Naldoni",
@@ -15715,7 +15946,8 @@
    "name": "Passo dell'Aprica",
    "lat": 46.15433,
    "lon": 10.15418,
-   "ele_m": 1172
+   "ele_m": 1172,
+   "wikipedia": "de:Apricapass"
   },
   {
    "name": "Passo Rotta dei Cavalli",
@@ -15793,7 +16025,8 @@
    "name": "Pian delle Fugazze",
    "lat": 45.7602,
    "lon": 11.17332,
-   "ele_m": 1163
+   "ele_m": 1163,
+   "wikipedia": "it:Pian delle Fugazze"
   },
   {
    "name": "Passo della Croce",
@@ -15895,7 +16128,8 @@
    "name": "Predel / Passo del Predil",
    "lat": 46.41855,
    "lon": 13.57817,
-   "ele_m": 1156
+   "ele_m": 1156,
+   "wikipedia": "en:Predil Pass"
   },
   {
    "name": "Colle del Crò",
@@ -15949,7 +16183,8 @@
    "name": "Passo del Penice",
    "lat": 44.79729,
    "lon": 9.3283,
-   "ele_m": 1149
+   "ele_m": 1149,
+   "wikipedia": "it:Passo del Penice"
   },
   {
    "name": "Passo delle Vacche",
@@ -16003,7 +16238,8 @@
    "name": "Giogo di Giustenice",
    "lat": 44.18445,
    "lon": 8.19111,
-   "ele_m": 1143
+   "ele_m": 1143,
+   "wikipedia": "it:Alpi Liguri"
   },
   {
    "name": "Forcella Patok",
@@ -16063,7 +16299,8 @@
    "name": "Passo di Santa Barbara",
    "lat": 44.73118,
    "lon": 9.46063,
-   "ele_m": 1136
+   "ele_m": 1136,
+   "wikipedia": "it:Passo di Santa Barbara"
   },
   {
    "name": "Croce della Calla",
@@ -16087,7 +16324,8 @@
    "name": "Colle del Quasso",
    "lat": 44.20163,
    "lon": 8.0678,
-   "ele_m": 1131
+   "ele_m": 1131,
+   "wikipedia": "it:Colle del Quazzo"
   },
   {
    "name": "Passo Turchino",
@@ -16105,13 +16343,15 @@
    "name": "Valico di San Fermo",
    "lat": 44.6106,
    "lon": 9.10352,
-   "ele_m": 1129
+   "ele_m": 1129,
+   "wikipedia": "it:Valico di San Fermo"
   },
   {
    "name": "Portella Mandrazzi",
    "lat": 37.97578,
    "lon": 15.13801,
-   "ele_m": 1129
+   "ele_m": 1129,
+   "wikipedia": "it:Portella Mandrazzi"
   },
   {
    "name": "Foce al Trebbio",
@@ -16153,7 +16393,8 @@
    "name": "Sella di Pian de le Femene",
    "lat": 46.01334,
    "lon": 12.22726,
-   "ele_m": 1125
+   "ele_m": 1125,
+   "wikipedia": "it:Pian de le Femene"
   },
   {
    "name": "Portella Giulio",
@@ -16195,7 +16436,8 @@
    "name": "Sedda ru Cuntrasto",
    "lat": 37.85068,
    "lon": 14.39766,
-   "ele_m": 1122
+   "ele_m": 1122,
+   "wikipedia": "it:Colle del Contrasto"
   },
   {
    "name": "Colma di Sormano",
@@ -16321,7 +16563,8 @@
    "name": "Valico della Fricca",
    "lat": 45.94973,
    "lon": 11.20725,
-   "ele_m": 1110
+   "ele_m": 1110,
+   "wikipedia": "it:Valico della Fricca"
   },
   {
    "name": "Colma del Bugone",
@@ -16381,7 +16624,8 @@
    "name": "Croce di Salven",
    "lat": 45.94739,
    "lon": 10.15126,
-   "ele_m": 1108
+   "ele_m": 1108,
+   "wikipedia": "it:Croce di Salven"
   },
   {
    "name": "Passo Elsi",
@@ -16417,13 +16661,15 @@
    "name": "Passo delle Tre Strade",
    "lat": 44.80199,
    "lon": 9.31327,
-   "ele_m": 1101
+   "ele_m": 1101,
+   "wikipedia": "it:Passo delle Tre strade"
   },
   {
    "name": "Forca Caruso",
    "lat": 42.06388,
    "lon": 13.70582,
-   "ele_m": 1100
+   "ele_m": 1100,
+   "wikipedia": "it:Forca Caruso"
   },
   {
    "name": "Selletta del Cappelbuso",
@@ -16435,13 +16681,15 @@
    "name": "Passo di San Lugano - San-Lugano-Sattel",
    "lat": 46.31231,
    "lon": 11.39304,
-   "ele_m": 1097
+   "ele_m": 1097,
+   "wikipedia": "it:Passo di San Lugano"
   },
   {
    "name": "Passo del Vestito",
    "lat": 44.06759,
    "lon": 10.23128,
-   "ele_m": 1096
+   "ele_m": 1096,
+   "wikipedia": "it:Passo del Vestito"
   },
   {
    "name": "Passo di Monte Lago",
@@ -16513,7 +16761,8 @@
    "name": "Passo dei Ramari",
    "lat": 44.74543,
    "lon": 9.31323,
-   "ele_m": 1085
+   "ele_m": 1085,
+   "wikipedia": "it:Fontana dei Ramari"
   },
   {
    "name": "Passo di Coldrè",
@@ -16687,7 +16936,8 @@
    "name": "Passo dei Ghiffi",
    "lat": 44.43806,
    "lon": 9.4456,
-   "ele_m": 1067
+   "ele_m": 1067,
+   "wikipedia": "it:Passo dei Ghiffi"
   },
   {
    "name": "Sella Foredôr",
@@ -16747,7 +16997,8 @@
    "name": "Passo del Faiallo",
    "lat": 44.45884,
    "lon": 8.66919,
-   "ele_m": 1060
+   "ele_m": 1060,
+   "wikipedia": "it:Passo del Faiallo"
   },
   {
    "name": "Varco Colla Finestra",
@@ -16783,7 +17034,8 @@
    "name": "Passo Xomo",
    "lat": 45.7771,
    "lon": 11.23755,
-   "ele_m": 1058
+   "ele_m": 1058,
+   "wikipedia": "it:Passo Xomo"
   },
   {
    "name": "Passo Stretto",
@@ -16819,7 +17071,8 @@
    "name": "Passo della Consuma",
    "lat": 43.78295,
    "lon": 11.60165,
-   "ele_m": 1055
+   "ele_m": 1055,
+   "wikipedia": "it:Passo della Consuma"
   },
   {
    "name": "Passo del Casello",
@@ -16831,7 +17084,8 @@
    "name": "Passo di Cento Croci",
    "lat": 44.42162,
    "lon": 9.62333,
-   "ele_m": 1055
+   "ele_m": 1055,
+   "wikipedia": "it:Passo di Centocroci"
   },
   {
    "name": "Sella di Suart",
@@ -16843,7 +17097,8 @@
    "name": "Passo del Mercatello",
    "lat": 44.654,
    "lon": 9.45103,
-   "ele_m": 1053
+   "ele_m": 1053,
+   "wikipedia": "it:Passo del Mercatello"
   },
   {
    "name": "Portella Palumba",
@@ -16861,7 +17116,8 @@
    "name": "Passo Rest",
    "lat": 46.35593,
    "lon": 12.78278,
-   "ele_m": 1052
+   "ele_m": 1052,
+   "wikipedia": "it:Forcella di Monte Rest"
   },
   {
    "name": "Forcella di Calone",
@@ -16879,7 +17135,8 @@
    "name": "Passo del Portello",
    "lat": 44.49542,
    "lon": 9.17866,
-   "ele_m": 1051
+   "ele_m": 1051,
+   "wikipedia": "it:Passo del Portello"
   },
   {
    "name": "Passo della Crocetta",
@@ -16957,7 +17214,8 @@
    "name": "Bocca Trabaria",
    "lat": 43.59512,
    "lon": 12.23559,
-   "ele_m": 1049
+   "ele_m": 1049,
+   "wikipedia": "it:Bocca Trabaria"
   },
   {
    "name": "Sella Fanni",
@@ -16969,7 +17227,8 @@
    "name": "Foce di Rastello",
    "lat": 44.3287,
    "lon": 9.73343,
-   "ele_m": 1047
+   "ele_m": 1047,
+   "wikipedia": "it:Foce di Rastello"
   },
   {
    "name": "Sella del Gallo",
@@ -16999,7 +17258,8 @@
    "name": "Valico di Monte Pelizzone",
    "lat": 44.67986,
    "lon": 9.74394,
-   "ele_m": 1044
+   "ele_m": 1044,
+   "wikipedia": "it:Passo del Pellizzone"
   },
   {
    "name": "Andalo",
@@ -17029,7 +17289,8 @@
    "name": "Passo della Cisa",
    "lat": 44.47158,
    "lon": 9.9285,
-   "ele_m": 1041
+   "ele_m": 1041,
+   "wikipedia": "it:Passo della Cisa"
   },
   {
    "name": "Passo Santel",
@@ -17047,7 +17308,8 @@
    "name": "Passo di Montereale",
    "lat": 42.56021,
    "lon": 13.25657,
-   "ele_m": 1040
+   "ele_m": 1040,
+   "wikipedia": "it:Passo di Montereale"
   },
   {
    "name": "Forcella Campei",
@@ -17071,7 +17333,8 @@
    "name": "Passo del Cuvignone",
    "lat": 45.92697,
    "lon": 8.67053,
-   "ele_m": 1036
+   "ele_m": 1036,
+   "wikipedia": "it:Passo del Cuvignone"
   },
   {
    "name": "Passo Cappelletta",
@@ -17149,7 +17412,8 @@
    "name": "Colle del Melogno",
    "lat": 44.23029,
    "lon": 8.19696,
-   "ele_m": 1028
+   "ele_m": 1028,
+   "wikipedia": "it:Colle del Melogno"
   },
   {
    "name": "Purtedda Mastromario",
@@ -17281,7 +17545,8 @@
    "name": "Passo Croce d'Aune",
    "lat": 46.0618,
    "lon": 11.83008,
-   "ele_m": 1011
+   "ele_m": 1011,
+   "wikipedia": "it:Passo Croce d'Aune"
   },
   {
    "name": "Forcella Musi",
@@ -17299,7 +17564,8 @@
    "name": "Passo della Torrita",
    "lat": 42.61917,
    "lon": 13.22561,
-   "ele_m": 1010
+   "ele_m": 1010,
+   "wikipedia": "it:Passo della Torrita"
   },
   {
    "name": "Passo del Durone",
@@ -17353,7 +17619,8 @@
    "name": "Colle Braida",
    "lat": 45.08325,
    "lon": 7.33377,
-   "ele_m": 1006
+   "ele_m": 1006,
+   "wikipedia": "it:Colle Braida"
   },
   {
    "name": "Bocchetta di Lezzeno",
@@ -17521,7 +17788,8 @@
    "name": "Passo dei Casoni",
    "lat": 44.27992,
    "lon": 9.80875,
-   "ele_m": 992
+   "ele_m": 992,
+   "wikipedia": "it:Passo dei Casoni"
   },
   {
    "name": "Passo di Parma",
@@ -17533,7 +17801,8 @@
    "name": "Forcella Franche",
    "lat": 46.23333,
    "lon": 12.01318,
-   "ele_m": 991
+   "ele_m": 991,
+   "wikipedia": "it:Forcella Franche"
   },
   {
    "name": "Genna 'E Medau",
@@ -17557,7 +17826,8 @@
    "name": "Passo Gobbera",
    "lat": 46.14761,
    "lon": 11.75848,
-   "ele_m": 989
+   "ele_m": 989,
+   "wikipedia": "it:Passo Gobbera"
   },
   {
    "name": "Portella di Nicosia",
@@ -17581,7 +17851,8 @@
    "name": "Passo di Viamaggio",
    "lat": 43.68258,
    "lon": 12.11641,
-   "ele_m": 983
+   "ele_m": 983,
+   "wikipedia": "it:Passo di Viamaggio"
   },
   {
    "name": "Passo Chiapparino",
@@ -17677,7 +17948,8 @@
    "name": "Passo di Costa Ferrata",
    "lat": 44.75733,
    "lon": 9.33909,
-   "ele_m": 975
+   "ele_m": 975,
+   "wikipedia": "it:Mogliazze"
   },
   {
    "name": "Portella Pertusa",
@@ -17755,7 +18027,8 @@
    "name": "Passo della Raticosa",
    "lat": 44.17291,
    "lon": 11.33842,
-   "ele_m": 968
+   "ele_m": 968,
+   "wikipedia": "it:Passo della Raticosa"
   },
   {
    "name": "Passo del Tabernacolo",
@@ -17899,7 +18172,8 @@
    "name": "Colle San Bernardo",
    "lat": 44.1773,
    "lon": 8.04738,
-   "ele_m": 957
+   "ele_m": 957,
+   "wikipedia": "it:Colle San Bernardo"
   },
   {
    "name": "Portella Coscacino",
@@ -17917,7 +18191,8 @@
    "name": "Passo del Bocco",
    "lat": 44.41526,
    "lon": 9.4434,
-   "ele_m": 956
+   "ele_m": 956,
+   "wikipedia": "it:Passo del Bocco"
   },
   {
    "name": "Passo di Tea",
@@ -17965,7 +18240,8 @@
    "name": "Passo del Brallo",
    "lat": 44.73835,
    "lon": 9.28088,
-   "ele_m": 951
+   "ele_m": 951,
+   "wikipedia": "it:Passo del Brallo"
   },
   {
    "name": "Sella di Villanoce",
@@ -17977,7 +18253,8 @@
    "name": "Passo del Brattello",
    "lat": 44.45826,
    "lon": 9.82476,
-   "ele_m": 950
+   "ele_m": 950,
+   "wikipedia": "it:Passo del Brattello"
   },
   {
    "name": "Sella di Costa",
@@ -18121,7 +18398,8 @@
    "name": "Colle di Nava",
    "lat": 44.0849,
    "lon": 7.87288,
-   "ele_m": 934
+   "ele_m": 934,
+   "wikipedia": "it:Colle di Nava"
   },
   {
    "name": "Passo di Nava",
@@ -18133,7 +18411,8 @@
    "name": "Passo della Porretta",
    "lat": 44.02945,
    "lon": 10.93152,
-   "ele_m": 932
+   "ele_m": 932,
+   "wikipedia": "it:Passo della Porretta"
   },
   {
    "name": "Passo di Monte Faè",
@@ -18145,7 +18424,8 @@
    "name": "Passo della Sentinella (Salerno)",
    "lat": 40.41952,
    "lon": 15.41817,
-   "ele_m": 932
+   "ele_m": 932,
+   "wikipedia": "it:Passo della Sentinella (Salerno)"
   },
   {
    "name": "Passo della Cerusa",
@@ -18181,7 +18461,8 @@
    "name": "Passo Linguadà",
    "lat": 44.66922,
    "lon": 9.64835,
-   "ele_m": 930
+   "ele_m": 930,
+   "wikipedia": "it:Passo Linguadà"
   },
   {
    "name": "Colle la Bassetta",
@@ -18217,7 +18498,8 @@
    "name": "Passo della Crocetta",
    "lat": 44.45054,
    "lon": 9.32304,
-   "ele_m": 927
+   "ele_m": 927,
+   "wikipedia": "it:Passo della Crocetta"
   },
   {
    "name": "Sella della Giassina",
@@ -18253,7 +18535,8 @@
    "name": "Passo del Praderadego",
    "lat": 46.00233,
    "lon": 12.10992,
-   "ele_m": 925
+   "ele_m": 925,
+   "wikipedia": "it:Passo di Praderadego"
   },
   {
    "name": "Passo dell'Eremo",
@@ -18283,7 +18566,8 @@
    "name": "Passo della Scoglina",
    "lat": 44.47254,
    "lon": 9.25001,
-   "ele_m": 920
+   "ele_m": 920,
+   "wikipedia": "it:Passo della Scoglina"
   },
   {
    "name": "Passo dei Cinghi",
@@ -18319,7 +18603,8 @@
    "name": "Passo dei Guselli",
    "lat": 44.73809,
    "lon": 9.6767,
-   "ele_m": 917
+   "ele_m": 917,
+   "wikipedia": "it:Passo dei Guselli"
   },
   {
    "name": "Passo dell'Osteria Bruciata",
@@ -18337,7 +18622,8 @@
    "name": "Colle Pra Martino",
    "lat": 44.91414,
    "lon": 7.27744,
-   "ele_m": 916
+   "ele_m": 916,
+   "wikipedia": "it:Colle di Pra Martino"
   },
   {
    "name": "Sforcatura di Cacciano",
@@ -18379,19 +18665,22 @@
    "name": "Colle dei Giovetti",
    "lat": 44.27915,
    "lon": 8.09635,
-   "ele_m": 913
+   "ele_m": 913,
+   "wikipedia": "it:Colle dei Giovetti"
   },
   {
    "name": "Passo della Colla di Casaglia",
    "lat": 44.03872,
    "lon": 11.48387,
-   "ele_m": 913
+   "ele_m": 913,
+   "wikipedia": "it:Passo della Colla di Casaglia"
   },
   {
    "name": "Passo della Forcella",
    "lat": 46.07087,
    "lon": 11.59242,
-   "ele_m": 910
+   "ele_m": 910,
+   "wikipedia": "it:Passo della Forcella (Trentino-Alto Adige)"
   },
   {
    "name": "Genna Croce",
@@ -18445,7 +18734,8 @@
    "name": "Passo del Muraglione",
    "lat": 43.93292,
    "lon": 11.65481,
-   "ele_m": 907
+   "ele_m": 907,
+   "wikipedia": "it:Passo del Muraglione"
   },
   {
    "name": "Colla Craiolo",
@@ -18475,7 +18765,8 @@
    "name": "Passo della Futa",
    "lat": 44.09616,
    "lon": 11.2753,
-   "ele_m": 903
+   "ele_m": 903,
+   "wikipedia": "it:Passo della Futa"
   },
   {
    "name": "Passo Colletto Piccolo",
@@ -18595,7 +18886,8 @@
    "name": "Bocca di Forlì",
    "lat": 41.7497,
    "lon": 14.13092,
-   "ele_m": 891
+   "ele_m": 891,
+   "wikipedia": "it:Bocca di Forlì"
   },
   {
    "name": "Portella Calcalizzo",
@@ -18685,7 +18977,8 @@
    "name": "Passo del Biscia",
    "lat": 44.3655,
    "lon": 9.49007,
-   "ele_m": 885
+   "ele_m": 885,
+   "wikipedia": "it:Passo del Biscia"
   },
   {
    "name": "Portella Fossa Lupo",
@@ -18703,7 +18996,8 @@
    "name": "Forcella di Bura",
    "lat": 45.86023,
    "lon": 9.58417,
-   "ele_m": 884
+   "ele_m": 884,
+   "wikipedia": "it:Forcella di Bura"
   },
   {
    "name": "Cuel di Forcja",
@@ -18715,7 +19009,8 @@
    "name": "Passo del Giogo",
    "lat": 44.04685,
    "lon": 11.38806,
-   "ele_m": 882
+   "ele_m": 882,
+   "wikipedia": "it:Passo del Giogo"
   },
   {
    "name": "Portella Gaggetto",
@@ -18733,13 +19028,15 @@
    "name": "Passo del Paretaio",
    "lat": 44.14376,
    "lon": 11.50039,
-   "ele_m": 880
+   "ele_m": 880,
+   "wikipedia": "it:Passo del Paretaio"
   },
   {
    "name": "Colla di Praglia",
    "lat": 44.51671,
    "lon": 8.81782,
-   "ele_m": 880
+   "ele_m": 880,
+   "wikipedia": "it:Piani di Praglia"
   },
   {
    "name": "Sella Crossiggia",
@@ -18787,7 +19084,8 @@
    "name": "Passo della Forcella",
    "lat": 44.46261,
    "lon": 9.33545,
-   "ele_m": 875
+   "ele_m": 875,
+   "wikipedia": "it:Passo della Forcella (Liguria)"
   },
   {
    "name": "Passo Il Termine",
@@ -18823,7 +19121,8 @@
    "name": "Passo della Crocetta",
    "lat": 44.82965,
    "lon": 9.38207,
-   "ele_m": 871
+   "ele_m": 871,
+   "wikipedia": "it:Colle della Crocetta (Appennino ligure)"
   },
   {
    "name": "Passo di Costa Verde",
@@ -19117,7 +19416,8 @@
    "name": "Passo San Osvaldo",
    "lat": 46.28543,
    "lon": 12.40868,
-   "ele_m": 828
+   "ele_m": 828,
+   "wikipedia": "it:Passo di Sant'Osvaldo"
   },
   {
    "name": "Valico del Soglio",
@@ -19177,7 +19477,8 @@
    "name": "Passo di Monte Oppio",
    "lat": 44.04295,
    "lon": 10.83625,
-   "ele_m": 821
+   "ele_m": 821,
+   "wikipedia": "it:Passo di Monte Oppio"
   },
   {
    "name": "Portella Pomo",
@@ -19213,7 +19514,8 @@
    "name": "Passo della Limina",
    "lat": 38.39303,
    "lon": 16.18835,
-   "ele_m": 820
+   "ele_m": 820,
+   "wikipedia": "it:Passo della Limina"
   },
   {
    "name": "Passo del Romito",
@@ -19243,7 +19545,8 @@
    "name": "Sella di Camporosso",
    "lat": 46.50653,
    "lon": 13.53002,
-   "ele_m": 816
+   "ele_m": 816,
+   "wikipedia": "it:Sella di Camporosso"
   },
   {
    "name": "Cian Bombarda",
@@ -19327,7 +19630,8 @@
    "name": "Passo Montevaccà",
    "lat": 44.5352,
    "lon": 9.60974,
-   "ele_m": 805
+   "ele_m": 805,
+   "wikipedia": "it:Passo Montevaccà"
   },
   {
    "name": "Colle Forcola",
@@ -19357,7 +19661,8 @@
    "name": "Giogo di Toirano",
    "lat": 44.16884,
    "lon": 8.15988,
-   "ele_m": 801
+   "ele_m": 801,
+   "wikipedia": "it:Giogo di Toirano"
   },
   {
    "name": "Bocca da Lè",
@@ -19381,7 +19686,8 @@
    "name": "Colla di San Giacomo",
    "lat": 44.25961,
    "lon": 8.31033,
-   "ele_m": 796
+   "ele_m": 796,
+   "wikipedia": "it:Colla di San Giacomo"
   },
   {
    "name": "Passo della Lazza",
@@ -19393,7 +19699,8 @@
    "name": "Passo Santa Caterina",
    "lat": 45.6171,
    "lon": 11.26127,
-   "ele_m": 796
+   "ele_m": 796,
+   "wikipedia": "it:Passo Santa Caterina (Valdagno)"
   },
   {
    "name": "Tuoro di Cesarano",
@@ -19579,7 +19886,8 @@
    "name": "Passo del Carnaio",
    "lat": 43.89505,
    "lon": 11.95649,
-   "ele_m": 776
+   "ele_m": 776,
+   "wikipedia": "it:Passo del Carnaio"
   },
   {
    "name": "Portella Guadalami",
@@ -19597,7 +19905,8 @@
    "name": "Passo della Bocchetta",
    "lat": 44.55068,
    "lon": 8.8878,
-   "ele_m": 772
+   "ele_m": 772,
+   "wikipedia": "it:Passo della Bocchetta"
   },
   {
    "name": "Passo del Cardellino",
@@ -19747,7 +20056,8 @@
    "name": "Colle Gallo",
    "lat": 45.75347,
    "lon": 9.87387,
-   "ele_m": 754
+   "ele_m": 754,
+   "wikipedia": "it:Colle Gallo"
   },
   {
    "name": "Passo della Croce",
@@ -19759,7 +20069,8 @@
    "name": "Colle del Ghisallo",
    "lat": 45.92369,
    "lon": 9.26715,
-   "ele_m": 754
+   "ele_m": 754,
+   "wikipedia": "it:Ghisallo"
   },
   {
    "name": "Bocchetta del Santo di Liano",
@@ -19795,13 +20106,15 @@
    "name": "Passo del Cerro",
    "lat": 44.78707,
    "lon": 9.55163,
-   "ele_m": 750
+   "ele_m": 750,
+   "wikipedia": "it:Passo del Cerro"
   },
   {
    "name": "Passo Del Ballino",
    "lat": 45.9744,
    "lon": 10.81994,
-   "ele_m": 750
+   "ele_m": 750,
+   "wikipedia": "it:Passo del Ballino"
   },
   {
    "name": "Passo di San Michele",
@@ -19825,7 +20138,8 @@
    "name": "Passo della Cerventosa",
    "lat": 43.29139,
    "lon": 12.05677,
-   "ele_m": 749
+   "ele_m": 749,
+   "wikipedia": "it:Passo di Cerventosa"
   },
   {
    "name": "Portella Pero",
@@ -19837,13 +20151,15 @@
    "name": "Passo dell'Ampola",
    "lat": 45.8644,
    "lon": 10.64545,
-   "ele_m": 747
+   "ele_m": 747,
+   "wikipedia": "it:Passo d'Ampola"
   },
   {
    "name": "Passo della Caldarola",
    "lat": 44.85519,
    "lon": 9.44382,
-   "ele_m": 747
+   "ele_m": 747,
+   "wikipedia": "it:Passo della Caldarola"
   },
   {
    "name": "Portella Santa Maria",
@@ -19873,7 +20189,8 @@
    "name": "Passo dello Scalone",
    "lat": 39.62951,
    "lon": 15.93864,
-   "ele_m": 744
+   "ele_m": 744,
+   "wikipedia": "it:Passo dello Scalone"
   },
   {
    "name": "Portella del Vento",
@@ -19957,13 +20274,15 @@
    "name": "Passo del Cimirlo",
    "lat": 46.0676,
    "lon": 11.18465,
-   "ele_m": 730
+   "ele_m": 730,
+   "wikipedia": "it:Passo del Cimirlo"
   },
   {
    "name": "Passo del Cavallo",
    "lat": 45.64629,
    "lon": 10.30448,
-   "ele_m": 730
+   "ele_m": 730,
+   "wikipedia": "it:Passo del Cavallo"
   },
   {
    "name": "Passo di Pietragavina",
@@ -19975,7 +20294,8 @@
    "name": "Bocca Serriola",
    "lat": 43.51585,
    "lon": 12.35721,
-   "ele_m": 730
+   "ele_m": 730,
+   "wikipedia": "it:Bocca Serriola"
   },
   {
    "name": "Gola di Sisa",
@@ -20119,7 +20439,8 @@
    "name": "Passo San Boldo",
    "lat": 46.006,
    "lon": 12.16968,
-   "ele_m": 706
+   "ele_m": 706,
+   "wikipedia": "it:Passo San Boldo"
   },
   {
    "name": "Forcella del Rovin",
@@ -20179,7 +20500,8 @@
    "name": "Sella di Conza",
    "lat": 40.83839,
    "lon": 15.30299,
-   "ele_m": 697
+   "ele_m": 697,
+   "wikipedia": "it:Sella di Conza"
   },
   {
    "name": "Passo di Lumini",
@@ -20233,13 +20555,15 @@
    "name": "Passo dei Tre Termini",
    "lat": 45.66056,
    "lon": 10.10603,
-   "ele_m": 681
+   "ele_m": 681,
+   "wikipedia": "it:Passo dei Tre Termini"
   },
   {
    "name": "Valico della Somma",
    "lat": 42.66581,
    "lon": 12.72773,
-   "ele_m": 680
+   "ele_m": 680,
+   "wikipedia": "it:Valico della Somma"
   },
   {
    "name": "Portella Pagliarelli",
@@ -20269,7 +20593,8 @@
    "name": "Passo del Ginestro",
    "lat": 44.00709,
    "lon": 7.99095,
-   "ele_m": 677
+   "ele_m": 677,
+   "wikipedia": "it:Passo del Ginestro"
   },
   {
    "name": "Portella Capodarso",
@@ -20299,7 +20624,8 @@
    "name": "Passo della Scoffera",
    "lat": 44.4812,
    "lon": 9.12008,
-   "ele_m": 674
+   "ele_m": 674,
+   "wikipedia": "it:Passo della Scoffera"
   },
   {
    "name": "Passo della Torricella",
@@ -20329,7 +20655,8 @@
    "name": "Passo Xon",
    "lat": 45.72027,
    "lon": 11.2211,
-   "ele_m": 671
+   "ele_m": 671,
+   "wikipedia": "it:Passo Xon"
   },
   {
    "name": "Portella del Giasso",
@@ -20437,13 +20764,15 @@
    "name": "Valico di Chiunzi",
    "lat": 40.71875,
    "lon": 14.61978,
-   "ele_m": 656
+   "ele_m": 656,
+   "wikipedia": "it:Chiunzi"
   },
   {
    "name": "Passo della Somma",
    "lat": 42.66605,
    "lon": 12.72865,
-   "ele_m": 655
+   "ele_m": 655,
+   "wikipedia": "it:Valico della Somma"
   },
   {
    "name": "Forcella di Priuso",
@@ -20569,19 +20898,22 @@
    "name": "Passo della Scheggia",
    "lat": 43.41097,
    "lon": 12.65945,
-   "ele_m": 632
+   "ele_m": 632,
+   "wikipedia": "it:Passo della Scheggia"
   },
   {
    "name": "Passo Zovo",
    "lat": 45.68397,
    "lon": 11.30976,
-   "ele_m": 631
+   "ele_m": 631,
+   "wikipedia": "it:Passo dello Zovo"
   },
   {
    "name": "Passo del Lume Spento",
    "lat": 43.03312,
    "lon": 11.48091,
-   "ele_m": 629
+   "ele_m": 629,
+   "wikipedia": "it:Passo del Lume Spento"
   },
   {
    "name": "S'arcu De Is Cassadoris",
@@ -20605,7 +20937,8 @@
    "name": "Colle San Bartolomeo",
    "lat": 44.01022,
    "lon": 7.95205,
-   "ele_m": 625
+   "ele_m": 625,
+   "wikipedia": "it:Colle San Bartolomeo"
   },
   {
    "name": "Valico Santa Vittoria",
@@ -20617,7 +20950,8 @@
    "name": "Passo San Nicola",
    "lat": 41.34968,
    "lon": 13.52359,
-   "ele_m": 620
+   "ele_m": 620,
+   "wikipedia": "it:Passo San Nicola"
   },
   {
    "name": "Passo Canevale",
@@ -20647,7 +20981,8 @@
    "name": "Passo della Montagnola",
    "lat": 42.62303,
    "lon": 11.83777,
-   "ele_m": 616
+   "ele_m": 616,
+   "wikipedia": "it:Passo della Montagnola"
   },
   {
    "name": "Valico Monte Perone",
@@ -20665,7 +21000,8 @@
    "name": "Passo del Bracco",
    "lat": 44.24948,
    "lon": 9.56974,
-   "ele_m": 612
+   "ele_m": 612,
+   "wikipedia": "it:Passo del Bracco"
   },
   {
    "name": "Campo di Croce",
@@ -20731,13 +21067,15 @@
    "name": "Colle di Creto",
    "lat": 44.47212,
    "lon": 9.00894,
-   "ele_m": 603
+   "ele_m": 603,
+   "wikipedia": "it:Colle di Creto"
   },
   {
    "name": "Passo del Carmine",
    "lat": 44.9143,
    "lon": 9.26368,
-   "ele_m": 600
+   "ele_m": 600,
+   "wikipedia": "it:Passo del Carmine"
   },
   {
    "name": "Passo Sulparo",
@@ -20749,7 +21087,8 @@
    "name": "Passo della Crocetta",
    "lat": 44.38457,
    "lon": 9.2421,
-   "ele_m": 599
+   "ele_m": 599,
+   "wikipedia": "it:Passo della Crocetta"
   },
   {
    "name": "Valico di Montegrossi",
@@ -20887,7 +21226,8 @@
    "name": "Passo della Castagnola",
    "lat": 44.59763,
    "lon": 8.88781,
-   "ele_m": 578
+   "ele_m": 578,
+   "wikipedia": "it:Passo della Castagnola"
   },
   {
    "name": "Valico dei Solini",
@@ -21061,7 +21401,8 @@
    "name": "Valico di Vinchiaturo",
    "lat": 41.45437,
    "lon": 14.5887,
-   "ele_m": 552
+   "ele_m": 552,
+   "wikipedia": "it:Sella di Vinchiaturo"
   },
   {
    "name": "Forca del Prete",
@@ -21109,7 +21450,8 @@
    "name": "Colle di Velva",
    "lat": 44.28377,
    "lon": 9.5576,
-   "ele_m": 545
+   "ele_m": 545,
+   "wikipedia": "it:Colle di Velva"
   },
   {
    "name": "Portella Tanabuto",
@@ -21211,7 +21553,8 @@
    "name": "Passo del Turchino",
    "lat": 44.4879,
    "lon": 8.73383,
-   "ele_m": 530
+   "ele_m": 530,
+   "wikipedia": "it:Passo del Turchino"
   },
   {
    "name": "Portella Orlando",
@@ -21241,13 +21584,15 @@
    "name": "Vetta le Croci",
    "lat": 43.86596,
    "lon": 11.34183,
-   "ele_m": 518
+   "ele_m": 518,
+   "wikipedia": "it:Vetta le Croci"
   },
   {
    "name": "Passo del Giovo",
    "lat": 44.42908,
    "lon": 8.47355,
-   "ele_m": 516
+   "ele_m": 516,
+   "wikipedia": "it:Colle del Giovo"
   },
   {
    "name": "Colle del Telegrafo",
@@ -21355,7 +21700,8 @@
    "name": "Sella di Fadalto",
    "lat": 46.08092,
    "lon": 12.33641,
-   "ele_m": 488
+   "ele_m": 488,
+   "wikipedia": "it:Sella di Fadalto"
   },
   {
    "name": "Portella di Pitta",
@@ -21403,7 +21749,8 @@
    "name": "Passo dei Giovi",
    "lat": 44.55215,
    "lon": 8.93686,
-   "ele_m": 472
+   "ele_m": 472,
+   "wikipedia": "it:Passo dei Giovi"
   },
   {
    "name": "Forcje di Cumieli",
@@ -21415,13 +21762,15 @@
    "name": "Valico del Rospatoio",
    "lat": 43.1783,
    "lon": 11.33219,
-   "ele_m": 471
+   "ele_m": 471,
+   "wikipedia": "it:Valico del Rospatoio"
   },
   {
    "name": "Passo della Crocetta di Orero",
    "lat": 44.51984,
    "lon": 8.98784,
-   "ele_m": 471
+   "ele_m": 471,
+   "wikipedia": "it:Crocetta d'Orero"
   },
   {
    "name": "Portella di Genchi",
@@ -21469,7 +21818,8 @@
    "name": "Bocchetta di Altare",
    "lat": 44.33429,
    "lon": 8.34909,
-   "ele_m": 459
+   "ele_m": 459,
+   "wikipedia": "it:Bocchetta di Altare"
   },
   {
    "name": "Portella di Cignana",
@@ -21535,7 +21885,8 @@
    "name": "Colle di Santa Libera",
    "lat": 44.34358,
    "lon": 8.34666,
-   "ele_m": 441
+   "ele_m": 441,
+   "wikipedia": "it:Colle di Santa Libera"
   },
   {
    "name": "Passo di Zattaglia",
@@ -21577,7 +21928,8 @@
    "name": "Sella la Rezza",
    "lat": 45.09996,
    "lon": 7.84466,
-   "ele_m": 430
+   "ele_m": 430,
+   "wikipedia": "it:Sella la Rezza"
   },
   {
    "name": "Passo Eclano (Passo di Mirabella)",
@@ -21787,7 +22139,8 @@
    "name": "Kreiter Sattel - Sella di Novale al Varco",
    "lat": 46.38436,
    "lon": 11.28203,
-   "ele_m": 382
+   "ele_m": 382,
+   "wikipedia": "de:Kreiter Sattel"
   },
   {
    "name": "Sella dei Bagari",
@@ -21817,7 +22170,8 @@
    "name": "Forcella Mostaccin",
    "lat": 45.82394,
    "lon": 11.96083,
-   "ele_m": 372
+   "ele_m": 372,
+   "wikipedia": "it:Forcella Mostaccin"
   },
   {
    "name": "Passo Valle",
@@ -21913,7 +22267,8 @@
    "name": "Passo Fiorine",
    "lat": 45.35766,
    "lon": 11.66504,
-   "ele_m": 347
+   "ele_m": 347,
+   "wikipedia": "it:Passo Fiorine"
   },
   {
    "name": "Portella Santa Maria",
@@ -22075,7 +22430,8 @@
    "name": "Sella di Arpaia",
    "lat": 41.03508,
    "lon": 14.53988,
-   "ele_m": 286
+   "ele_m": 286,
+   "wikipedia": "it:Stretta di Arpaia"
   },
   {
    "name": "Forcje di Ca",
@@ -22105,7 +22461,8 @@
    "name": "Passo San Giovanni",
    "lat": 45.87384,
    "lon": 10.90662,
-   "ele_m": 272
+   "ele_m": 272,
+   "wikipedia": "it:Passo San Giovanni"
   },
   {
    "name": "Genna Cresia",
@@ -22584,7 +22941,8 @@
   {
    "name": "Passo della Mauria",
    "lat": 46.45442,
-   "lon": 12.51334
+   "lon": 12.51334,
+   "wikipedia": "it:Passo della Mauria"
   },
   {
    "name": "Passo Salmaceto",
