@@ -306,14 +306,8 @@
     const stops = [req.start, ...req.via, req.end];
     let moto;
     if (req.shortest) {
-      // Il servizio pubblico calcola il piu' veloce, non il piu' corto: proviamo piu' quote di autostrada
-      // e teniamo il percorso con meno km (con autostrade escluse, solo quello senza).
-      const options = req.exclude_highways ? [0] : [0, 0.3, 0.6, 1];
-      moto = null;
-      for (const h of options) {
-        const t = await valhallaRoute(stops, "motorcycle", h);
-        if (!moto || t.distance_m < moto.distance_m) moto = t;
-      }
+      // "Percorso piu' breve" = il piu' veloce del servizio (autostrade incluse, salvo esclusione)
+      moto = await valhallaRoute(stops, "motorcycle", req.exclude_highways ? 0 : 1);
     } else {
       moto = await valhallaRoute(stops, "motorcycle", motoHighways);
     }
