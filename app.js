@@ -275,10 +275,11 @@ function distToRouteKm(p, samples, radiusKm) {
 
 // Colore in base alla deviazione stimata (km in piu' rispetto al percorso)
 function detourColor(km) {
-  if (km < 2) return "#2da44e";    // verde: quasi sulla strada
-  if (km < 8) return "#d4a72c";    // giallo
-  if (km < 20) return "#e16f24";   // arancio
-  return "#cf222e";                // rosso: deviazione grande
+  if (km < 15) return "#2da44e";   // verde
+  if (km < 25) return "#d4a72c";   // giallo
+  if (km < 35) return "#e16f24";   // arancio
+  if (km < 50) return "#d0443a";   // rosso chiaro
+  return "#7a0c0c";                // rosso scuro
 }
 
 const sameSpot = (a, b) => Math.abs(a.lat - b.lat) < 1e-5 && Math.abs(a.lon - b.lon) < 1e-5;
