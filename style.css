@@ -111,3 +111,12 @@ details { margin-top: 10px; }
 .switch.sub { margin-left: 24px; }
 
 .stats.costs { grid-template-columns: repeat(2, 1fr); }
+
+/* mappa a schermo intero (utile da telefono) */
+.fs-btn { position: fixed; top: 12px; right: 12px; z-index: 1000; padding: 8px 12px; border: 0; border-radius: 8px; background: var(--bg); color: var(--fg); font-weight: 600; box-shadow: 0 2px 6px rgba(0,0,0,.25); cursor: pointer; }
+body.map-full #panel { display: none; }
+body.map-full #map { height: 100vh; flex: 1; }
+@media (max-width: 760px) {
+  body.map-full #map { height: 100dvh; }
+  .fs-btn { top: auto; bottom: 20px; right: 16px; }
+}

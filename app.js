@@ -468,3 +468,11 @@ async function checkHealth() {
 }
 checkHealth();
 setInterval(checkHealth, 15000);
+
+// ---------- mappa a schermo intero ----------
+const fsBtn = $("#fs-toggle");
+fsBtn.onclick = () => {
+  const on = document.body.classList.toggle("map-full");
+  fsBtn.textContent = on ? "✕ Riduci" : "⛶ Schermo intero";
+  setTimeout(() => map.invalidateSize(), 50);   // Leaflet ricalcola le dimensioni della mappa
+};
