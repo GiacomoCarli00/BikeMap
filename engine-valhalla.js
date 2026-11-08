@@ -303,7 +303,20 @@
     const motoHighways = req.style === "moto" ? 0.3 : 0.1;
 
     // Le tappe scelte dall'utente (anche i passi) sono obbligatorie, anche per il link di Google Maps
-    const moto = await valhallaRoute([req.start, ...req.via, req.end], "motorcycle", motoHighways);
+    const stops = [req.start, ...req.via, req.end];
+    let moto;
+    if (req.shortest) {
+      // Il servizio pubblico calcola il piu' veloce, non il piu' corto: proviamo piu' quote di autostrada
+      // e teniamo il percorso con meno km (con autostrade escluse, solo quello senza).
+      const options = req.exclude_highways ? [0] : [0, 0.3, 0.6, 1];
+      moto = null;
+      for (const h of options) {
+        const t = await valhallaRoute(stops, "motorcycle", h);
+        if (!moto || t.distance_m < moto.distance_m) moto = t;
+      }
+    } else {
+      moto = await valhallaRoute(stops, "motorcycle", motoHighways);
+    }
     const fastest = await valhallaRoute([req.start, req.end], "auto", avoidHw ? 0 : 1);
 
     const wp = await chooseWaypoints(

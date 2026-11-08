@@ -132,6 +132,8 @@ async function calc() {
       style: "moto_curve",            // stile fisso: la scelta Sport/Tour/Crossover riguarda i punti sulla mappa
       max_waypoints: Number($("#max-wp").value),
       google_avoid_highways: $("#avoid-hw").checked,
+      shortest: $("#shortest").checked,
+      exclude_highways: $("#no-hw").checked,
     };
     let data;
     if (ENGINE === "valhalla") {
@@ -163,7 +165,13 @@ function updateCalcLabel() {
     : "Calcola percorso";
 }
 $("#calc").onclick = calc;
-["#max-wp", "#avoid-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
+["#max-wp", "#avoid-hw", "#no-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
+// "Autostrade" compare solo con il percorso piu' breve
+$("#shortest").addEventListener("change", () => {
+  $("#no-hw-row").hidden = !$("#shortest").checked;
+  if (!$("#shortest").checked) $("#no-hw").checked = false;
+  autoCalc();
+});
 
 function draw(data) {
   routeLayer.clearLayers();
