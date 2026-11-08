@@ -2,6 +2,8 @@
 const $ = (s) => document.querySelector(s);
 // Indirizzo del motore di calcolo: vuoto = stesso sito (backend locale). Vedi config.js.
 const API_BASE = (window.BIKEMAP_API_BASE || "").replace(/\/$/, "");
+// "valhalla" = calcolo nel browser con Valhalla pubblico; "backend" = server GraphHopper (vedi config.js).
+const ENGINE = window.BIKEMAP_ENGINE || "backend";
 
 const map = L.map("map").setView([45.8, 9.4], 8);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -122,20 +124,27 @@ async function calc() {
   btn.textContent = "Calcolo in corso…";
   $("#error").hidden = true;
   try {
-    const r = await fetch(`${API_BASE}/api/route`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        start: [state.start.lat, state.start.lon],
-        end: [state.end.lat, state.end.lon],
-        via: state.via.map((p) => [p.lat, p.lon]),
-        style: $("#style").value,
-        max_waypoints: Number($("#max-wp").value),
-        google_avoid_highways: $("#avoid-hw").checked,
-      }),
-    });
-    const data = await r.json();
-    if (!r.ok) throw new Error(data.detail || "Errore nel calcolo");
+    const req = {
+      start: [state.start.lat, state.start.lon],
+      end: [state.end.lat, state.end.lon],
+      via: state.via.map((p) => [p.lat, p.lon]),
+      style: $("#style").value,
+      max_waypoints: Number($("#max-wp").value),
+      google_avoid_highways: $("#avoid-hw").checked,
+    };
+    let data;
+    if (ENGINE === "valhalla") {
+      // Calcolo nel browser con Valhalla pubblico: nessun backend necessario
+      data = await window.BikeMapEngine.route(req);
+    } else {
+      const r = await fetch(`${API_BASE}/api/route`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(req),
+      });
+      data = await r.json();
+      if (!r.ok) throw new Error(data.detail || "Errore nel calcolo");
+    }
     state.result = data;
     draw(data);
   } catch (err) {
@@ -227,6 +236,11 @@ if ("serviceWorker" in navigator) {
 }
 async function checkHealth() {
   const el = $("#status");
+  if (ENGINE === "valhalla") {
+    el.textContent = "motore: Valhalla pubblico";
+    el.className = "status ok";
+    return;
+  }
   try {
     const r = await (await fetch(`${API_BASE}/api/health`)).json();
     el.textContent = r.graphhopper ? "motore pronto" : "motore spento";

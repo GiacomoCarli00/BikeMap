@@ -1,12 +1,13 @@
 // Service worker di BikeMap: tiene in cache l'interfaccia, così si apre anche con connessione debole.
 // Il calcolo dei percorsi e le tessere della mappa non vengono mai messi in cache.
-const VERSION = "bikemap-v1";
+const VERSION = "bikemap-v2";
 const SHELL = [
   "./",
   "index.html",
   "style.css",
   "app.js",
   "config.js",
+  "engine-valhalla.js",
   "manifest.webmanifest",
   "icons/icon-192.png",
   "icons/icon-512.png",
