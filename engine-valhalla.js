@@ -119,8 +119,26 @@
     return pts;
   }
 
-  // Percorso con Valhalla. points: [[lat,lon],...]; costing: "motorcycle" | "auto".
+  // Il servizio accetta al massimo 10 punti per richiesta: i percorsi piu' lunghi vengono
+  // spezzati in blocchi che si toccano agli estremi, e poi ricomposti.
+  const MAX_LOCATIONS = 10;
+
   async function valhallaRoute(points, costing, useHighways) {
+    if (points.length <= MAX_LOCATIONS) return valhallaSingle(points, costing, useHighways);
+    let shape = [], distance_m = 0, time_s = 0;
+    for (let s = 0; s < points.length - 1; s += MAX_LOCATIONS - 1) {
+      const block = points.slice(s, Math.min(s + MAX_LOCATIONS, points.length));
+      const part = await valhallaSingle(block, costing, useHighways);
+      if (shape.length && part.points.length) part.points.shift();
+      shape = shape.concat(part.points);
+      distance_m += part.distance_m;
+      time_s += part.time_s;
+    }
+    return { points: shape, distance_m, time_s };
+  }
+
+  // Una sola richiesta a Valhalla (al massimo MAX_LOCATIONS punti).
+  async function valhallaSingle(points, costing, useHighways) {
     const locations = points.map((p, i) => ({
       lat: p[0], lon: p[1],
       type: i === 0 || i === points.length - 1 ? "break" : "through",
