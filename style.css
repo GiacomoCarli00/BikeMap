@@ -87,3 +87,10 @@ details { margin-top: 10px; }
 .poi-pop { min-width: 200px; }
 .poi-pop .poi-actions { display: flex; gap: 8px; margin-top: 8px; }
 .poi-pop .poi-actions button { flex: 1; padding: 6px 8px; }
+
+/* punti panoramici (quadrati) e supporto */
+.sq-icon { background: none; border: none; }
+.sq { width: 14px; height: 14px; border: 1.5px solid #333; box-sizing: border-box; }
+.sq.sel { border: 3px solid #000; width: 16px; height: 16px; }
+.support { margin-top: 16px; text-align: center; }
+.coffee { display: inline-block; padding: 8px 14px; border-radius: 8px; background: #ffdd00; color: #000; font-weight: 600; text-decoration: none; }

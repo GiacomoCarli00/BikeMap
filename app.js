@@ -129,7 +129,7 @@ async function calc() {
       start: [state.start.lat, state.start.lon],
       end: [state.end.lat, state.end.lon],
       via: state.via.map((p) => [p.lat, p.lon]),
-      style: $("#style").value,
+      style: "moto_curve",            // stile fisso: la scelta Sport/Tour/Crossover riguarda i punti sulla mappa
       max_waypoints: Number($("#max-wp").value),
       google_avoid_highways: $("#avoid-hw").checked,
     };
@@ -163,7 +163,7 @@ function updateCalcLabel() {
     : "Calcola percorso";
 }
 $("#calc").onclick = calc;
-["#style", "#max-wp", "#avoid-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
+["#max-wp", "#avoid-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
 
 function draw(data) {
   routeLayer.clearLayers();
@@ -241,13 +241,28 @@ $("#dl-gpx").onclick = () => {
 // I passi (file poi-motociclisti.json, da OpenStreetMap) si mostrano entro la distanza scelta
 // con lo slider dal percorso calcolato. Toccandoli si includono nel giro.
 const poiLayer = L.layerGroup().addTo(map);
-let pois = [];
+let pois = [];     // passi di montagna (cerchi) - selezione Sport
+let views = [];    // punti panoramici (quadrati) - selezione Tour
 fetch("poi-motociclisti.json")
   .then((r) => r.json())
-  .then((d) => { pois = d.passi; refreshPois(); })
+  .then((d) => { pois = d.passi.map((p) => ({ ...p, type: "passo" })); refreshPois(); })
   .catch(() => { pois = []; });
+fetch("poi-panoramici.json")
+  .then((r) => r.json())
+  .then((d) => { views = d.punti.map((p) => ({ ...p, type: "panorama" })); refreshPois(); })
+  .catch(() => { views = []; });
 
 $("#poi-radius").addEventListener("input", refreshPois);
+$("#mode").addEventListener("change", refreshPois);
+
+// Quali punti mostrare in base alla selezione: Sport = passi, Tour = panoramici, Crossover = entrambi
+function visiblePoints() {
+  const mode = $("#mode").value;
+  const list = [];
+  if (mode === "sport" || mode === "crossover") list.push(...pois);
+  if (mode === "tour" || mode === "crossover") list.push(...views);
+  return list;
+}
 
 // Distanza approssimata in km (sufficiente per qualche centinaio di km in Italia)
 function approxKm(a, b) {
@@ -289,31 +304,50 @@ const isSelected = (p) => state.via.some((v) => sameSpot(v, p));
 function refreshPois() {
   poiLayer.clearLayers();
   const box = $("#pois");
-  if (!state.result || !pois.length) { box.hidden = true; return; }
+  const list = visiblePoints();
+  if (!state.result || !list.length) { box.hidden = true; return; }
   box.hidden = false;
 
   const radius = Number($("#poi-radius").value);
   $("#poi-km").textContent = radius;
   const samples = sampleRoute(state.result.route.points);
-  let n = 0;
-  for (const p of pois) {
+  let nPass = 0, nView = 0;
+  for (const p of list) {
     const d = distToRouteKm(p, samples, radius);
     if (d === Infinity) continue;
-    n++;
     p.detour_km = 2 * d;                 // andata e ritorno dal punto del percorso piu' vicino
     const sel = isSelected(p);
-    L.circleMarker([p.lat, p.lon], {
-      radius: sel ? 10 : 7,
-      color: sel ? "#000" : "#333",
-      weight: sel ? 4 : 1.5,
-      fillColor: detourColor(p.detour_km),
-      fillOpacity: 1,
-      bubblingMouseEvents: false,
-    })
-      .on("click", (e) => openPoiPopup(p, e.latlng))
-      .addTo(poiLayer);
+    const color = detourColor(p.detour_km);
+    if (p.type === "passo") {
+      nPass++;
+      L.circleMarker([p.lat, p.lon], {
+        radius: sel ? 10 : 7,
+        color: sel ? "#000" : "#333",
+        weight: sel ? 4 : 1.5,
+        fillColor: color,
+        fillOpacity: 1,
+        bubblingMouseEvents: false,
+      })
+        .on("click", (e) => openPoiPopup(p, e.latlng))
+        .addTo(poiLayer);
+    } else {
+      nView++;
+      // panoramici: quadrato, stessa colorazione
+      const icon = L.divIcon({
+        className: "sq-icon",
+        html: `<div class="sq${sel ? " sel" : ""}" style="background:${color}"></div>`,
+        iconSize: [16, 16],
+        iconAnchor: [8, 8],
+      });
+      L.marker([p.lat, p.lon], { icon, bubblingMouseEvents: false })
+        .on("click", (e) => openPoiPopup(p, e.latlng))
+        .addTo(poiLayer);
+    }
   }
-  $("#poi-count").textContent = `${n} passi entro ${radius} km · inclusi nel giro: ${state.via.length}`;
+  const parts = [];
+  if (nPass) parts.push(`${nPass} passi`);
+  if (nView) parts.push(`${nView} panoramici`);
+  $("#poi-count").textContent = `${parts.join(" + ") || "nessun punto"} entro ${radius} km · inclusi nel giro: ${state.via.length}`;
 }
 
 // Popup persistente con nome e conferma: funziona anche al tocco su telefono
@@ -324,7 +358,9 @@ function openPoiPopup(p, latlng) {
   const title = document.createElement("b");
   title.textContent = p.name;
   const info = document.createElement("div");
-  info.textContent = `${p.ele_m} m · deviazione stimata: ~${p.detour_km.toFixed(0)} km`;
+  const quota = p.ele_m ? `${p.ele_m} m · ` : "";
+  const kind = p.type === "passo" ? "passo" : "panoramico";
+  info.textContent = `${kind} · ${quota}deviazione stimata: ~${p.detour_km.toFixed(0)} km`;
   const actions = document.createElement("div");
   actions.className = "poi-actions";
   const ok = document.createElement("button");

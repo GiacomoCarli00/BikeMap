@@ -34,10 +34,11 @@
     </section>
 
     <section class="options">
-      <label>Stile
-        <select id="style">
-          <option value="moto_curve" selected>Curve: cerca strade tortuose</option>
-          <option value="moto">Equilibrato: evita autostrade e città</option>
+      <label>Tipo di percorso
+        <select id="mode">
+          <option value="sport" selected>Sport: passi di montagna</option>
+          <option value="tour">Tour: punti panoramici</option>
+          <option value="crossover">Crossover: passi e panoramici</option>
         </select>
       </label>
       <label>Apro il link con
@@ -51,7 +52,7 @@
     </section>
 
     <section id="pois" class="pois" hidden>
-      <h2>Passi di montagna</h2>
+      <h2>Punti di interesse</h2>
       <label class="slider">Distanza massima dal percorso: <b id="poi-km">150</b> km
         <input type="range" id="poi-radius" min="10" max="200" step="5" value="150">
       </label>
@@ -64,7 +65,7 @@
         <span><i style="background:#7a0c0c"></i>50-100 km</span>
         <span><i style="background:#000000"></i>&gt; 100 km extra</span>
       </div>
-      <p class="hint">Colore = km in più stimati per passare dal passo. Tocca un passo per vederne il nome e confermare l'aggiunta al giro, poi premi il pulsante per ricalcolare.</p>
+      <p class="hint">Cerchi = passi di montagna, quadrati = punti panoramici. Colore = km in più stimati per passare dal punto. Tocca un passo per vederne il nome e confermare l'aggiunta al giro, poi premi il pulsante per ricalcolare.</p>
     </section>
 
     <section id="result" hidden>
@@ -98,6 +99,10 @@
     </section>
 
     <p id="error" class="error" hidden></p>
+
+    <p class="support">
+      <a class="coffee" href="https://www.paypal.me/Giac0moC4rl1" target="_blank" rel="noopener">☕ Buy me a coffee</a>
+    </p>
   </aside>
   <main id="map"></main>
 

@@ -1,0 +1,3890 @@
+{
+ "descrizione": "Punti panoramici italiani (tourism=viewpoint con nome) noti o oltre 600 m, per la selezione Tour di Biker-Map",
+ "fonte": "OpenStreetMap (tag tourism=viewpoint), © contributori OpenStreetMap, licenza ODbL",
+ "generato": "2026-11-08",
+ "punti": [
+  {
+   "name": "Mont Blanc / Monte Bianco",
+   "lat": 45.83271,
+   "lon": 6.86517,
+   "ele_m": 4807,
+   "wikipedia": "fr:Mont Blanc"
+  },
+  {
+   "name": "Panorama-Webcam Jungfraujoch",
+   "lat": 46.54746,
+   "lon": 7.98089,
+   "ele_m": 3454
+  },
+  {
+   "name": "Becca La Traversière / Pointe de la Traversière",
+   "lat": 45.49737,
+   "lon": 7.04484,
+   "ele_m": 3337,
+   "wikipedia": "it:Becca della Traversière"
+  },
+  {
+   "name": "BIG3 Aussichtspunkt",
+   "lat": 46.92097,
+   "lon": 10.91818,
+   "ele_m": 3244
+  },
+  {
+   "name": "Top of Tyrol",
+   "lat": 46.97702,
+   "lon": 11.10977,
+   "ele_m": 3196,
+   "wikipedia": "de:Top Of Tyrol"
+  },
+  {
+   "name": "Pizzi dei Piani",
+   "lat": 46.45509,
+   "lon": 9.27219,
+   "ele_m": 3157,
+   "wikipedia": "it:Pizzo dei Piani"
+  },
+  {
+   "name": "Crep Checio - Hohe Gaisl - Croda Rossa d'Ampezzo",
+   "lat": 46.63406,
+   "lon": 12.14467,
+   "ele_m": 3140,
+   "wikipedia": "it:Croda Rossa d'Ampezzo"
+  },
+  {
+   "name": "Hoher Sonnblick",
+   "lat": 47.0541,
+   "lon": 12.95743,
+   "ele_m": 3106,
+   "wikipedia": "de:Hoher Sonnblick"
+  },
+  {
+   "name": "Klein Titlis",
+   "lat": 46.77013,
+   "lon": 8.42495,
+   "ele_m": 3062
+  },
+  {
+   "name": "Plangerosskopf",
+   "lat": 46.9989,
+   "lon": 10.80103,
+   "ele_m": 3058
+  },
+  {
+   "name": "Fernaujoch",
+   "lat": 46.9722,
+   "lon": 11.1258,
+   "ele_m": 3055
+  },
+  {
+   "name": "Bättelmatthorn / Punta dei Camosci",
+   "lat": 46.44145,
+   "lon": 8.35109,
+   "ele_m": 3044
+  },
+  {
+   "name": "Pizzo Bianco",
+   "lat": 46.44992,
+   "lon": 9.25795,
+   "ele_m": 3037
+  },
+  {
+   "name": "Piza dales Diesc",
+   "lat": 46.62233,
+   "lon": 11.96089,
+   "ele_m": 3026,
+   "wikipedia": "de:Zehner (Fanesgruppe)"
+  },
+  {
+   "name": "Stotzig Egg",
+   "lat": 46.77503,
+   "lon": 8.43025,
+   "ele_m": 3020
+  },
+  {
+   "name": "Gamsplatzl",
+   "lat": 46.95787,
+   "lon": 11.12963,
+   "ele_m": 3019
+  },
+  {
+   "name": "Cima di Val Loga Centrale",
+   "lat": 46.47472,
+   "lon": 9.27614,
+   "ele_m": 3005,
+   "wikipedia": "it:Cime di Val Loga"
+  },
+  {
+   "name": "Rothorn",
+   "lat": 46.24424,
+   "lon": 7.64329,
+   "ele_m": 2998
+  },
+  {
+   "name": "Scex Rouge",
+   "lat": 46.32715,
+   "lon": 7.20244,
+   "ele_m": 2971
+  },
+  {
+   "name": "Piza dales Nü",
+   "lat": 46.63035,
+   "lon": 11.98107,
+   "ele_m": 2968,
+   "wikipedia": "de:Neuner (Fanesgruppe)"
+  },
+  {
+   "name": "Alpeiner Scharte",
+   "lat": 47.03738,
+   "lon": 11.64973,
+   "ele_m": 2959,
+   "wikipedia": "de:Alpeiner Scharte"
+  },
+  {
+   "name": "Pointe de Lanserlia",
+   "lat": 45.33956,
+   "lon": 6.85075,
+   "ele_m": 2909
+  },
+  {
+   "name": "Le Ciaval",
+   "lat": 46.61448,
+   "lon": 11.95149,
+   "ele_m": 2907,
+   "wikipedia": "de:Heiligkreuzkofel"
+  },
+  {
+   "name": "Bocchetta dei Cacciatori",
+   "lat": 46.06306,
+   "lon": 10.57534,
+   "ele_m": 2897
+  },
+  {
+   "name": "Corne de Sorebois",
+   "lat": 46.15087,
+   "lon": 7.58661,
+   "ele_m": 2895
+  },
+  {
+   "name": "Söldenkogel - Gipfelkreuz",
+   "lat": 46.97763,
+   "lon": 11.03813,
+   "ele_m": 2874
+  },
+  {
+   "name": "Cime de la Bonette",
+   "lat": 44.32157,
+   "lon": 6.80682,
+   "ele_m": 2860,
+   "wikipedia": "fr:Cime de la Bonette"
+  },
+  {
+   "name": "Pic Ouest de la Côte Belle",
+   "lat": 44.81359,
+   "lon": 6.74857,
+   "ele_m": 2856
+  },
+  {
+   "name": "Guglia delle Forciolline",
+   "lat": 44.64622,
+   "lon": 7.07908,
+   "ele_m": 2851
+  },
+  {
+   "name": "Table d’orientation",
+   "lat": 45.44491,
+   "lon": 6.95229,
+   "ele_m": 2825
+  },
+  {
+   "name": "Hundsheim",
+   "lat": 46.98165,
+   "lon": 11.16881,
+   "ele_m": 2822
+  },
+  {
+   "name": "Valluga",
+   "lat": 47.15757,
+   "lon": 10.21309,
+   "ele_m": 2809,
+   "wikipedia": "de:Valluga"
+  },
+  {
+   "name": "Ritsengrat",
+   "lat": 46.0312,
+   "lon": 7.78973,
+   "ele_m": 2805
+  },
+  {
+   "name": "Canopée des cîmes",
+   "lat": 45.2601,
+   "lon": 6.93294,
+   "ele_m": 2800
+  },
+  {
+   "name": "Reitereck",
+   "lat": 47.01956,
+   "lon": 13.50419,
+   "ele_m": 2790
+  },
+  {
+   "name": "Col de l'Iseran",
+   "lat": 45.41711,
+   "lon": 7.03085,
+   "ele_m": 2764,
+   "wikipedia": "fr:Col de l'Iseran"
+  },
+  {
+   "name": "Fallaschjoch - Passo di Vallazza",
+   "lat": 46.57217,
+   "lon": 10.47885,
+   "ele_m": 2762
+  },
+  {
+   "name": "Älpeltispitz",
+   "lat": 46.8846,
+   "lon": 9.9261,
+   "ele_m": 2686
+  },
+  {
+   "name": "Petit Mont Blanc",
+   "lat": 45.35606,
+   "lon": 6.68646,
+   "ele_m": 2680
+  },
+  {
+   "name": "Piza de Gherdenacia",
+   "lat": 46.59459,
+   "lon": 11.84822,
+   "ele_m": 2673
+  },
+  {
+   "name": "Pizzo Tamborello",
+   "lat": 46.50405,
+   "lon": 9.31094,
+   "ele_m": 2669,
+   "wikipedia": "it:Pizzo Tamborello"
+  },
+  {
+   "name": "Munt da San Murezzan",
+   "lat": 46.50531,
+   "lon": 9.8004,
+   "ele_m": 2659
+  },
+  {
+   "name": "Gahwinden",
+   "lat": 47.0004,
+   "lon": 10.88732,
+   "ele_m": 2648
+  },
+  {
+   "name": "Triebtenseelücke",
+   "lat": 46.54807,
+   "lon": 8.30669,
+   "ele_m": 2639
+  },
+  {
+   "name": "Schlossberglücke",
+   "lat": 46.79523,
+   "lon": 8.52555,
+   "ele_m": 2627
+  },
+  {
+   "name": "Breithorn",
+   "lat": 46.35665,
+   "lon": 8.13869,
+   "ele_m": 2599
+  },
+  {
+   "name": "Pizzo Latta",
+   "lat": 46.44896,
+   "lon": 9.28455,
+   "ele_m": 2598
+  },
+  {
+   "name": "Piz Campasc",
+   "lat": 46.39681,
+   "lon": 10.04469,
+   "ele_m": 2598
+  },
+  {
+   "name": "La Jonction",
+   "lat": 45.87692,
+   "lon": 6.85791,
+   "ele_m": 2589
+  },
+  {
+   "name": "Roc de la Vache",
+   "lat": 46.11892,
+   "lon": 7.64519,
+   "ele_m": 2581
+  },
+  {
+   "name": "Petz - Monte Pez",
+   "lat": 46.51183,
+   "lon": 11.57489,
+   "ele_m": 2568,
+   "wikipedia": "de:Schlern"
+  },
+  {
+   "name": "Sommet de Château Jouan",
+   "lat": 44.90967,
+   "lon": 6.70848,
+   "ele_m": 2565
+  },
+  {
+   "name": "La Pare",
+   "lat": 46.3829,
+   "lon": 7.15244,
+   "ele_m": 2540
+  },
+  {
+   "name": "Croce della Pace",
+   "lat": 46.27532,
+   "lon": 10.79375,
+   "ele_m": 2520
+  },
+  {
+   "name": "Hochtor",
+   "lat": 47.08088,
+   "lon": 12.84265,
+   "ele_m": 2504
+  },
+  {
+   "name": "Mont de Molar Ovest",
+   "lat": 45.87243,
+   "lon": 7.65227,
+   "ele_m": 2485
+  },
+  {
+   "name": "Santner Kanzele",
+   "lat": 46.52124,
+   "lon": 11.57291,
+   "ele_m": 2476
+  },
+  {
+   "name": "Pierre Avoi",
+   "lat": 46.11803,
+   "lon": 7.19992,
+   "ele_m": 2473,
+   "wikipedia": "fr:Pierre Avoi"
+  },
+  {
+   "name": "Passo di Gana Negra",
+   "lat": 46.55584,
+   "lon": 8.83393,
+   "ele_m": 2463
+  },
+  {
+   "name": "Auf dem Gelenk",
+   "lat": 46.49225,
+   "lon": 10.67946,
+   "ele_m": 2450
+  },
+  {
+   "name": "Col du Gyp",
+   "lat": 44.33589,
+   "lon": 6.67458,
+   "ele_m": 2448
+  },
+  {
+   "name": "Piz Galin",
+   "lat": 46.17768,
+   "lon": 10.96247,
+   "ele_m": 2442,
+   "wikipedia": "it:Piz Galin"
+  },
+  {
+   "name": "Le Conce",
+   "lat": 44.63796,
+   "lon": 7.05531,
+   "ele_m": 2429
+  },
+  {
+   "name": "Bocchetta della Moanda",
+   "lat": 45.86259,
+   "lon": 7.9709,
+   "ele_m": 2422
+  },
+  {
+   "name": "Hörnle",
+   "lat": 46.84867,
+   "lon": 10.90657,
+   "ele_m": 2406
+  },
+  {
+   "name": "Piz de Pares",
+   "lat": 46.66021,
+   "lon": 11.97029,
+   "ele_m": 2394,
+   "wikipedia": "it:Pares"
+  },
+  {
+   "name": "Moncucco",
+   "lat": 46.44987,
+   "lon": 9.29443,
+   "ele_m": 2391
+  },
+  {
+   "name": "Cima dell'Uomo",
+   "lat": 46.23297,
+   "lon": 8.9382,
+   "ele_m": 2389,
+   "wikipedia": "it:Cima dell'Uomo (Alpi Lepontine)"
+  },
+  {
+   "name": "Schwarzgrätli",
+   "lat": 46.43741,
+   "lon": 7.61356,
+   "ele_m": 2381
+  },
+  {
+   "name": "Platta",
+   "lat": 46.44456,
+   "lon": 8.08858,
+   "ele_m": 2380
+  },
+  {
+   "name": "Col de la Valette",
+   "lat": 44.17457,
+   "lon": 7.14629,
+   "ele_m": 2356
+  },
+  {
+   "name": "Colle di Termo",
+   "lat": 45.89641,
+   "lon": 8.01556,
+   "ele_m": 2351
+  },
+  {
+   "name": "Belvédère Champlong",
+   "lat": 45.82805,
+   "lon": 7.64133,
+   "ele_m": 2342
+  },
+  {
+   "name": "Point de vue du glacier d'Argentière",
+   "lat": 45.96355,
+   "lon": 6.96617,
+   "ele_m": 2338
+  },
+  {
+   "name": "Margunet",
+   "lat": 46.67638,
+   "lon": 10.2422,
+   "ele_m": 2328
+  },
+  {
+   "name": "Monte Piana",
+   "lat": 46.61586,
+   "lon": 12.24267,
+   "ele_m": 2324,
+   "wikipedia": "it:Monte Piana"
+  },
+  {
+   "name": "Belvédère de la Mourière",
+   "lat": 44.65941,
+   "lon": 6.74679,
+   "ele_m": 2324
+  },
+  {
+   "name": "Rauflihorn",
+   "lat": 46.5328,
+   "lon": 7.48261,
+   "ele_m": 2322
+  },
+  {
+   "name": "Mala Zelnarica",
+   "lat": 46.3387,
+   "lon": 13.78931,
+   "ele_m": 2310
+  },
+  {
+   "name": "Gauschla",
+   "lat": 47.10126,
+   "lon": 9.42274,
+   "ele_m": 2310,
+   "wikipedia": "en:Gauschla"
+  },
+  {
+   "name": "Punta Ciarmetta",
+   "lat": 44.53091,
+   "lon": 7.05411,
+   "ele_m": 2310
+  },
+  {
+   "name": "Gamidaurspitz",
+   "lat": 46.99756,
+   "lon": 9.39661,
+   "ele_m": 2309
+  },
+  {
+   "name": "Muottas da Schlarigna",
+   "lat": 46.48277,
+   "lon": 9.87958,
+   "ele_m": 2306
+  },
+  {
+   "name": "Monte Piano",
+   "lat": 46.62359,
+   "lon": 12.2451,
+   "ele_m": 2306
+  },
+  {
+   "name": "Kleiner Laugen - Piccolo Luco",
+   "lat": 46.53765,
+   "lon": 11.09602,
+   "ele_m": 2297
+  },
+  {
+   "name": "Aiguillette des Houches",
+   "lat": 45.92136,
+   "lon": 6.80539,
+   "ele_m": 2285,
+   "wikipedia": "fr:Aiguillette des Houches"
+  },
+  {
+   "name": "Gällihore",
+   "lat": 46.46389,
+   "lon": 7.64691,
+   "ele_m": 2284
+  },
+  {
+   "name": "Vogelgrand",
+   "lat": 46.88169,
+   "lon": 12.19582,
+   "ele_m": 2277
+  },
+  {
+   "name": "Tosc",
+   "lat": 46.35672,
+   "lon": 13.86838,
+   "ele_m": 2273
+  },
+  {
+   "name": "Gaggio",
+   "lat": 46.2317,
+   "lon": 8.9641,
+   "ele_m": 2267
+  },
+  {
+   "name": "Aussichtspunkt Arigscheis",
+   "lat": 46.07264,
+   "lon": 7.76308,
+   "ele_m": 2256
+  },
+  {
+   "name": "Arlscharte",
+   "lat": 47.09083,
+   "lon": 13.32304,
+   "ele_m": 2252
+  },
+  {
+   "name": "Veliki Draški Vrh",
+   "lat": 46.3602,
+   "lon": 13.87578,
+   "ele_m": 2240
+  },
+  {
+   "name": "Col de la Colombière",
+   "lat": 44.30473,
+   "lon": 6.87355,
+   "ele_m": 2238
+  },
+  {
+   "name": "Der Nolp",
+   "lat": 46.71195,
+   "lon": 11.12371,
+   "ele_m": 2233
+  },
+  {
+   "name": "Loibspitze",
+   "lat": 47.00503,
+   "lon": 13.46989,
+   "ele_m": 2229
+  },
+  {
+   "name": "Köllenzeiger",
+   "lat": 47.13977,
+   "lon": 11.12398,
+   "ele_m": 2226
+  },
+  {
+   "name": "Plosescharte - Forcella Plose",
+   "lat": 46.71189,
+   "lon": 11.73282,
+   "ele_m": 2220
+  },
+  {
+   "name": "Kopica",
+   "lat": 46.33221,
+   "lon": 13.78758,
+   "ele_m": 2213
+  },
+  {
+   "name": "Chaux de Mont",
+   "lat": 46.37225,
+   "lon": 6.99807,
+   "ele_m": 2206
+  },
+  {
+   "name": "Signal Forbes",
+   "lat": 45.92796,
+   "lon": 6.91315,
+   "ele_m": 2204
+  },
+  {
+   "name": "Aia de Canon",
+   "lat": 46.18687,
+   "lon": 11.58643,
+   "ele_m": 2200
+  },
+  {
+   "name": "Marmorè",
+   "lat": 46.41979,
+   "lon": 9.77044,
+   "ele_m": 2199
+  },
+  {
+   "name": "Stockhorn",
+   "lat": 46.69401,
+   "lon": 7.53774,
+   "ele_m": 2190,
+   "wikipedia": "de:Stockhorn"
+  },
+  {
+   "name": "Campill - Campiglio",
+   "lat": 46.75298,
+   "lon": 11.8252,
+   "ele_m": 2190
+  },
+  {
+   "name": "Köpflplatte",
+   "lat": 46.6576,
+   "lon": 10.6243,
+   "ele_m": 2184
+  },
+  {
+   "name": "Binnergale",
+   "lat": 46.37897,
+   "lon": 8.21859,
+   "ele_m": 2181
+  },
+  {
+   "name": "Jegertosse",
+   "lat": 46.47077,
+   "lon": 7.67216,
+   "ele_m": 2155
+  },
+  {
+   "name": "Monte Padrio",
+   "lat": 46.18661,
+   "lon": 10.22748,
+   "ele_m": 2152,
+   "wikipedia": "it:Monte Padrio"
+  },
+  {
+   "name": "Crujëta",
+   "lat": 46.57896,
+   "lon": 11.71054,
+   "ele_m": 2149
+  },
+  {
+   "name": "Grand Belvédère du Mont Viso",
+   "lat": 44.70889,
+   "lon": 7.0317,
+   "ele_m": 2147
+  },
+  {
+   "name": "Mali Draški vrh",
+   "lat": 46.36297,
+   "lon": 13.89157,
+   "ele_m": 2132
+  },
+  {
+   "name": "Gehrihorn",
+   "lat": 46.57378,
+   "lon": 7.69195,
+   "ele_m": 2130
+  },
+  {
+   "name": "Sattel",
+   "lat": 46.72167,
+   "lon": 12.40799,
+   "ele_m": 2124
+  },
+  {
+   "name": "Col de Tricot",
+   "lat": 45.85043,
+   "lon": 6.76995,
+   "ele_m": 2120
+  },
+  {
+   "name": "Esel",
+   "lat": 46.97914,
+   "lon": 8.25617,
+   "ele_m": 2119
+  },
+  {
+   "name": "Roen",
+   "lat": 46.36043,
+   "lon": 11.19227,
+   "ele_m": 2116,
+   "wikipedia": "de:Roen"
+  },
+  {
+   "name": "Passo dello Spluga",
+   "lat": 46.50546,
+   "lon": 9.33029,
+   "ele_m": 2100
+  },
+  {
+   "name": "Alp Grüm",
+   "lat": 46.37406,
+   "lon": 10.03167,
+   "ele_m": 2091
+  },
+  {
+   "name": "Pointe d'Angolon",
+   "lat": 46.13789,
+   "lon": 6.73102,
+   "ele_m": 2090
+  },
+  {
+   "name": "Itonskopf",
+   "lat": 47.11633,
+   "lon": 9.93341,
+   "ele_m": 2089
+  },
+  {
+   "name": "Mala Tičarica",
+   "lat": 46.32052,
+   "lon": 13.78505,
+   "ele_m": 2072
+  },
+  {
+   "name": "Oberberghorn",
+   "lat": 46.65919,
+   "lon": 7.9137,
+   "ele_m": 2069
+  },
+  {
+   "name": "Piz Mundaun",
+   "lat": 46.74262,
+   "lon": 9.1605,
+   "ele_m": 2064
+  },
+  {
+   "name": "Mangart",
+   "lat": 46.4452,
+   "lon": 13.64189,
+   "ele_m": 2055
+  },
+  {
+   "name": "Sigriswiler Rothorn",
+   "lat": 46.73069,
+   "lon": 7.77041,
+   "ele_m": 2051
+  },
+  {
+   "name": "Viševnik",
+   "lat": 46.35898,
+   "lon": 13.89824,
+   "ele_m": 2050,
+   "wikipedia": "sl:Viševnik"
+  },
+  {
+   "name": "Val Negra",
+   "lat": 46.50077,
+   "lon": 12.0996,
+   "ele_m": 2048
+  },
+  {
+   "name": "Jezerski Stog",
+   "lat": 46.33846,
+   "lon": 13.84503,
+   "ele_m": 2039
+  },
+  {
+   "name": "Canfedin",
+   "lat": 46.11911,
+   "lon": 11.01388,
+   "ele_m": 2034
+  },
+  {
+   "name": "Schwarzer Kopf - Testa Nera",
+   "lat": 46.35025,
+   "lon": 11.20204,
+   "ele_m": 2031
+  },
+  {
+   "name": "Brotkorb",
+   "lat": 46.96004,
+   "lon": 10.18133,
+   "ele_m": 2030
+  },
+  {
+   "name": "Petit Chamossaire",
+   "lat": 46.33158,
+   "lon": 7.06682,
+   "ele_m": 2024
+  },
+  {
+   "name": "Grimmifurggi",
+   "lat": 46.53342,
+   "lon": 7.47151,
+   "ele_m": 2023
+  },
+  {
+   "name": "Monte Chialmo",
+   "lat": 44.43609,
+   "lon": 7.23431,
+   "ele_m": 2020
+  },
+  {
+   "name": "Schwandhöhe",
+   "lat": 47.16658,
+   "lon": 13.66651,
+   "ele_m": 2020
+  },
+  {
+   "name": "La Chaux-Ronde",
+   "lat": 46.2936,
+   "lon": 7.11626,
+   "ele_m": 2014
+  },
+  {
+   "name": "Schlafhäuser",
+   "lat": 46.93571,
+   "lon": 12.00044,
+   "ele_m": 2010
+  },
+  {
+   "name": "Suachbichl",
+   "lat": 46.55053,
+   "lon": 10.76322,
+   "ele_m": 2010
+  },
+  {
+   "name": "Dawin Gratl",
+   "lat": 47.15142,
+   "lon": 10.46851,
+   "ele_m": 2010
+  },
+  {
+   "name": "Ablanca",
+   "lat": 46.353,
+   "lon": 13.88417,
+   "ele_m": 2005
+  },
+  {
+   "name": "Golz",
+   "lat": 46.67153,
+   "lon": 13.36531,
+   "ele_m": 2004,
+   "wikipedia": "sv:Golz"
+  },
+  {
+   "name": "Ebni",
+   "lat": 47.14116,
+   "lon": 10.76598,
+   "ele_m": 2000
+  },
+  {
+   "name": "Kreuzjöchl - Passo della Croce",
+   "lat": 46.66841,
+   "lon": 11.28091,
+   "ele_m": 1984
+  },
+  {
+   "name": "Draški rob",
+   "lat": 46.36576,
+   "lon": 13.89729,
+   "ele_m": 1981
+  },
+  {
+   "name": "Sauerbleis",
+   "lat": 47.07718,
+   "lon": 9.97713,
+   "ele_m": 1980
+  },
+  {
+   "name": "Lipanski vrh",
+   "lat": 46.37865,
+   "lon": 13.92006,
+   "ele_m": 1974
+  },
+  {
+   "name": "Mrežce",
+   "lat": 46.37775,
+   "lon": 13.91961,
+   "ele_m": 1965
+  },
+  {
+   "name": "Belvedere di Mezzodì",
+   "lat": 46.32667,
+   "lon": 12.1865,
+   "ele_m": 1964
+  },
+  {
+   "name": "Srenjski preval",
+   "lat": 46.36115,
+   "lon": 13.89435,
+   "ele_m": 1959
+  },
+  {
+   "name": "Debeli Vrh",
+   "lat": 46.37225,
+   "lon": 13.909,
+   "ele_m": 1959
+  },
+  {
+   "name": "Eisenes Kreuz",
+   "lat": 46.86934,
+   "lon": 14.64127,
+   "ele_m": 1958
+  },
+  {
+   "name": "Veliki Selišnik",
+   "lat": 46.36597,
+   "lon": 13.90301,
+   "ele_m": 1954
+  },
+  {
+   "name": "Monte La Monna",
+   "lat": 41.8064,
+   "lon": 13.37109,
+   "ele_m": 1952,
+   "wikipedia": "it:Monte Monna"
+  },
+  {
+   "name": "Mottana",
+   "lat": 46.76393,
+   "lon": 10.23664,
+   "ele_m": 1950
+  },
+  {
+   "name": "Großer Apostel - Grande Apostolo",
+   "lat": 46.69597,
+   "lon": 12.09216,
+   "ele_m": 1947
+  },
+  {
+   "name": "Jezerski preval",
+   "lat": 46.34122,
+   "lon": 13.84139,
+   "ele_m": 1945
+  },
+  {
+   "name": "Kredarica",
+   "lat": 46.38059,
+   "lon": 13.92239,
+   "ele_m": 1943
+  },
+  {
+   "name": "Novi vrh",
+   "lat": 46.22589,
+   "lon": 13.87579,
+   "ele_m": 1942
+  },
+  {
+   "name": "Gran Pizat",
+   "lat": 46.67474,
+   "lon": 11.9332,
+   "ele_m": 1940
+  },
+  {
+   "name": "Veliki Matajurski vrh",
+   "lat": 46.22639,
+   "lon": 13.89729,
+   "ele_m": 1936
+  },
+  {
+   "name": "La Varda",
+   "lat": 46.30426,
+   "lon": 8.34406,
+   "ele_m": 1932
+  },
+  {
+   "name": "Bec de la Renarde",
+   "lat": 44.21987,
+   "lon": 6.7554,
+   "ele_m": 1930
+  },
+  {
+   "name": "Passo degli Scaloni",
+   "lat": 44.23469,
+   "lon": 10.41602,
+   "ele_m": 1928
+  },
+  {
+   "name": "Furi Suspension Bridge",
+   "lat": 45.99671,
+   "lon": 7.72788,
+   "ele_m": 1925
+  },
+  {
+   "name": "Lanež",
+   "lat": 46.4187,
+   "lon": 14.75361,
+   "ele_m": 1921
+  },
+  {
+   "name": "Slemenova špica",
+   "lat": 46.44601,
+   "lon": 13.72649,
+   "ele_m": 1911,
+   "wikipedia": "sl:Slemenova špica"
+  },
+  {
+   "name": "Chute du Bisse",
+   "lat": 46.10371,
+   "lon": 7.19323,
+   "ele_m": 1900
+  },
+  {
+   "name": "Grosser Mythen",
+   "lat": 47.02988,
+   "lon": 8.68853,
+   "ele_m": 1898
+  },
+  {
+   "name": "Poljanski vrh",
+   "lat": 46.23042,
+   "lon": 13.903,
+   "ele_m": 1896
+  },
+  {
+   "name": "cartello cima Macirenelle",
+   "lat": 42.11513,
+   "lon": 14.18381,
+   "ele_m": 1896
+  },
+  {
+   "name": "Piz de Corn",
+   "lat": 46.68857,
+   "lon": 11.9193,
+   "ele_m": 1893
+  },
+  {
+   "name": "Studorski preval",
+   "lat": 46.35435,
+   "lon": 13.88207,
+   "ele_m": 1892
+  },
+  {
+   "name": "Ex Batterie Rossapoan",
+   "lat": 45.93135,
+   "lon": 11.42407,
+   "ele_m": 1890
+  },
+  {
+   "name": "Fürhörnli",
+   "lat": 46.85716,
+   "lon": 9.57278,
+   "ele_m": 1888
+  },
+  {
+   "name": "Punta Zuc",
+   "lat": 45.63006,
+   "lon": 7.62851,
+   "ele_m": 1888
+  },
+  {
+   "name": "Schranni",
+   "lat": 46.44847,
+   "lon": 8.1421,
+   "ele_m": 1879
+  },
+  {
+   "name": "Konjski vrh",
+   "lat": 46.23033,
+   "lon": 13.90867,
+   "ele_m": 1878
+  },
+  {
+   "name": "Hüenderegg",
+   "lat": 46.90207,
+   "lon": 8.67402,
+   "ele_m": 1874
+  },
+  {
+   "name": "Mattlerjoch",
+   "lat": 47.13204,
+   "lon": 9.62544,
+   "ele_m": 1867
+  },
+  {
+   "name": "Valico della Selvastrella",
+   "lat": 41.83912,
+   "lon": 13.36765,
+   "ele_m": 1866
+  },
+  {
+   "name": "Adlerfluh",
+   "lat": 46.92935,
+   "lon": 8.33827,
+   "ele_m": 1865
+  },
+  {
+   "name": "(Großer) Alteinwasserfall",
+   "lat": 46.76068,
+   "lon": 9.68974,
+   "ele_m": 1862
+  },
+  {
+   "name": "Le Merdasson",
+   "lat": 46.43764,
+   "lon": 6.97306,
+   "ele_m": 1860
+  },
+  {
+   "name": "Wetterkreuz",
+   "lat": 46.6958,
+   "lon": 13.9202,
+   "ele_m": 1852
+  },
+  {
+   "name": "Birehubel",
+   "lat": 46.71174,
+   "lon": 7.43166,
+   "ele_m": 1850
+  },
+  {
+   "name": "Dirrengrind",
+   "lat": 46.77946,
+   "lon": 8.03608,
+   "ele_m": 1850
+  },
+  {
+   "name": "Testa del Mater",
+   "lat": 46.09819,
+   "lon": 8.49338,
+   "ele_m": 1846
+  },
+  {
+   "name": "Dr. Gerhard Liebl Aussichtswarte",
+   "lat": 47.03665,
+   "lon": 12.62596,
+   "ele_m": 1845
+  },
+  {
+   "name": "Hundschuft",
+   "lat": 46.8008,
+   "lon": 8.467,
+   "ele_m": 1845
+  },
+  {
+   "name": "Črna prst",
+   "lat": 46.23116,
+   "lon": 13.93164,
+   "ele_m": 1844
+  },
+  {
+   "name": "Spodnja Brda",
+   "lat": 46.38137,
+   "lon": 13.93212,
+   "ele_m": 1844
+  },
+  {
+   "name": "Hirnkopf",
+   "lat": 46.93291,
+   "lon": 14.01154,
+   "ele_m": 1840
+  },
+  {
+   "name": "Antica Miniera",
+   "lat": 45.45457,
+   "lon": 7.19153,
+   "ele_m": 1837
+  },
+  {
+   "name": "Četrt",
+   "lat": 46.2307,
+   "lon": 13.91659,
+   "ele_m": 1832
+  },
+  {
+   "name": "Kaiserstein",
+   "lat": 46.4207,
+   "lon": 11.60344,
+   "ele_m": 1830
+  },
+  {
+   "name": "Monte Spigolino",
+   "lat": 44.12763,
+   "lon": 10.79532,
+   "ele_m": 1827,
+   "wikipedia": "it:Monte Spigolino"
+  },
+  {
+   "name": "Pin Pourri",
+   "lat": 44.08951,
+   "lon": 7.01956,
+   "ele_m": 1826
+  },
+  {
+   "name": "Balest",
+   "lat": 46.57751,
+   "lon": 11.69792,
+   "ele_m": 1823
+  },
+  {
+   "name": "Monte Mutria",
+   "lat": 41.38462,
+   "lon": 14.52556,
+   "ele_m": 1823,
+   "wikipedia": "en:Monte Mutria"
+  },
+  {
+   "name": "Wyssi Flue",
+   "lat": 46.28337,
+   "lon": 7.93475,
+   "ele_m": 1820
+  },
+  {
+   "name": "Arlbergpass",
+   "lat": 47.12979,
+   "lon": 10.21188,
+   "ele_m": 1820,
+   "wikipedia": "de:Arlberg"
+  },
+  {
+   "name": "La Cima",
+   "lat": 46.10407,
+   "lon": 8.49271,
+   "ele_m": 1810
+  },
+  {
+   "name": "Cima di Fiorina",
+   "lat": 46.06264,
+   "lon": 9.07285,
+   "ele_m": 1810,
+   "wikipedia": "it:Cima di Fiorina"
+  },
+  {
+   "name": "Belvédère des Chamois",
+   "lat": 44.21517,
+   "lon": 6.94014,
+   "ele_m": 1810
+  },
+  {
+   "name": "Bänisegg",
+   "lat": 46.59075,
+   "lon": 8.06762,
+   "ele_m": 1808
+  },
+  {
+   "name": "Schlösslichopf",
+   "lat": 47.15091,
+   "lon": 9.38466,
+   "ele_m": 1803
+  },
+  {
+   "name": "Aelpli",
+   "lat": 47.01246,
+   "lon": 9.58882,
+   "ele_m": 1801
+  },
+  {
+   "name": "Stuckli Kreuz",
+   "lat": 46.84189,
+   "lon": 8.25678,
+   "ele_m": 1800
+  },
+  {
+   "name": "Ranfoilly Express",
+   "lat": 46.13071,
+   "lon": 6.70473,
+   "ele_m": 1800
+  },
+  {
+   "name": "Faschauner Törl",
+   "lat": 46.97664,
+   "lon": 13.48937,
+   "ele_m": 1791
+  },
+  {
+   "name": "Felsentor",
+   "lat": 46.77653,
+   "lon": 8.02966,
+   "ele_m": 1789
+  },
+  {
+   "name": "Cros dei Mocheni",
+   "lat": 46.12513,
+   "lon": 11.28748,
+   "ele_m": 1780
+  },
+  {
+   "name": "Belvedere di Palantina",
+   "lat": 46.11378,
+   "lon": 12.48262,
+   "ele_m": 1778
+  },
+  {
+   "name": "Roggenstock",
+   "lat": 47.02328,
+   "lon": 8.78984,
+   "ele_m": 1777
+  },
+  {
+   "name": "Valico di Monte Cristo",
+   "lat": 42.40969,
+   "lon": 13.58793,
+   "ele_m": 1775
+  },
+  {
+   "name": "Spirstock",
+   "lat": 47.00101,
+   "lon": 8.7723,
+   "ele_m": 1771
+  },
+  {
+   "name": "La Bourgeoise",
+   "lat": 46.11521,
+   "lon": 6.72038,
+   "ele_m": 1771
+  },
+  {
+   "name": "Schwänzelegg 1777m",
+   "lat": 46.94594,
+   "lon": 9.64985,
+   "ele_m": 1769
+  },
+  {
+   "name": "Malatraix",
+   "lat": 46.39428,
+   "lon": 6.9642,
+   "ele_m": 1768
+  },
+  {
+   "name": "Le belvédère",
+   "lat": 44.91569,
+   "lon": 6.69523,
+   "ele_m": 1760
+  },
+  {
+   "name": "Le Molard",
+   "lat": 46.48399,
+   "lon": 6.96022,
+   "ele_m": 1752
+  },
+  {
+   "name": "Postazione del Cannone",
+   "lat": 46.17864,
+   "lon": 11.7958,
+   "ele_m": 1747
+  },
+  {
+   "name": "Finestra del Grondilice",
+   "lat": 44.12078,
+   "lon": 10.19273,
+   "ele_m": 1743
+  },
+  {
+   "name": "Monte Zoccolaro",
+   "lat": 37.71446,
+   "lon": 15.05639,
+   "ele_m": 1739,
+   "wikipedia": "it:Monte Zoccolaro"
+  },
+  {
+   "name": "Aussichtsplateau",
+   "lat": 46.59313,
+   "lon": 13.71214,
+   "ele_m": 1732
+  },
+  {
+   "name": "Les Saix Blancs",
+   "lat": 46.03949,
+   "lon": 6.94612,
+   "ele_m": 1700
+  },
+  {
+   "name": "Prepatèl",
+   "lat": 46.19226,
+   "lon": 10.01878,
+   "ele_m": 1699
+  },
+  {
+   "name": "Faoutet",
+   "lat": 44.82537,
+   "lon": 7.141,
+   "ele_m": 1695
+  },
+  {
+   "name": "Monte Rione",
+   "lat": 45.77083,
+   "lon": 11.29916,
+   "ele_m": 1691
+  },
+  {
+   "name": "Kleiner Alteinwasserfall",
+   "lat": 46.76208,
+   "lon": 9.68906,
+   "ele_m": 1683
+  },
+  {
+   "name": "Orlove glave",
+   "lat": 46.25152,
+   "lon": 13.8363,
+   "ele_m": 1682
+  },
+  {
+   "name": "Stollen",
+   "lat": 46.93942,
+   "lon": 8.48747,
+   "ele_m": 1678
+  },
+  {
+   "name": "Belvedere Alcide De Gasperi - Statista",
+   "lat": 39.91848,
+   "lon": 16.13157,
+   "ele_m": 1674
+  },
+  {
+   "name": "Cimetta",
+   "lat": 46.20081,
+   "lon": 8.79105,
+   "ele_m": 1671,
+   "wikipedia": "en:Cimetta"
+  },
+  {
+   "name": "Sur le Bord",
+   "lat": 46.2608,
+   "lon": 6.85007,
+   "ele_m": 1670
+  },
+  {
+   "name": "Belvedere Emilio Colombo - Statista",
+   "lat": 39.91839,
+   "lon": 16.12346,
+   "ele_m": 1668
+  },
+  {
+   "name": "Monte Vaccaresse",
+   "lat": 45.77443,
+   "lon": 11.3026,
+   "ele_m": 1656
+  },
+  {
+   "name": "Furggelenstock",
+   "lat": 47.03856,
+   "lon": 8.73296,
+   "ele_m": 1655
+  },
+  {
+   "name": "Piaza Foleto",
+   "lat": 46.55089,
+   "lon": 12.36495,
+   "ele_m": 1650
+  },
+  {
+   "name": "Bödeles Klapf",
+   "lat": 46.93082,
+   "lon": 12.52824,
+   "ele_m": 1650
+  },
+  {
+   "name": "Vučjak",
+   "lat": 44.81582,
+   "lon": 14.97613,
+   "ele_m": 1645
+  },
+  {
+   "name": "Prižnica",
+   "lat": 46.42912,
+   "lon": 14.1622,
+   "ele_m": 1643
+  },
+  {
+   "name": "Coumbalières",
+   "lat": 44.42334,
+   "lon": 7.20131,
+   "ele_m": 1642
+  },
+  {
+   "name": "Cima Alta",
+   "lat": 45.77311,
+   "lon": 11.31284,
+   "ele_m": 1629
+  },
+  {
+   "name": "Passo Ceresole",
+   "lat": 44.2489,
+   "lon": 7.56944,
+   "ele_m": 1620
+  },
+  {
+   "name": "Hohtschugge",
+   "lat": 46.2169,
+   "lon": 7.85923,
+   "ele_m": 1619
+  },
+  {
+   "name": "Peschio dei Briganti",
+   "lat": 41.7589,
+   "lon": 13.49039,
+   "ele_m": 1618
+  },
+  {
+   "name": "Ganzalaeta",
+   "lat": 47.11258,
+   "lon": 9.97116,
+   "ele_m": 1607
+  },
+  {
+   "name": "Monte Porco",
+   "lat": 41.37526,
+   "lon": 14.48994,
+   "ele_m": 1605
+  },
+  {
+   "name": "Belvedere di Malvento",
+   "lat": 39.90271,
+   "lon": 16.13737,
+   "ele_m": 1600
+  },
+  {
+   "name": "Stock",
+   "lat": 47.05496,
+   "lon": 8.83174,
+   "ele_m": 1600
+  },
+  {
+   "name": "Gias Sottano del Colle",
+   "lat": 44.23313,
+   "lon": 7.62984,
+   "ele_m": 1600
+  },
+  {
+   "name": "Charjaa d'Ase",
+   "lat": 44.50072,
+   "lon": 7.08958,
+   "ele_m": 1600
+  },
+  {
+   "name": "Mot Piz",
+   "lat": 46.20882,
+   "lon": 9.48593,
+   "ele_m": 1600
+  },
+  {
+   "name": "Arco Priaforà",
+   "lat": 45.78537,
+   "lon": 11.31938,
+   "ele_m": 1590,
+   "wikipedia": "en:Monte Priaforà"
+  },
+  {
+   "name": "Point de vue sur la Mer de Glace",
+   "lat": 45.9456,
+   "lon": 6.91897,
+   "ele_m": 1590
+  },
+  {
+   "name": "Barmasse",
+   "lat": 45.24537,
+   "lon": 7.17631,
+   "ele_m": 1588
+  },
+  {
+   "name": "Sparavera-Roccolo",
+   "lat": 46.04113,
+   "lon": 8.83788,
+   "ele_m": 1586
+  },
+  {
+   "name": "Punto panoramico Chastlarèt",
+   "lat": 44.42339,
+   "lon": 7.19679,
+   "ele_m": 1584
+  },
+  {
+   "name": "Selles",
+   "lat": 46.90678,
+   "lon": 10.48436,
+   "ele_m": 1580
+  },
+  {
+   "name": "Wildspitz",
+   "lat": 47.0845,
+   "lon": 8.57761,
+   "ele_m": 1580
+  },
+  {
+   "name": "Luegi",
+   "lat": 47.10556,
+   "lon": 9.3729,
+   "ele_m": 1576
+  },
+  {
+   "name": "Spital",
+   "lat": 47.08,
+   "lon": 8.76699,
+   "ele_m": 1574
+  },
+  {
+   "name": "Belvédère de Montriond",
+   "lat": 46.20567,
+   "lon": 6.74091,
+   "ele_m": 1570
+  },
+  {
+   "name": "3ème Panoramique du Glacier des Bossons",
+   "lat": 45.8933,
+   "lon": 6.85607,
+   "ele_m": 1564
+  },
+  {
+   "name": "Bocchetta Gabellele",
+   "lat": 45.67556,
+   "lon": 11.17844,
+   "ele_m": 1560
+  },
+  {
+   "name": "Gacher Blick",
+   "lat": 47.11706,
+   "lon": 10.66721,
+   "ele_m": 1558
+  },
+  {
+   "name": "Karawankenblick",
+   "lat": 46.80653,
+   "lon": 14.64516,
+   "ele_m": 1554
+  },
+  {
+   "name": "Corno d'Aquilio",
+   "lat": 45.67146,
+   "lon": 10.94305,
+   "ele_m": 1545,
+   "wikipedia": "it:Corno d'Aquilio"
+  },
+  {
+   "name": "Taubenfels",
+   "lat": 46.49376,
+   "lon": 7.5542,
+   "ele_m": 1536
+  },
+  {
+   "name": "Corno Mozzo",
+   "lat": 45.67109,
+   "lon": 10.96006,
+   "ele_m": 1535
+  },
+  {
+   "name": "Rotwand - Parete Rossa",
+   "lat": 46.45375,
+   "lon": 11.37574,
+   "ele_m": 1534
+  },
+  {
+   "name": "Malga Klaus / Klausalm",
+   "lat": 46.45663,
+   "lon": 11.37739,
+   "ele_m": 1528
+  },
+  {
+   "name": "Leiterhorn",
+   "lat": 46.62098,
+   "lon": 7.91362,
+   "ele_m": 1526
+  },
+  {
+   "name": "Poggio Varco di Castelfranco",
+   "lat": 43.66481,
+   "lon": 11.63708,
+   "ele_m": 1516
+  },
+  {
+   "name": "Poggio del Lupo",
+   "lat": 43.66731,
+   "lon": 11.62376,
+   "ele_m": 1513
+  },
+  {
+   "name": "Cresta di Navene",
+   "lat": 45.79586,
+   "lon": 10.87356,
+   "ele_m": 1510
+  },
+  {
+   "name": "Planica",
+   "lat": 46.48389,
+   "lon": 13.94047,
+   "ele_m": 1508
+  },
+  {
+   "name": "Sommet de l'Ardève",
+   "lat": 46.19722,
+   "lon": 7.19945,
+   "ele_m": 1507
+  },
+  {
+   "name": "Chli Mutzenstein",
+   "lat": 47.07712,
+   "lon": 8.88625,
+   "ele_m": 1504
+  },
+  {
+   "name": "Cros del Cuć",
+   "lat": 46.17555,
+   "lon": 11.30656,
+   "ele_m": 1503
+  },
+  {
+   "name": "Belvedere di Rio Budic - 269° Compagnia",
+   "lat": 46.47054,
+   "lon": 13.38562,
+   "ele_m": 1500
+  },
+  {
+   "name": "Monte Foldone",
+   "lat": 45.84913,
+   "lon": 9.61666,
+   "ele_m": 1497
+  },
+  {
+   "name": "Lo Stallone",
+   "lat": 46.1976,
+   "lon": 8.79864,
+   "ele_m": 1496
+  },
+  {
+   "name": "Panoramaausblick",
+   "lat": 46.9146,
+   "lon": 15.02021,
+   "ele_m": 1493
+  },
+  {
+   "name": "Bratovlja peč",
+   "lat": 46.39768,
+   "lon": 13.98246,
+   "ele_m": 1493
+  },
+  {
+   "name": "Amselspitz",
+   "lat": 47.08924,
+   "lon": 8.74284,
+   "ele_m": 1491
+  },
+  {
+   "name": "Nüsellstock",
+   "lat": 47.09035,
+   "lon": 8.69559,
+   "ele_m": 1479
+  },
+  {
+   "name": "Javorov vrh",
+   "lat": 46.32511,
+   "lon": 13.94995,
+   "ele_m": 1475
+  },
+  {
+   "name": "Vista sulla Valle del Mingardo",
+   "lat": 40.24483,
+   "lon": 15.44258,
+   "ele_m": 1474
+  },
+  {
+   "name": "Grossofen",
+   "lat": 46.93529,
+   "lon": 15.0425,
+   "ele_m": 1473
+  },
+  {
+   "name": "Crozi dala Tana",
+   "lat": 46.22918,
+   "lon": 11.27167,
+   "ele_m": 1470
+  },
+  {
+   "name": "Eggberge Aussichtspunkt",
+   "lat": 46.90362,
+   "lon": 8.64441,
+   "ele_m": 1470
+  },
+  {
+   "name": "Stägleren",
+   "lat": 47.02394,
+   "lon": 8.70723,
+   "ele_m": 1465
+  },
+  {
+   "name": "Känzeli",
+   "lat": 47.04574,
+   "lon": 8.45559,
+   "ele_m": 1464
+  },
+  {
+   "name": "Poggio Uomo Morto",
+   "lat": 43.66312,
+   "lon": 11.61925,
+   "ele_m": 1455
+  },
+  {
+   "name": "Eisten",
+   "lat": 46.77662,
+   "lon": 8.69572,
+   "ele_m": 1453
+  },
+  {
+   "name": "Punta Muggianeddu",
+   "lat": 40.04174,
+   "lon": 9.19347,
+   "ele_m": 1452
+  },
+  {
+   "name": "Monte Secchieta",
+   "lat": 43.73108,
+   "lon": 11.57381,
+   "ele_m": 1450,
+   "wikipedia": "it:Secchieta"
+  },
+  {
+   "name": "Sechter / Borovski vrh",
+   "lat": 46.49969,
+   "lon": 14.31562,
+   "ele_m": 1449
+  },
+  {
+   "name": "Poggio Tre Confini",
+   "lat": 43.69626,
+   "lon": 11.61299,
+   "ele_m": 1438
+  },
+  {
+   "name": "Müsliegg",
+   "lat": 47.02315,
+   "lon": 8.71533,
+   "ele_m": 1427
+  },
+  {
+   "name": "Pizzo Coppa",
+   "lat": 46.05748,
+   "lon": 9.2157,
+   "ele_m": 1420
+  },
+  {
+   "name": "Pietra impuntellata",
+   "lat": 40.19871,
+   "lon": 15.3437,
+   "ele_m": 1418
+  },
+  {
+   "name": "Colle du Maçon",
+   "lat": 43.71713,
+   "lon": 6.87979,
+   "ele_m": 1417
+  },
+  {
+   "name": "Sapotnikofen",
+   "lat": 46.7494,
+   "lon": 14.63382,
+   "ele_m": 1414
+  },
+  {
+   "name": "Crap la Tretscha",
+   "lat": 46.68453,
+   "lon": 9.54992,
+   "ele_m": 1411
+  },
+  {
+   "name": "Finestra Vandelli",
+   "lat": 44.09719,
+   "lon": 10.23029,
+   "ele_m": 1404
+  },
+  {
+   "name": "Cascade de la Sauffaz",
+   "lat": 46.01291,
+   "lon": 6.75988,
+   "ele_m": 1400
+  },
+  {
+   "name": "Bandiera del Monte Alto",
+   "lat": 45.83308,
+   "lon": 9.96804,
+   "ele_m": 1398
+  },
+  {
+   "name": "Gottertli",
+   "lat": 47.01146,
+   "lon": 8.57825,
+   "ele_m": 1395
+  },
+  {
+   "name": "Veliki Vratnik",
+   "lat": 46.47614,
+   "lon": 13.7675,
+   "ele_m": 1392
+  },
+  {
+   "name": "Varco di Gastra",
+   "lat": 43.67622,
+   "lon": 11.61662,
+   "ele_m": 1390
+  },
+  {
+   "name": "Razgledišče Šupca",
+   "lat": 46.41547,
+   "lon": 13.74017,
+   "ele_m": 1382
+  },
+  {
+   "name": "Colla delle Piastre",
+   "lat": 44.30205,
+   "lon": 7.40242,
+   "ele_m": 1380
+  },
+  {
+   "name": "Belvedere parco del Valentino",
+   "lat": 45.88566,
+   "lon": 9.38378,
+   "ele_m": 1377
+  },
+  {
+   "name": "Olinie",
+   "lat": 40.00473,
+   "lon": 9.47664,
+   "ele_m": 1372
+  },
+  {
+   "name": "Pratone dei Milanesi",
+   "lat": 44.7159,
+   "lon": 9.20855,
+   "ele_m": 1372
+  },
+  {
+   "name": "Monte Sparavera",
+   "lat": 45.80806,
+   "lon": 9.95426,
+   "ele_m": 1369
+  },
+  {
+   "name": "Monte Gioco",
+   "lat": 45.85722,
+   "lon": 9.70289,
+   "ele_m": 1366,
+   "wikipedia": "it:Monte Zucco (Monte Gioco)"
+  },
+  {
+   "name": "Teufelskanzel",
+   "lat": 47.06606,
+   "lon": 10.958,
+   "ele_m": 1366
+  },
+  {
+   "name": "Sojo della Croce",
+   "lat": 45.74881,
+   "lon": 11.18968,
+   "ele_m": 1360
+  },
+  {
+   "name": "Motto di Piaghedo",
+   "lat": 46.17419,
+   "lon": 9.24919,
+   "ele_m": 1360
+  },
+  {
+   "name": "Monte Crep",
+   "lat": 45.97278,
+   "lon": 12.08427,
+   "ele_m": 1350
+  },
+  {
+   "name": "Dos Pagano",
+   "lat": 45.9588,
+   "lon": 11.06473,
+   "ele_m": 1350
+  },
+  {
+   "name": "Mater",
+   "lat": 45.92846,
+   "lon": 9.05931,
+   "ele_m": 1345
+  },
+  {
+   "name": "Monte di Loro",
+   "lat": 43.61031,
+   "lon": 11.68961,
+   "ele_m": 1343
+  },
+  {
+   "name": "Kopa",
+   "lat": 46.16214,
+   "lon": 14.00499,
+   "ele_m": 1343
+  },
+  {
+   "name": "Col dei S'cios",
+   "lat": 46.04923,
+   "lon": 12.44752,
+   "ele_m": 1342
+  },
+  {
+   "name": "Cardada",
+   "lat": 46.19162,
+   "lon": 8.783,
+   "ele_m": 1340
+  },
+  {
+   "name": "Croz del Pinestré",
+   "lat": 46.22654,
+   "lon": 11.27756,
+   "ele_m": 1340
+  },
+  {
+   "name": "El Piz",
+   "lat": 46.10762,
+   "lon": 11.98495,
+   "ele_m": 1333
+  },
+  {
+   "name": "Foce di Vinca",
+   "lat": 44.11643,
+   "lon": 10.16854,
+   "ele_m": 1332
+  },
+  {
+   "name": "La Torretta",
+   "lat": 44.0878,
+   "lon": 10.63087,
+   "ele_m": 1324
+  },
+  {
+   "name": "Ufem Tritt",
+   "lat": 47.10234,
+   "lon": 8.74312,
+   "ele_m": 1323
+  },
+  {
+   "name": "punto panoramico Val Frison e paesi del Comelico inferiore",
+   "lat": 46.57155,
+   "lon": 12.57212,
+   "ele_m": 1315
+  },
+  {
+   "name": "Cima di Morissolo",
+   "lat": 46.02153,
+   "lon": 8.64558,
+   "ele_m": 1311
+  },
+  {
+   "name": "Dreiländerblick",
+   "lat": 46.58816,
+   "lon": 13.7571,
+   "ele_m": 1307
+  },
+  {
+   "name": "Cime de Castel Vieil",
+   "lat": 44.02794,
+   "lon": 7.29471,
+   "ele_m": 1305
+  },
+  {
+   "name": "Croce i Preti",
+   "lat": 41.62966,
+   "lon": 13.17645,
+   "ele_m": 1305
+  },
+  {
+   "name": "Sasso Rosso del Bronzone",
+   "lat": 46.03949,
+   "lon": 9.08431,
+   "ele_m": 1304
+  },
+  {
+   "name": "Kojca",
+   "lat": 46.15382,
+   "lon": 13.92677,
+   "ele_m": 1303,
+   "wikipedia": "en:Kojca (mountain)"
+  },
+  {
+   "name": "Soracrode",
+   "lat": 46.49671,
+   "lon": 12.44056,
+   "ele_m": 1303
+  },
+  {
+   "name": "Rocca Bellina",
+   "lat": 44.59402,
+   "lon": 7.35033,
+   "ele_m": 1300
+  },
+  {
+   "name": "Vue du bout du monde",
+   "lat": 46.11061,
+   "lon": 6.86301,
+   "ele_m": 1300
+  },
+  {
+   "name": "Habichtsblick",
+   "lat": 46.54155,
+   "lon": 13.62611,
+   "ele_m": 1298
+  },
+  {
+   "name": "Monte Prato Fiorito",
+   "lat": 44.05218,
+   "lon": 10.62465,
+   "ele_m": 1293
+  },
+  {
+   "name": "Corona dei Pinci",
+   "lat": 46.1549,
+   "lon": 8.71665,
+   "ele_m": 1291,
+   "wikipedia": "sv:Corona di Pinz"
+  },
+  {
+   "name": "Foce di Navola",
+   "lat": 44.11576,
+   "lon": 10.17529,
+   "ele_m": 1291
+  },
+  {
+   "name": "Vrh Plazi",
+   "lat": 46.16074,
+   "lon": 14.00264,
+   "ele_m": 1289
+  },
+  {
+   "name": "Monte Barigazzo",
+   "lat": 44.59885,
+   "lon": 9.82904,
+   "ele_m": 1284
+  },
+  {
+   "name": "Crête de Cambon",
+   "lat": 44.04148,
+   "lon": 6.85806,
+   "ele_m": 1280
+  },
+  {
+   "name": "Monte Strega",
+   "lat": 43.45015,
+   "lon": 12.77963,
+   "ele_m": 1278,
+   "wikipedia": "it:Monte Strega"
+  },
+  {
+   "name": "Decollo Foraoro",
+   "lat": 45.7894,
+   "lon": 11.48403,
+   "ele_m": 1275
+  },
+  {
+   "name": "Roccia delle Fate",
+   "lat": 45.5574,
+   "lon": 7.92332,
+   "ele_m": 1270
+  },
+  {
+   "name": "Torre di Sperone panorama",
+   "lat": 41.94173,
+   "lon": 13.72889,
+   "ele_m": 1265
+  },
+  {
+   "name": "El Balcon",
+   "lat": 45.86073,
+   "lon": 11.81655,
+   "ele_m": 1265
+  },
+  {
+   "name": "Spigolo Val dei Dordi",
+   "lat": 45.99514,
+   "lon": 11.42908,
+   "ele_m": 1262
+  },
+  {
+   "name": "Sperone panorama",
+   "lat": 41.93869,
+   "lon": 13.731,
+   "ele_m": 1260
+  },
+  {
+   "name": "Les Sources de l'Arveyron",
+   "lat": 45.9478,
+   "lon": 6.91205,
+   "ele_m": 1259
+  },
+  {
+   "name": "Turn",
+   "lat": 46.33911,
+   "lon": 14.03635,
+   "ele_m": 1250
+  },
+  {
+   "name": "Casauma",
+   "lat": 46.7049,
+   "lon": 9.15966,
+   "ele_m": 1249
+  },
+  {
+   "name": "sasso della mano",
+   "lat": 46.04145,
+   "lon": 9.07741,
+   "ele_m": 1245
+  },
+  {
+   "name": "Testa dij Chinaion",
+   "lat": 45.36099,
+   "lon": 7.36293,
+   "ele_m": 1245
+  },
+  {
+   "name": "Pleša",
+   "lat": 45.77062,
+   "lon": 14.05392,
+   "ele_m": 1242
+  },
+  {
+   "name": "Colle Bercia",
+   "lat": 44.27907,
+   "lon": 7.5846,
+   "ele_m": 1240
+  },
+  {
+   "name": "Punta Perda de Sa Mesa",
+   "lat": 39.44817,
+   "lon": 8.61762,
+   "ele_m": 1236,
+   "wikipedia": "it:Monte Linas"
+  },
+  {
+   "name": "Rocca Bera",
+   "lat": 44.80087,
+   "lon": 7.20613,
+   "ele_m": 1234
+  },
+  {
+   "name": "Treska",
+   "lat": 45.40608,
+   "lon": 14.57093,
+   "ele_m": 1234
+  },
+  {
+   "name": "La Roche Trouée",
+   "lat": 44.07925,
+   "lon": 6.84694,
+   "ele_m": 1230
+  },
+  {
+   "name": "Punta di Mezzo",
+   "lat": 45.86933,
+   "lon": 8.76135,
+   "ele_m": 1227
+  },
+  {
+   "name": "Mlični vrh",
+   "lat": 45.39688,
+   "lon": 14.58345,
+   "ele_m": 1223
+  },
+  {
+   "name": "Belvedere di Pales",
+   "lat": 46.39962,
+   "lon": 13.11667,
+   "ele_m": 1220
+  },
+  {
+   "name": "Monte Coronato",
+   "lat": 44.05505,
+   "lon": 10.61112,
+   "ele_m": 1217
+  },
+  {
+   "name": "Monte di Stagno",
+   "lat": 44.11139,
+   "lon": 11.07436,
+   "ele_m": 1214,
+   "wikipedia": "it:Monte di Stagno"
+  },
+  {
+   "name": "Razgledišče Špica na Mežakli",
+   "lat": 46.42461,
+   "lon": 14.04456,
+   "ele_m": 1210
+  },
+  {
+   "name": "Porta delle Cornacchie",
+   "lat": 45.96053,
+   "lon": 9.7359,
+   "ele_m": 1207
+  },
+  {
+   "name": "Stari vrh – žig",
+   "lat": 46.17011,
+   "lon": 14.1732,
+   "ele_m": 1202
+  },
+  {
+   "name": "Punta Palai",
+   "lat": 40.3388,
+   "lon": 8.91904,
+   "ele_m": 1200,
+   "wikipedia": "it:Punta Palai"
+  },
+  {
+   "name": "Grotta Forata",
+   "lat": 44.03444,
+   "lon": 10.27817,
+   "ele_m": 1200
+  },
+  {
+   "name": "Castellazzo di Barge",
+   "lat": 44.72681,
+   "lon": 7.25035,
+   "ele_m": 1195
+  },
+  {
+   "name": "Il Costone",
+   "lat": 45.77856,
+   "lon": 9.7164,
+   "ele_m": 1195
+  },
+  {
+   "name": "Vidikovac",
+   "lat": 42.5048,
+   "lon": 18.55985,
+   "ele_m": 1175
+  },
+  {
+   "name": "Petiček",
+   "lat": 45.6819,
+   "lon": 14.54657,
+   "ele_m": 1164
+  },
+  {
+   "name": "Cime di Macchialunga",
+   "lat": 42.47146,
+   "lon": 12.69429,
+   "ele_m": 1160
+  },
+  {
+   "name": "Kanzel",
+   "lat": 46.98746,
+   "lon": 10.03301,
+   "ele_m": 1160
+  },
+  {
+   "name": "Monte Canda",
+   "lat": 44.1752,
+   "lon": 11.3539,
+   "ele_m": 1158,
+   "wikipedia": "it:Monte Canda"
+  },
+  {
+   "name": "punta Masiennera",
+   "lat": 40.46702,
+   "lon": 9.02942,
+   "ele_m": 1157
+  },
+  {
+   "name": "Pizzo Rabbioso",
+   "lat": 45.83798,
+   "lon": 9.70347,
+   "ele_m": 1151
+  },
+  {
+   "name": "Dos Colonna",
+   "lat": 45.95117,
+   "lon": 11.07766,
+   "ele_m": 1144
+  },
+  {
+   "name": "Vela Pliš",
+   "lat": 45.3877,
+   "lon": 14.59143,
+   "ele_m": 1141
+  },
+  {
+   "name": "Regitzer Spitz",
+   "lat": 47.03726,
+   "lon": 9.50635,
+   "ele_m": 1135
+  },
+  {
+   "name": "Monte Filaressa",
+   "lat": 45.77396,
+   "lon": 9.71544,
+   "ele_m": 1134
+  },
+  {
+   "name": "Colle",
+   "lat": 44.50378,
+   "lon": 9.25852,
+   "ele_m": 1132
+  },
+  {
+   "name": "Riparo della Pecora",
+   "lat": 43.31151,
+   "lon": 13.07658,
+   "ele_m": 1130
+  },
+  {
+   "name": "Na Prodih",
+   "lat": 46.37835,
+   "lon": 14.54347,
+   "ele_m": 1123
+  },
+  {
+   "name": "Smokuški vrh",
+   "lat": 46.39426,
+   "lon": 14.1838,
+   "ele_m": 1122
+  },
+  {
+   "name": "Tre Calli",
+   "lat": 40.63071,
+   "lon": 14.52367,
+   "ele_m": 1122
+  },
+  {
+   "name": "Poggio di Petto",
+   "lat": 44.08209,
+   "lon": 11.12157,
+   "ele_m": 1121
+  },
+  {
+   "name": "Bruncu 'e Su Standardu",
+   "lat": 39.85043,
+   "lon": 9.29197,
+   "ele_m": 1121
+  },
+  {
+   "name": "Vesuv",
+   "lat": 46.74704,
+   "lon": 7.68296,
+   "ele_m": 1117
+  },
+  {
+   "name": "Croce di San Francesco",
+   "lat": 45.87714,
+   "lon": 11.63622,
+   "ele_m": 1115
+  },
+  {
+   "name": "Signalhöhe",
+   "lat": 46.97953,
+   "lon": 9.61624,
+   "ele_m": 1106
+  },
+  {
+   "name": "Rocha dar Pin",
+   "lat": 44.81433,
+   "lon": 7.11421,
+   "ele_m": 1100
+  },
+  {
+   "name": "Bruhsthöchi",
+   "lat": 47.15033,
+   "lon": 8.62339,
+   "ele_m": 1100
+  },
+  {
+   "name": "sella dei Tre Calli",
+   "lat": 40.63239,
+   "lon": 14.52331,
+   "ele_m": 1100
+  },
+  {
+   "name": "Razgledni stolp",
+   "lat": 45.68524,
+   "lon": 14.99528,
+   "ele_m": 1099
+  },
+  {
+   "name": "Etzel",
+   "lat": 47.17748,
+   "lon": 8.76761,
+   "ele_m": 1098,
+   "wikipedia": "de:Etzel (Berg)"
+  },
+  {
+   "name": "Tuppo dei Fogli",
+   "lat": 40.98957,
+   "lon": 14.69045,
+   "ele_m": 1096
+  },
+  {
+   "name": "Babji zob – žig",
+   "lat": 46.33019,
+   "lon": 14.07318,
+   "ele_m": 1093
+  },
+  {
+   "name": "Friherrenberg",
+   "lat": 47.11961,
+   "lon": 8.75994,
+   "ele_m": 1077
+  },
+  {
+   "name": "Dosso di Miola",
+   "lat": 46.1305,
+   "lon": 11.25071,
+   "ele_m": 1075
+  },
+  {
+   "name": "Belvedere Ciarandella",
+   "lat": 44.29093,
+   "lon": 8.00161,
+   "ele_m": 1075
+  },
+  {
+   "name": "Tschuggen",
+   "lat": 46.75116,
+   "lon": 8.11629,
+   "ele_m": 1072
+  },
+  {
+   "name": "Razgledna točka nad Sv. Jakobom",
+   "lat": 46.31726,
+   "lon": 14.44712,
+   "ele_m": 1071
+  },
+  {
+   "name": "Anina skala",
+   "lat": 45.62945,
+   "lon": 14.37345,
+   "ele_m": 1060
+  },
+  {
+   "name": "Belvedere",
+   "lat": 46.17983,
+   "lon": 12.50569,
+   "ele_m": 1060
+  },
+  {
+   "name": "1056m",
+   "lat": 47.18244,
+   "lon": 7.19003,
+   "ele_m": 1056
+  },
+  {
+   "name": "Pointe Siricocca",
+   "lat": 43.81646,
+   "lon": 7.45924,
+   "ele_m": 1053
+  },
+  {
+   "name": "Pietra Mulacchio",
+   "lat": 40.24385,
+   "lon": 15.05893,
+   "ele_m": 1045
+  },
+  {
+   "name": "Kreuz",
+   "lat": 47.13609,
+   "lon": 8.7315,
+   "ele_m": 1042
+  },
+  {
+   "name": "Pietra Di Bismantova",
+   "lat": 44.42116,
+   "lon": 10.41413,
+   "ele_m": 1041,
+   "wikipedia": "it:Pietra di Bismantova"
+  },
+  {
+   "name": "Seejöchl",
+   "lat": 47.19304,
+   "lon": 10.88759,
+   "ele_m": 1041
+  },
+  {
+   "name": "Frohe Aussicht",
+   "lat": 47.0102,
+   "lon": 10.00678,
+   "ele_m": 1040
+  },
+  {
+   "name": "Femmina Morta",
+   "lat": 40.95482,
+   "lon": 15.617,
+   "ele_m": 1040
+  },
+  {
+   "name": "Zéi de Forca",
+   "lat": 46.31473,
+   "lon": 11.99791,
+   "ele_m": 1040
+  },
+  {
+   "name": "Genna Arredelu",
+   "lat": 39.95457,
+   "lon": 9.15793,
+   "ele_m": 1035
+  },
+  {
+   "name": "Rocca Boudet",
+   "lat": 44.80744,
+   "lon": 7.2131,
+   "ele_m": 1035
+  },
+  {
+   "name": "Stronerwand",
+   "lat": 46.62632,
+   "lon": 13.62821,
+   "ele_m": 1026
+  },
+  {
+   "name": "Punta Rossotti",
+   "lat": 45.88368,
+   "lon": 8.81252,
+   "ele_m": 1021
+  },
+  {
+   "name": "Monte Crocino",
+   "lat": 45.9072,
+   "lon": 8.47078,
+   "ele_m": 1021
+  },
+  {
+   "name": "Schüttblick",
+   "lat": 46.58147,
+   "lon": 13.78136,
+   "ele_m": 1020
+  },
+  {
+   "name": "Burgstalleck - Castelliere",
+   "lat": 46.52092,
+   "lon": 11.20733,
+   "ele_m": 1019
+  },
+  {
+   "name": "Rasburg",
+   "lat": 46.52885,
+   "lon": 14.01233,
+   "ele_m": 1018
+  },
+  {
+   "name": "Monte Pravello",
+   "lat": 45.89219,
+   "lon": 8.92414,
+   "ele_m": 1015,
+   "wikipedia": "it:Monte Pravello"
+  },
+  {
+   "name": "Il Poggio",
+   "lat": 44.47326,
+   "lon": 9.81704,
+   "ele_m": 1011
+  },
+  {
+   "name": "Belvedere del Nuvolone",
+   "lat": 45.95341,
+   "lon": 9.2329,
+   "ele_m": 1010
+  },
+  {
+   "name": "Belvedere",
+   "lat": 44.90801,
+   "lon": 7.28374,
+   "ele_m": 1001
+  },
+  {
+   "name": "La Médille",
+   "lat": 46.08285,
+   "lon": 7.12674,
+   "ele_m": 1000
+  },
+  {
+   "name": "Cima Celva",
+   "lat": 46.07389,
+   "lon": 11.18406,
+   "ele_m": 998
+  },
+  {
+   "name": "Poncione di Ganna",
+   "lat": 45.89074,
+   "lon": 8.84081,
+   "ele_m": 993,
+   "wikipedia": "it:Poncione di Ganna"
+  },
+  {
+   "name": "La Serra",
+   "lat": 45.51236,
+   "lon": 7.81616,
+   "ele_m": 989
+  },
+  {
+   "name": "Mali Jelenkamen",
+   "lat": 46.43704,
+   "lon": 14.0765,
+   "ele_m": 989
+  },
+  {
+   "name": "Madonnina",
+   "lat": 41.65687,
+   "lon": 13.15117,
+   "ele_m": 987
+  },
+  {
+   "name": "Rava Calvuccio",
+   "lat": 41.65603,
+   "lon": 13.15357,
+   "ele_m": 976
+  },
+  {
+   "name": "Vogelherd",
+   "lat": 47.12908,
+   "lon": 8.76382,
+   "ele_m": 974
+  },
+  {
+   "name": "Šutića kamen",
+   "lat": 44.74735,
+   "lon": 15.82663,
+   "ele_m": 967
+  },
+  {
+   "name": "Waldrast",
+   "lat": 46.57613,
+   "lon": 13.79166,
+   "ele_m": 965
+  },
+  {
+   "name": "Kanzel",
+   "lat": 47.19865,
+   "lon": 10.89222,
+   "ele_m": 965
+  },
+  {
+   "name": "Veliko Kozje (žig)",
+   "lat": 46.08769,
+   "lon": 15.21734,
+   "ele_m": 964
+  },
+  {
+   "name": "Hum",
+   "lat": 46.25742,
+   "lon": 13.55809,
+   "ele_m": 954
+  },
+  {
+   "name": "Punta Sa Marghine",
+   "lat": 40.09047,
+   "lon": 9.12345,
+   "ele_m": 952
+  },
+  {
+   "name": "Skalica",
+   "lat": 46.06851,
+   "lon": 15.40356,
+   "ele_m": 951
+  },
+  {
+   "name": "Belvedere Braccina",
+   "lat": 43.92262,
+   "lon": 11.77488,
+   "ele_m": 950
+  },
+  {
+   "name": "Point Sublime",
+   "lat": 44.04484,
+   "lon": 6.84381,
+   "ele_m": 945
+  },
+  {
+   "name": "Area panoramica Coppa L'Arena",
+   "lat": 41.71508,
+   "lon": 15.69027,
+   "ele_m": 939
+  },
+  {
+   "name": "Belvédère des Falaises",
+   "lat": 44.05875,
+   "lon": 6.8501,
+   "ele_m": 937
+  },
+  {
+   "name": "Suharna",
+   "lat": 46.31196,
+   "lon": 14.16723,
+   "ele_m": 936
+  },
+  {
+   "name": "Col de Verroux",
+   "lat": 43.82016,
+   "lon": 7.45935,
+   "ele_m": 935
+  },
+  {
+   "name": "Monte Rho d'Arcisate",
+   "lat": 45.87591,
+   "lon": 8.85477,
+   "ele_m": 934
+  },
+  {
+   "name": "Poggio Casaccia",
+   "lat": 43.87364,
+   "lon": 11.2376,
+   "ele_m": 921,
+   "wikipedia": "it:Monte Morello"
+  },
+  {
+   "name": "Punta della Bandiera",
+   "lat": 45.67957,
+   "lon": 7.68948,
+   "ele_m": 918
+  },
+  {
+   "name": "Monte Maggiore",
+   "lat": 43.9465,
+   "lon": 11.17351,
+   "ele_m": 916
+  },
+  {
+   "name": "Monte Chiusarella",
+   "lat": 45.87336,
+   "lon": 8.81429,
+   "ele_m": 915,
+   "wikipedia": "it:Monte Chiusarella"
+  },
+  {
+   "name": "Pian Cuvinicc",
+   "lat": 45.94874,
+   "lon": 8.7155,
+   "ele_m": 910
+  },
+  {
+   "name": "Area Panoramica Coppa d'incero",
+   "lat": 41.74814,
+   "lon": 15.79297,
+   "ele_m": 900
+  },
+  {
+   "name": "Doss del Stock",
+   "lat": 45.90459,
+   "lon": 11.13801,
+   "ele_m": 895
+  },
+  {
+   "name": "Kopitnik (žig)",
+   "lat": 46.1087,
+   "lon": 15.18289,
+   "ele_m": 894
+  },
+  {
+   "name": "Belvedere Sa Guardia de Tullinu",
+   "lat": 39.29597,
+   "lon": 9.44346,
+   "ele_m": 891
+  },
+  {
+   "name": "vista sui Trus",
+   "lat": 44.70906,
+   "lon": 9.72234,
+   "ele_m": 885
+  },
+  {
+   "name": "Солила",
+   "lat": 44.58637,
+   "lon": 17.59394,
+   "ele_m": 875
+  },
+  {
+   "name": "Monte Cocollo",
+   "lat": 43.61489,
+   "lon": 11.60576,
+   "ele_m": 874
+  },
+  {
+   "name": "Kuželjska stena",
+   "lat": 45.48428,
+   "lon": 14.82278,
+   "ele_m": 874
+  },
+  {
+   "name": "Belvedere del Bertone",
+   "lat": 43.92467,
+   "lon": 11.78495,
+   "ele_m": 870
+  },
+  {
+   "name": "Stadt- und Seenblick",
+   "lat": 46.59307,
+   "lon": 13.80704,
+   "ele_m": 862
+  },
+  {
+   "name": "Zuc de Crôs",
+   "lat": 46.26731,
+   "lon": 13.17953,
+   "ele_m": 859
+  },
+  {
+   "name": "Ostrež",
+   "lat": 46.08269,
+   "lon": 14.97322,
+   "ele_m": 856
+  },
+  {
+   "name": "Zucco della Rocca",
+   "lat": 45.91072,
+   "lon": 9.35161,
+   "ele_m": 855
+  },
+  {
+   "name": "Inoćina greda",
+   "lat": 44.69767,
+   "lon": 15.99322,
+   "ele_m": 854
+  },
+  {
+   "name": "La Roche du Prêtre",
+   "lat": 47.14956,
+   "lon": 6.60721,
+   "ele_m": 850
+  },
+  {
+   "name": "Mont Chauve d'Aspremont",
+   "lat": 43.77051,
+   "lon": 7.25427,
+   "ele_m": 850
+  },
+  {
+   "name": "Piscine naturali di Bau Mela",
+   "lat": 39.99474,
+   "lon": 9.41811,
+   "ele_m": 850
+  },
+  {
+   "name": "Madonna del Silenzio",
+   "lat": 40.62693,
+   "lon": 14.52225,
+   "ele_m": 848
+  },
+  {
+   "name": "Sv. Jošt nad Kranjem",
+   "lat": 46.24274,
+   "lon": 14.30303,
+   "ele_m": 847
+  },
+  {
+   "name": "Malnež",
+   "lat": 46.42907,
+   "lon": 14.10813,
+   "ele_m": 846
+  },
+  {
+   "name": "Cima di Gioia",
+   "lat": 44.08016,
+   "lon": 10.1586,
+   "ele_m": 839
+  },
+  {
+   "name": "Golava",
+   "lat": 46.20676,
+   "lon": 15.1046,
+   "ele_m": 834
+  },
+  {
+   "name": "Razgledna točka nad Vihrovico",
+   "lat": 45.89768,
+   "lon": 14.40713,
+   "ele_m": 832
+  },
+  {
+   "name": "Češljakovački vis",
+   "lat": 45.49101,
+   "lon": 17.72246,
+   "ele_m": 825,
+   "wikipedia": "hr:Češljakovački vis"
+  },
+  {
+   "name": "Groppo di Gorro",
+   "lat": 44.52675,
+   "lon": 9.89481,
+   "ele_m": 824
+  },
+  {
+   "name": "Belvédère du Pont de la Mariée",
+   "lat": 44.06116,
+   "lon": 6.85451,
+   "ele_m": 820
+  },
+  {
+   "name": "Monte Cantagrilli",
+   "lat": 43.91681,
+   "lon": 11.16776,
+   "ele_m": 818
+  },
+  {
+   "name": "Pogorelec (817 m)",
+   "lat": 45.73766,
+   "lon": 15.02321,
+   "ele_m": 817
+  },
+  {
+   "name": "Šinkovčev grič",
+   "lat": 45.96956,
+   "lon": 14.13537,
+   "ele_m": 813
+  },
+  {
+   "name": "Blosenberg",
+   "lat": 47.18656,
+   "lon": 8.17609,
+   "ele_m": 805
+  },
+  {
+   "name": "Osservatorio del Pontesel",
+   "lat": 46.10003,
+   "lon": 11.08492,
+   "ele_m": 802
+  },
+  {
+   "name": "Calatoja",
+   "lat": 41.96795,
+   "lon": 9.2771,
+   "ele_m": 801
+  },
+  {
+   "name": "La Rocchetta",
+   "lat": 42.3763,
+   "lon": 13.37516,
+   "ele_m": 800
+  },
+  {
+   "name": "Hrečevc",
+   "lat": 45.98749,
+   "lon": 14.11204,
+   "ele_m": 795
+  },
+  {
+   "name": "Krvave peči",
+   "lat": 45.86285,
+   "lon": 14.50889,
+   "ele_m": 783
+  },
+  {
+   "name": "Skala",
+   "lat": 46.32521,
+   "lon": 15.41553,
+   "ele_m": 777
+  },
+  {
+   "name": "Sonnenberg",
+   "lat": 47.04281,
+   "lon": 8.26488,
+   "ele_m": 776
+  },
+  {
+   "name": "Monte Faete",
+   "lat": 42.77089,
+   "lon": 11.4508,
+   "ele_m": 772
+  },
+  {
+   "name": "Pozzo dei Casali",
+   "lat": 42.10895,
+   "lon": 12.91793,
+   "ele_m": 762
+  },
+  {
+   "name": "Pale dal Pup",
+   "lat": 46.41868,
+   "lon": 13.03197,
+   "ele_m": 760
+  },
+  {
+   "name": "Ellhorn",
+   "lat": 47.05354,
+   "lon": 9.47887,
+   "ele_m": 758
+  },
+  {
+   "name": "Gradiška Tura",
+   "lat": 45.82926,
+   "lon": 13.97969,
+   "ele_m": 754
+  },
+  {
+   "name": "Croce della Retaia",
+   "lat": 43.90669,
+   "lon": 11.14039,
+   "ele_m": 752
+  },
+  {
+   "name": "Na Solnah",
+   "lat": 45.65033,
+   "lon": 14.20722,
+   "ele_m": 750
+  },
+  {
+   "name": "Ozben - vzletišče",
+   "lat": 46.2496,
+   "lon": 13.60409,
+   "ele_m": 750
+  },
+  {
+   "name": "Sa Guàrdia de Monti Arrubiu",
+   "lat": 39.27775,
+   "lon": 9.40527,
+   "ele_m": 748
+  },
+  {
+   "name": "Guschachopf",
+   "lat": 47.00117,
+   "lon": 9.49599,
+   "ele_m": 747
+  },
+  {
+   "name": "Stene Markove glave",
+   "lat": 45.66342,
+   "lon": 15.11956,
+   "ele_m": 744
+  },
+  {
+   "name": "Croce del Teso",
+   "lat": 45.69853,
+   "lon": 8.37448,
+   "ele_m": 741
+  },
+  {
+   "name": "Friedlhöhe",
+   "lat": 46.60255,
+   "lon": 14.22184,
+   "ele_m": 739
+  },
+  {
+   "name": "Piëra Tsarva",
+   "lat": 45.13549,
+   "lon": 7.02427,
+   "ele_m": 738
+  },
+  {
+   "name": "Mali Jelenkamen",
+   "lat": 46.4351,
+   "lon": 14.07299,
+   "ele_m": 734
+  },
+  {
+   "name": "Razgledišče pod Srnjakom",
+   "lat": 45.88366,
+   "lon": 14.1708,
+   "ele_m": 725
+  },
+  {
+   "name": "Monte Fiore",
+   "lat": 41.7756,
+   "lon": 12.77795,
+   "ele_m": 723
+  },
+  {
+   "name": "Jamna peč",
+   "lat": 46.29638,
+   "lon": 14.4547,
+   "ele_m": 717
+  },
+  {
+   "name": "Razgledna točka Kozice",
+   "lat": 45.49763,
+   "lon": 15.03691,
+   "ele_m": 716
+  },
+  {
+   "name": "Razgledna točka Kozice",
+   "lat": 45.49747,
+   "lon": 15.03689,
+   "ele_m": 716
+  },
+  {
+   "name": "Nucetto Santa Lucia",
+   "lat": 44.34623,
+   "lon": 8.04924,
+   "ele_m": 715
+  },
+  {
+   "name": "U Castellu",
+   "lat": 41.96775,
+   "lon": 9.28226,
+   "ele_m": 713
+  },
+  {
+   "name": "Smereška peč",
+   "lat": 46.38301,
+   "lon": 15.28016,
+   "ele_m": 712
+  },
+  {
+   "name": "Vidikovac",
+   "lat": 45.35618,
+   "lon": 14.28576,
+   "ele_m": 706
+  },
+  {
+   "name": "Poggio Pratone",
+   "lat": 43.83307,
+   "lon": 11.34402,
+   "ele_m": 702
+  },
+  {
+   "name": "Rocca dell'Adelasia",
+   "lat": 44.38605,
+   "lon": 8.36945,
+   "ele_m": 697
+  },
+  {
+   "name": "Savinka / Kucelj",
+   "lat": 46.06816,
+   "lon": 14.33351,
+   "ele_m": 696
+  },
+  {
+   "name": "Piramida Ravna Gora",
+   "lat": 46.27164,
+   "lon": 15.98386,
+   "ele_m": 694
+  },
+  {
+   "name": "Belvedere Ganna",
+   "lat": 46.04,
+   "lon": 8.76575,
+   "ele_m": 686
+  },
+  {
+   "name": "Belvedere Monteddi",
+   "lat": 39.86597,
+   "lon": 9.48031,
+   "ele_m": 686
+  },
+  {
+   "name": "Mala Osojnica",
+   "lat": 46.35687,
+   "lon": 14.08238,
+   "ele_m": 685
+  },
+  {
+   "name": "Leutschen",
+   "lat": 47.00626,
+   "lon": 7.40328,
+   "ele_m": 680
+  },
+  {
+   "name": "Motto della Capretta",
+   "lat": 45.69404,
+   "lon": 8.37426,
+   "ele_m": 680
+  },
+  {
+   "name": "Diabalöcher",
+   "lat": 47.0474,
+   "lon": 9.48214,
+   "ele_m": 680
+  },
+  {
+   "name": "Sasso Rosso",
+   "lat": 46.03155,
+   "lon": 9.3075,
+   "ele_m": 676
+  },
+  {
+   "name": "Na skali",
+   "lat": 46.34796,
+   "lon": 13.56416,
+   "ele_m": 675
+  },
+  {
+   "name": "Monte Sole",
+   "lat": 44.31582,
+   "lon": 11.21578,
+   "ele_m": 668
+  },
+  {
+   "name": "Wasswerreservoir Düdingen",
+   "lat": 46.83474,
+   "lon": 7.19157,
+   "ele_m": 667
+  },
+  {
+   "name": "Passerelle des Thermes",
+   "lat": 45.89497,
+   "lon": 6.70738,
+   "ele_m": 665
+  },
+  {
+   "name": "Kincl",
+   "lat": 46.11943,
+   "lon": 15.18461,
+   "ele_m": 659
+  },
+  {
+   "name": "Rudolfswarte",
+   "lat": 47.03799,
+   "lon": 15.37485,
+   "ele_m": 658,
+   "wikipedia": "de:Kronprinz-Rudolf-Warte"
+  },
+  {
+   "name": "Monte Adone",
+   "lat": 44.34024,
+   "lon": 11.29439,
+   "ele_m": 654,
+   "wikipedia": "it:Monte Adone"
+  },
+  {
+   "name": "Croce di Brentalone",
+   "lat": 45.96711,
+   "lon": 9.31413,
+   "ele_m": 654
+  },
+  {
+   "name": "Wood Bridge platform",
+   "lat": 47.14687,
+   "lon": 9.52586,
+   "ele_m": 650
+  },
+  {
+   "name": "Sa Guàrdia de Su Frucconi",
+   "lat": 39.28783,
+   "lon": 9.39363,
+   "ele_m": 645
+  },
+  {
+   "name": "Belvedere Mandelli",
+   "lat": 46.03711,
+   "lon": 8.75757,
+   "ele_m": 644
+  },
+  {
+   "name": "Wilder-Mann-Bühel - Col dell'uomo",
+   "lat": 46.44232,
+   "lon": 11.29979,
+   "ele_m": 643
+  },
+  {
+   "name": "Šatarice",
+   "lat": 43.40713,
+   "lon": 16.87297,
+   "ele_m": 642
+  },
+  {
+   "name": "Vranje pečine",
+   "lat": 45.99125,
+   "lon": 14.22193,
+   "ele_m": 642
+  },
+  {
+   "name": "Monte Cuneo (Moncuni)",
+   "lat": 45.04862,
+   "lon": 7.41315,
+   "ele_m": 641,
+   "wikipedia": "it:Moncuni"
+  },
+  {
+   "name": "Monte Troina",
+   "lat": 37.61185,
+   "lon": 15.06035,
+   "ele_m": 640
+  },
+  {
+   "name": "Sedmi zub",
+   "lat": 46.13152,
+   "lon": 16.45555,
+   "ele_m": 638
+  },
+  {
+   "name": "Grad / Gradišlče",
+   "lat": 46.5136,
+   "lon": 14.3005,
+   "ele_m": 635
+  },
+  {
+   "name": "Monte Caprara",
+   "lat": 44.31811,
+   "lon": 11.20716,
+   "ele_m": 632,
+   "wikipedia": "it:Monte Caprara"
+  },
+  {
+   "name": "Cascade des Thermes",
+   "lat": 45.89501,
+   "lon": 6.70659,
+   "ele_m": 630
+  },
+  {
+   "name": "Tre Casott",
+   "lat": 45.83608,
+   "lon": 9.33267,
+   "ele_m": 630
+  },
+  {
+   "name": "Kincl",
+   "lat": 46.07115,
+   "lon": 15.19979,
+   "ele_m": 630
+  },
+  {
+   "name": "Lužinski breg",
+   "lat": 45.29272,
+   "lon": 14.24717,
+   "ele_m": 626
+  },
+  {
+   "name": "Peč",
+   "lat": 46.27753,
+   "lon": 13.89527,
+   "ele_m": 625
+  },
+  {
+   "name": "Belvedere",
+   "lat": 45.74098,
+   "lon": 7.65799,
+   "ele_m": 625
+  },
+  {
+   "name": "Pin Umbrela",
+   "lat": 45.8193,
+   "lon": 9.0438,
+   "ele_m": 621
+  },
+  {
+   "name": "Vodostan nad Žirovnico",
+   "lat": 46.40719,
+   "lon": 14.13673,
+   "ele_m": 621
+  },
+  {
+   "name": "Cascata di Cladonde",
+   "lat": 46.43682,
+   "lon": 12.84274,
+   "ele_m": 620
+  },
+  {
+   "name": "Passo di Amir",
+   "lat": 44.3399,
+   "lon": 11.29732,
+   "ele_m": 620
+  },
+  {
+   "name": "Monte Senino",
+   "lat": 42.31641,
+   "lon": 8.61077,
+   "ele_m": 618
+  },
+  {
+   "name": "Mont Vinaigre",
+   "lat": 43.50215,
+   "lon": 6.82182,
+   "ele_m": 618,
+   "wikipedia": "fr:Mont Vinaigre (Esterel)"
+  },
+  {
+   "name": "Sabotin",
+   "lat": 45.98847,
+   "lon": 13.6347,
+   "ele_m": 609
+  },
+  {
+   "name": "Petelinz",
+   "lat": 46.54866,
+   "lon": 14.31952,
+   "ele_m": 608
+  },
+  {
+   "name": "Belvedere della Grola",
+   "lat": 45.8768,
+   "lon": 10.83256,
+   "ele_m": 600
+  },
+  {
+   "name": "Kinizsi Pál kilátó",
+   "lat": 47.04596,
+   "lon": 17.65725,
+   "ele_m": 600,
+   "wikipedia": "hu:Kab-hegy"
+  },
+  {
+   "name": "Mont Bastide",
+   "lat": 43.73005,
+   "lon": 7.35015,
+   "ele_m": 568
+  },
+  {
+   "name": "Hohe Gloriette",
+   "lat": 46.63784,
+   "lon": 14.12858,
+   "ele_m": 537
+  },
+  {
+   "name": "Belvedere Ten. Alp. Castelli Francesco",
+   "lat": 46.01425,
+   "lon": 9.23108,
+   "ele_m": 480
+  },
+  {
+   "name": "Monte Pilato",
+   "lat": 38.50457,
+   "lon": 14.9493,
+   "ele_m": 476
+  },
+  {
+   "name": "Monte Serra",
+   "lat": 42.83134,
+   "lon": 10.40919,
+   "ele_m": 410,
+   "wikipedia": "it:Monte Serra (Elba)"
+  },
+  {
+   "name": "Monte Capannello",
+   "lat": 42.81047,
+   "lon": 10.39236,
+   "ele_m": 408,
+   "wikipedia": "it:Monte Capannello"
+  },
+  {
+   "name": "Piramida",
+   "lat": 46.56808,
+   "lon": 15.65233,
+   "ele_m": 386,
+   "wikipedia": "sl:Piramida, Maribor"
+  },
+  {
+   "name": "Kalvarienberg",
+   "lat": 47.09313,
+   "lon": 15.41765,
+   "ele_m": 382,
+   "wikipedia": "de:Grazer Kalvarienberg"
+  },
+  {
+   "name": "Sasso di Dascio",
+   "lat": 46.19048,
+   "lon": 9.42153,
+   "ele_m": 280,
+   "wikipedia": "it:Sasso di Dascio"
+  },
+  {
+   "name": "Aussichtsturm Ulmizberg",
+   "lat": 46.90054,
+   "lon": 7.43406,
+   "wikipedia": "de:Aussichtsturm Ulmizberg"
+  },
+  {
+   "name": "Jungfernsprung",
+   "lat": 47.10484,
+   "lon": 15.38284,
+   "wikipedia": "de:Jungfernsprung bei Gösting"
+  },
+  {
+   "name": "Belvedere di Murgia Timone",
+   "lat": 40.66403,
+   "lon": 16.61779,
+   "wikipedia": "it:Parco della Murgia Materana"
+  },
+  {
+   "name": "Gornergrat",
+   "lat": 45.98331,
+   "lon": 7.78463,
+   "wikipedia": "en:Gornergrat"
+  },
+  {
+   "name": "Ruine Ober-Ruchenberg",
+   "lat": 46.88071,
+   "lon": 9.57208,
+   "wikipedia": "de:Burg Ober-Ruchenberg"
+  },
+  {
+   "name": "Aussichtsturm Chuderhüsi",
+   "lat": 46.86857,
+   "lon": 7.7184,
+   "wikipedia": "de:Aussichtsturm Chuderhüsi"
+  },
+  {
+   "name": "Punta di Spartivento",
+   "lat": 45.99128,
+   "lon": 9.26553
+  },
+  {
+   "name": "Rabenflue",
+   "lat": 46.76213,
+   "lon": 7.64261
+  },
+  {
+   "name": "Kremenjak",
+   "lat": 45.82334,
+   "lon": 13.59247
+  },
+  {
+   "name": "Raubà capeu",
+   "lat": 43.6929,
+   "lon": 7.28106
+  },
+  {
+   "name": "Wildschloss",
+   "lat": 47.15085,
+   "lon": 9.53355,
+   "wikipedia": "de:Ruine Schalun"
+  },
+  {
+   "name": "Grotta delle rondinelle",
+   "lat": 41,
+   "lon": 17.21065
+  },
+  {
+   "name": "Tördemici kilátó",
+   "lat": 46.8008,
+   "lon": 17.48753
+  },
+  {
+   "name": "Egry József kilátóhely",
+   "lat": 46.79686,
+   "lon": 17.49343
+  },
+  {
+   "name": "Sallauscex",
+   "lat": 46.45011,
+   "lon": 6.92226,
+   "wikipedia": "fr:Saleuscex"
+  },
+  {
+   "name": "Quatrocchi",
+   "lat": 38.46485,
+   "lon": 14.92988
+  },
+  {
+   "name": "Loggia del Buontempo",
+   "lat": 40.99613,
+   "lon": 17.22162
+  },
+  {
+   "name": "Castello Luna",
+   "lat": 37.57855,
+   "lon": 13.21533
+  },
+  {
+   "name": "Nuraghe Gulunie",
+   "lat": 40.33114,
+   "lon": 9.67697
+  },
+  {
+   "name": "Patkó Bandi fája",
+   "lat": 45.971,
+   "lon": 17.53588,
+   "wikipedia": "hu:Patkó Bandi"
+  },
+  {
+   "name": "Eötvös Károly kilátó",
+   "lat": 46.89494,
+   "lon": 17.58611
+  },
+  {
+   "name": "Cap Angela",
+   "lat": 37.34685,
+   "lon": 9.74231,
+   "wikipedia": "en:Ras ben Sakka"
+  },
+  {
+   "name": "Kilátópont",
+   "lat": 46.84116,
+   "lon": 17.44853,
+   "wikipedia": "hu:Szent György-hegy"
+  },
+  {
+   "name": "Rocca di Cefalù",
+   "lat": 38.03786,
+   "lon": 14.02726,
+   "wikipedia": "it:Rocca di Cefalù"
+  },
+  {
+   "name": "Wiedner-Platzl",
+   "lat": 47.07528,
+   "lon": 15.436
+  },
+  {
+   "name": "Monte Bastia",
+   "lat": 45.48198,
+   "lon": 11.22526
+  },
+  {
+   "name": "Grotta Chiar di luna",
+   "lat": 41.00224,
+   "lon": 17.20514
+  },
+  {
+   "name": "Grottone",
+   "lat": 40.99843,
+   "lon": 17.21578
+  },
+  {
+   "name": "Grotta di sella",
+   "lat": 40.98298,
+   "lon": 17.25289
+  },
+  {
+   "name": "Chalet des Pyramides",
+   "lat": 45.88828,
+   "lon": 6.85222
+  },
+  {
+   "name": "Terrazza dell'Infinito",
+   "lat": 40.6421,
+   "lon": 14.61011,
+   "wikipedia": "it:Villa Cimbrone"
+  },
+  {
+   "name": "Aspiegg",
+   "lat": 46.96421,
+   "lon": 7.6608
+  },
+  {
+   "name": "Balconata Vico Gualdella",
+   "lat": 40.99673,
+   "lon": 17.2196
+  },
+  {
+   "name": "Monumento ai caduti di Sabbiuno",
+   "lat": 44.42133,
+   "lon": 11.31343
+  },
+  {
+   "name": "Piazza Nuova",
+   "lat": 43.51435,
+   "lon": 13.6238
+  },
+  {
+   "name": "Festetics-kilátó",
+   "lat": 46.78362,
+   "lon": 17.29161
+  },
+  {
+   "name": "belvedere della Scioscia",
+   "lat": 45.83351,
+   "lon": 9.26516
+  },
+  {
+   "name": "Vela Straža",
+   "lat": 43.35776,
+   "lon": 16.35193
+  },
+  {
+   "name": "Páholykő-kilátóhely",
+   "lat": 46.79873,
+   "lon": 17.49912
+  },
+  {
+   "name": "Scherg Lőrinc kilátó",
+   "lat": 47.16389,
+   "lon": 17.00182
+  },
+  {
+   "name": "Cascata della Soffia",
+   "lat": 46.18558,
+   "lon": 12.04782
+  },
+  {
+   "name": "Ponte sospeso Cardada – Aussichtsplattform Cardada",
+   "lat": 46.18956,
+   "lon": 8.78035,
+   "wikipedia": "it:Cardada"
+  },
+  {
+   "name": "Belvedere di Niscemi",
+   "lat": 37.14559,
+   "lon": 14.38215
+  },
+  {
+   "name": "Galleria romana del Furlo",
+   "lat": 43.65344,
+   "lon": 12.73117,
+   "wikipedia": "it:Gola del Furlo"
+  },
+  {
+   "name": "Mattelift",
+   "lat": 46.94663,
+   "lon": 7.45253,
+   "wikipedia": "de:Mattelift"
+  },
+  {
+   "name": "Cupola di San Pietro",
+   "lat": 41.90217,
+   "lon": 12.45346
+  },
+  {
+   "name": "Belvedere",
+   "lat": 46.09002,
+   "lon": 9.31026
+  },
+  {
+   "name": "Nuraghe Desfollas (Remains)",
+   "lat": 39.76813,
+   "lon": 9.65068
+  },
+  {
+   "name": "Salto della Lepre",
+   "lat": 44.18348,
+   "lon": 9.56889,
+   "wikipedia": "it:Bonassola#Aree naturali"
+  },
+  {
+   "name": "Ponte Romanico",
+   "lat": 44.62053,
+   "lon": 8.8444
+  },
+  {
+   "name": "Campanile di San Marco",
+   "lat": 45.43404,
+   "lon": 12.33905,
+   "wikipedia": "en:St Mark's Campanile"
+  },
+  {
+   "name": "Campanile di San Giorgio Maggiore",
+   "lat": 45.42948,
+   "lon": 12.34381
+  },
+  {
+   "name": "Orrido di Balmasurda",
+   "lat": 46.2569,
+   "lon": 8.33138
+  },
+  {
+   "name": "Torre di Sant'Andrea",
+   "lat": 45.22166,
+   "lon": 12.27989
+  },
+  {
+   "name": "Belvedere Oasi Bosco di San Silvestro",
+   "lat": 41.10103,
+   "lon": 14.32926,
+   "wikipedia": "it:Oasi Bosco di San Silvestro"
+  },
+  {
+   "name": "Porta Sole",
+   "lat": 43.11385,
+   "lon": 12.39068,
+   "wikipedia": "it:Porta Sole"
+  },
+  {
+   "name": "Belvedere Teofilo Patini",
+   "lat": 42.32565,
+   "lon": 13.69776
+  },
+  {
+   "name": "Lago di Doberdò / Doberdobsko jezero",
+   "lat": 45.83559,
+   "lon": 13.56301,
+   "wikipedia": "it:Lago di Doberdò"
+  },
+  {
+   "name": "Várhegyi kilátó",
+   "lat": 46.61401,
+   "lon": 18.28239
+  },
+  {
+   "name": "Spitzknotto",
+   "lat": 45.87716,
+   "lon": 11.61714
+  },
+  {
+   "name": "Loggetta panoramica",
+   "lat": 40.73087,
+   "lon": 13.96397
+  }
+ ]
+}
