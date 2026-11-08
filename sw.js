@@ -1,6 +1,6 @@
 // Service worker di BikeMap: tiene in cache l'interfaccia, così si apre anche con connessione debole.
 // Il calcolo dei percorsi e le tessere della mappa non vengono mai messi in cache.
-const VERSION = "bikemap-v2";
+const VERSION = "bikemap-v3";
 const SHELL = [
   "./",
   "index.html",
@@ -33,7 +33,8 @@ self.addEventListener("fetch", (event) => {
   if (url.pathname.includes("/api/")) return;
 
   event.respondWith(
-    fetch(event.request)
+    // "no-cache": chiede sempre al server la versione aggiornata, senza usare la cache HTTP (max-age 10 min)
+    fetch(event.request, { cache: "no-cache" })
       .then((resp) => {
         const copy = resp.clone();
         caches.open(VERSION).then((c) => c.put(event.request, copy));
