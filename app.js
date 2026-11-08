@@ -262,12 +262,23 @@ function sampleRoute(pts) {
   return pts.filter((_, i) => i % step === 0 || i === pts.length - 1);
 }
 
-function nearRoute(p, samples, radiusKm) {
+// Distanza minima dal percorso (km), oppure Infinity se oltre il raggio
+function distToRouteKm(p, samples, radiusKm) {
+  let best = Infinity;
   for (const s of samples) {
     if (Math.abs(s[0] - p.lat) > radiusKm / 110) continue;   // scarto veloce in latitudine
-    if (approxKm([p.lat, p.lon], s) <= radiusKm) return true;
+    const d = approxKm([p.lat, p.lon], s);
+    if (d < best) best = d;
   }
-  return false;
+  return best <= radiusKm ? best : Infinity;
+}
+
+// Colore in base alla deviazione stimata (km in piu' rispetto al percorso)
+function detourColor(km) {
+  if (km < 2) return "#2da44e";    // verde: quasi sulla strada
+  if (km < 8) return "#d4a72c";    // giallo
+  if (km < 20) return "#e16f24";   // arancio
+  return "#cf222e";                // rosso: deviazione grande
 }
 
 const sameSpot = (a, b) => Math.abs(a.lat - b.lat) < 1e-5 && Math.abs(a.lon - b.lon) < 1e-5;
@@ -284,22 +295,45 @@ function refreshPois() {
   const samples = sampleRoute(state.result.route.points);
   let n = 0;
   for (const p of pois) {
-    if (!nearRoute(p, samples, radius)) continue;
+    const d = distToRouteKm(p, samples, radius);
+    if (d === Infinity) continue;
     n++;
+    p.detour_km = 2 * d;                 // andata e ritorno dal punto del percorso piu' vicino
     const sel = isSelected(p);
     L.circleMarker([p.lat, p.lon], {
-      radius: sel ? 9 : 6,
-      color: sel ? "#1a7f37" : "#444",
-      fillColor: sel ? "#2da44e" : "#fff",
+      radius: sel ? 10 : 7,
+      color: sel ? "#000" : "#333",
+      weight: sel ? 4 : 1.5,
+      fillColor: detourColor(p.detour_km),
       fillOpacity: 1,
-      weight: 2,
       bubblingMouseEvents: false,
     })
-      .bindTooltip(`${p.name} · ${p.ele_m} m${sel ? " (incluso)" : ""}`)
-      .on("click", () => togglePoi(p))
+      .on("click", (e) => openPoiPopup(p, e.latlng))
       .addTo(poiLayer);
   }
   $("#poi-count").textContent = `${n} passi entro ${radius} km · inclusi nel giro: ${state.via.length}`;
+}
+
+// Popup persistente con nome e conferma: funziona anche al tocco su telefono
+function openPoiPopup(p, latlng) {
+  const sel = isSelected(p);
+  const box = document.createElement("div");
+  box.className = "poi-pop";
+  const title = document.createElement("b");
+  title.textContent = p.name;
+  const info = document.createElement("div");
+  info.textContent = `${p.ele_m} m · deviazione stimata: ~${p.detour_km.toFixed(0)} km`;
+  const actions = document.createElement("div");
+  actions.className = "poi-actions";
+  const ok = document.createElement("button");
+  ok.textContent = sel ? "Rimuovi dal giro" : "Aggiungi al giro";
+  ok.onclick = () => { togglePoi(p); map.closePopup(); };
+  const cancel = document.createElement("button");
+  cancel.textContent = "Annulla";
+  cancel.onclick = () => map.closePopup();
+  actions.append(ok, cancel);
+  box.append(title, info, actions);
+  L.popup({ closeButton: true }).setLatLng(latlng).setContent(box).openOn(map);
 }
 
 function togglePoi(p) {

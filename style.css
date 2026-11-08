@@ -82,3 +82,8 @@ details { margin-top: 10px; }
   #map { height: 45vh; flex: none; }
   #panel { width: 100%; height: auto; flex: 1; border-right: 0; border-top: 1px solid var(--line); }
 }
+
+/* popup passi */
+.poi-pop { min-width: 200px; }
+.poi-pop .poi-actions { display: flex; gap: 8px; margin-top: 8px; }
+.poi-pop .poi-actions button { flex: 1; padding: 6px 8px; }

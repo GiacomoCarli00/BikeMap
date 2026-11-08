@@ -56,7 +56,13 @@
         <input type="range" id="poi-radius" min="10" max="200" step="5" value="150">
       </label>
       <p class="hint" id="poi-count"></p>
-      <p class="hint">Tocca un passo sulla mappa per includerlo nel giro (diventa verde), poi premi il pulsante per ricalcolare.</p>
+      <div class="legend">
+        <span><i style="background:#2da44e"></i>&lt; 2 km</span>
+        <span><i style="background:#d4a72c"></i>2-8 km</span>
+        <span><i style="background:#e16f24"></i>8-20 km</span>
+        <span><i style="background:#cf222e"></i>&gt; 20 km extra</span>
+      </div>
+      <p class="hint">Colore = km in più stimati per passare dal passo. Tocca un passo per vederne il nome e confermare l'aggiunta al giro, poi premi il pulsante per ricalcolare.</p>
     </section>
 
     <section id="result" hidden>
