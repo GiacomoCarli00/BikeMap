@@ -1,7 +1,9 @@
 // BikeMap frontend
 const $ = (s) => document.querySelector(s);
 
-const map = L.map("map").setView([45.8, 9.4], 8);
+const mobile = matchMedia("(max-width: 760px)");
+const map = L.map("map", { zoomControl: false }).setView([45.8, 9.4], 8);
+L.control.zoom({ position: "topright" }).addTo(map);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -13,6 +15,63 @@ const pinIcon = (emoji) => L.divIcon({ className: "pin-icon", html: emoji, iconS
 const state = { start: null, end: null, via: [], result: null };
 const markers = { start: null, end: null, via: [] };
 const routeLayer = L.layerGroup().addTo(map);
+const styleValue = () => document.querySelector("input[name=style]:checked").value;
+
+function showError(msg) {
+  $("#error").textContent = msg;
+  $("#error").hidden = false;
+  if (sheet.state === "min") setSheet("mid");
+}
+
+// ---------- pannello a scomparsa (solo mobile) ----------
+const panel = $("#panel");
+const sheet = { state: "mid" };
+const snaps = () => ({ min: 84, mid: Math.round(innerHeight * 0.46), max: Math.round(innerHeight * 0.92) });
+function setSheet(name) {
+  sheet.state = name;
+  panel.dataset.sheet = name;
+  panel.style.height = mobile.matches ? `${snaps()[name]}px` : "";
+}
+// spazio della mappa non coperto dal pannello, per centrare bene il percorso
+const mapPadding = () => ({
+  paddingTopLeft: [30, 30],
+  paddingBottomRight: [30, 30 + (mobile.matches ? snaps()[sheet.state] : 0)],
+});
+{
+  const grip = $("#grip");
+  let drag = null;
+  grip.addEventListener("pointerdown", (e) => {
+    if (!mobile.matches) return;
+    drag = { y: e.clientY, h: panel.offsetHeight, moved: false };
+    grip.setPointerCapture(e.pointerId);
+    panel.classList.add("dragging");
+  });
+  grip.addEventListener("pointermove", (e) => {
+    if (!drag) return;
+    const dy = drag.y - e.clientY;
+    if (Math.abs(dy) > 6) drag.moved = true;
+    const s = snaps();
+    panel.style.height = `${Math.max(s.min, Math.min(s.max, drag.h + dy))}px`;
+    panel.dataset.sheet = "drag";
+  });
+  const end = () => {
+    if (!drag) return;
+    panel.classList.remove("dragging");
+    const s = snaps();
+    if (!drag.moved) setSheet(sheet.state === "min" ? "mid" : "min");   // tocco: apri/chiudi
+    else {
+      const h = panel.offsetHeight;
+      setSheet(Object.keys(s).reduce((a, b) => (Math.abs(s[b] - h) < Math.abs(s[a] - h) ? b : a)));
+    }
+    drag = null;
+  };
+  grip.addEventListener("pointerup", end);
+  grip.addEventListener("pointercancel", end);
+  const sync = () => setSheet(sheet.state);
+  mobile.addEventListener("change", sync);
+  addEventListener("resize", () => { if (!drag && document.activeElement?.tagName !== "INPUT") sync(); });
+  sync();
+}
 
 // ---------- punti ----------
 function setPoint(kind, latlng, label) {
@@ -91,6 +150,7 @@ function setupSearch(kind) {
       } catch { list.innerHTML = ""; }
     }, 600);
   });
+  input.addEventListener("focus", () => { if (mobile.matches) setSheet("max"); });
   input.addEventListener("blur", () => setTimeout(() => (list.innerHTML = ""), 200));
 }
 setupSearch("start");
@@ -119,7 +179,7 @@ async function calc() {
         start: [state.start.lat, state.start.lon],
         end: [state.end.lat, state.end.lon],
         via: state.via.map((p) => [p.lat, p.lon]),
-        style: $("#style").value,
+        style: styleValue(),
         max_waypoints: Number($("#max-wp").value),
         google_avoid_highways: $("#avoid-hw").checked,
       }),
@@ -129,15 +189,40 @@ async function calc() {
     state.result = data;
     draw(data);
   } catch (err) {
-    $("#error").textContent = err.message;
-    $("#error").hidden = false;
+    showError(err.message);
   } finally {
     btn.textContent = "Calcola percorso";
     updateButton();
   }
 }
 $("#calc").onclick = calc;
-["#style", "#max-wp", "#avoid-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
+["#max-wp", "#avoid-hw"].forEach((s) => $(s).addEventListener("change", autoCalc));
+document.querySelectorAll("input[name=style]").forEach((el) => el.addEventListener("change", autoCalc));
+
+// ---------- parti dalla mia posizione ----------
+$("#locate").onclick = () => {
+  const btn = $("#locate");
+  if (!navigator.geolocation || !window.isSecureContext) {
+    showError("La posizione è disponibile solo se il sito è aperto in HTTPS.");
+    return;
+  }
+  $("#error").hidden = true;
+  btn.classList.add("busy");
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      btn.classList.remove("busy");
+      const p = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+      setPoint("start", p, "La mia posizione");
+      if (state.end) calc();
+      else map.setView([p.lat, p.lon], 12);
+    },
+    (err) => {
+      btn.classList.remove("busy");
+      showError(err.code === 1 ? "Permesso di accesso alla posizione negato." : "Non riesco a trovare la tua posizione.");
+    },
+    { enableHighAccuracy: true, timeout: 10000 }
+  );
+};
 
 function draw(data) {
   routeLayer.clearLayers();
@@ -162,11 +247,14 @@ function draw(data) {
       .addTo(routeLayer);
   });
 
-  map.fitBounds(L.latLngBounds(pts), { padding: [30, 30] });
+  $("#result").hidden = false;
+  if (mobile.matches) { setSheet("mid"); $("#panel-body").scrollTop = 0; document.activeElement?.blur(); }
+  map.fitBounds(L.latLngBounds(pts), mapPadding());
 
   // statistiche
   const km = data.route.distance_m / 1000;
   $("#r-dist").textContent = km.toFixed(0);
+  $("#summary").textContent = `${km.toFixed(0)} km · ${fmtTime(data.route.time_s)}`;
   $("#r-time").textContent = fmtTime(data.route.time_s);
   const extraMin = (data.route.time_s - data.fastest.time_s) / 60;
   $("#r-extra").textContent = `${extraMin >= 0 ? "+" : ""}${fmtTime(Math.abs(extraMin * 60))}`;
@@ -189,8 +277,6 @@ function draw(data) {
   const qr = $("#qr");
   qr.innerHTML = "";
   if (window.QRCode) new QRCode(qr, { text: data.google.url, width: 200, height: 200, correctLevel: QRCode.CorrectLevel.L });
-
-  $("#result").hidden = false;
 }
 
 function fmtTime(s) {
