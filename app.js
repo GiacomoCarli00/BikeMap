@@ -5,7 +5,9 @@ const API_BASE = (window.BIKEMAP_API_BASE || "").replace(/\/$/, "");
 // "valhalla" = calcolo nel browser con Valhalla pubblico; "backend" = server GraphHopper (vedi config.js).
 const ENGINE = window.BIKEMAP_ENGINE || "backend";
 
-const map = L.map("map").setView([45.8, 9.4], 8);
+const mobile = matchMedia("(max-width: 760px)");
+const map = L.map("map", { zoomControl: false }).setView([45.8, 9.4], 8);
+L.control.zoom({ position: mobile.matches ? "topright" : "topleft" }).addTo(map);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -17,6 +19,64 @@ const pinIcon = (emoji) => L.divIcon({ className: "pin-icon", html: emoji, iconS
 const state = { start: null, end: null, via: [], result: null };
 const markers = { start: null, end: null, via: [] };
 const routeLayer = L.layerGroup().addTo(map);
+const modeValue = () => document.querySelector("input[name=mode]:checked").value;
+
+function showError(msg) {
+  $("#error").textContent = msg;
+  $("#error").hidden = false;
+  if (sheet.state === "min") setSheet("mid");
+}
+
+// ---------- pannello a scomparsa (solo mobile) ----------
+const panel = $("#panel");
+const sheet = { state: "mid" };
+const snaps = () => ({ min: 84, mid: Math.round(innerHeight * 0.46), max: Math.round(innerHeight * 0.92) });
+function setSheet(name) {
+  sheet.state = name;
+  panel.dataset.sheet = name;
+  panel.style.height = mobile.matches ? `${snaps()[name]}px` : "";
+}
+// spazio della mappa non coperto dal pannello, per centrare bene il percorso
+const mapPadding = () => ({
+  paddingTopLeft: [30, 30],
+  paddingBottomRight: [30, 30 + (mobile.matches ? snaps()[sheet.state] : 0)],
+});
+{
+  const grip = $("#grip");
+  let drag = null;
+  grip.addEventListener("pointerdown", (e) => {
+    if (!mobile.matches) return;
+    drag = { y: e.clientY, h: panel.offsetHeight, moved: false };
+    grip.setPointerCapture(e.pointerId);
+    panel.classList.add("dragging");
+  });
+  grip.addEventListener("pointermove", (e) => {
+    if (!drag) return;
+    const dy = drag.y - e.clientY;
+    if (Math.abs(dy) > 6) drag.moved = true;
+    const s = snaps();
+    panel.style.height = `${Math.max(s.min, Math.min(s.max, drag.h + dy))}px`;
+    panel.dataset.sheet = "drag";
+  });
+  const end = () => {
+    if (!drag) return;
+    panel.classList.remove("dragging");
+    const s = snaps();
+    if (!drag.moved) setSheet(sheet.state === "min" ? "mid" : "min");   // tocco: apri/chiudi
+    else {
+      const h = panel.offsetHeight;
+      setSheet(Object.keys(s).reduce((a, b) => (Math.abs(s[b] - h) < Math.abs(s[a] - h) ? b : a)));
+    }
+    drag = null;
+  };
+  grip.addEventListener("pointerup", end);
+  grip.addEventListener("pointercancel", end);
+  const sync = () => setSheet(sheet.state);
+  mobile.addEventListener("change", sync);
+  addEventListener("resize", () => { if (!drag && document.activeElement?.tagName !== "INPUT") sync(); });
+  sync();
+}
+
 
 // ---------- punti ----------
 function setPoint(kind, latlng, label) {
@@ -104,6 +164,7 @@ function setupSearch(kind) {
       } catch { list.innerHTML = ""; }
     }, 600);
   });
+  input.addEventListener("focus", () => { if (mobile.matches) setSheet("max"); });
   input.addEventListener("blur", () => setTimeout(() => (list.innerHTML = ""), 200));
 }
 setupSearch("start");
@@ -150,10 +211,10 @@ async function calc() {
       if (!r.ok) throw new Error(data.detail || "Errore nel calcolo");
     }
     state.result = data;
+    panel.classList.remove("dirty");
     draw(data);
   } catch (err) {
-    $("#error").textContent = err.message;
-    $("#error").hidden = false;
+    showError(err.message);
   } finally {
     updateCalcLabel();
     updateButton();
@@ -173,6 +234,31 @@ $("#shortest").addEventListener("change", () => {
   if (!$("#shortest").checked) $("#no-hw").checked = false;
   autoCalc();
 });
+
+// ---------- parti dalla mia posizione ----------
+$("#locate").onclick = () => {
+  const btn = $("#locate");
+  if (!navigator.geolocation || !window.isSecureContext) {
+    showError("La posizione è disponibile solo se il sito è aperto in HTTPS.");
+    return;
+  }
+  $("#error").hidden = true;
+  btn.classList.add("busy");
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      btn.classList.remove("busy");
+      const p = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+      setPoint("start", p, "La mia posizione");
+      if (state.end) calc();
+      else map.setView([p.lat, p.lon], 12);
+    },
+    (err) => {
+      btn.classList.remove("busy");
+      showError(err.code === 1 ? "Permesso di accesso alla posizione negato." : "Non riesco a trovare la tua posizione.");
+    },
+    { enableHighAccuracy: true, timeout: 10000 }
+  );
+};
 
 function draw(data) {
   routeLayer.clearLayers();
@@ -197,11 +283,14 @@ function draw(data) {
       .addTo(routeLayer);
   });
 
-  map.fitBounds(L.latLngBounds(pts), { padding: [30, 30] });
+  $("#result").hidden = false;
+  if (mobile.matches) { setSheet("mid"); $("#panel-body").scrollTop = 0; document.activeElement?.blur(); }
+  map.fitBounds(L.latLngBounds(pts), mapPadding());
 
   // statistiche
   const km = data.route.distance_m / 1000;
   $("#r-dist").textContent = km.toFixed(0);
+  $("#summary").textContent = `${km.toFixed(0)} km · ${fmtTime(data.route.time_s)}`;
   $("#r-time").textContent = fmtTime(data.route.time_s);
   const extraMin = (data.route.time_s - data.fastest.time_s) / 60;
   $("#r-extra").textContent = `${extraMin >= 0 ? "+" : ""}${fmtTime(Math.abs(extraMin * 60))}`;
@@ -237,7 +326,6 @@ function draw(data) {
   qr.innerHTML = "";
   if (window.QRCode) new QRCode(qr, { text: data.google.url, width: 200, height: 200, correctLevel: QRCode.CorrectLevel.L });
 
-  $("#result").hidden = false;
   refreshPois();
 }
 
@@ -274,11 +362,11 @@ fetch("poi-panoramici.json")
   .catch(() => { views = []; });
 
 $("#poi-radius").addEventListener("input", refreshPois);
-$("#mode").addEventListener("change", refreshPois);
+document.querySelectorAll("input[name=mode]").forEach((el) => el.addEventListener("change", refreshPois));
 
 // Quali punti mostrare in base alla selezione: Sport = passi, Tour = panoramici, Crossover = entrambi
 function visiblePoints() {
-  const mode = $("#mode").value;
+  const mode = modeValue();
   const list = [];
   if (mode === "sport" || mode === "crossover") list.push(...pois);
   if (mode === "tour" || mode === "crossover") list.push(...views);
@@ -412,7 +500,8 @@ function openPoiPopup(p, latlng) {
   infoBtn.onclick = () => openInfo(p);
   actions.append(ok, infoBtn, cancel);
   box.append(title, info, actions);
-  L.popup({ closeButton: true }).setLatLng(latlng).setContent(box).openOn(map);
+  // su telefono il popup deve restare sopra il pannello
+  L.popup({ closeButton: true, autoPanPaddingTopLeft: [10, 10], autoPanPaddingBottomRight: mapPadding().paddingBottomRight.map((v) => v - 20) }).setLatLng(latlng).setContent(box).openOn(map);
 }
 
 function togglePoi(p) {
@@ -421,6 +510,7 @@ function togglePoi(p) {
   rebuildVia(list);
   sortViaAlongRoute();
   updateCalcLabel();
+  panel.classList.add("dirty");   // serve un ricalcolo: il pulsante sale in cima al pannello
   refreshPois();
 }
 

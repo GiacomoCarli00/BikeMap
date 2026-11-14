@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Biker-Map</title>
   <meta name="theme-color" content="#e4572e">
   <meta name="mobile-web-app-capable" content="yes">
@@ -13,114 +13,134 @@
   <link rel="icon" href="icons/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
-  <aside id="panel">
-    <header>
-      <h1>Biker-Map</h1>
-      <span id="status" class="status">…</span>
-    </header>
+  <aside id="panel" data-sheet="mid">
+    <div id="grip">
+      <i class="handle" aria-hidden="true"></i>
+      <header>
+        <h1>Biker-Map</h1>
+        <span id="summary" class="summary"></span>
+        <span id="status" class="status">…</span>
+      </header>
+    </div>
 
-    <section class="places">
-      <label>Partenza
-        <div class="search"><input id="start-q" placeholder="Cerca un luogo o clicca sulla mappa" autocomplete="off"><ul class="results"></ul></div>
-      </label>
-      <div id="via-list"></div>
-      <label>Arrivo
-        <div class="search"><input id="end-q" placeholder="Cerca un luogo o clicca sulla mappa" autocomplete="off"><ul class="results"></ul></div>
-      </label>
-      <p class="hint">Clic sulla mappa: partenza, poi arrivo. Clic destro: aggiungi una tappa obbligatoria. I segnaposto si possono trascinare.</p>
-    </section>
+    <div id="panel-body">
+      <p id="error" class="error" hidden></p>
 
-    <section class="options">
-      <label>Tipo di percorso
-        <select id="mode">
-          <option value="sport" selected>Sport: passi di montagna</option>
-          <option value="tour">Tour: punti panoramici</option>
-          <option value="crossover">Crossover: passi e panoramici</option>
-        </select>
-      </label>
-      <label>Apro il link con
-        <select id="max-wp">
-          <option value="9" selected>App Google Maps (fino a 9 tappe)</option>
-          <option value="3">Browser del telefono (fino a 3 tappe)</option>
-        </select>
-      </label>
-      <label class="switch"><input type="checkbox" id="shortest"><span class="track"></span> Percorso più breve</label>
-      <label class="switch sub" id="no-hw-row" hidden><input type="checkbox" id="no-hw"><span class="track"></span> Autostrade (escludi)</label>
-      <button id="calc" class="primary" disabled>Calcola percorso</button>
-    </section>
+      <section id="result" hidden>
+        <div class="stats">
+          <div><b id="r-dist"></b><span>km</span></div>
+          <div><b id="r-time"></b><span>durata</span></div>
+          <div><b id="r-extra"></b><span>vs più veloce</span></div>
+        </div>
 
-    <section id="pois" class="pois" hidden>
-      <h2>Punti di interesse</h2>
-      <label class="slider">Distanza massima dal percorso: <b id="poi-km">150</b> km
-        <input type="range" id="poi-radius" min="10" max="200" step="5" value="150">
-      </label>
-      <p class="hint" id="poi-count"></p>
-      <div class="legend">
-        <span><i style="background:#2da44e"></i>&lt; 15 km</span>
-        <span><i style="background:#d4a72c"></i>15-25 km</span>
-        <span><i style="background:#e16f24"></i>25-35 km</span>
-        <span><i style="background:#d0443a"></i>35-50 km</span>
-        <span><i style="background:#7a0c0c"></i>50-100 km</span>
-        <span><i style="background:#000000"></i>&gt; 100 km extra</span>
-      </div>
-      <p class="hint">Cerchi = passi di montagna, quadrati = punti panoramici. Colore = km in più stimati per passare dal punto. Tocca un passo per vederne il nome e confermare l'aggiunta al giro, poi premi il pulsante per ricalcolare.</p>
-    </section>
+        <div class="bar" id="curvy-bar"></div>
+        <div class="legend">
+          <span><i style="background:var(--c-very)"></i>molto curvo</span>
+          <span><i style="background:var(--c-curvy)"></i>curvo</span>
+          <span><i style="background:var(--c-mixed)"></i>mosso</span>
+          <span><i style="background:var(--c-straight)"></i>dritto</span>
+        </div>
 
-    <section id="result" hidden>
-      <div class="stats">
-        <div><b id="r-dist"></b><span>km</span></div>
-        <div><b id="r-time"></b><span>durata</span></div>
-        <div><b id="r-extra"></b><span>vs più veloce</span></div>
-      </div>
-
-      <h2>Costi stimati</h2>
-      <div class="stats costs">
-        <div><b id="r-toll"></b><span>pedaggio</span></div>
-        <div><b id="r-fuel-sport"></b><span>benzina Sport</span></div>
-        <div><b id="r-fuel-tour"></b><span>benzina Tour</span></div>
-        <div><b id="r-fuel-cross"></b><span>benzina Crossover</span></div>
-      </div>
-      <p class="hint" id="cost-note"></p>
-
-      <h2>Tortuosità</h2>
-      <div class="bar" id="curvy-bar"></div>
-      <div class="legend">
-        <span><i style="background:var(--c-very)"></i>molto curvo</span>
-        <span><i style="background:var(--c-curvy)"></i>curvo</span>
-        <span><i style="background:var(--c-mixed)"></i>mosso</span>
-        <span><i style="background:var(--c-straight)"></i>dritto</span>
-      </div>
-
-      <h2>Link Google Maps</h2>
-      <p class="fidelity">Fedeltà al percorso: <b id="r-fid"></b> con <b id="r-nwp"></b> tappe
-        <span class="hint">(la linea tratteggiata è ciò che farà probabilmente Google)</span></p>
-      <div class="actions">
         <a id="open-gmaps" class="primary button" target="_blank" rel="noopener">Apri in Google Maps</a>
-        <button id="copy-link">Copia link</button>
-        <button id="dl-gpx">Scarica GPX</button>
+        <p class="fidelity">Fedeltà <b id="r-fid"></b> · <b id="r-nwp"></b> tappe Google</p>
+
+        <details>
+          <summary>Costi stimati</summary>
+          <div class="stats costs">
+            <div><b id="r-toll"></b><span>pedaggio</span></div>
+            <div><b id="r-fuel-sport"></b><span>benzina Sport</span></div>
+            <div><b id="r-fuel-tour"></b><span>benzina Tour</span></div>
+            <div><b id="r-fuel-cross"></b><span>benzina Crossover</span></div>
+          </div>
+          <p class="hint" id="cost-note"></p>
+        </details>
+
+        <details>
+          <summary>Altro: link, GPX, QR</summary>
+          <div class="actions">
+            <button id="copy-link">Copia link</button>
+            <button id="dl-gpx">Scarica GPX</button>
+          </div>
+          <div id="qr"></div>
+        </details>
+      </section>
+
+      <section class="places">
+        <div class="place">
+          <i class="dot start" aria-hidden="true"></i>
+          <div class="search"><input id="start-q" placeholder="Partenza" aria-label="Partenza" autocomplete="off" enterkeyhint="search"><ul class="results"></ul></div>
+          <button id="locate" class="icon" type="button" title="Parti dalla mia posizione" aria-label="Parti dalla mia posizione">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+          </button>
+        </div>
+        <div id="via-list"></div>
+        <div class="place">
+          <i class="dot end" aria-hidden="true"></i>
+          <div class="search"><input id="end-q" placeholder="Arrivo" aria-label="Arrivo" autocomplete="off" enterkeyhint="search"><ul class="results"></ul></div>
+        </div>
+      </section>
+
+      <div class="seg" role="radiogroup" aria-label="Tipo di percorso">
+        <label title="Passi di montagna"><input type="radio" name="mode" value="sport" checked><span>Sport</span></label>
+        <label title="Punti panoramici"><input type="radio" name="mode" value="tour"><span>Tour</span></label>
+        <label title="Passi e panoramici"><input type="radio" name="mode" value="crossover"><span>Crossover</span></label>
       </div>
-      <details>
-        <summary>QR code per il telefono</summary>
-        <div id="qr"></div>
-      </details>
-    </section>
 
-    <p id="error" class="error" hidden></p>
+      <button id="calc" class="primary" disabled>Calcola percorso</button>
 
-    <p class="support">
-      <a class="coffee" href="https://www.paypal.me/Giac0moC4rl1" target="_blank" rel="noopener">☕ Buy me a coffee</a>
-    </p>
+      <section id="pois" class="pois" hidden>
+        <label class="slider">Punti entro <b id="poi-km">150</b> km dal percorso
+          <input type="range" id="poi-radius" min="10" max="200" step="5" value="150">
+        </label>
+        <p class="hint" id="poi-count"></p>
+        <details>
+          <summary>Legenda dei punti</summary>
+          <div class="legend">
+            <span><i style="background:#2da44e"></i>&lt; 15 km</span>
+            <span><i style="background:#d4a72c"></i>15-25 km</span>
+            <span><i style="background:#e16f24"></i>25-35 km</span>
+            <span><i style="background:#d0443a"></i>35-50 km</span>
+            <span><i style="background:#7a0c0c"></i>50-100 km</span>
+            <span><i style="background:#000000"></i>&gt; 100 km extra</span>
+          </div>
+          <p class="hint">Cerchi = passi di montagna, quadrati = punti panoramici. Colore = km in più stimati per passare dal punto. Tocca un punto per vederne il nome e aggiungerlo al giro, poi premi "Ricalcola percorso".</p>
+        </details>
+      </section>
+
+      <section class="options">
+        <details>
+          <summary>Opzioni</summary>
+          <label class="switch"><input type="checkbox" id="shortest"><span class="track"></span> Percorso più breve</label>
+          <label class="switch sub" id="no-hw-row" hidden><input type="checkbox" id="no-hw"><span class="track"></span> Autostrade (escludi)</label>
+          <label class="field">Apro il link con
+            <select id="max-wp">
+              <option value="9" selected>App Google Maps (fino a 9 tappe)</option>
+              <option value="3">Browser del telefono (fino a 3 tappe)</option>
+            </select>
+          </label>
+        </details>
+        <details>
+          <summary>Come si usa</summary>
+          <p class="hint">Tocca la mappa per scegliere la partenza, poi l'arrivo. Tieni premuto (o clic destro) per aggiungere una tappa obbligatoria. I segnaposto si possono trascinare.</p>
+          <p class="hint">Sport mostra i passi di montagna, Tour i punti panoramici, Crossover entrambi. La linea tratteggiata è il percorso che farà probabilmente Google.</p>
+        </details>
+      </section>
+
+      <p class="support">
+        <a class="coffee" href="https://www.paypal.me/Giac0moC4rl1" target="_blank" rel="noopener">☕ Buy me a coffee</a>
+      </p>
+    </div>
   </aside>
   <main id="map"></main>
   <button id="fs-toggle" class="fs-btn" type="button">⛶ Visualizza mappa a schermo intero</button>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script src="config.js?v=5"></script>
-  <script src="engine-valhalla.js?v=5"></script>
-  <script src="app.js?v=5"></script>
+  <script src="config.js?v=6"></script>
+  <script src="engine-valhalla.js?v=6"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>
